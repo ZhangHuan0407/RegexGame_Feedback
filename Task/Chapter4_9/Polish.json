@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"Wersja 4 protokołu internetowego, powszechnie nazywana IPv4, składa się z 4 liczb z zakresu 0–255, połączonych trzema kropkami \".\".",
+		"",
+		"Na przykład, <color=#3c3cff>127.0.0.1</color> jest poprawnym adresem IPv4.",
+		"",
+		"Czasami użytkownicy mogą błędnie wprowadzać nieprawidłowe adresy, takie jak:",
+		"",
+		"1.2.3.4.5     <color=#ee3300>X</color> Liczba segmentów przekracza 4  ",
+		"1.0.0.256    <color=#ee3300>X</color> 256 wykracza poza zakres 0–255  ",
+		"127.0.0.01  <color=#ee3300>X</color> Chociaż \"01\" technicznie spełnia definicję IPv4, nie jest to standardowy zapis i prawdopodobnie wynika z błędu użytkownika",
+		"",
+		"Zadanie polega na dopasowaniu poprawnych adresów IPv4.",
+		"",
+		"Aby uprościć zadanie, przyjmuje się następujące konwencje:  ",
+		"1. Każdy przypadek testowy zawiera tylko 1 ciąg do sprawdzenia  ",
+		"2. W 100% przypadków testowych, liczby zaczynające się od 0 (dwu- lub trzycyfrowe) nie zostaną dopasowane",
+		"",
+		"",
+		"Proszę skonstruować wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

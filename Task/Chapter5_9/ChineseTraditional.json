@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"<color=#e06600>(?<= subexpression )</color> 為零寬度正回顧後發斷言 (positive lookbehind assertion)，會向左回顧，<b>匹配並消耗掉</b>匹配的內容。",
+		"",
+		"<color=#e06600>(?= subexpression )</color> 為零寬度正預測先行斷言 (positive lookahead assertion)，會向右預測並檢查前方的文本是否符合子表達式。如果預測的文本符合子表達式，<b>不會將內容帶入到匹配結果中</b>。",
+		"",
+		"例如，使用正則表達式 <color=#e06600>1(?= 2 )</color> 嘗試匹配下列測試用例:",
+		"<color=#3c3cff>123</color>，結果為 <color=#3c3cff>1</color><color=#666666>23</color>",
+		"<color=#3c3cff>111</color>，不存在符合 <color=#e06600>(?= 2 )</color> 的內容，因此不匹配",
+		"",
+		"在 Markdown 中，使用 ** 雙星號包裹一段文字，可以為文本添加粗體效果。",
+		"",
+		"例如：",
+		"**Markdown**",
+		"<img src=Texture/Task/MarkdownBold width=193 height=40>",
+		"",
+		"現在期望編寫一個正則表達式，匹配加粗部分的內容，約定如下：",
+		"1. <b>不包含</b>兩側的雙星號",
+		"2. 所有輸入僅為單行字符串",
+		"3. 為了簡化題目難度，不存在連續 *** 的測試用例",
+		"",
+		"",
+		"請構造一個正則表達式使之通過右側所有測試。"
+	],
+	"m_SystemLanguage":"ChineseTraditional"
+}

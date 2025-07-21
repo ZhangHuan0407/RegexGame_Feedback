@@ -1,0 +1,108 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"commit 8bd7524eee1d53cace6a2d5f3259485af455bd83 (HEAD -> master, origin/master, origin/HEAD)\r\nAuthor: La li.123 <Lali_123@gmail.com>\r\nDate:   Sat Apr 19 23:46:02 2025 +0800\r\n\r\n    update RegexDialog icon✌",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"commit 8bd7524eee1d53cace6a2d5f3259485af455bd83 (HEAD -> master, origin/master, origin/HEAD)\r\nAuthor: La li.123 <Lali_123@gmail.com>\r\nDate:   Sat Apr 19 23:46:02 2025 +0800\r\n\r\n    update RegexDialog icon✌",
+				"<commit>8bd7524eee1d53cace6a2d5f3259485af455bd83",
+				"<description>update RegexDialog icon✌"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":204
+				},
+				{
+					"start":7,
+					"length":40
+				},
+				{
+					"start":180,
+					"length":24
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"commit 91a42e56776b8dd54477b4cd335740a35a7365fe\r\nAuthor: ZeroBitCode <ZeroBitCode@gmail.com>\r\nDate:   Fri Apr 18 17:14:27 2025 +0800\r\n\r\n    update LevelDialog star fx",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"commit 91a42e56776b8dd54477b4cd335740a35a7365fe\r\nAuthor: ZeroBitCode <ZeroBitCode@gmail.com>\r\nDate:   Fri Apr 18 17:14:27 2025 +0800\r\n\r\n    update LevelDialog star fx",
+				"<commit>91a42e56776b8dd54477b4cd335740a35a7365fe",
+				"<description>update LevelDialog star fx"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":166
+				},
+				{
+					"start":7,
+					"length":40
+				},
+				{
+					"start":140,
+					"length":26
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"commit 78e419a014d3b77a9dd8695b67ac52da93f81dca\r\nAuthor: test_ <test_@gmail.com>\r\nDate:   Sat Apr 19 21:01:59 2025 +0800\r\n\r\n    add DemoDialog\r\n\r\ncommit c59e52a8eb0e335804f115f0463c74843009f19b\r\nAuthor: ZeroBitCode <ZeroBitCode@gmail.com>\r\nDate:   Fri Apr 18 18:01:37 2025 +0800\r\n\r\n    update Logo\r\n\r\ncommit 3fd83a0725baecaf69aae75a9aea55b63991e465\r\nAuthor: ZeroBitCode <ZeroBitCode@gmail.com>\r\nDate:   Fri Apr 18 17:23:21 2025 +0800\r\n\r\n    update claim Star fx\r",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"commit 78e419a014d3b77a9dd8695b67ac52da93f81dca\r\nAuthor: test_ <test_@gmail.com>\r\nDate:   Sat Apr 19 21:01:59 2025 +0800\r\n\r\n    add DemoDialog\r",
+				"<commit>78e419a014d3b77a9dd8695b67ac52da93f81dca",
+				"<description>add DemoDialog\r",
+				"commit c59e52a8eb0e335804f115f0463c74843009f19b\r\nAuthor: ZeroBitCode <ZeroBitCode@gmail.com>\r\nDate:   Fri Apr 18 18:01:37 2025 +0800\r\n\r\n    update Logo\r",
+				"<commit>c59e52a8eb0e335804f115f0463c74843009f19b",
+				"<description>update Logo\r",
+				"commit 3fd83a0725baecaf69aae75a9aea55b63991e465\r\nAuthor: ZeroBitCode <ZeroBitCode@gmail.com>\r\nDate:   Fri Apr 18 17:23:21 2025 +0800\r\n\r\n    update claim Star fx\r",
+				"<commit>3fd83a0725baecaf69aae75a9aea55b63991e465",
+				"<description>update claim Star fx\r"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":143
+				},
+				{
+					"start":7,
+					"length":40
+				},
+				{
+					"start":128,
+					"length":15
+				},
+				{
+					"start":146,
+					"length":152
+				},
+				{
+					"start":153,
+					"length":40
+				},
+				{
+					"start":286,
+					"length":12
+				},
+				{
+					"start":301,
+					"length":161
+				},
+				{
+					"start":308,
+					"length":40
+				},
+				{
+					"start":441,
+					"length":21
+				}
+			],
+			"m_CheckOrder":false
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":"(\n  commit\\s+ (?<commit> [0-9a-z]+ ) [^\\n]*\\n\n  Author:[^\\n]*\\n\n  Date:[^\\n]*\\s*\n  (?<description> [^\\n]* )\n)+"
+}

@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"Ein Text hat üblicherweise einen Anfang und ein Ende.",
+		"",
+		"Verwende <color=#FF68DD>\\A</color> oder <color=#FF68DD>^</color> um den Anfang einer Zeichenkette zu beschreiben.",
+		"",
+		"Beispiel:",
+		"<color=#3c3cff>011</color>",
+		"<color=#3c3cff>0</color>",
+		"<color=#3c3cff>_0</color>",
+		"Zum Beispiel: Mit <color=#FF68DD>\\A</color><color=#AB2800>0</color> werden folgende Muster verglichen – \"trifft auf Inhalte zu, die mit 0 beginnen\":",
+		"<color=#3c3cff>011</color> gibt 0 zurück",
+		"<color=#3c3cff>0</color> gibt 0 zurück",
+		"<color=#3c3cff>_0</color> trifft nicht zu",
+		"",
+		"Verwende <color=#FF68DD>\\Z</color> oder <color=#FF68DD>$</color> um das Ende einer Zeichenkette zu beschreiben.",
+		"",
+		"Beispiel:",
+		"<color=#3c3cff>001</color>",
+		"<color=#3c3cff>1</color>",
+		"<color=#3c3cff>1_</color>",
+		"Zum Beispiel: Mit <color=#AB2800>1</color><color=#FF68DD>\\Z</color> werden folgende Muster verglichen – \"trifft auf Inhalte zu, die mit 1 enden\":",
+		"<color=#3c3cff>001</color> gibt 1 zurück",
+		"<color=#3c3cff>1</color> gibt 1 zurück",
+		"<color=#3c3cff>1_</color> trifft nicht zu",
+		"",
+		"Jetzt sollst du alle Zeichenketten finden, die ausschließlich die Ziffer 1 enthalten.",
+		"",
+		"Konstruiere einen regulären Ausdruck, der alle Tests auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

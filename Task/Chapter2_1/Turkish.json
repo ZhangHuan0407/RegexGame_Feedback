@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"Düzenli ifadelerde, bu iki sembolün özel anlamları vardır:  ",
+		"<color=#AB2800>.</color> herhangi bir karakterle eşleşir  ",
+		"<color=#FF68DD>*</color> önceki alt ifadeyi sıfır veya daha fazla kez eşleştirir  ",
+		"",
+		"Örneğin:  ",
+		"<color=#AB2800>1</color><color=#FF68DD>*</color> <color=#3c3cff>A111A</color> içindeki <color=#3c3cff>111</color> ile eşleşir  ",
+		"<color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> <color=#3c3cff>BABAB</color> içindeki <color=#3c3cff>BABAB</color> ile eşleşir  ",
+		"",
+		"Bu testte eşleştirilecek içerik şu özelliklere sahiptir:  ",
+		"<color=#3c3cff>Sna</color>    \"Sna\" ile başlayan bir karakter dizisi  ",
+		"<color=#3c3cff>.</color>         ortada birden fazla rastgele karakter  ",
+		"<color=#3c3cff>ke</color>       \"ke\" ile biten bir karakter dizisi  ",
+		"",
+		"Yanlış yılanı alma - ısırır!  ",
+		"",
+		"<b>Açgözlü Eşleme</b>  ",
+		"Düzenli ifadelerde <color=#FF68DD>*</color> açgözlü eşlemeyi etkinleştirir, mümkün olduğunca çok karakter eşleştirmeye çalışır.  ",
+		"Örneğin <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> <color=#3c3cff>BABAB</color> içinde yalnızca BAB'ı değil, tüm <color=#3c3cff>BABAB</color>'ı eşleştirir. ",
+		"<color=#FF68DD>*</color> mümkün olduğunca fazla içerik yakalar.  ",
+		"",
+		"Şimdi \"Snake\" kelimesini eşleştirmeyi hedefliyoruz.  ",
+		"Çok sayıda a varsa, mümkün olduğunca çok a'yı eşleştirin.  ",
+		"",
+		"Sağdaki tüm testleri geçen bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

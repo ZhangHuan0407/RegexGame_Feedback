@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"W Markdown możesz dodać specjalnie sformatowany tekst, który spowoduje wyświetlenie obrazu ze wskazanej ścieżki.",
+		"",
+		"Przykład:",
+		"<color=#3c3cff>![Image Alt]</color>(<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> <color=#33aa55>\"ImageTitle\"</color>)",
+		"",
+		"<color=#3c3cff>![Tekst alternatywny]</color> zaczyna się od ! i używa [] do umieszczenia tekstu zastępczego. Tekst ten jest wyświetlany, gdy załadowanie obrazu się nie powiedzie.",
+		"Puste pole tekstowe <color=#3c3cff>![]</color> jest dopuszczalne.",
+		"<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> określa ścieżkę do pliku obrazu",
+		"<color=#33aa55>\"Tytuł obrazu\"</color> to tytuł podręczny wyświetlany po najechaniu myszką na obraz",
+		"",
+		"<img src=Texture/Task/MarkdownImage width=840 height=167>",
+		"",
+		"Celem jest utworzenie wyrażenia regularnego dopasowującego <b>ścieżkę do obrazu</b> z następującymi założeniami:  ",
+		"1. Dopasowuje wyłącznie poprawnie sformatowane dane wejściowe  ",
+		"2. Każdy przypadek testowy zawiera dokładnie jeden element do dopasowania  ",
+		"3. Nazwij grupę przechwytującą ścieżkę pliku jako \"file\"  ",
+		"4. Dopasowuje wyłącznie niepuste ścieżki plików  ",
+		"5. W 100% przypadków testowych ścieżki plików nie zawierają spacji  ",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

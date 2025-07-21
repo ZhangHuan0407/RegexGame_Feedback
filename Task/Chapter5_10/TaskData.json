@@ -1,0 +1,85 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"a=1",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"a=1",
+				"<key>a",
+				"<value>1"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":3
+				},
+				{
+					"start":0,
+					"length":1
+				},
+				{
+					"start":2,
+					"length":1
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"name_0 = value",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"name_0 = value",
+				"<key>name_0",
+				"<value>value"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":14
+				},
+				{
+					"start":0,
+					"length":6
+				},
+				{
+					"start":9,
+					"length":5
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":";this is comment ",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"str=\"abc \\\"!@#$%,.;[]{}\"",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"str=\"abc \\\"!@#$%,.;[]{}\"",
+				"<key>str",
+				"<value>\"abc \\\"!@#$%,.;[]{}\""
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":24
+				},
+				{
+					"start":0,
+					"length":3
+				},
+				{
+					"start":4,
+					"length":20
+				}
+			],
+			"m_CheckOrder":false
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":"\\A (?<key> [^=\\n\\s]+ ) \\s*=\\s* (?<value> [^\\n]* ) \\Z"
+}

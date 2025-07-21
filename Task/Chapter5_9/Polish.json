@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"<color=#e06600>(?<= subexpression )</color> to asercja przeglądająca wstecz o zerowej szerokości, która przegląda w lewo i <b>dopasowuje oraz konsumuje</b> pasującą zawartość.",
+		"",
+		"<color=#e06600>(?= subexpression )</color> to asercja przeglądająca naprzód o zerowej szerokości, która przewiduje w prawo i sprawdza, czy następujący tekst pasuje do podwyrażenia. Jeśli przewidywany tekst pasuje do podwyrażenia, <b>nie uwzględnia tej zawartości w wyniku dopasowania</b>.",
+		"",
+		"Na przykład, użycie wyrażenia regularnego <color=#e06600>1(?= 2 )</color> do dopasowania następujących przypadków testowych:",
+		"<color=#3c3cff>123</color>, wynik to <color=#3c3cff>1</color><color=#666666>23</color>",
+		"<color=#3c3cff>111</color>, brak zawartości pasującej do <color=#e06600>(?= 2 )</color>, więc brak dopasowania",
+		"",
+		"W Markdown, użycie ** podwójnych asterysków do otoczenia fragmentu tekstu nadaje efekt pogrubienia.",
+		"",
+		"Przykład:",
+		"**Markdown**",
+		"<img src=Texture/Task/MarkdownBold width=193 height=40>",
+		"",
+		"Teraz oczekuje się napisania wyrażenia regularnego dopasowującego pogrubioną zawartość, z następującymi zasadami:",
+		"1. <b>Nie zawiera</b> otaczających podwójnych asterysków",
+		"2. Wszystkie dane wejściowe to pojedyncze ciągi znaków",
+		"3. Dla uproszczenia zadania, nie ma przypadków testowych z trzema kolejnymi ***",
+		"",
+		"",
+		"Proszę skonstruować wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

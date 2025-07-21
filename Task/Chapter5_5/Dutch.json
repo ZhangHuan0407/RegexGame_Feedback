@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"In Markdown kunt u speciaal opgemaakte tekst toevoegen waarbij Markdown afbeeldingen van opgegeven paden weergeeft.",
+		"",
+		"Bijvoorbeeld:  ",
+		"<color=#3c3cff>![Image Alt]</color>(<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> <color=#33aa55>\"ImageTitle\"</color>)",
+		"",
+		"<color=#3c3cff>![Image Alt]</color> begint met ! en gebruikt [] voor alternatieve tekst. Deze tekst wordt getoond als afbeeldingen niet laden.",
+		"Lege tekst <color=#3c3cff>![]</color> is geldig.",
+		"<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> specificeert het afbeeldingspad",
+		"<color=#33aa55>\"ImageTitle\"</color> is de <b>zweeftitel</b> die verschijnt bij muisbeweging",
+		"",
+		"<img src=Texture/Task/MarkdownImage width=840 height=167>",
+		"",
+		"Nu maken we een reguliere expressie die het <b>afbeeldingspad</b> matcht met deze regels:",
+		"1. Alleen correct opgemaakte invoer matchen",
+		"2. Elke testcase bevat één matchdoel",
+		"3. Noem de capture group voor het pad \"file\"",
+		"4. Alleen niet-lege paden matchen",
+		"5. 100% van de testcases bevat paden zonder spaties",
+		"",
+		"",
+		"Construeer een regex die alle testcases rechts doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

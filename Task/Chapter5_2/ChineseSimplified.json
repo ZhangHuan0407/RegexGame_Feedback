@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"在Markdown中，使用若干个连续的 # 表述标题。",
+		"根据 # 的数量，分为不同级别的标题。",
+		"",
+		"例如：",
+		"<img src=Texture/Task/MarkdownTitle width=267 height=89>",
+		"",
+		"现在期望编写一个正则表达式，匹配标题部分的内容，约定如下：",
+		"1. <b>包含</b>前缀 #，随后至少1个空格",
+		"2. 所有输入仅为单行字符串",
+		"3. 约定匹配标题内容的捕获组名称为\"title\"",
+		"",
+		"由于正则表达式使用了RegexOptions.IgnorePatternWhitespace模式，<color=#33aa55>#</color> 开头的行内容将被识别为注释。",
+		"",
+		"请使用 \\# 匹配字符 \"#\"",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。"
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

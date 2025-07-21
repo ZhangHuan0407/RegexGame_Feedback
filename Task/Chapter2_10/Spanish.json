@@ -1,0 +1,13 @@
+{
+	"m_DescList":[
+		"\"Oda a la Alegría\" es un poema escrito por el poeta alemán Schiller, al que Beethoven puso música.  ",
+		"",
+		"Tengo curiosidad por saber cuántas veces aparece en la letra una letra anterior en el rango a-i seguida de una letra posterior en el rango j-z.  ",
+		"",
+		"Ahora, se espera que coincida con la situación anterior.  ",
+		"",
+		"",
+		"Por favor, construye una expresión regular que pase todas las pruebas a la derecha.  "
+	],
+	"m_SystemLanguage":"Spanish"
+}

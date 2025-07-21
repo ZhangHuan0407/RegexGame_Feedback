@@ -1,0 +1,13 @@
+{
+	"m_DescList":[
+		"\"Oda do radości\" to wiersz niemieckiego poety Schillera, do którego muzykę skomponował Beethoven.",
+		"",
+		"Jestem ciekaw, ile razy w tekście piosenki występuje sytuacja, gdzie pierwsza litera znajduje się w zakresie **a-i**, a następna litera w zakresie **j-z**.",
+		"",
+		"Teraz oczekuje się dopasowania powyższej sytuacji.",
+		"",
+		"",
+		"Proszę skonstruować wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"As regular expressions grow increasingly complex, a single text match may capture multiple groups.  ",
+		"We assign unique names to these expressions to distinguish which captured group result we should retrieve.  ",
+		"",
+		"For example, <color=#AB2800>A</color> matches <color=#3c3cff>A</color><color=#666666>BC</color> in <color=#3c3cff>ABC</color>.  ",
+		"",
+		"We can name the expected capturing group for <color=#AB2800>A</color> as <color=#AB2800>test</color>, constructing the expression: <color=#05C3BA>(?</color><color=#AB2800><test>A</color><color=#05C3BA>)</color>",
+		"",
+		"The above expression matching <color=#3c3cff>ABC</color> yields:  ",
+		"<color=#3c3cff>A</color>            The overall match result  ",
+		"<color=#3c3cff><test>A</color>  The match result of the \"test\" capturing group  ",
+		"",
+		"For example, to match the integer before the decimal point in text and name this capturing group as \"int\", construct: <color=#05C3BA>(?</color><color=#AB2800><int></color><color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#05C3BA>)</color><color=#AB2800>\\.</color><color=#3173FF>\\d</color><color=#FF68DD>+</color>",
+		"",
+		"The above expression matching <color=#3c3cff>Price: 1.99</color> yields:  ",
+		"<color=#3c3cff>1.99</color>    The overall match result  ",
+		"<color=#3c3cff><int>1</color> The match result of the \"int\" capturing group",
+		"",
+		"Corporate emails require matching names within email text. The content to match has the following characteristics:  ",
+		"1. Starts with <b>name</b> or <b>Name</b>  ",
+		"2. Follows patterns: name is xxx, name: xxx, name:xxx  ",
+		"3. Names exclude symbols \\n , . – stop matching when encountering these  ",
+		"",
+		"Convention: Name the capturing group \"Name\".",
+		"",
+		"",
+		"Please construct a regular expression that passes all tests on the right."
+	],
+	"m_SystemLanguage":"English"
+}

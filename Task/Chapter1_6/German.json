@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"Beim Verfassen von regulären Ausdrücken muss häufig „beliebiges“ Zeichen ausgedrückt werden. Daher wird <color=#AB2800>.</color> per Konvention verwendet, um „beliebig“ zu repräsentieren.",
+		"",
+		"<color=#AB2800>.</color>   Entspricht jedem einzelnen Zeichen außer einem Zeilenumbruch.",
+		"<color=#AB2800>\\.</color>  Entspricht ausschließlich einem Dezimalpunkt.",
+		"",
+		"<color=#3c3cff>123.456</color>",
+		"Beispiel: Mit <color=#AB2800>\\..</color> im obigen Beispiel,",
+		"    wird das erste <color=#AB2800>\\.</color> als „nur Dezimalpunkt“ interpretiert,",
+		"    das zweite <color=#AB2800>.</color> als „beliebiges“ Zeichen.",
+		"<color=#3c3cff>123.456</color> ergibt",
+		"<color=#666666>123</color><color=#3c3cff>.4</color><color=#666666>56</color>",
+		"",
+		"<color=#3c3cff>(x3x)</color>",
+		"Beispiel: Mit <color=#AB2800>3..</color> im obigen Beispiel,",
+		"    wird die erste <color=#AB2800>3</color> als „Ziffer 3“ interpretiert,",
+		"    die zweite und dritte <color=#AB2800>.</color> als „beliebige“ Zeichen.",
+		"<color=#3c3cff>(x3x)</color> ergibt 3x)",
+		"<color=#666666>(x</color><color=#3c3cff>3x)</color>",
+		"",
+		"",
+		"Nun soll die Ziffer 1 gefolgt von möglichst vielen beliebigen Zeichen gematcht werden.",
+		"",
+		"In diesem Test hat die zu matchende Zeichenkette folgende Merkmale:",
+		"<color=#3c3cff>1</color>    Enthält mindestens eine Ziffer 1.",
+		"<color=#3c3cff>.</color>     Gefolgt von einer beliebigen Anzahl beliebiger Zeichen.",
+		"",
+		"",
+		"Konstruieren Sie einen regulären Ausdruck, der alle Tests rechts besteht."
+	],
+	"m_SystemLanguage":"German"
+}

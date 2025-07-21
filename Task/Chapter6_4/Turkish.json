@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"Yazılım geliştirme sırasında, sürüm kontrol aracı olarak Git kullanılabilir ve proje yönetim aracı olarak Jira seçilebilir.  ",
+		"Bir geliştiricinin işlem günlüğü [PROJ-XXX] içerdiğinde, işlem kaydı otomatik olarak belirtilen Jira görevine bağlanır.  ",
+		"",
+		"Özel işlem kaydı biçimi kuralları şu şekildedir:  ",
+		"<color=#3173FF>[</color>     Yarım genişlikli özel karakter \"[\"  ",
+		"<color=#3173FF>\\w</color>   Birden fazla metin karakteri  ",
+		"<color=#3173FF>-</color>     Yarım genişlikli özel karakter \"-\"  ",
+		"<color=#3173FF>\\d</color>   Birden fazla rakam  ",
+		"<color=#3173FF>]</color>     Yarım genişlikli özel karakter \"]\"  ",
+		"",
+		"Örneğin, aşağıdaki eşleşen bir işlem kaydıdır:  ",
+		"<color=#3c3cff>[PROJ-123]</color> <color=#666666>fix null reference error</color>  ",
+		"",
+		"Şimdi, lütfen işlem günlüklerinin bağlantı formatıyla eşleşip eşleşmediğini kontrol etmek için bir düzenli ifade oluşturun.  ",
+		"",
+		"",
+		"Lütfen sağdaki tüm testlerden geçen bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

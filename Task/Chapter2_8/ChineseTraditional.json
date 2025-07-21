@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"我們之前討論過如何匹配長度為100的數字，當然是：",
+		"<color=#666666>\\d\\d\\d\\d\\d...</color> <color=#ff0000>X</color>",
+		"",
+		"在正則表達式後添加 <color=#FF68DD>{n}</color> 表示前面的正則表達式重複n次，n為自然數",
+		"",
+		"<b>例如</b>，<color=#AB2800>1</color><color=#FF68DD>{3}</color> 含義是匹配重複3次的1，",
+		"<color=#AB2800>1</color><color=#FF68DD>{3}</color> 匹配 <color=#3c3cff>12111311</color> 中的 <color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color>",
+		"",
+		"在正則表達式後添加 <color=#FF68DD>{n,}</color> 表示前面的正則表達式重複至少n次，n為自然數",
+		"",
+		"<b>例如</b>，<color=#AB2800>1</color><color=#FF68DD>{2,}</color> 匹配 <color=#3c3cff>12111311</color> 中的",
+		"<color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color>",
+		"<color=#666666>121113</color><color=#3c3cff>11</color>",
+		"",
+		"在正則表達式後添加 <color=#FF68DD>{n,m}</color> 表示前面的正則表達式重複至少n次，至多m次，n m均為自然數",
+		"",
+		"<b>例如</b>，<color=#AB2800>o</color><color=#FF68DD>{1,2}</color> 匹配 <color=#3c3cff>Choose your right friends ooo</color> 中的",
+		"<color=#666666>Ch</color><color=#3c3cff>oo</color><color=#666666>se your right friends ooo</color>",
+		"<color=#666666>Choose y</color><color=#3c3cff>o</color><color=#666666>ur right friends ooo</color>",
+		"",
+		"一段時間不見，蛇變得更長了！",
+		"現在，期望篩選出\"a\"長度大於3且小於5的蛇。",
+		"不要拿錯蛇，會咬人！",
+		"",
+		"請構造一個正則表達式使之通過右側所有測試。"
+	],
+	"m_SystemLanguage":"ChineseTraditional"
+}

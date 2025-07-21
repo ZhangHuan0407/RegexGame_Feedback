@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"En Markdown, puedes agregar texto con formato especial. Markdown renderizará imágenes desde rutas especificadas en la interfaz.",
+		"",
+		"Por ejemplo:  ",
+		"<color=#3c3cff>![Image Alt]</color>(<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> <color=#33aa55>\"ImageTitle\"</color>)",
+		"",
+		"<color=#3c3cff>![Image Alt]</color> comienza con ! y usa [] para envolver el texto alternativo. Este texto se muestra cuando la imagen no carga.",
+		"El texto alternativo puede estar vacío <color=#3c3cff>![]</color> es válido.",
+		"<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> describe la ruta del archivo de imagen.",
+		"<color=#33aa55>\"ImageTitle\"</color> es el título flotante que aparece al pasar el cursor sobre la imagen.",
+		"",
+		"<img src=Texture/Task/MarkdownImage width=840 height=167>",
+		"",
+		"Ahora queremos crear una expresión regular que coincida con la <b>ruta de la imagen</b>, bajo estas convenciones:",
+		"1. Solo coincide con entradas correctamente formateadas",
+		"2. Cada caso de prueba contiene exactamente un elemento a coincidir",
+		"3. El grupo de captura para la ruta se nombrará \"file\"",
+		"4. Solo coincide con rutas no vacías",
+		"5. El 100% de los casos de prueba tienen rutas sin espacios",
+		"",
+		"",
+		"Construye una expresión regular que pase todos los casos de prueba a la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

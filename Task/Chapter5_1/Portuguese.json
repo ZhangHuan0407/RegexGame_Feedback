@@ -1,0 +1,19 @@
+{
+	"m_DescList":[
+		"Markdown é uma linguagem de marcação leve projetada para facilitar a leitura e escrita de texto.  ",
+		"",
+		"No Markdown, ao usar duplos tils ~~ envolvendo um texto, adiciona-se o efeito de ~~tachado~~.  ",
+		"",
+		"Exemplo:  ",
+		"~~Markdown~~  ",
+		"<img src=Texture/Task/MarkdownDelete width=230 height=47>  ",
+		"",
+		"O objetivo é construir uma expressão regular que corresponda ao conteúdo tachado, com as seguintes regras:  ",
+		"1. <b>Incluir</b> os duplos tils de ambos os lados  ",
+		"2. Todas as entradas são strings de linha única  ",
+		"3. Cinco ou mais tils consecutivos não devem ser correspondidos  ",
+		"",
+		"Construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

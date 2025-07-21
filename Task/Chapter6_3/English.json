@@ -1,0 +1,27 @@
+{
+	"m_DescList":[
+		"The regular expression <color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> indicates that <color=#AB2800>subexpression</color> will be matched <b>case-insensitively</b>.  ",
+		"These operations are called group options. For all available optional parameters, refer to <color=#05C3BA>(?</color><color=#AB2800>imnsx-imnsx: subexpression</color><color=#05C3BA>)</color>.  ",
+		"",
+		"For example, <color=#05C3BA>(?i: </color><color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color><color=#05C3BA>)</color> matches the sample string <color=#3c3cff>aBC</color> with the following results:  ",
+		"<color=#3c3cff>a</color><color=#666666>BC</color>  ",
+		"<color=#666666>a</color><color=#3c3cff>B</color><color=#666666>C</color>  ",
+		"<color=#666666>aB</color><color=#3c3cff>C</color>  ",
+		"<color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> allows <color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color> to match both lowercase and uppercase letters, equivalent to <color=#3173FF>[</color><color=#AB2800>abcABC</color><color=#3173FF>]</color>.  ",
+		"",
+		"In workflow scenarios, one program may sometimes read logs output by another program and perform differentiated processing based on the log messages.  ",
+		"",
+		"For instance, if the previous program's log contains \"error\", it suggests potential errors in the upstream program's execution that require attention.  ",
+		"",
+		"Now, the goal is to match logs containing \"error\".  ",
+		"",
+		"To simplify the difficulty, the following conventions are made:  ",
+		"1. Test cases start with a <b>4-digit year-2-digit month-2-digit day</b> prefix.  ",
+		"2. Each test case contains only <b>one line</b> of logs.  ",
+		"3. Only <b>uppercase \"ERROR\" and lowercase \"error\"</b> exist.  ",
+		"",
+		"",
+		"Please construct a regular expression that passes all test cases on the right."
+	],
+	"m_SystemLanguage":"English"
+}

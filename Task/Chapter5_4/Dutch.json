@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"In Markdown worden drie backticks ``` gebruikt om codeblokken weer te geven. Markdown voegt automatisch een rand toe aan codeblokken.  ",
+		"",
+		"Voorbeeld:  ",
+		"```  ",
+		"public class Program  ",
+		"{  ",
+		"}  ",
+		"```  ",
+		"<img src=Texture/Task/MarkdownCode width=792 height=122>  ",
+		"",
+		"Ontwerp nu een reguliere expressie die de inhoud van <b>codeblokken</b> matcht met deze specificaties:  ",
+		"1. De volledige match <b>bevat</b> de drie backticks ```  ",
+		"2. Testgevallen bevatten meerdere regels invoer  ",
+		"3. Noem de vangstgroep voor codeblokken \"code\". Deze groep sluit de backticks en nieuwe-regeltekens uit  ",
+		"4. Vereenvoudiging: 0% van de testgevallen bevat backticks binnen codeblokken  ",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle testgevallen rechts doorstaat. "
+	],
+	"m_SystemLanguage":"Dutch"
+}

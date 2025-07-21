@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"Em expressões regulares, estes dois símbolos possuem significados especiais:  ",
+		"<color=#AB2800>.</color> corresponde a qualquer caractere  ",
+		"<color=#FF68DD>*</color> corresponde à subexpressão anterior zero ou mais vezes  ",
+		"",
+		"Por exemplo:  ",
+		"<color=#AB2800>1</color><color=#FF68DD>*</color> corresponde a <color=#3c3cff>111</color> em <color=#3c3cff>A111A</color>  ",
+		"<color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> corresponde a <color=#3c3cff>BABAB</color> em <color=#3c3cff>BABAB</color>  ",
+		"",
+		"Neste teste, o conteúdo a ser correspondido possui as seguintes características:  ",
+		"<color=#3c3cff>Sna</color>   existe um segmento que começa com \"Sna\"  ",
+		"<color=#3c3cff>.</color>        contém vários caracteres arbitrários no meio  ",
+		"<color=#3c3cff>ke</color>      existe um segmento que termina com \"ke\"  ",
+		"",
+		"Não pegue a cobra errada, ela morde!  ",
+		"",
+		"<b>Correspondência gulosa (Greedy Matching)</b>  ",
+		"Em expressões regulares, <color=#FF68DD>*</color> ativa a correspondência gulosa, que tenta corresponder ao máximo de caracteres possível.  ",
+		"Por exemplo, <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> corresponde a <color=#3c3cff>BABAB</color> inteiro em <color=#3c3cff>BABAB</color>, não apenas a uma parte como BAB. ",
+		"<color=#FF68DD>*</color> captura o máximo de conteúdo possível.  ",
+		"",
+		"Agora, espera-se corresponder à palavra \"Snake\".  ",
+		"Se houver muitos 'a', corresponda ao máximo de 'a' possível.  ",
+		"",
+		"",
+		"Construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

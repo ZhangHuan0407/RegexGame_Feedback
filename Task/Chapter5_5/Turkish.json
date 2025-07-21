@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"Markdown'da, özel biçimlendirilmiş metin ekleyerek Markdown'un belirtilen yollardaki görselleri oluşturmasını sağlayabilirsiniz.  ",
+		"",
+		"Örneğin:  ",
+		"<color=#3c3cff>![Image Alt]</color>(<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> <color=#33aa55>\"ImageTitle\"</color>)",
+		"",
+		"<color=#3c3cff>![Image Alt]</color> ! ile başlar ve alternatif metni sarmalamak için [] kullanır. Görsel yüklenemediğinde alternatif metin gösterilir.",
+		"Alternatif metin boş olabilir <color=#3c3cff>![]</color> geçerli bir girdidir",
+		"<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> görsel dosyasının yolunu belirtir  ",
+		"<color=#33aa55>\"ImageTitle\"</color> fareyle görselin üzerine gelindiğinde gösterilen başlıktır  ",
+		"",
+		"<img src=Texture/Task/MarkdownImage width=840 height=167>  ",
+		"",
+		"Şimdi, aşağıdaki kurallarla <b>görsel yolu</b> eşleştiren bir düzenli ifade oluşturmayı hedefliyoruz:  ",
+		"1. Yalnızca doğru biçimlendirilmiş girdiler eşleşmeli  ",
+		"2. Her test senaryosu tek bir eşleşme hedefi içerir  ",
+		"3. Dosya yolu yakalama grubunun adı \"file\" olmalı  ",
+		"4. Yalnızca boş olmayan dosya yolları eşleşmeli  ",
+		"5. Test senaryolarının %100'ünde dosya yolları boşluk içermez",
+		"",
+		"",
+		"Sağdaki tüm test senaryolarını geçen bir regex oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

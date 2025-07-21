@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"In INI-bestanden bevat elke sectie meerdere sleutel-waardeparen.",
+		"",
+		"<img src=Texture/Task/IniKeyValue width=339 height=102>",
+		"",
+		"Zoals hierboven getoond worden verschillende sleutel-waardeparen geïllustreerd:  ",
+		"Sleutel is <color=#3c3cff>a_2</color>, waarde is <color=#3c3cff>\"'a_2' is key name\"</color>  ",
+		"Sleutel is <color=#3c3cff>key</color>, waarde is <color=#3c3cff>value</color>  ",
+		"Sleutel is <color=#3c3cff>c</color>, waarde is <color=#3c3cff>1</color>",
+		"",
+		"We streven ernaar om sectie-inhoud te matchen met de volgende conventies:  ",
+		"1. Elk testgeval is een onafhankelijke regel  ",
+		"2. Als een regel het sleutel-waardeformaat volgt, match dan de volledige inhoud  ",
+		"3. Noem de vanggroep voor sleutels \"key\"  ",
+		"4. Noem de vanggroep voor waarden \"value\"  ",
+		"5. Er kunnen spaties staan tussen de sleutel en het isgelijkteken, of tussen \"=\" en de waarde. De \"key\" en \"value\" vanggroepen mogen geen spaties naast \"=\" bevatten  ",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle testgevallen rechts doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

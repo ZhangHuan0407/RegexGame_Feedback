@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"Internet Protocol version 4, commonly known as IPv4, consists of 4 numbers ranging from 0 to 255, connected by three \".\".",
+		"",
+		"For example, <color=#3c3cff>127.0.0.1</color> is a valid IPv4 address.",
+		"",
+		"Sometimes users may mistakenly input invalid addresses, such as:",
+		"",
+		"1.2.3.4.5     <color=#ee3300>X</color> Number of segments exceeds 4  ",
+		"1.0.0.256    <color=#ee3300>X</color> 256 exceeds the range 0~255  ",
+		"127.0.0.01  <color=#ee3300>X</color> Although \"01\" technically complies with the IPv4 definition, it does not conform to standard representation and is likely a user input error",
+		"",
+		"The task is to help match valid IPv4 addresses.",
+		"",
+		"To simplify the problem, the following conventions apply:  ",
+		"1. Each test case contains only 1 string to check  ",
+		"2. For 100% of test cases, numbers starting with 0 (two or three digits) will fail to match",
+		"",
+		"",
+		"Please construct a regular expression that passes all test cases on the right. "
+	],
+	"m_SystemLanguage":"English"
+}

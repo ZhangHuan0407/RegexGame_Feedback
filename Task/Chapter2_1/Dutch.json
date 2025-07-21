@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"In reguliere expressies hebben deze twee symbolen een speciale betekenis:  ",
+		"<color=#AB2800>.</color> komt overeen met elk willekeurig teken  ",
+		"<color=#FF68DD>*</color> komt overeen met de voorafgaande subexpressie nul of meer keer  ",
+		"",
+		"Bijvoorbeeld:  ",
+		"<color=#AB2800>1</color><color=#FF68DD>*</color> komt overeen met <color=#666666>A</color><color=#3c3cff>111</color><color=#666666>A</color> in <color=#3c3cff>A111A</color>  ",
+		"<color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> komt overeen met <color=#3c3cff>BABAB</color> in <color=#3c3cff>BABAB</color>  ",
+		"",
+		"In deze test heeft de te matchen inhoud de volgende kenmerken:  ",
+		"<color=#3c3cff>Sna</color>    een tekenreeks die begint met \"Sna\"  ",
+		"<color=#3c3cff>.</color>         bevat meerdere willekeurige tekens in het midden  ",
+		"<color=#3c3cff>ke</color>       een tekenreeks die eindigt met \"ke\"  ",
+		"",
+		"Pak niet de verkeerde slang – hij bijt!  ",
+		"",
+		"<b>Gulzige matching</b>  ",
+		"In reguliere expressies schakelt <color=#FF68DD>*</color> gulzige matching in, waardoor zoveel mogelijk tekens worden gematcht.  ",
+		"Bijvoorbeeld: <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> matcht <color=#3c3cff>BABAB</color> in <color=#3c3cff>BABAB</color>, niet slechts een deel zoals BAB. ",
+		"<color=#FF68DD>*</color> probeert zoveel mogelijk inhoud vast te leggen.  ",
+		"",
+		"Nu willen we het woord \"Snaaaaake\" matchen.  ",
+		"Als er veel a's zijn, match dan zoveel mogelijk a's.  ",
+		"",
+		"Construeer een reguliere expressie die alle tests aan de rechterkant doorstaat. "
+	],
+	"m_SystemLanguage":"Dutch"
+}

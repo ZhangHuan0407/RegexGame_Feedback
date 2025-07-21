@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"Manchmal sind wir uns nicht sicher, ob ein String den gewünschten <b>Teilausdruck</b> enthält.  ",
+		"",
+		"Man kann einen möglichen Inhaltsabschnitt mit <color=#05C3BA>( )</color> umschließen und dann <color=#FF68DD>?</color> hinzufügen, um anzuzeigen, dass dieser Inhalt null- oder einmal vorkommen kann.  ",
+		"",
+		"Beispiel: Der Abgleich von <color=#AB2800>a</color><color=#05C3BA>(</color><color=#AB2800>b</color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#AB2800>c</color> mit <color=#3c3cff>abcac</color> ergibt:  ",
+		"<color=#3c3cff>abc</color><color=#666666>ac</color>",
+		"<color=#666666>abc</color><color=#3c3cff>ac</color>",
+		"",
+		"Beispiel: Festnetznummern können mit oder ohne Vorwahl vorkommen.  ",
+		"",
+		"<color=#3c3cff>010-12345678</color>  ",
+		"<color=#3c3cff>12345678</color>  ",
+		"In diesem Beispiel ist 010 die Vorwahl.  ",
+		"",
+		"Verwendet man <color=#05C3BA>( </color><color=#AB2800>010- </color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#3173FF>\\d</color><color=#FF68DD>+</color> für den Abgleich:  ",
+		"<color=#05C3BA>( </color><color=#AB2800>010- </color><color=#05C3BA>)</color><color=#FF68DD>?</color> bedeutet, dass es keine Rolle spielt, ob <color=#AB2800>010-</color> existiert oder nicht.",
+		"<color=#3c3cff>010-12345678</color> → findet <color=#3c3cff>010-12345678</color>  ",
+		"<color=#3c3cff>12345678</color> → findet <color=#3c3cff>12345678</color>",
+		"",
+		"Nun wollen wir den Buchstaben A an einer beliebigen Stelle abfangen und versuchen, die Zahl dahinter anzuhängen.",
+		"",
+		"In diesem Test hat der abzugleichende String folgende Merkmale:  ",
+		"<color=#3c3cff>A</color>   Buchstabe A  ",
+		"<color=#3c3cff>\\d</color>   0 oder 1 Dezimalziffer  ",
+		"",
+		"",
+		"Konstruieren Sie einen regulären Ausdruck, der alle Tests rechts besteht.  "
+	],
+	"m_SystemLanguage":"German"
+}

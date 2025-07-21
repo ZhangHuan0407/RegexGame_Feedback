@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"We bespraken eerder hoe je een getal met een lengte van 100 cijfers kunt matchen. Natuurlijk is dat:",
+		"<color=#666666>\\d\\d\\d\\d\\d...</color> <color=#ff0000>X</color>",
+		"",
+		"Door <color=#FF68DD>{n}</color> achter een reguliere expressie toe te voegen, geef je aan dat de voorgaande expressie `n` keer herhaald wordt. `n` is een natuurlijk getal.",
+		"",
+		"<b>Bijvoorbeeld</b>, <color=#AB2800>1</color><color=#FF68DD>{3}</color> betekent: match een '1' die 3 keer herhaald wordt.",
+		"<color=#AB2800>1</color><color=#FF68DD>{3}</color> matcht <color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color> in <color=#3c3cff>12111311</color>.",
+		"",
+		"Door <color=#FF68DD>{n,}</color> achter een reguliere expressie toe te voegen, geef je aan dat de voorgaande expressie *minstens* `n` keer herhaald wordt. `n` is een natuurlijk getal.",
+		"",
+		"<b>Bijvoorbeeld</b>, <color=#AB2800>1</color><color=#FF68DD>{2,}</color> matcht de volgende delen in <color=#3c3cff>12111311</color>:",
+		"<color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color>",
+		"<color=#666666>121113</color><color=#3c3cff>11</color>",
+		"",
+		"Door <color=#FF68DD>{n,m}</color> achter een reguliere expressie toe te voegen, geef je aan dat de voorgaande expressie *minstens* `n` keer en *hoogstens* `m` keer herhaald wordt. `n` en `m` zijn natuurlijke getallen.",
+		"",
+		"<b>Bijvoorbeeld</b>, <color=#AB2800>o</color><color=#FF68DD>{1,2}</color> matcht de volgende delen in <color=#3c3cff>Choose your right friends ooo</color>:",
+		"<color=#666666>Ch</color><color=#3c3cff>oo</color><color=#666666>se your right friends ooo</color>",
+		"<color=#666666>Choose y</color><color=#3c3cff>o</color><color=#666666>ur right friends ooo</color>",
+		"",
+		"",
+		"Even niet gezien, en de slangen zijn langer geworden!",
+		"Nu is het de bedoeling om de slangen eruit te filteren waarbij de 'a's langer zijn dan 3 en korter dan 5.",
+		"Pak niet de verkeerde slang, ze bijten!",
+		"",
+		"Construeer een reguliere expressie die alle tests aan de rechterkant doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

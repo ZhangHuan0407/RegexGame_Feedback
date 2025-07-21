@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"Dans les fichiers INI, chaque section contient plusieurs paires clé-valeur.",
+		"",
+		"<img src=Texture/Task/IniKeyValue width=339 height=102>",
+		"",
+		"Comme illustré ci-dessus, cela présente plusieurs paires clé-valeur :  ",
+		"La clé est <color=#3c3cff>a_2</color>, la valeur est <color=#3c3cff>\"'a_2' is key name\"</color>  ",
+		"La clé est <color=#3c3cff>key</color>, la valeur est <color=#3c3cff>value</color>  ",
+		"La clé est <color=#3c3cff>c</color>, la valeur est <color=#3c3cff>1</color>",
+		"",
+		"Nous souhaitons maintenant faire correspondre le contenu des sections avec les conventions suivantes :  ",
+		"1. Chaque cas de test est une ligne indépendante  ",
+		"2. Si une ligne suit le format clé-valeur, correspondre à son contenu complet  ",
+		"3. Nommer le groupe de capture pour les clés \"key\"  ",
+		"4. Nommer le groupe de capture pour les valeurs \"value\"  ",
+		"5. Des espaces peuvent exister entre la clé et le signe égal, ou entre \"=\" et la valeur. Les groupes \"key\" et \"value\" doivent exclure les espaces adjacents à \"=\"  ",
+		"",
+		"",
+		"Veuillez construire une expression régulière qui passe tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

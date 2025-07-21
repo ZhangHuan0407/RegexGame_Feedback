@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"Wcześniej omawialiśmy, jak dopasować liczbę o długości 100, oczywiście:  ",
+		"<color=#666666>\\d\\d\\d\\d\\d...</color> <color=#ff0000>X</color>  ",
+		"",
+		"Dodanie <color=#FF68DD>{n}</color> po wyrażeniu regularnym oznacza powtórzenie poprzedniego wyrażenia *n* razy, gdzie *n* jest liczbą naturalną.  ",
+		"",
+		"<b>Na przykład</b>, <color=#AB2800>1</color><color=#FF68DD>{3}</color> oznacza dopasowanie trzech powtórzonych jedynek.  ",
+		"<color=#AB2800>1</color><color=#FF68DD>{3}</color> dopasowuje <color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color> w <color=#3c3cff>12111311</color>.  ",
+		"",
+		"Dodanie <color=#FF68DD>{n,}</color> po wyrażeniu regularnym oznacza powtórzenie poprzedniego wyrażenia *co najmniej n* razy, gdzie *n* jest liczbą naturalną.  ",
+		"",
+		"<b>Na przykład</b>, <color=#AB2800>1</color><color=#FF68DD>{2,}</color> dopasowuje w <color=#3c3cff>12111311</color>:  ",
+		"<color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color>",
+		"<color=#666666>121113</color><color=#3c3cff>11</color>",
+		"",
+		"Dodanie <color=#FF68DD>{n,m}</color> po wyrażeniu regularnym oznacza powtórzenie poprzedniego wyrażenia *co najmniej n* i *co najwyżej m* razy, gdzie *n* i *m* są liczbami naturalnymi.  ",
+		"",
+		"<b>Na przykład</b>, <color=#AB2800>o</color><color=#FF68DD>{1,2}</color> dopasowuje w <color=#3c3cff>Choose your right friends ooo</color>:  ",
+		"<color=#666666>Ch</color><color=#3c3cff>oo</color><color=#666666>se your right friends ooo</color>",
+		"<color=#666666>Choose y</color><color=#3c3cff>o</color><color=#666666>ur right friends ooo</color>",
+		"",
+		"Dawno się nie widzieliśmy, węże stały się dłuższe!  ",
+		"Teraz oczekujemy wyfiltrowania węży, gdzie długość \"a\" jest większa niż 3 i mniejsza niż 5.  ",
+		"Nie bierz złego węża – ugryzie!  ",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie.  ",
+		""
+	],
+	"m_SystemLanguage":"Polish"
+}

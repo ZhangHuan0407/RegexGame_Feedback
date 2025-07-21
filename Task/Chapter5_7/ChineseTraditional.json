@@ -1,0 +1,19 @@
+{
+	"m_DescList":[
+		"INI 檔案是用於儲存設定資訊的文字檔案。",
+		"一般由多個區段 (section) 和多個鍵值對 (key-value pairs) 構成。",
+		"當一行文字的首個可見字元為 <color=#3c3cff>;</color> 或 <color=#3c3cff>#</color> 時，此行後續內容均被認為是註釋。",
+		"",
+		"<img src=Texture/Task/IniComment width=644 height=169>",
+		"",
+		"例如，<color=#3c3cff># this is a comment</color> 是一行註釋。",
+		"",
+		"現在期望匹配註釋行，做出如下約定：",
+		"1.  每個測試用例僅 1 行，沒有 \\n",
+		"2.  如果這一行是註釋行，匹配整行內容",
+		"3.  行首可以有 0 個或多個空白字元",
+		"",
+		"請構造一個正則表達式使之通過右側所有測試。"
+	],
+	"m_SystemLanguage":"ChineseTraditional"
+}

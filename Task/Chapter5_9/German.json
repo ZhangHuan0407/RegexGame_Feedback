@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"<color=#e06600>(?<= subexpression )</color> ist eine Nullbreiten-positiver Lookbehind-Assertion, die nach links schaut und den übereinstimmenden Inhalt <b>abgleicht und verbraucht</b>.",
+		"",
+		"<color=#e06600>(?= subexpression )</color> ist eine Nullbreiten-positiver Lookahead-Assertion, die nach rechts vorausschaut und prüft, ob der folgende Text dem Teilausdruck entspricht. Falls der vorausgesagte Text übereinstimmt, <b>wird der Inhalt nicht in das Matchergebnis aufgenommen</b>.",
+		"",
+		"Beispiel: Verwendung des regulären Ausdrucks <color=#e06600>1(?= 2 )</color> für folgende Testfälle:",
+		"<color=#3c3cff>123</color>, Ergebnis: <color=#3c3cff>1</color><color=#666666>23</color>",
+		"<color=#3c3cff>111</color>, kein Inhalt entspricht <color=#e06600>(?= 2 )</color>, daher kein Treffer",
+		"",
+		"In Markdown erzeugt das Umhüllen von Text mit ** doppelten Sternen einen Fettdruck-Effekt.",
+		"",
+		"Beispiel:",
+		"**Markdown**",
+		"<img src=Texture/Task/MarkdownBold width=193 height=40>",
+		"",
+		"Ziel ist die Erstellung eines regulären Ausdrucks zur Erkennung des fettgedruckten Inhalts mit folgenden Vereinbarungen:",
+		"1. <b>Ohne Einbeziehung</b> der umschließenden Doppelsterne",
+		"2. Alle Eingaben sind einzeilige Zeichenketten",
+		"3. Zur Vereinfachung existieren keine Testfälle mit drei aufeinanderfolgenden ***-Zeichen",
+		"",
+		"",
+		"Bitte konstruieren Sie einen regulären Ausdruck, der alle Tests auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"Markdown is a lightweight markup language designed for readability and ease of writing.  ",
+		"",
+		"In Markdown, using double tildes ~~ to wrap text adds a strikethrough effect.  ",
+		"",
+		"For example:  ",
+		"~~Markdown~~  ",
+		"<img src=Texture/Task/MarkdownDelete width=230 height=47>  ",
+		"",
+		"The task is to create a regular expression that matches the strikethrough content, with the following conventions:  ",
+		"1. <b>Include</b> the double tildes on both sides  ",
+		"2. All inputs are single-line strings  ",
+		"3. Five or more consecutive tildes should not be matched  ",
+		"",
+		"",
+		"Construct a regular expression that passes all tests on the right."
+	],
+	"m_SystemLanguage":"English"
+}

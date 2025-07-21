@@ -1,0 +1,27 @@
+{
+	"m_DescList":[
+		"A piece of text often has a beginning and an end.",
+		"",
+		"Use <color=#FF68DD>\\A</color> or <color=#FF68DD>^</color> to represent the beginning of a string.",
+		"",
+		"For instance, using <color=#FF68DD>\\A</color><color=#AB2800>0</color> to match the examples (i.e., \"match content starting with 0\"):",
+		"Examples:",
+		"<color=#FF68DD>\\A</color><color=#AB2800>0</color> match <color=#3c3cff>011</color> returns <color=#3c3cff>0</color><color=#666666>11</color>",
+		"<color=#FF68DD>\\A</color><color=#AB2800>0</color> match <color=#3c3cff>0</color> returns <color=#3c3cff>0</color>",
+		"<color=#FF68DD>\\A</color><color=#AB2800>0</color> match <color=#3c3cff>_0</color> doesn't match",
+		"",
+		"Use <color=#FF68DD>\\Z</color> or <color=#FF68DD>$</color> to represent the end of a string.",
+		"",
+		"For instance, using <color=#AB2800>1</color><color=#FF68DD>\\Z</color> to match the examples (i.e., \"match content ending with 1\"):",
+		"Examples:",
+		"<color=#AB2800>1</color><color=#FF68DD>\\Z</color> match <color=#3c3cff>001</color> returns <color=#666666>00</color><color=#3c3cff>1</color>",
+		"<color=#AB2800>1</color><color=#FF68DD>\\Z</color> match <color=#3c3cff>1</color> returns <color=#3c3cff>1</color>",
+		"<color=#AB2800>1</color><color=#FF68DD>\\Z</color> match <color=#3c3cff>1_</color> doesn't match",
+		"",
+		"Now, we need to match all strings that contain only the digit \"1\".",
+		"",
+		"",
+		"Please construct a regular expression that passes all the tests on the right."
+	],
+	"m_SystemLanguage":"English"
+}

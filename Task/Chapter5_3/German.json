@@ -1,0 +1,17 @@
+{
+	"m_DescList":[
+		"In Markdown werden zwischen $-Symbolen eingeschlossene Textformeln als Standard-Mathematikgleichungen gerendert.  ",
+		"",
+		"Beispiel:  ",
+		"$y_{0} = x^\\frac{1}{2}_{0}$  ",
+		"<img src=Texture/Task/MarkdownMath width=140 height=69>  ",
+		"",
+		"Ziel ist es, einen regulären Ausdruck zu entwerfen, der <b>einzeilige Formeln</b> mit folgenden Konventionen erfasst:  ",
+		"1. <b>Beinhaltet</b> die $-Symbole auf beiden Seiten  ",
+		"2. Alle Eingaben sind ausschließlich einzeilige Strings  ",
+		"3. Die Erfassungsgruppe für Formeln muss den Namen \"exp\" tragen  ",
+		"",
+		"Konstruiere einen regulären Ausdruck, der alle Testfälle auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

@@ -1,0 +1,19 @@
+{
+	"m_DescList":[
+		"Der Chef hat Ihr „E-Mail-Filter-Assistent.exe“ aus der vorherigen Stufe verwendet und ist <b>sehr unzufrieden</b>!  ",
+		"",
+		"Er gab Ihnen eine neue Aufgabe: Adressinformationen in Lebensläufen zu finden, um „Sie haben das Interview nicht bestanden“-Briefe zu versenden. Die Adressdaten dürfen <b>keinen zusätzlichen Text</b> wie „Address:“ enthalten.  ",
+		"",
+		"Sie hörten von einer Regex-Technik namens <b>„Nullbreite Positive Lookbehind-Assertion“</b>:  ",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color>",
+		"",
+		"Beispiel: Mit <color=#05C3BA>(?</color><color=#AB2800><= A </color><color=#05C3BA>)</color><color=#AB2800>BC</color> wird <color=#3c3cff>ABC</color> gematcht. Ergebnis:  ",
+		"<color=#666666>A</color><color=#3c3cff>BC</color>",
+		"",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color> „frisst“ magisch den durch <color=#AB2800>subexpression</color> gematchen Teil!  ",
+		"",
+		"",
+		"Konstruieren Sie einen regulären Ausdruck, der <b>alle Tests auf der rechten Seite besteht</b>."
+	],
+	"m_SystemLanguage":"German"
+}

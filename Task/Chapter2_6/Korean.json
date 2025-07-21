@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"<color=#AB2800>.</color>   모든 문자 일치",
+		"<color=#AB2800>\\.</color> \".\" 문자 일치",
+		"",
+		"예를 들어, <color=#AB2800>\\.1</color>은(는) <color=#3c3cff>2.13</color>에서 .1과 일치합니다.",
+		"",
+		"파일 확장자는 일반적으로 \".\" 뒤에 일련의 문자가 오는 형태로, 파일 이름 끝에 위치합니다. 파일 확장자는 파일의 저장 형식을 나타냅니다.",
+		"",
+		"<color=#3173FF>\\w</color> 는 일반적으로 대문자 및 소문자 a-z, A-Z, 밑줄 _ 및 숫자 0-9를 포함하는 단어의 모든 문자와 일치합니다.",
+		"C# 에서는 다른 언어의 문자도 일치합니다(예: <color=#3173FF>\\w</color><color=#FF68DD>+</color> 는 <color=#3c3cff> 汉字, 日本語, 한국어, Português와 일치합니다.</color>",
+		"<color=#3c3cff>汉字</color><color=#666666>, 日本語, 한국어, Português</color>",
+		"<color=#666666>汉字, </color><color=#3c3cff>日本語</color><color=#666666>, 한국어, Português</color>",
+		"<color=#666666>汉字, 日本語, </color><color=#3c3cff>한국어</color><color=#666666>, Português</color>",
+		"<color=#666666>汉字, 日本語, 한국어, </color><color=#3c3cff>Português</color>",
+		"",
+		"사용자가 몇 가지 파일 경로를 입력했습니다. 유효한 입력에 대해서는 파일 확장자를 일치시키고,",
+		"유효하지 않은 입력에 대해서는 출력할 필요가 없습니다.",
+		"",
+		"예를 들어:",
+		"C:/ABCD/readme.txt   예상 출력 파일 확장자 .txt",
+		"/home/abc/config.ini    예상 출력 파일 확장자 .ini",
+		"/var/www/log               파일 확장자 없음",
+		"",
+		"",
+		"오른쪽의 모든 테스트를 통과하는 정규 표현식을 구성하십시오."
+	],
+	"m_SystemLanguage":"Korean"
+}

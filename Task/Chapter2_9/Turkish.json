@@ -1,0 +1,24 @@
+{
+	"m_DescList":[
+		"Patron, çalışanların QQ e-posta adreslerini toplamayı istedi. Bu görevi dün meslektaşınız Zhang San'a verdi. Bu sabah, Zhang San sol ayağıyla şirkete adım attığı için kovuldu.  ",
+		"Şimdi bu görev size verildi!  ",
+		"",
+		"QQ e-postaları şu özelliklere sahiptir:  ",
+		"<color=#3c3cff>0-9</color> 5-11 basamaklı ondalık sayılardan oluşur  ",
+		"<color=#3c3cff>@qq.com</color> Sabit bir sonekten oluşur  ",
+		"",
+		"Meslektaşlarınız her zaman dikkatsizdir ve büyük ihtimalle hatalı bilgi girerler.  ",
+		"**Normal görünen** QQ e-postalarıyla eşleşen bir düzenli ifade tasarlayın.  ",
+		"",
+		"<b>Örneğin</b>, aşağıdaki verilerde belirgin hatalar bulunur:  ",
+		"123.123@qq.com Hatalı \".\" sembolü içerir  ",
+		"12345@qq.com12346@qq.com İki kişinin e-postası birleştirilmiş  ",
+		"",
+		"",
+		"Sağdaki tüm testleri geçecek bir düzenli ifade oluşturun.  ",
+		"",
+		"",
+		"<color=#666666>İpucu: Önceki iki soruda öğrendiklerinizi kullanın</color>"
+	],
+	"m_SystemLanguage":"Turkish"
+}

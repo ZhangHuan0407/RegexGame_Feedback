@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"一段文字往往是有开头有结尾的。",
+		"",
+		"使用 <color=#FF68DD>\\A</color> 或 <color=#FF68DD>^</color> 来表述字符串的开头，",
+		"",
+		"例如，使用 <color=#FF68DD>\\A</color><color=#AB2800>0</color> 匹配示例，即\"匹配以0开头的内容\"，",
+		"示例：",
+		"<color=#FF68DD>\\A</color><color=#AB2800>0</color> 匹配 <color=#3c3cff>011</color> 返回 <color=#3c3cff>0</color><color=#666666>11</color>",
+		"<color=#FF68DD>\\A</color><color=#AB2800>0</color> 匹配 <color=#3c3cff>0</color> 返回 <color=#3c3cff>0</color>",
+		"<color=#FF68DD>\\A</color><color=#AB2800>0</color> 匹配 <color=#3c3cff>_0</color> 不匹配",
+		"",
+		"使用 <color=#FF68DD>\\Z</color> 或 <color=#FF68DD>$</color> 来表述字符串的结尾，",
+		"",
+		"例如，使用 <color=#e06600>1\\Z</color> 匹配示例，即\"匹配以1结尾的内容\"，",
+		"示例：",
+		"<color=#AB2800>1</color><color=#FF68DD>\\Z</color> 匹配 <color=#3c3cff>001</color> 返回 <color=#666666>00</color><color=#3c3cff>1</color>",
+		"<color=#AB2800>1</color><color=#FF68DD>\\Z</color> 匹配 <color=#3c3cff>1</color> 返回 <color=#3c3cff>1</color>",
+		"<color=#AB2800>1</color><color=#FF68DD>\\Z</color> 匹配 <color=#3c3cff>1_</color> 不匹配",
+		"",
+		"",
+		"现在，需要匹配所有只包含数字1的字符串。",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。"
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

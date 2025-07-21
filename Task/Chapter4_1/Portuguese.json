@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"À medida que as expressões regulares se tornam mais complexas, uma única correspondência de texto pode capturar vários grupos.  ",
+		"Atribuímos nomes exclusivos a essas expressões para distinguir qual resultado de grupo capturado devemos recuperar.  ",
+		"",
+		"Por exemplo, <color=#AB2800>A</color> corresponde a <color=#3c3cff>A</color><color=#666666>BC</color> em <color=#3c3cff>ABC</color>.  ",
+		"",
+		"Podemos nomear o grupo de captura esperado para <color=#AB2800>A</color> como <color=#AB2800>test</color>, construindo a expressão: <color=#05C3BA>(?</color><color=#AB2800><test>A</color><color=#05C3BA>)</color>",
+		"",
+		"A correspondência dessa expressão com <color=#3c3cff>ABC</color> resulta em:  ",
+		"<color=#3c3cff>A</color>            Resultado geral da correspondência  ",
+		"<color=#3c3cff><test>A</color>  Resultado do grupo de captura \"test\"  ",
+		"",
+		"Por exemplo, para capturar o número inteiro antes do ponto decimal nomeando o grupo como \"int\", construa: <color=#05C3BA>(?</color><color=#AB2800><int></color><color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#05C3BA>)</color><color=#AB2800>\\.</color><color=#3173FF>\\d</color><color=#FF68DD>+</color>",
+		"",
+		"A correspondência dessa expressão com <color=#3c3cff>Preço: 1.99</color> resulta em:  ",
+		"<color=#3c3cff>1.99</color>    Resultado geral  ",
+		"<color=#3c3cff><int>1</color> Resultado do grupo \"int\"",
+		"",
+		"E-mails corporativos exigem extração de nomes no texto. O conteúdo deve:  ",
+		"1. Começar com <b>name</b> ou <b>Name</b>  ",
+		"2. Seguir padrões: name is xxx, name: xxx, name:xxx  ",
+		"3. Excluir símbolos \\n , . – interrompendo a correspondência ao encontrá-los  ",
+		"",
+		"Convenção: Nomeie o grupo de captura como \"Name\".",
+		"",
+		"",
+		"Por favor construa uma expressão regular que passe em todos os testes à direita.  "
+	],
+	"m_SystemLanguage":"Portuguese"
+}

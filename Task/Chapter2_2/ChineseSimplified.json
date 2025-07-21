@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"文字中往往包含空格，因此约定使用<color=#3173FF>\\s</color> 表示\"空格\"的含义。",
+		"",
+		"<color=#3173FF>\\s</color> 匹配空格字符",
+		"",
+		"<b>例如</b>",
+		"<color=#AB2800>1</color><color=#3173FF>\\s</color><color=#AB2800>2</color>  匹配 <color=#3c3cff>A1 2B</color> 中的 <color=#666666>A</color><color=#3c3cff>1 2</color><color=#666666>B</color>",
+		"<color=#AB2800>o</color><color=#3173FF>\\s</color><color=#AB2800>W</color> 匹配 <color=#3c3cff>Hello World</color> 中的 <color=#666666>Hell</color><color=#3c3cff>o W</color><color=#666666>orld</color>",
+		"",
+		"领导来查岗了！所有屁股不在工位上的同事都要有麻烦了！",
+		"o(*￣︶￣*)o",
+		"工位如果有人则用\"X\"表示，没人则用\" \"表示。",
+		"",
+		"<b>例如</b>",
+		"| |X|X| 表示第一个工位空着人，第二、第三个工位有人。",
+		"",
+		"现在，老板要你来统计工位缺席的情况，狠狠地扣他们奖金。",
+		"",
+		"",
+		"对于100%的输入数据，约定以下规则：",
+		"1. 只存在 \" \"(\\u0020) \"|\" \"X\"  3种字符",
+		"2. 临近的两个 \"|\" 符号中间，必须有 \" \" 或 \"X\"",
+		"",
+		"<img src=Texture/Task/Level2_2WhiteChar width=524 height=160>",
+		"当选中某一个匹配结果时，将使用<color=#e06600>□</color>代替匹配结果中的空格。",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。",
+		""
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

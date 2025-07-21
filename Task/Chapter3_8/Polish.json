@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"Kiedy ostatnio użyto <color=#AB2800>Sna.</color><color=#FF68DD>*</color><color=#AB2800>ke</color> do dopasowania <color=#3c3cff>Snake Snaake</color>,  ",
+		"wynik bezpośrednio przechwycił oba węże naraz <color=#3c3cff>Snake Snaake</color>, o mało nie ugryzły. ;(  ",
+		"",
+		"Węże są teraz splątane.  ",
+		"Dla <color=#3c3cff>Snasssnkeake</color> oczekiwany wynik to:  ",
+		"<color=#3c3cff>Snasssnke</color><color=#666666>ake</color>  ",
+		"",
+		"Tym razem zaczyna się od <color=#3c3cff>Sna</color>, a kończy po znalezieniu pierwszego <color=#3c3cff>ke</color>.  ",
+		"",
+		"<b>Dopasowanie zachłanne (Greedy)</b>  ",
+		"W wyrażeniach regularnych <color=#FF68DD>*</color> aktywuje tryb zachłanny, który stara się dopasować jak najwięcej znaków.  ",
+		"",
+		"Np. <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> dopasowuje <color=#3c3cff>BABAB</color> w <color=#3c3cff>BABAB</color>, zamiast tylko \"BAB\". <color=#FF68DD>*</color> przechwytuje maksymalną ilość treści.  ",
+		"",
+		"<b>Dopasowanie leniwe (Lazy)</b>  ",
+		"W wyrażeniach regularnych <color=#FF68DD>*?</color> aktywuje tryb niechciwy, dopasowując minimalną ilość znaków.  ",
+		"",
+		"Np. <color=#AB2800>BA.</color><color=#FF68DD>*?</color><color=#AB2800>B</color> zwraca dwa wyniki dla <color=#3c3cff>BABAB</color>:  ",
+		"<color=#3c3cff>BAB</color><color=#666666>AB</color>  ",
+		"<color=#666666>BA</color><color=#3c3cff>BAB</color>  ",
+		"",
+		"Dla wszystkich danych wejściowych obowiązują zasady:  ",
+		"1. Mieszanie trybów zachłannego i leniwego jest zbyt złożone; użycie samego <b>dopasowania leniwego</b> rozwiązuje wszystkie przypadki testowe  ",
+		"2. Przechwytywaj tylko <b>jednego węża</b> na raz  ",
+		"3. Oczekiwane dopasowanie zaczyna się od \"Sna\", po którym następują znaki, kończąc na \"ke\"  ",
+		"",
+		"",
+		"Proszę skonstruować wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

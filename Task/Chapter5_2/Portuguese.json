@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"No Markdown, cabeçalhos são denotados usando vários símbolos # consecutivos.  ",
+		"A quantidade de # define o nível do cabeçalho.  ",
+		"",
+		"Por exemplo:  ",
+		"<img src=Texture/Task/MarkdownTitle width=267 height=89>  ",
+		"",
+		"O objetivo é criar uma expressão regular que corresponda a seções de cabeçalho, com as seguintes convenções:  ",
+		"1. <b>Inclui</b> o prefixo #, seguido por pelo menos um espaço  ",
+		"2. Todas as entradas são strings de linha única  ",
+		"3. O grupo de captura para conteúdo do cabeçalho deve ser nomeado \"title\"  ",
+		"",
+		"Nota: Devido ao uso do modo RegexOptions.IgnorePatternWhitespace, linhas iniciando com <color=#33aa55>#</color> serão tratadas como comentários.  ",
+		"",
+		"Use \\# para corresponder ao caractere \"#\"  ",
+		"",
+		"",
+		"Construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

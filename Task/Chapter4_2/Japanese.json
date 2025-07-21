@@ -1,0 +1,19 @@
+{
+	"m_DescList":[
+		"上司が、あなたが前のステージで作成した「メールフィルタリングアシスタント.exe」を使用しましたが、<b>非常に不満を持っています</b>！",
+		"",
+		"彼は新しいタスクをあなたに与えました。履歴書内の住所情報をマッチングさせ、「あなたは面接に合格しませんでした」というメールを送信するというものです。住所情報には余計な「Address:」というテキストを含めてはいけません。",
+		"",
+		"あなたは「ゼロ幅肯定後読みアサーション（Zero-Width Positive Lookbehind Assertion）」と呼ばれる正規表現の記述方法を耳にしました：",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color>",
+		"",
+		"例えば、<color=#05C3BA>(?</color><color=#AB2800><= A </color><color=#05C3BA>)</color><color=#AB2800>BC</color> を使って <color=#3c3cff>ABC</color> をマッチングさせると、結果は次のようになります：",
+		"<color=#3c3cff>BC</color>",
+		"",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color> は、<color=#AB2800>subexpression</color> がマッチした部分を<b>魔法のように「消費」してしまう</b>のです！",
+		"",
+		"",
+		"右側の全てのテストケースを通過する正規表現を構築してください。"
+	],
+	"m_SystemLanguage":"Japanese"
+}

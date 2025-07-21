@@ -1,0 +1,48 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"Address: test case",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"test case"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":9,
+					"length":9
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"Email: 123987AAbbcc@gmail.com\nName: Zhang San\nPhone: 123-4567890\nAddress: ABC street 123 room",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"ABC street 123 room"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":74,
+					"length":19
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"Address: Moon\nName: Alien",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"Moon"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":9,
+					"length":4
+				}
+			],
+			"m_CheckOrder":false
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":"(?<=Address:\\s)[^\\n]*"
+}

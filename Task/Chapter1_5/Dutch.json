@@ -1,0 +1,19 @@
+{
+	"m_DescList":[
+		"Enkele decimalen \"1.1\", gehele getallen \"0\" en niet-numerieke strings \"a.1\" zijn door elkaar gegooid. Nu moeten alle decimalen exact worden herkend.",
+		"",
+		"Het decimaalteken wordt weergegeven als <color=#AB2800>\\.</color>",
+		"",
+		"Het doel is om decimalen te herkennen.  ",
+		"Als er letters of overbodige symbolen <b>voor of na</b> het decimaal getal staan, mislukt de herkenning.",
+		"",
+		"Voor deze test hebben de te herkennen decimalen de volgende kenmerken:  ",
+		"<color=#3c3cff>-</color>     Een minteken kan voorafgaan (optioneel)  ",
+		"<color=#3c3cff>\\d</color>   Meerdere Arabische cijfers  ",
+		"<color=#3c3cff>\\.</color>     Eén decimaalpunt  ",
+		"<color=#3c3cff>\\d</color>   Meerdere Arabische cijfers  ",
+		"",
+		"Construeer een reguliere expressie die alle tests aan de rechterkant doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

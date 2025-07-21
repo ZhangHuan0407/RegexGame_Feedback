@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"<color=#e06600>(?<= subexpression )</color> is a zero-width positive lookbehind assertion that looks to the left and <b>matches and consumes</b> the matched content.",
+		"",
+		"<color=#e06600>(?= subexpression )</color> is a zero-width positive lookahead assertion that predicts to the right and checks if the preceding text matches the subexpression. If the predicted text matches the subexpression, <b>it does not include the content in the match result</b>.",
+		"",
+		"For example, using the regular expression <color=#e06600>1(?= 2 )</color> to attempt matching the following test cases:",
+		"<color=#3c3cff>123</color>, result is <color=#3c3cff>1</color><color=#666666>23</color>",
+		"<color=#3c3cff>111</color>, there is no content matching <color=#e06600>(?= 2 )</color>, so no match",
+		"",
+		"In Markdown, using ** double asterisks to wrap a piece of text can add a bold effect.",
+		"",
+		"For example:",
+		"**Markdown**",
+		"<img src=Texture/Task/MarkdownBold width=193 height=40>",
+		"",
+		"Now, we aim to write a regular expression to match the content inside the bold part, with the following conventions:",
+		"1. <b>Do not include</b> the double asterisks on both sides",
+		"2. All input is single-line strings",
+		"3. To simplify the problem difficulty, there are no test cases with three consecutive ***.",
+		"",
+		"",
+		"Please construct a regular expression that passes all the tests on the right."
+	],
+	"m_SystemLanguage":"English"
+}

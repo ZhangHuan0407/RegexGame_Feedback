@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"INI-bestanden zijn tekstbestanden gebruikt voor het opslaan van configuratie-informatie.  ",
+		"Ze bestaan doorgaans uit meerdere secties en sleutelwaardeparen.  ",
+		"Wanneer het <b>eerste zichtbare karakter</b> van een regel <color=#3c3cff>;</color> of <color=#3c3cff>#</color> is, wordt de <b>hele resterende inhoud</b> van die regel als commentaar beschouwd.  ",
+		"",
+		"<img src=Texture/Task/IniComment width=644 height=169>  ",
+		"",
+		"Bijvoorbeeld: <color=#3c3cff># this is a comment</color> is een commentaarregel.  ",
+		"",
+		"Het doel is om commentaarregels te matchen met deze conventies:  ",
+		"1. Elke testcase bevat precies 1 regel (geen \\n)  ",
+		"2. Als de regel commentaar is, match dan de volledige inhoud ",
+		"3. Het begin van de regel mag nul of meer witruimtekarakters bevatten  ",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle testcases rechts doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

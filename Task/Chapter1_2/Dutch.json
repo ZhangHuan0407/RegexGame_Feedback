@@ -1,0 +1,18 @@
+{
+	"m_DescList":[
+		"Negatieve getallen worden weergegeven met het symbool <color=#AB2800>-</color>.",
+		"",
+		"Bijvoorbeeld: met de reguliere expressie <color=#AB2800>-</color> om <color=#3c3cff>-1</color> te matchen, is het resultaat:",
+		"<color=#3c3cff>-</color><color=#666666>1</color>",
+		"",
+		"Nu is het doel om negatieve getallen te vinden.",
+		"",
+		"In deze test hebben de te matchen decimale getallen de volgende kenmerken:",
+		"<color=#3c3cff>-</color>     Minteken (negatief teken)",
+		"<color=#3c3cff>\\d</color>   Een of meer herhalende Arabische cijfers",
+		"",
+		"",
+		"Maak een reguliere expressie die alle tests aan de rechterkant doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

@@ -1,0 +1,25 @@
+{
+	"m_DescList":[
+		"<color=#e06600>(?<= subexpression )</color> est une assertion de postérieure positive de largeur nulle qui effectue une vérification vers l'arrière (gauche) et <b>correspond et consomme</b> le contenu correspondant.",
+		"",
+		"<color=#e06600>(?= subexpression )</color> est une assertion d'antérieure positive de largeur nulle qui prédit vers l'avant (droite) et vérifie si le texte suivant correspond à la sous-expression. Si le texte prédit correspond à la sous-expression, <b>il ne l'inclut pas dans le résultat de correspondance</b>.",
+		"",
+		"Par exemple, en utilisant l'expression régulière <color=#e06600>1(?= 2 )</color> pour tenter de correspondre aux cas de test suivants :",
+		"<color=#3c3cff>123</color>, résultat : <color=#3c3cff>1</color><color=#666666>23</color>",
+		"<color=#3c3cff>111</color>, aucun contenu ne correspond à <color=#e06600>(?= 2 )</color>, donc pas de correspondance",
+		"",
+		"En Markdown, l'utilisation de ** doubles astérisques pour encadrer un texte permet d'ajouter un effet gras.",
+		"",
+		"Exemple :",
+		"**Markdown**",
+		"<img src=Texture/Task/MarkdownBold width=193 height=40>",
+		"",
+		"L'objectif est maintenant de créer une expression régulière correspondant au contenu en gras, avec les conventions suivantes :",
+		"1. <b>Ne pas inclure</b> les doubles astérisques de chaque côté",
+		"2. Toutes les entrées sont des chaînes de caractères à ligne unique",
+		"3. Pour simplifier l'exercice, aucun cas de test ne contiendra trois astérisques consécutives ***",
+		"",
+		"Veuillez construire une expression régulière qui réussisse tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

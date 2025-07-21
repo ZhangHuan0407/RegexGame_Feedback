@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"İşte Türkçe çeviri, tüm teknik format etiketleri ve orijinal anlam korunarak:",
+		"",
+		"Metinler genellikle boşluk içerir, bu nedenle \"boşluk\" anlamında <color=#3173FF>\\s</color> kullanımını benimsiyoruz.",
+		"",
+		"<color=#3173FF>\\s</color> bir boşluk karakterini eşleştirir",
+		"",
+		"<b>Örneğin:</b>",
+		"<color=#AB2800>1</color><color=#3173FF>\\s</color><color=#AB2800>2</color>   <color=#3c3cff>A1 2B</color> içindeki <color=#666666>A</color><color=#3c3cff>1 2</color><color=#666666>B</color> 'yi eşleştirir  ",
+		"<color=#AB2800>o</color><color=#3173FF>\\s</color><color=#AB2800>W</color>  <color=#3c3cff>Hello World</color> içindeki <color=#666666>Hell</color><color=#3c3cff>o W</color><color=#666666>orld</color> 'yu eşleştirir  ",
+		"",
+		"Patron denetleme yapıyor! Masasında olmayan herkes başı belada!  ",
+		"o(*￣︶￣*)o  ",
+		"Dolu koltuk \"X\" ile, boş koltuk \" \" (boşluk) ile gösterilir.",
+		"",
+		"<b>Örneğin:</b>  ",
+		"| |X|X| → ilk koltuk boş, ikinci ve üçüncü koltuklar dolu demektir.  ",
+		"",
+		"Şimdi patron, boş koltukları tespit edip bonusları kesmenizi istiyor.  ",
+		"",
+		"Tüm giriş verileri için geçerli kurallar:  ",
+		"1. Sadece \" \" (\\u0020), \"|\", \"X\" karakterleri bulunur  ",
+		"2. Yan yana iki \"|\" işareti arasında mutlaka \" \" veya \"X\" olmalıdır  ",
+		"",
+		"<img src=Texture/Task/Level2_2WhiteChar width=524 height=160>  ",
+		"Bir eşleşme seçildiğinde, eşleşme içindeki boşluklar <color=#e06600>□</color> ile temsil edilecektir.",
+		"",
+		"",
+		"Lütfen sağdaki tüm testleri geçen bir düzenli ifade oluşturun.  "
+	],
+	"m_SystemLanguage":"Turkish"
+}

@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"<color=#AB2800>.</color>  匹配任意字符",
+		"<color=#AB2800>\\.</color> 匹配\".\"字符",
+		"",
+		"例如，<color=#AB2800>\\.1</color> 匹配 <color=#3c3cff>2.13</color> 中的 .1",
+		"",
+		"<color=#3173FF>\\w</color> 匹配任意单词字符，通常包含英文大小写字母 a-z, A-Z, 下划线 _, 数字 0-9",
+		"在C#中，也会匹配不同语言的文字，例如：<color=#3173FF>\\w</color><color=#FF68DD>+</color> 匹配 <color=#3c3cff>汉字, 日本語, 한국어, Português</color> 中的:",
+		"<color=#3c3cff>汉字</color><color=#666666>, 日本語, 한국어, Português</color>",
+		"<color=#666666>汉字, </color><color=#3c3cff>日本語</color><color=#666666>, 한국어, Português</color>",
+		"<color=#666666>汉字, 日本語, </color><color=#3c3cff>한국어</color><color=#666666>, Português</color>",
+		"<color=#666666>汉字, 日本語, 한국어, </color><color=#3c3cff>Português</color>",
+		"",
+		"",
+		"文件扩展名一般由\".\"外加一段字母组成，位于文件名的末尾。文件扩展名表述了文件的存储格式。",
+		"",
+		"用户输入了一些文件路径，对于合理的输入匹配文件扩展名，",
+		"对于不合理的输入无需输出。",
+		"",
+		"例如：",
+		"C:/ABCD/readme.txt   预期输出文件扩展名 .txt",
+		"/home/abc/config.ini    预期输出文件扩展名 .ini",
+		"/var/www/log               没有文件扩展名",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。",
+		""
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

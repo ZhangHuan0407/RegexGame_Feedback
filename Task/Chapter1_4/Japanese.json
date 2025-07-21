@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"時々、文字列に目的の<b>部分式</b>が含まれているか確信が持てない場合があります。",
+		"",
+		"存在する可能性のある内容を<color=#05C3BA>( )</color>で囲み、<color=#FF68DD>?</color>を追加することで、その内容が0回または1回出現することを表現できます。",
+		"",
+		"例：<color=#AB2800>a</color><color=#05C3BA>(</color><color=#AB2800>b</color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#AB2800>c</color>で<color=#3c3cff>abcac</color>をマッチングさせた結果:",
+		"<color=#3c3cff>abc</color><color=#666666>ac</color>",
+		"<color=#666666>abc</color><color=#3c3cff>ac</color>",
+		"",
+		"例：固定電話番号には市外局番が付く場合と付かない場合があります。",
+		"",
+		"<color=#3c3cff>010-12345678</color>",
+		"<color=#3c3cff>12345678</color>",
+		"上記の例では、010が市外局番です。",
+		"",
+		"例：<color=#05C3BA>( </color><color=#AB2800>010- </color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#3173FF>\\d</color><color=#FF68DD>+</color>で上記の例をマッチングさせた場合",
+		"<color=#05C3BA>( </color><color=#AB2800>010- </color><color=#05C3BA>)</color><color=#FF68DD>?</color>は、<color=#AB2800>010-</color>が存在するかどうかは関係ないことを意味します。",
+		"<color=#3c3cff>010-12345678</color> → <color=#3c3cff>010-12345678</color> を返す",
+		"<color=#3c3cff>12345678</color> → <color=#3c3cff>12345678</color> を返す",
+		"",
+		"ここで、任意の位置で文字 A をインターセプトし、その後に数字を追加してみます。",
+		"",
+		"今回のテストでマッチングさせる文字列の特性：",
+		"<color=#3c3cff>A</color>   英字A",
+		"<color=#3c3cff>\\d</color>   0個または1個の10進数字",
+		"",
+		"右側のすべてのテストケースを通過する正規表現を作成してください。"
+	],
+	"m_SystemLanguage":"Japanese"
+}

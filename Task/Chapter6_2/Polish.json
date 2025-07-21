@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"Programy czasami rekurencyjnie przeszukują wszystkie pliki w folderach. W prostych przypadkach można użyć symboli wieloznacznych (wildcards).  ",
+		"W bardziej złożonych sytuacjach wyrażenia regularne mogą również dopasowywać ścieżki plików.  ",
+		"",
+		"Celem jest dopasowanie plików spełniających następujące reguły:  ",
+		"1. Ścieżka zawiera folder o nazwie bin.  ",
+		"2. Plik kończy się na .exe lub .dll.  ",
+		"",
+		"Przykład:  ",
+		"<color=#3c3cff>/path/a/bin/b/c/test.exe</color> jest dopasowany, ponieważ:  ",
+		"<color=#666666>/path/a/</color><color=#3c3cff>bin</color><color=#666666>/b/c/test</color><color=#3c3cff>.exe</color>",
+		"",
+		"Uproszczenia:  ",
+		"1. Ścieżki zawierają wyłącznie \"/\" (bez backslashy \"\").  ",
+		"2. Każdy przypadek testowy zawiera tylko jedną ścieżkę.  ",
+		"3. Przypadki testowe składają się wyłącznie z małych liter.  ",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie. "
+	],
+	"m_SystemLanguage":"Polish"
+}

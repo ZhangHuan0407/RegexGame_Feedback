@@ -1,0 +1,18 @@
+{
+	"m_DescList":[
+		"No Markdown, fórmulas matemáticas envoltas entre símbolos $ serão renderizadas como equações padrão.  ",
+		"",
+		"Exemplo:  ",
+		"$y_{0} = x^\\frac{1}{2}_{0}$  ",
+		"<img src=Texture/Task/MarkdownMath width=140 height=69>  ",
+		"",
+		"O objetivo é criar uma expressão regular que corresponda a <b>fórmulas de linha única</b> com as seguintes convenções:  ",
+		"1. <b>Inclui</b> os símbolos $ em ambos os lados  ",
+		"2. Todas as entradas são apenas strings de linha única  ",
+		"3. O grupo de captura para fórmulas correspondentes deve ser nomeado \"exp\"  ",
+		"",
+		"",
+		"Construa uma expressão regular que passe em todos os casos de teste à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

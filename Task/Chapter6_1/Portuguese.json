@@ -1,0 +1,25 @@
+{
+	"m_DescList":[
+		"No desenvolvimento de software, frequentemente é necessário ler números de versão.  ",
+		"",
+		"Por exemplo, alguns iniciantes preferem codificar versões diretamente nos scripts:  ",
+		"",
+		"<color=#3c3cff>public const string</color> ResourceVersion = <color=#ee3300>\"1.2.3\"</color>;  ",
+		"",
+		"Embora não seja a melhor prática, é a implementação mais simples.  ",
+		"Um dia, você herdará inevitavelmente este monte de bosta de código!  ",
+		"",
+		"Seu objetivo é ler o código como texto e usar regex para corresponder precisamente aos números de versão!  ",
+		"",
+		"Convenção: Nomeie o grupo de captura da versão como \"version\"  ",
+		"",
+		"Exemplo:  ",
+		"<color=#3c3cff>public const string ResourceVersion = \"1.2.3\";</color>  ",
+		"Resultado esperado:  ",
+		"<color=#666666>public const string ResourceVersion = \"</color><color=#3c3cff>1.2.3</color><color=#666666>\";</color>  ",
+		"",
+		"",
+		"Construa um padrão regex que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

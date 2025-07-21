@@ -1,0 +1,27 @@
+{
+	"m_DescList":[
+		"Der reguläre Ausdruck <color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> bedeutet, dass <color=#AB2800>subexpression</color> <b>ohne Beachtung der Groß-/Kleinschreibung</b> gematcht wird.  ",
+		"Diese Operationen werden Gruppenoptionen genannt. Alle verfügbaren Parameter finden Sie unter <color=#05C3BA>(?</color><color=#AB2800>imnsx-imnsx: subexpression</color><color=#05C3BA>)</color>.",
+		"",
+		"Beispiel: <color=#05C3BA>(?i: </color><color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color><color=#05C3BA>)</color> matcht den Beispielstring <color=#3c3cff>aBC</color> mit folgenden Ergebnissen:  ",
+		"<color=#3c3cff>a</color><color=#666666>BC</color>  ",
+		"<color=#666666>a</color><color=#3c3cff>B</color><color=#666666>C</color>  ",
+		"<color=#666666>aB</color><color=#3c3cff>C</color>  ",
+		"<color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> ermöglicht es <color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color>, sowohl Klein- als auch Großbuchstaben zu matchen, was <color=#3173FF>[</color><color=#AB2800>abcABC</color><color=#3173FF>]</color> entspricht.  ",
+		"",
+		"In Workflow-Szenarien kann ein Programm Protokolle eines anderen Programms auslesen und basierend auf den Meldungen differenzierte Aktionen durchführen.  ",
+		"",
+		"Wenn beispielsweise das vorherige Programm \"error\" enthält, deutet dies auf mögliche Fehler in der Ausführung des vorgelagerten Programms hin, die Aufmerksamkeit erfordern.  ",
+		"",
+		"Ziel ist nun, Protokolle mit \"error\" zu matchen.  ",
+		"",
+		"Zur Vereinfachung gelten folgende Konventionen:  ",
+		"1. Testfälle beginnen mit <b>vierstelligem Jahr-zweistelligem Monat-zweistelligem Tag</b>  ",
+		"2. Jeder Testfall enthält nur <b>eine Zeile</b> Protokolldaten  ",
+		"3. Es existieren nur <b>\"ERROR\" (Großschreibung) und \"error\" (Kleinschreibung)</b>  ",
+		"",
+		"",
+		"Bitte konstruieren Sie einen regulären Ausdruck, der alle Testfälle auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

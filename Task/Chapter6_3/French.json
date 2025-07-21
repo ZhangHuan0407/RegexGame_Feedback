@@ -1,0 +1,27 @@
+{
+	"m_DescList":[
+		"L'expression régulière <color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> indique que <color=#AB2800>subexpression</color> sera <b>reconnue de manière insensible à la casse</b>.  ",
+		"Ces opérations sont appelées options de groupe. Pour tous les paramètres optionnels disponibles, reportez-vous à <color=#05C3BA>(?</color><color=#AB2800>imnsx-imnsx: subexpression</color><color=#05C3BA>)</color>.  ",
+		"",
+		"Par exemple, <color=#05C3BA>(?i: </color><color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color><color=#05C3BA>)</color> correspond à la chaîne exemple <color=#3c3cff>aBC</color> avec les résultats suivants :  ",
+		"<color=#3c3cff>a</color><color=#666666>BC</color>  ",
+		"<color=#666666>a</color><color=#3c3cff>B</color><color=#666666>C</color>  ",
+		"<color=#666666>aB</color><color=#3c3cff>C</color>  ",
+		"<color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> permet à <color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color> de reconnaître à la fois les minuscules et les majuscules, ce qui équivaut à <color=#3173FF>[</color><color=#AB2800>abcABC</color><color=#3173FF>]</color>.  ",
+		"",
+		"Dans les flux de travail, un programme peut parfois lire les journaux produits par un autre programme et effectuer un traitement différencié selon les messages de journalisation.  ",
+		"",
+		"Par exemple, si le programme précédent contient \"error\", cela indique des erreurs potentielles dans l'exécution du programme en amont nécessitant une attention particulière.  ",
+		"",
+		"L'objectif est désormais de reconnaître les journaux contenant \"error\".  ",
+		"",
+		"Pour simplifier, les conventions suivantes sont établies :  ",
+		"1. Les cas de test commencent par un préfixe <b>année à 4 chiffres - mois à 2 chiffres - jour à 2 chiffres</b>.  ",
+		"2. Chaque cas de test ne contient qu'<b>une ligne</b> de journaux.  ",
+		"3. Seules les formes <b>\"ERROR\" en majuscules et \"error\" en minuscules</b> existent.  ",
+		"",
+		"",
+		"Veuillez construire une expression régulière qui valide tous les cas de test à droite."
+	],
+	"m_SystemLanguage":"French"
+}

@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"ゲーム開発の過程で、よりリラックスした雰囲気を作り出すために、画像やミームを追加したいと考え続けていました。",
+		"",
+		"画像は以下の要素で構成されます：",
+		"1. リソースパス",
+		"2. 画像の幅",
+		"3. 画像の高さ",
+		"",
+		"例えば以下のグラフィック：",
+		"<img src=Texture/emoji_1 width=213 height=131>",
+		"",
+		"エディタへの実際の入力テキストは：",
+		"<color=#3c3cff><img src=</color><color=#ee3300>Texture/emoji_1</color> <color=#3c3cff>width=</color><color=#ee3300>213</color> <color=#3c3cff>height=</color><color=#ee3300>131</color><color=#3c3cff>></color>",
+		"",
+		"取り決め：",
+		"- src部分のキャプチャグループ名：\"Src\"",
+		"- width部分のキャプチャグループ名：\"Width\"",
+		"- height部分のキャプチャグループ名：\"Height\"",
+		"",
+		"全テストケースにおける取り決め：",
+		"1. src, width, heightの出現順序は不固定",
+		"2. テストケースにおいて、srcにスペースは含まれない",
+		"",
+		"右側の全テストを通過する正規表現を作成してください。"
+	],
+	"m_SystemLanguage":"Japanese"
+}

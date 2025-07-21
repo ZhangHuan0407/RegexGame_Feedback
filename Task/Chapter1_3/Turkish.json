@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"Bir metin genellikle bir başlangıca ve bir sona sahiptir.",
+		"",
+		"Bir dizenin başlangıcını belirtmek için <color=#FF68DD>\\A</color> veya <color=#FF68DD>^</color> kullanın.",
+		"",
+		"Örnek:",
+		"<color=#3c3cff>011</color>",
+		"<color=#3c3cff>0</color>",
+		"<color=#3c3cff>_0</color>",
+		"Örneğin, yukarıdaki örnekle eşleşmek için <color=#FF68DD>\\A</color><color=#AB2800>0</color> kullanmak (yani \"0 ile başlayan içerikle eşleş\"):",
+		"<color=#3c3cff>011</color> → 0 döndürür",
+		"<color=#3c3cff>0</color> → 0 döndürür",
+		"<color=#3c3cff>_0</color> → eşleşmez",
+		"",
+		"Bir dizenin sonunu belirtmek için <color=#FF68DD>\\Z</color> veya <color=#FF68DD>$</color> kullanın.",
+		"",
+		"Örnek:",
+		"<color=#3c3cff>001</color>",
+		"<color=#3c3cff>1</color>",
+		"<color=#3c3cff>1_</color>",
+		"Örneğin, yukarıdaki örnekle eşleşmek için <color=#AB2800>1</color><color=#FF68DD>\\Z</color> kullanmak (yani \"1 ile biten içerikle eşleş\"):",
+		"<color=#3c3cff>001</color> → 1 döndürür",
+		"<color=#3c3cff>1</color> → 1 döndürür",
+		"<color=#3c3cff>1_</color> → eşleşmez",
+		"",
+		"Şimdi, yalnızca \"1\" rakamını içeren tüm dizeleri eşleştirmeniz gerekiyor.",
+		"",
+		"",
+		"Lütfen sağdaki tüm testleri geçen bir düzenli ifade (regex) oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

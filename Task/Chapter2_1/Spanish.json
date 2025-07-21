@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"En expresiones regulares, estos dos símbolos tienen significados especiales:  ",
+		"<color=#AB2800>.</color> coincide con cualquier carácter  ",
+		"<color=#FF68DD>*</color> coincide con la subexpresión anterior cero o más veces  ",
+		"",
+		"Por ejemplo:  ",
+		"<color=#AB2800>1</color><color=#FF68DD>*</color> coincide con <color=#3c3cff>111</color> en <color=#3c3cff>A111A</color>  ",
+		"<color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> coincide con <color=#3c3cff>BABAB</color> en <color=#3c3cff>BABAB</color>  ",
+		"",
+		"En esta prueba, el contenido a coincidir tiene estas características:  ",
+		"<color=#3c3cff>Sna</color>   existe un segmento que comienza con \"Sna\"  ",
+		"<color=#3c3cff>.</color>        contiene varios caracteres arbitrarios en medio  ",
+		"<color=#3c3cff>ke</color>      existe un segmento que termina con \"ke\"  ",
+		"",
+		"¡No cojas la serpiente equivocada, muerde!  ",
+		"",
+		"<b>Coincidencia voraz</b>  ",
+		"En expresiones regulares, <color=#FF68DD>*</color> activa la coincidencia voraz, intentando coincidir con la mayor cantidad de caracteres posible.  ",
+		"Por ejemplo, <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> coincide con <color=#3c3cff>BABAB</color> completo en <color=#3c3cff>BABAB</color>, no solo con una parte como BAB. ",
+		"<color=#FF68DD>*</color> captura tanto contenido como sea posible.  ",
+		"",
+		"Ahora, se espera coincidir con la palabra \"Snake\".  ",
+		"Si hay muchas 'a', coincide con tantas 'a' como sea posible.  ",
+		"",
+		"Construye una expresión regular que pase todas las pruebas a la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

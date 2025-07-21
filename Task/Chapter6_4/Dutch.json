@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"Tijdens softwareontwikkeling kan Git gebruikt worden als versiebeheertool, met Jira als projectmanagementtool.  ",
+		"Wanneer een ontwikkelaar's commitlog [PROJ-XXX] bevat, wordt het commitrecord automatisch gekoppeld aan het opgegeven Jira-issue.  ",
+		"",
+		"Speciale conventies voor commitrecordopmaak zijn als volgt:  ",
+		"<color=#3173FF>[</color>     Speciaal halfbreedtekarakter \"[\"  ",
+		"<color=#3173FF>\\w</color>   Meerdere tekstkarakters  ",
+		"<color=#3173FF>-</color>     Speciaal halfbreedtekarakter \"-\"  ",
+		"<color=#3173FF>\\d</color>   Meerdere cijfers  ",
+		"<color=#3173FF>]</color>     Speciaal halfbreedtekarakter \"]\"  ",
+		"",
+		"Bijvoorbeeld, het volgende is een overeenkomend commitrecord:  ",
+		"<color=#3c3cff>[PROJ-123]</color> <color=#666666>fix null reference error</color>  ",
+		"",
+		"Construeer nu een reguliere expressie om te controleren of commitlogs overeenkomen met het koppelingsformaat.  ",
+		"",
+		"",
+		"Bouw een reguliere expressie die alle testen aan de rechterkant doorstaat. "
+	],
+	"m_SystemLanguage":"Dutch"
+}

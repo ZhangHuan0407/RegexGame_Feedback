@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"우리는 앞서 길이가 100인 숫자를 어떻게 매칭하는지 논의했었죠. 당연히:",
+		"<color=#666666>\\d\\d\\d\\d\\d...</color> <color=#ff0000>X</color>",
+		"",
+		"정규 표현식 뒤에 <color=#FF68DD>{n}</color> 을(를) 추가하면 앞의 정규 표현식이 n번 반복됨을 의미합니다. n은 자연수입니다.",
+		"",
+		"<b>예를 들어</b>, <color=#AB2800>1</color><color=#FF68DD>{3}</color> 은(는) 3번 반복된 1을 매칭하는 것을 의미합니다.",
+		"<color=#AB2800>1</color><color=#FF68DD>{3}</color> 은(는) <color=#3c3cff>12111311</color> 에서 <color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color> 을 매칭합니다.",
+		"",
+		"정규 표현식 뒤에 <color=#FF68DD>{n,}</color> 을(를) 추가하면 앞의 정규 표현식이 적어도 n번 이상 반복됨을 의미합니다. n은 자연수입니다.",
+		"",
+		"<b>예를 들어</b>, <color=#AB2800>1</color><color=#FF68DD>{2,}</color> 은(는) <color=#3c3cff>12111311</color> 에서 다음을 매칭합니다:",
+		"<color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color>",
+		"<color=#666666>121113</color><color=#3c3cff>11</color>",
+		"",
+		"정규 표현식 뒤에 <color=#FF68DD>{n,m}</color> 을(를) 추가하면 앞의 정규 표현식이 적어도 n번, 최대 m번 반복됨을 의미합니다. n과 m은 모두 자연수입니다.",
+		"",
+		"<b>예를 들어</b>, <color=#AB2800>o</color><color=#FF68DD>{1,2}</color> 은(는) <color=#3c3cff>Choose your right friends ooo</color> 에서 다음을 매칭합니다:",
+		"<color=#666666>Ch</color><color=#3c3cff>oo</color><color=#666666>se your right friends ooo</color>",
+		"<color=#666666>Choose y</color><color=#3c3cff>o</color><color=#666666>ur right friends ooo</color>",
+		"",
+		"오랜만이에요, 뱀이 더 길어졌네요!",
+		"이제 \"a\"의 길이가 3보다 크고 5보다 작은 뱀을 골라내야 합니다.",
+		"잘못된 뱀을 집으면 물릴 수 있으니 조심하세요!",
+		"",
+		"",
+		"오른쪽의 모든 테스트를 통과하는 정규 표현식을 구성해 주세요."
+	],
+	"m_SystemLanguage":"Korean"
+}

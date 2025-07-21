@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"Les fichiers INI sont des fichiers texte utilisés pour stocker des informations de configuration.  ",
+		"Ils sont généralement constitués de plusieurs sections et paires clé-valeur.  ",
+		"Lorsque le premier caractère visible d'une ligne est <color=#3c3cff>;</color> ou <color=#3c3cff>#</color>, le contenu restant de cette ligne est considéré comme un commentaire.  ",
+		"",
+		"<img src=Texture/Task/IniComment width=644 height=169>  ",
+		"",
+		"Par exemple, <color=#3c3cff># ceci est un commentaire</color> est une ligne de commentaire.  ",
+		"",
+		"L'objectif est de faire correspondre les lignes de commentaire avec les conventions suivantes :  ",
+		"1. Chaque cas de test contient exactement 1 ligne (pas de \\n)  ",
+		"2. Si la ligne est un commentaire, faire correspondre l'intégralité de son contenu  ",
+		"3. L'en-tête de ligne peut contenir zéro ou plusieurs caractères d'espacement  ",
+		"",
+		"",
+		"Construisez une expression régulière pour réussir tous les cas de test à droite."
+	],
+	"m_SystemLanguage":"French"
+}

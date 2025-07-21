@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Texto frequentemente contém espaços, por convenção usamos <color=#3173FF>\\s</color> para representar \"espaço\".",
+		"",
+		"<color=#3173FF>\\s</color> corresponde ao caractere de espaço",
+		"",
+		"<b>Por exemplo:</b>",
+		"<color=#AB2800>1</color><color=#3173FF>\\s</color><color=#AB2800>2</color>  corresponde a <color=#3c3cff>A1 2B</color> → <color=#666666>A</color><color=#3c3cff>1 2</color><color=#666666>B</color>",
+		"<color=#AB2800>o</color><color=#3173FF>\\s</color><color=#AB2800>W</color> corresponde a <color=#3c3cff>Hello World</color> → <color=#666666>Hell</color><color=#3c3cff>o W</color><color=#666666>orld</color>",
+		"",
+		"O chefe veio fiscalizar! Quem tiver a bunda fora do lugar vai se complicar!  ",
+		"o(*￣︶￣*)o  ",
+		"Lugares ocupados são marcados com \"X\", vazios com \" \".",
+		"",
+		"<b>Exemplo:</b>  ",
+		"| |X|X| indica que a primeira estação está vazia, a segunda e terceira ocupadas.",
+		"",
+		"Agora o chefe quer que você verifique lugares vazios para descontar cruelmente os bônus.",
+		"",
+		"Para 100% dos dados de entrada, valem as regras:  ",
+		"1. Contém apenas 3 caracteres: \" \" (\\u0020), \"|\", \"X\"  ",
+		"2. Entre dois símbolos \"|\" adjacentes deve haver \" \" ou \"X\"  ",
+		"",
+		"<img src=Texture/Task/Level2_2WhiteChar width=524 height=160>  ",
+		"Quando uma correspondência é selecionada, os espaços dentro dela serão representados por <color=#e06600>□</color>.",
+		"",
+		"",
+		"Construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

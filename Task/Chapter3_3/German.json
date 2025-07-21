@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"Hier ist die deutsche Übersetzung des Textes:",
+		"",
+		"In C#-Code wird alles nach \"//\" in derselben Zeile als Kommentar behandelt und nicht kompiliert.",
+		"",
+		"<color=#249622>// Dies ist ein Kommentar</color>  ",
+		"<color=#3c3cff>public int</color> UserID;  ",
+		"",
+		"<color=#60a3da>[SerializeField]</color> <color=#249622>// Kommentar 123</color>  ",
+		"<color=#3c3cff>private string</color> m_TextAssetPath;  ",
+		"",
+		"<color=#249622>// Innerhalb von Kommentaren bleiben \"//\"-Symbole Teil des Kommentars</color>  ",
+		"<color=#3c3cff>public class</color> <color=#60a3da>A</color>  ",
+		"{  ",
+		"}  ",
+		"",
+		"In den obigen Beispielen sind die grünen Abschnitte Kommentare. Ab dem \"//\"-Start werden alle folgenden grünen Inhalte in dieser Zeile als Kommentar behandelt.",
+		"",
+		"Nun soll ein regulärer Ausdruck entworfen werden, der das Verhalten des Compilers beim Erkennen von einzeiligen Kommentaren simuliert.",
+		"",
+		"Für 100% der Eingabedaten gelten folgende Regeln:  ",
+		"a) Es existieren keine mehrzeiligen Kommentare, nur einzeilige  ",
+		"b) Zeilenumbrüche werden ausschließlich durch \"",
+		"\" markiert (keine \"\\r\", \"\\v\" etc.)  ",
+		"c) Mindestens zwei aufeinanderfolgende \"/\" gelten als einzeiliger Kommentar (z.B. \"///\")",
+		"",
+		"",
+		"Konstruieren Sie einen regulären Ausdruck, der alle Tests auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

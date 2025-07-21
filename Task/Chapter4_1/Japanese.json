@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"正規表現が複雑になるにつれ、1回のテキストマッチで複数のキャプチャグループを取得する場合があります。  ",
+		"各表現に独立した名前を付けることで、どのキャプチャグループの結果を取得すべきか区別できるようにします。  ",
+		"",
+		"例： <color=#AB2800>A</color> が <color=#3c3cff>ABC</color> 中の <color=#3c3cff>A</color><color=#666666>BC</color> にマッチ  ",
+		"",
+		"<color=#AB2800>A</color> のキャプチャグループに <color=#AB2800>test</color> という名前を付け、式を <color=#05C3BA>(?</color><color=#AB2800><test>A</color><color=#05C3BA>)</color> と構築可能  ",
+		"",
+		"上記の式が <color=#3c3cff>ABC</color> にマッチした結果：  ",
+		"<color=#3c3cff>A</color>           式全体のマッチ結果  ",
+		"<color=#3c3cff><test>A</color>  \"test\"キャプチャグループのマッチ結果  ",
+		"",
+		"例： テキスト中の小数点前の整数をマッチさせ、このキャプチャグループに \"int\" と命名する場合： <color=#05C3BA>(?</color><color=#AB2800><int></color><color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#05C3BA>)</color><color=#AB2800>\\.</color><color=#3173FF>\\d</color><color=#FF68DD>+</color>",
+		"",
+		"上記の式が <color=#3c3cff>価格: 1.99</color> にマッチした結果：  ",
+		"<color=#3c3cff>1.99</color>   全体のマッチ結果  ",
+		"<color=#3c3cff><int>1</color> \"int\"キャプチャグループのマッチ結果",
+		"",
+		"社内メールで受信したメール本文から名前を抽出する必要があります。マッチ対象の内容は以下の特徴を持ちます：  ",
+		"1. <b>name</b> または <b>Name</b> で始まる  ",
+		"2. 構文パターン： name is xxx, name: xxx, name:xxx",
+		"3. 名前に \\n , . 記号を含まず、これらが出現した時点でマッチを停止  ",
+		"",
+		"規約： キャプチャグループ名は \"Name\" とする",
+		"",
+		"",
+		"右側の全てのテストを通過する正規表現を構築してください。"
+	],
+	"m_SystemLanguage":"Japanese"
+}

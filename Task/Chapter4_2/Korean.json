@@ -1,0 +1,19 @@
+{
+	"m_DescList":[
+		"보스님이 귀하가 이전 단계에서 개발한 \"메일 필터 도우미.exe\"를 사용하셨는데, 매우 불만스러워 하십니다!  ",
+		"",
+		"보스님은 새 임무를 내리셨습니다: 이력서의 주소 정보를 매칭하여 \"면접에 통과하지 못했습니다\"라는 안내 메일을 발송하세요. 단, 주소 정보에 추가적인 \"Address:\" 문구가 포함되어서는 안 됩니다.  ",
+		"",
+		"귀하는 제로 폭 긍정형 후방탐색 어서션(Zero-Width Positive Lookbehind Assertion) 이라는 정규 표현 기법을 접했습니다:  ",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color>",
+		"",
+		"예를 들어, <color=#05C3BA>(?</color><color=#AB2800><= A </color><color=#05C3BA>)</color><color=#AB2800>BC</color>로 <color=#3c3cff>ABC</color>를 매칭하면 결과는 다음과 같습니다:  ",
+		"<color=#666666>A</color><color=#3c3cff>BC</color>",
+		"",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color>은 마법처럼 <color=#AB2800>subexpression</color>이 매칭한 부분을 \"소멸\"시킵니다!  ",
+		"",
+		"",
+		"우측 테스트를 모두 통과할 수 있는 정규 표현식을 구성해 주세요."
+	],
+	"m_SystemLanguage":"Korean"
+}

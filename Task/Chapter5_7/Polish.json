@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"Pliki INI to pliki tekstowe używane do przechowywania informacji konfiguracyjnych.  ",
+		"Zazwyczaj składają się z wielu sekcji i par klucz-wartość.  ",
+		"Gdy pierwszym widocznym znakiem w linii jest <color=#3c3cff>;</color> lub <color=#3c3cff>#</color>, cała pozostała zawartość tej linii jest uznawana za komentarz.  ",
+		"",
+		"<img src=Texture/Task/IniComment width=644 height=169>  ",
+		"",
+		"Na przykład, <color=#3c3cff># to jest komentarz</color> stanowi linię komentarza.  ",
+		"",
+		"Celem jest dopasowanie linii komentarzy przy następujących założeniach:  ",
+		"1. Każdy przypadek testowy zawiera dokładnie 1 linię (bez \\n)  ",
+		"2. Jeśli linia jest komentarzem, dopasuj jej całą zawartość  ",
+		"3. Początek linii może zawierać zero lub więcej znaków białych  ",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie przypadki testowe po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

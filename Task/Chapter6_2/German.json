@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"Programme durchlaufen manchmal rekursiv alle Dateien in Ordnern. Für einfache Anforderungen können Platzhalter verwendet werden.  ",
+		"Bei komplexen Anforderungen können reguläre Ausdrücke auch Dateipfade abgleichen.  ",
+		"",
+		"Ziel ist es, Dateien zu finden, die diese Regeln erfüllen:  ",
+		"1. Der Pfad enthält einen Ordner namens bin.  ",
+		"2. Die Datei endet auf .exe oder .dll.  ",
+		"",
+		"Beispiel:  ",
+		"<color=#3c3cff>/path/a/bin/b/c/test.exe</color> wird gematcht, weil:  ",
+		"<color=#666666>/path/a/</color><color=#3c3cff>bin</color><color=#666666>/b/c/test</color><color=#3c3cff>.exe</color>",
+		"",
+		"Vereinfachungen:  ",
+		"1. Pfade enthalten nur \"/\" (keine Backslashes \"\\\").  ",
+		"2. Jeder Testfall enthält nur einen Pfad.  ",
+		"3. Testfälle verwenden ausschließlich Kleinbuchstaben.  ",
+		"",
+		"",
+		"Erstellen Sie einen regulären Ausdruck, der alle Testfälle rechts besteht."
+	],
+	"m_SystemLanguage":"German"
+}

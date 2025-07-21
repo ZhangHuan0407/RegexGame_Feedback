@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Rich Emoji expressions make communication more engaging.  ",
+		"No entanto, é lamentável que o suporte a Emoji em software não seja isento de custos.  ",
+		"",
+		"As definições de Emoji são atualizadas periodicamente, e alguns softwares frequentemente ficam defasados na adaptação a novos lançamentos.  ",
+		"<img src=Texture/Task/EmojiNewIcon width=788 height=404>  ",
+		"",
+		"Às vezes, aplicativos móveis podem travar ao tentar renderizar Emojis não suportados.  ",
+		"Atualmente, existem mais de 3.000 Emojis existentes. Selecionamos 20 deles e tentaremos filtrá-los usando expressões regulares.  ",
+		"",
+		"Para expressões regulares complexas, a eficiência de execução varia.  ",
+		"Por exemplo:  ",
+		"<color=#3173FF>[</color><color=#AB2800>12</color><color=#3173FF>][</color><color=#AB2800>34</color><color=#3173FF>][</color><color=#AB2800>56</color><color=#3173FF>]</color> enumera possibilidades de três dígitos consecutivos, priorizando a correspondência do primeiro dígito. Se o primeiro dígito não corresponder, toda a correspondência falha.  ",
+		"<color=#05C3BA>(</color><color=#AB2800>135 </color><color=#05C3BA>| </color><color=#AB2800>136 </color><color=#05C3BA>| </color><color=#AB2800>145 </color><color=#05C3BA>| </color><color=#AB2800>156 </color><color=#05C3BA>| </color><color=#AB2800>235 </color><color=#05C3BA>| </color><color=#AB2800>236 </color><color=#05C3BA>| </color><color=#AB2800>245 </color><color=#05C3BA>| </color><color=#AB2800>246</color><color=#05C3BA>)</color>  ",
+		"enumera todas as possibilidades, exigindo a verificação de todas as opções durante a correspondência, o que é mais demorado.  ",
+		"",
+		"<color=#666666>O desafio original exigia filtrar todos os Emojis. Devido à dificuldade excessiva, a tarefa foi reformulada.</color>  ",
+		"<color=#666666>Para guerreiros corajosos, preparei 1.910 Emojis em: Caminho de instalação do jogo/StreamingAssets/FullEmoji.txt</color>  ",
+		"<color=#666666>Ao tentar filtrar Emojis via regex, recomenda-se criar código para automatizar esta tarefa</color>  ",
+		"",
+		"Para todos os casos de teste, aplicam-se as seguintes convenções:  ",
+		"1. Exceto os dois primeiros casos, cada um contém apenas um Emoji  ",
+		"2. Exceto os dois primeiros, cada caso exibe sua sequência de escape \\uxxxx seguida de espaço antes do Emoji  ",
+		"3. Como o Unity Text não exibe Emojis, os caracteres permanecem invisíveis.",
+		"",
+		"",
+		"Construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

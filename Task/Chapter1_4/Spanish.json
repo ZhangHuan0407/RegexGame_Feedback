@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"A veces no estamos seguros de si una cadena contiene la <b>subexpresión</b> objetivo.",
+		"",
+		"Podemos rodear un fragmento de contenido que pueda existir con <color=#05C3BA>( )</color> y luego agregar un <color=#FF68DD>?</color> para indicar que ese fragmento de contenido puede aparecer 0 o 1 vez.",
+		"",
+		"Por ejemplo, al usar <color=#AB2800>a</color><color=#05C3BA>(</color><color=#AB2800>b</color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#AB2800>c</color> para coincidir con <color=#3c3cff>abcac</color>, el resultado es:",
+		"<color=#3c3cff>abc</color><color=#666666>ac</color>",
+		"<color=#666666>abc</color><color=#3c3cff>ac</color>",
+		"",
+		"Por ejemplo, un número de teléfono fijo puede tener o no un prefijo de código de área.",
+		"",
+		"<color=#3c3cff>010-12345678</color>",
+		"<color=#3c3cff>12345678</color>",
+		"En el ejemplo anterior, 010 es el prefijo de código de área.",
+		"",
+		"Por ejemplo, al usar <color=#05C3BA>( </color><color=#AB2800>010- </color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#3173FF>\\d</color><color=#FF68DD>+</color> para coincidir con los ejemplos anteriores,",
+		"<color=#3c3cff>010-12345678</color> devuelve 010-12345678",
+		"<color=#3c3cff>12345678</color> devuelve 12345678",
+		"",
+		"Ahora, queremos interceptar la letra A en cualquier posición e intentar añadir el número que le sigue.",
+		"",
+		"En esta prueba, la cadena que se va a comparar tiene las siguientes características:",
+		"<color=#3c3cff>A</color>   Letra A",
+		"<color=#3c3cff>\\d</color>   0 o 1 dígito decimal",
+		"",
+		"",
+		"Construya una expresión regular que supere todas las pruebas de la derecha.",
+		"",
+		""
+	],
+	"m_SystemLanguage":"Spanish"
+}

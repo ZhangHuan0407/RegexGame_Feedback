@@ -1,0 +1,19 @@
+{
+	"m_DescList":[
+		"Alguns decimais \"1.1\", inteiros \"0\" e strings não numéricas \"a.1\" estão misturados. Agora é necessário identificar com precisão todos os números decimais.",
+		"",
+		"O ponto decimal é representado por <color=#AB2800>\\.</color>.",
+		"",
+		"O objetivo é identificar números decimais.  ",
+		"Se existirem letras ou símbolos extras <b>antes ou depois</b> do número, a correspondência <b>falhará</b>.",
+		"",
+		"Neste teste, os decimais a serem identificados possuem as seguintes características:  ",
+		"<color=#3c3cff>-</color>     Sinal negativo pode estar presente (opcional)  ",
+		"<color=#3c3cff>\\d</color>   Vários dígitos arábicos  ",
+		"<color=#3c3cff>\\.</color>     Um ponto decimal  ",
+		"<color=#3c3cff>\\d</color>   Vários dígitos arábicos  ",
+		"",
+		"Construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

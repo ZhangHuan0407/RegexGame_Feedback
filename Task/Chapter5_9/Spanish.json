@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"<color=#e06600>(?<= subexpression )</color> es una afirmación de búsqueda hacia atrás positiva de ancho cero, que revisa hacia la izquierda y <b>coincide y consume</b> el contenido coincidente.",
+		"",
+		"<color=#e06600>(?= subexpression )</color> es una afirmación de búsqueda hacia adelante positiva de ancho cero, que predice hacia la derecha y verifica si el texto siguiente coincide con la subexpresión. Si el texto predicho coincide con la subexpresión, <b>no incluye el contenido en el resultado de coincidencia</b>.",
+		"",
+		"Por ejemplo, al usar la expresión regular <color=#e06600>1(?= 2 )</color> en estos casos de prueba:",
+		"<color=#3c3cff>123</color>, el resultado es <color=#3c3cff>1</color><color=#666666>23</color>",
+		"<color=#3c3cff>111</color>, no hay contenido que coincida con <color=#e06600>(?= 2 )</color>, por lo tanto no hay coincidencia",
+		"",
+		"En Markdown, usar ** asteriscos dobles para envolver texto produce un efecto de negrita.",
+		"",
+		"Ejemplo:",
+		"**Markdown**",
+		"<img src=Texture/Task/MarkdownBold width=193 height=40>",
+		"",
+		"Ahora se requiere construir una expresión regular que coincida con el contenido en negrita, bajo estas convenciones:",
+		"1. <b>No incluir</b> los asteriscos dobles laterales",
+		"2. Todas las entradas son cadenas de una sola línea",
+		"3. Para simplificar, no existen casos de prueba con tres asteriscos consecutivos ***",
+		"",
+		"",
+		"Por favor construya una expresión regular que pase todas las pruebas a la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

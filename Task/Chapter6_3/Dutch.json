@@ -1,0 +1,27 @@
+{
+	"m_DescList":[
+		"De reguliere expressie <color=#05C3BA>(?i: </color><color=#AB2800>subexpressie</color><color=#05C3BA>)</color> betekent dat <color=#AB2800>subexpressie</color> hoofdlettervergelijking negeert.",
+		"Deze bewerkingen worden groepsopties genoemd en alle optionele parameters zijn te vinden in <color=#05C3BA>(?</color><color=#AB2800>imnsx-imnsx: subexpression</color><color=#05C3BA>)</color>",
+		"",
+		"Bijvoorbeeld: <color=#05C3BA>(?i: </color><color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color><color=#05C3BA>)</color> matcht de voorbeeldtekst <color=#3c3cff>aBC</color> met deze resultaten:  ",
+		"<color=#3c3cff>a</color><color=#666666>BC</color>  ",
+		"<color=#666666>a</color><color=#3c3cff>B</color><color=#666666>C</color>  ",
+		"<color=#666666>aB</color><color=#3c3cff>C</color>  ",
+		"<color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> maakt het mogelijk dat <color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color> zowel kleine als hoofdletters matcht, gelijkwaardig aan <color=#3173FF>[</color><color=#AB2800>abcABC</color><color=#3173FF>]</color>.  ",
+		"",
+		"In workflows kan het voorkomen dat een programma logs van een ander programma uitleest en op basis daarvan verschillende acties onderneemt.  ",
+		"",
+		"Bijvoorbeeld: als de logs \"error\" bevatten, duidt dit mogelijk op fouten in de uitvoering van het upstream-programma en vereist dit aandacht.  ",
+		"",
+		"De opdracht is nu om logbestanden te matchen die \"error\" bevatten.  ",
+		"",
+		"Ter vereenvoudiging gelden deze afspraken:  ",
+		"1. Testgevallen beginnen met <b>4-cijferig jaar-2-cijferige maand-2-cijferige dag</b>  ",
+		"2. Elk testgeval bevat slechts <b>één regel</b> logs  ",
+		"3. Alleen <b>hoofdletter \"ERROR\" en kleine letter \"error\"</b> komen voor  ",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle testgevallen aan de rechterzijde doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

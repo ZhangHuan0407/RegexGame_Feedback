@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"<color=#AB2800>.</color>   Komt overeen met elk willekeurig teken",
+		"<color=#AB2800>\\.</color>  Komt overeen met het \".\"-teken",
+		"",
+		"Bijvoorbeeld, <color=#AB2800>\\.1</color> komt overeen met .1 in <color=#3c3cff>2.13</color>",
+		"",
+		"Een bestandsextensie bestaat doorgaans uit een \".\" gevolgd door een reeks letters, aan het einde van de bestandsnaam. De bestandsextensie geeft het opslagformaat van het bestand aan.",
+		"",
+		"<color=#3173FF>\\w</color> komt overeen met elk teken van het woord, meestal met hoofdletters en kleine letters a-z, A-Z, onderstrepingstekens _ en cijfers 0-9",
+		"In C# worden tekens in verschillende talen ook gematcht, bijv. <color=#3173FF>\\w</color><color=#FF68DD>+</color> komt overeen met <color=#3c3cff> kanji, 日本語, 한국어, Português</color> in:",
+		"",
+		"<color=#3c3cff>汉字</color><color=#666666>, 日本語, 한국어, Português</color>",
+		"<color=#666666>汉字, </color><color=#3c3cff>日本語</color><color=#666666>, 한국어, Português</color>",
+		"<color=#666666>汉字, 日本語, </color><color=#3c3cff>한국어</color><color=#666666>, Português</color>",
+		"<color=#666666>汉字, 日本語, 한국어, </color><color=#3c3cff>Português</color>",
+		"",
+		"De gebruiker heeft enkele bestandspaden ingevoerd. Voor geldige invoer moet de bestandsextensie worden herkend; voor ongeldige invoer is geen uitvoer nodig.",
+		"",
+		"Bijvoorbeeld:",
+		"C:/ABCD/readme.txt    Verwachte uitvoer bestandsextensie .txt",
+		"/home/abc/config.ini     Verwachte uitvoer bestandsextensie .ini",
+		"/var/www/log                Geen bestandsextensie",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle tests aan de rechterkant doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

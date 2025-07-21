@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Datumsschreibweisen variieren je nach Region.  ",
+		"Manche Sprachen nutzen <b>Monat-Tag-Jahr</b>, andere <b>Jahr-Monat-Tag</b>.  ",
+		"",
+		"In dieser globalisierten Ära reflektieren Datumsformate kulturelle Hintergründe. Als bescheidenes Programm möchte ich einfach nur das heutige Datum ermitteln!  ",
+		"",
+		"Beispiele:  ",
+		"<color=#3c3cff>The current time is 1/18/2025</color> → Erwartete Übereinstimmung:  ",
+		"<color=#666666>The current time is </color><color=#3c3cff>1/18/2025</color> ",
+		"",
+		"<color=#3c3cff>현재 시간은 2025-01-18입니다</color> → Erwartete Übereinstimmung: ",
+		"<color=#666666>현재 시간은 </color><color=#3c3cff>2025-01-18</color><color=#666666>입니다</color>",
+		"",
+		"<color=#666666>Nutzen Sie nun Ihre erstaunliche Beobachtungsgabe für zielgerichtetes Programmieren (durchgestrichen)</color>  ",
+		"Versuchen Sie nun, den Datumsteil innerhalb eines Textabschnitts zu matchen  ",
+		"",
+		"Testdaten haben folgende Eigenschaften:",
+		"<color=#3173FF>\\w \\s</color>  Optionale Wortzeichen/Leerzeichen  ",
+		"<color=#3173FF>\\d</color>      Ziffern  ",
+		"<color=#AB2800>\\. \\- /</color>  Trennzeichen  ",
+		"<color=#3173FF>\\d</color>      Ziffern  ",
+		"<color=#AB2800>\\. \\- /</color>  Trennzeichen  ",
+		"<color=#3173FF>\\d</color>      Ziffern  ",
+		"<color=#3173FF>\\w \\s</color>  Optionale Wortzeichen/Leerzeichen  ",
+		"",
+		"",
+		"Erstellen Sie einen regulären Ausdruck, der alle Tests rechts besteht."
+	],
+	"m_SystemLanguage":"German"
+}

@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"Aqui está a tradução para português, mantendo todas as tags e estrutura do original:",
+		"",
+		"Em código C#, se uma linha contiver \"//\", o conteúdo subsequente na mesma linha é considerado comentário e não será compilado.  ",
+		"",
+		"<color=#249622>// Isto é um comentário</color>  ",
+		"<color=#3c3cff>public int</color> UserID;  ",
+		"",
+		"<color=#60a3da>[SerializeField]</color> <color=#249622>// Comentário 123</color>  ",
+		"<color=#3c3cff>private string</color> m_TextAssetPath;  ",
+		"",
+		"<color=#249622>// Símbolos \"//\" que aparecem dentro de comentários permanecem como parte do comentário</color>  ",
+		"<color=#3c3cff>public class</color> <color=#60a3da>A</color>  ",
+		"{  ",
+		"}  ",
+		"",
+		"Nos exemplos acima, as seções verdes são comentários. A partir de \"//\", todo conteúdo subsequente em verde naquela linha faz parte do comentário.  ",
+		"",
+		"Agora, pretende-se criar uma expressão regular que simule o comportamento do compilador ao identificar comentários de linha única.  ",
+		"",
+		"Para 100% dos dados de entrada, aplicam-se as regras:  ",
+		"1. Não existem comentários multilinha, apenas comentários de linha única  ",
+		"2. Os dados usam \"",
+		"\" como marcador de quebra de linha; caracteres como \"\\r\" ou \"\\v\" não aparecerão  ",
+		"3. Dois ou mais caracteres \"/\" consecutivos são tratados como comentário de linha única (ex: \"///\")  ",
+		"",
+		"",
+		"Construa uma expressão regular que passe em todos os testes à direita. "
+	],
+	"m_SystemLanguage":"Portuguese"
+}

@@ -1,0 +1,27 @@
+{
+	"m_DescList":[
+		"<color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> düzenli ifadesi, <color=#AB2800>subexpression</color> kısmının <b>büyük/küçük harf duyarsız</b> eşleştirileceğini belirtir.  ",
+		"Bu işlemlere grup seçenekleri adı verilir. Tüm kullanılabilir parametreler için <color=#05C3BA>(?</color><color=#AB2800>imnsx-imnsx: subexpression</color><color=#05C3BA>)</color> referansına bakınız.  ",
+		"",
+		"Örneğin, <color=#05C3BA>(?i: </color><color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color><color=#05C3BA>)</color> ifadesi <color=#3c3cff>aBC</color> örnek metnini şu sonuçlarla eşleştirir:  ",
+		"<color=#3c3cff>a</color><color=#666666>BC</color>  ",
+		"<color=#666666>a</color><color=#3c3cff>B</color><color=#666666>C</color>  ",
+		"<color=#666666>aB</color><color=#3c3cff>C</color>  ",
+		"<color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> ifadesi, <color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color> kalıbının hem küçük hem büyük harfleri eşleştirmesini sağlar ve <color=#3173FF>[</color><color=#AB2800>abcABC</color><color=#3173FF>]</color> ile eşdeğerdir.  ",
+		"",
+		"İş akışlarında, bir program bazen başka bir programın oluşturduğu günlükleri okur ve bu günlük mesajlarına göre farklı işlemler gerçekleştirir.  ",
+		"",
+		"Örneğin, önceki programın günlüğünde \"error\" ifadesi varsa, bu yukarı akıştaki programın çalışmasında hata olabileceğini ve dikkat gerektirdiğini gösterir.  ",
+		"",
+		"Şimdiki hedef, \"error\" içeren günlükleri eşleştirmektir.  ",
+		"",
+		"Zorluğu azaltmak için aşağıdaki kısıtlamalar getirilmiştir:  ",
+		"1. Test senaryoları <b>4 haneli yıl-2 haneli ay-2 haneli gün</b> formatıyla başlar  ",
+		"2. Her test durumu <b>yalnızca bir satır</b> günlük içerir  ",
+		"3. Yalnızca <b>büyük harfli \"ERROR\" ve küçük harfli \"error\"</b> mevcuttur  ",
+		"",
+		"",
+		"Sağdaki tüm test senaryolarını geçecek bir düzenli ifade oluşturunuz."
+	],
+	"m_SystemLanguage":"Turkish"
+}

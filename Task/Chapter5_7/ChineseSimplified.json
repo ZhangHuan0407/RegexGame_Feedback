@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"INI文件是用于存储配置信息的文本文件。",
+		"一般由多个多个节、键值对构成。",
+		"当一行文本的首个可见字符为 <color=#3c3cff>;</color> 或 <color=#3c3cff>#</color> 时，此行后续内容均被认为是注释",
+		"",
+		"<img src=Texture/Task/IniComment width=644 height=169>",
+		"",
+		"例如，<color=#3c3cff># this is a comment</color> 是一行注释",
+		"",
+		"现在期望匹配注释行，做出如下约定：",
+		"1. 每个测试用例仅1行，没有 \\n",
+		"2. 如果这一行是注释行，匹配整行内容",
+		"3. 行首可以有0个或多个空白字符",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。"
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

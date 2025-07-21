@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"<color=#AB2800>.</color>   entspricht einem beliebigen Zeichen",
+		"<color=#AB2800>\\.</color>  entspricht dem Zeichen \".\"",
+		"",
+		"Beispiel: <color=#AB2800>\\.1</color>  findet .1 in <color=#3c3cff>2.13</color>",
+		"",
+		"Eine Dateierweiterung besteht in der Regel aus einem \".\" gefolgt von einer Folge von Buchstaben und befindet sich am Ende eines Dateinamens. Die Dateierweiterung gibt das Speicherformat der Datei an.",
+		"",
+		"<color=#3173FF>\\w</color> entspricht jedem Zeichen des Wortes, das normalerweise Groß- und Kleinbuchstaben a-z, A-Z, Unterstriche _ und Ziffern 0-9 enthält.",
+		"In C# werden auch Zeichen in verschiedenen Sprachen abgeglichen, z.B. <color=#3173FF>\\w</color><color=#FF68DD>+</color> entspricht <color=#3c3cff> 汉字, 日本語, 한국어, Português</color> in:",
+		"<color=#3c3cff>汉字</color><color=#666666>, 日本語, 한국어, Português</color>",
+		"<color=#666666>汉字, </color><color=#3c3cff>日本語</color><color=#666666>, 한국어, Português</color>",
+		"<color=#666666>汉字, 日本語, </color><color=#3c3cff>한국어</color><color=#666666>, Português</color>",
+		"<color=#666666>汉字, 日本語, 한국어, </color><color=#3c3cff>Português</color>",
+		"",
+		"",
+		"Der Benutzer hat einige Dateipfade eingegeben. Für gültige Eingaben soll die Dateierweiterung gefunden werden. Für ungültige Eingaben ist keine Ausgabe erforderlich.",
+		"",
+		"Beispiele:",
+		"C:/ABCD/readme.txt    erwartete Ausgabe der Dateierweiterung .txt",
+		"/home/abc/config.ini     erwartete Ausgabe der Dateierweiterung .ini",
+		"/var/www/log                keine Dateierweiterung vorhanden",
+		"",
+		"",
+		"Bitte erstellen Sie einen regulären Ausdruck, der alle Tests auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"Markdown to lekki język znaczników zaprojektowany tak, aby tekst był łatwy do czytania i pisania.  ",
+		"",
+		"W Markdown użycie podwójnych tyld ~~ do zawinięcia tekstu dodaje efekt przekreślenia.  ",
+		"",
+		"Przykład:  ",
+		"~~Markdown~~  ",
+		"<img src=Texture/Task/MarkdownDelete width=230 height=47>  ",
+		"",
+		"Zadanie polega na utworzeniu wyrażenia regularnego, które dopasuje przekreślony fragment tekstu, z następującymi zasadami:  ",
+		"1. <b>Uwzględnij</b> obie otaczające podwójne tyldy  ",
+		"2. Wszystkie dane wejściowe są ciągami znaków jednoliniowymi  ",
+		"3. Pięć lub więcej kolejnych tyld nie powinno być dopasowane  ",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

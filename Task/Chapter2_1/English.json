@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"In regular expressions, these two symbols have special meanings:",
+		"<color=#AB2800>.</color> matches any character",
+		"<color=#FF68DD>*</color> matches the preceding element zero or more times",
+		"",
+		"Examples:",
+		"<color=#AB2800>1</color><color=#FF68DD>*</color> matches <color=#666666>A</color><color=#3c3cff>111</color><color=#666666>A</color> in <color=#3c3cff>A111A</color>",
+		"<color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> matches <color=#3c3cff>BABAB</color>",
+		"",
+		"In this test, the content to match should have these features:",
+		"<color=#3c3cff>Sna</color>  has Sna at the beginning",
+		"<color=#3c3cff>.</color>      followed by any number of arbitrary characters",
+		"<color=#3c3cff>ke</color>    has ke at the end",
+		"",
+		"\"Don't grab the wrong snake - it might bite!\"",
+		"",
+		"<b>Greedy Matching</b>",
+		"In regular expressions, <color=#FF68DD>*</color> enables greedy matching - it tries to match as many characters as possible.",
+		"For example, <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> matches the entire <color=#3c3cff>BABAB</color> rather than just part of it.",
+		"The <color=#FF68DD>*</color> captures as much content as possible.",
+		"",
+		"Now, we need to match the word \"Snake\".",
+		"When there are multiple 'a' characters, match as many a's as possible.",
+		"",
+		"Please construct a regular expression that passes all tests on the right."
+	],
+	"m_SystemLanguage":"English"
+}

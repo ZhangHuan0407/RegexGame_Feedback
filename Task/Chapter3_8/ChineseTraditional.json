@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"當使用 <color=#AB2800>Sna.</color><color=#FF68DD>*</color><color=#AB2800>ke</color> 匹配 <color=#3c3cff>Snake Snaake</color> 時，  ",
+		"直接一次捕獲了兩條蛇 <color=#3c3cff>Snake Snaake</color>，差點被咬到。T_T  ",
+		"",
+		"蛇群現在纏繞在一起，  ",
+		"<color=#3c3cff>Snasssnkeake</color> 的預期匹配結果為：  ",
+		"<color=#3c3cff>Snasssnke</color><color=#666666>ake</color>  ",
+		"",
+		"這次以 <color=#3c3cff>Sna</color> 開頭，找到第一個 <color=#3c3cff>ke</color> 時即結束匹配。  ",
+		"",
+		"<b>貪婪匹配</b>  ",
+		"在正則表達式中，<color=#FF68DD>*</color> 會啟用貪婪模式，它會嘗試匹配盡可能多的字元。  ",
+		"",
+		"例如 <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> 會匹配 <color=#3c3cff>BABAB</color> 整個字串，而非僅匹配部分 \"BAB\"。<color=#FF68DD>*</color> 會盡可能捕獲最大範圍內容。  ",
+		"",
+		"<b>非貪婪匹配</b>  ",
+		"在正則表達式中，<color=#FF68DD>*?</color> 會啟用非貪婪模式，它會盡可能少地匹配字元。  ",
+		"",
+		"例如 <color=#AB2800>BA.</color><color=#FF68DD>*?</color><color=#AB2800>B</color> 匹配 <color=#3c3cff>BABAB</color> 會返回兩個結果：  ",
+		"<color=#3c3cff>BAB</color><color=#666666>AB</color>  ",
+		"<color=#666666>BA</color><color=#3c3cff>BAB</color>  ",
+		"",
+		"針對 100% 輸入資料，約定以下規則：  ",
+		"1. 混合使用貪婪與非貪婪匹配難度過高，本題僅需使用<b>非貪婪匹配</b>即可通過所有測試案例  ",
+		"2. 每次僅捕獲<b>一條蛇</b>  ",
+		"3. 預期匹配內容需以 \"Sna\" 開頭，中間連續若干字元，以 \"ke\" 結尾  ",
+		"",
+		"",
+		"請建構能通過右側所有測試的正則表達式。"
+	],
+	"m_SystemLanguage":"ChineseTraditional"
+}

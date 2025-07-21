@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"Agregar <color=#FF68DD>?</color> después de una expresión regular indica que la expresión regular anterior puede aparecer 0 o 1 vez.",
+		"",
+		"Ejemplo:",
+		"Por ejemplo, <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> significa: puede haber un \"%\" después de una serie de dígitos.",
+		"",
+		"Usar <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> para coincidir con <color=#3c3cff>100%</color>,",
+		"el resultado es:",
+		"<color=#3c3cff>100%</color>",
+		"",
+		"Usar <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> para coincidir con <color=#3c3cff>0.99</color>",
+		"el resultado es:",
+		"<color=#3c3cff>0</color><color=#666666>.99</color>",
+		"<color=#666666>0.</color><color=#3c3cff>99</color>",
+		"",
+		"Usar <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> para coincidir con <color=#3c3cff>ALL%</color>",
+		"<color=#3c3cff>ALL%</color> no coincide",
+		"",
+		"Ahora se te ha dado un dibujo \"ASCII\", necesitas contar todos los dígitos 8. Si hay un \".\" antes del 8, también debes incluir ese \".\".",
+		"",
+		"Por ejemplo, para <color=#3c3cff>11.88</color> el resultado de coincidencia esperado es <color=#666666>11</color><color=#3c3cff>.88</color>",
+		"",
+		"",
+		"Por favor, construye una expresión regular que pase todas las pruebas a la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

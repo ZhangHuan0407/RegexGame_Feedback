@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"Em Markdown, você pode adicionar texto formatado de modo especial onde o Markdown renderizará imagens a partir de caminhos especificados.  ",
+		"",
+		"Por exemplo:   ",
+		"<color=#3c3cff>![Image Alt]</color>(<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> <color=#33aa55>\"ImageTitle\"</color>)",
+		"",
+		"<color=#3c3cff>![Image Alt]</color> começa com ! e usa [] para envolver o texto alternativo. O texto alternativo é exibido quando as imagens falham ao carregar.",
+		"Texto alternativo vazio <color=#3c3cff>![]</color> é válido.  ",
+		"<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> especifica o caminho do arquivo de imagem  ",
+		"<color=#33aa55>\"ImageTitle\"</color> é o título de *hover* mostrado ao passar o mouse sobre a imagem  ",
+		"",
+		"<img src=Texture/Task/MarkdownImage width=840 height=167>  ",
+		"",
+		"Agora, objetivamos criar uma expressão regular que corresponda ao conteúdo do <b>caminho da imagem</b> com as seguintes convenções:  ",
+		"1. Apenas corresponde a entradas formatadas corretamente  ",
+		"2. Cada caso de teste contém exatamente um alvo de correspondência  ",
+		"3. Nomeie o grupo de captura do caminho do arquivo como \"file\"  ",
+		"4. Apenas corresponde a caminhos de arquivo não vazios  ",
+		"5. 100% dos casos de teste têm caminhos de arquivo sem espaços  ",
+		"",
+		"",
+		"Construa uma regex que passe em todos os casos de teste no lado direito."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

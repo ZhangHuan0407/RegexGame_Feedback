@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"隨著正則表達式逐漸變得複雜，一次文字匹配可能獲取若干個捕獲組。",
+		"我們為表達式賦予獨立的名稱，便於區分我們應當獲取哪一個捕獲組的結果。",
+		"",
+		"例如，<color=#AB2800>A</color> 匹配 <color=#3c3cff>ABC</color> 中的 <color=#3c3cff>A</color><color=#666666>BC</color>",
+		"",
+		"可以命名 <color=#AB2800>A</color> 預期的捕獲組為 <color=#AB2800>test</color>，從而構造表達式 <color=#05C3BA>(?</color><color=#AB2800><test>A</color><color=#05C3BA>)</color>",
+		"",
+		"上述表達式匹配 <color=#3c3cff>ABC</color> 的結果為：",
+		"<color=#3c3cff>A</color>            表達式整體的匹配結果",
+		"<color=#3c3cff><test>A</color>  test 捕獲組的匹配結果",
+		"",
+		"例如，嘗試匹配文字中小數點之前的整數，將這部分捕獲組命名為 int，從而構造表達式 <color=#05C3BA>(?</color><color=#AB2800><int></color><color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#05C3BA>)</color><color=#AB2800>\\.</color><color=#3173FF>\\d</color><color=#FF68DD>+</color>",
+		"",
+		"上述表達式匹配 <color=#3c3cff>價格: 1.99</color> 的結果為：",
+		"<color=#3c3cff>1.99</color>    整體的匹配結果",
+		"<color=#3c3cff><int>1</color> int 捕獲組的匹配結果",
+		"",
+		"公司的郵箱裡收到了一些郵件，需要匹配郵件文字中的名稱。需要匹配的內容具有以下特徵：",
+		"1. name 或 Name 開頭",
+		"2. 句式為 name is xxx, name: xxx, name:xxx",
+		"3. 名稱中不包含 \\n , . 符號，遇到這三者時停止匹配",
+		"",
+		"約定，匹配的捕獲組名稱為\"Name\"",
+		"",
+		"",
+		"請構造一個正則表達式使之通過右側所有測試。"
+	],
+	"m_SystemLanguage":"ChineseTraditional"
+}

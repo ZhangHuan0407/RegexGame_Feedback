@@ -1,0 +1,25 @@
+{
+	"m_DescList":[
+		"Le patron a demandé de collecter les adresses e-mail QQ des employés. Il a confié cette tâche à votre collègue Zhang San hier. Ce matin, Zhang San a été licencié pour avoir franchi le seuil de l'entreprise du pied gauche en premier.",
+		"Maintenant, le patron vous confie cette tâche !",
+		"",
+		"L'adresse e-mail QQ a les caractéristiques suivantes :",
+		"<color=#3c3cff>0-9</color>             Composée de 5 à 11 chiffres décimaux",
+		"<color=#3c3cff>@qq.com</color>   Composée d'un suffixe fixe",
+		"",
+		"Vos collègues sont toujours négligents, ils risquent fort de saisir des informations erronées.",
+		"Concevez une expression régulière qui ne corresponde qu'aux adresses e-mail QQ semblant normales.",
+		"",
+		"<b>Par exemple</b>, les données d'entrée suivantes contiennent des erreurs évidentes :",
+		"123.123@qq.com                         Contient le symbole erroné \".\"",
+		"12345@qq.com12346@qq.com    Les adresses e-mail de deux personnes remplies ensemble",
+		"",
+		"",
+		"Veuillez construire une expression régulière pour qu'elle passe tous les tests à droite.",
+		"",
+		"",
+		"<color=#666666>Astuce : Utilisez les connaissances acquises dans les deux questions précédentes.</color>",
+		""
+	],
+	"m_SystemLanguage":"French"
+}

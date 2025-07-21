@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"Dans Markdown, les en-têtes sont indiqués à l'aide de plusieurs # consécutifs.  ",
+		"Le nombre de symboles # détermine le niveau de l'en-tête.  ",
+		"",
+		"Par exemple :  ",
+		"<img src=Texture/Task/MarkdownTitle width=267 height=89>  ",
+		"",
+		"L'objectif est de créer une expression régulière qui correspond aux sections d'en-tête, avec les conventions suivantes :  ",
+		"1. <b>Inclut</b> le préfixe #, suivi d'au moins un espace  ",
+		"2. Toutes les entrées sont des chaînes de caractères sur une seule ligne  ",
+		"3. Le groupe de capture pour le contenu de l'en-tête doit être nommé \"title\"  ",
+		"",
+		"Remarque : Puisque l'expression régulière utilise le mode RegexOptions.IgnorePatternWhitespace, les lignes commençant par <color=#33aa55>#</color> seront traitées comme des commentaires.  ",
+		"",
+		"Utilisez \\# pour correspondre au caractère \"#\"  ",
+		"",
+		"",
+		"Constituez une expression régulière qui passe tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

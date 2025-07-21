@@ -1,0 +1,17 @@
+{
+	"m_DescList":[
+		"In Markdown, text formulas wrapped between $ symbols will be rendered as standard mathematical equations.  ",
+		"",
+		"Example:  ",
+		"$y_{0} = x^\\frac{1}{2}_{0}$",
+		"<img src=Texture/Task/MarkdownMath width=140 height=69>  ",
+		"",
+		"The goal is to design a regular expression that matches <b>single-line formulas</b> with the following conventions:  ",
+		"1. <b>Includes</b> the $ symbols on both sides  ",
+		"2. All inputs are single-line strings only  ",
+		"3. The capture group for matched formulas must be named \"exp\"",
+		"",
+		"Construct a regular expression that passes all test cases on the right.  "
+	],
+	"m_SystemLanguage":"English"
+}

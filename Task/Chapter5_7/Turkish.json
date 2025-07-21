@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"INI dosyaları, yapılandırma bilgilerini depolamak için kullanılan metin dosyalarıdır.  ",
+		"Genellikle birden fazla bölüm ve anahtar-değer çiftinden oluşur.  ",
+		"Bir satırın ilk görünür karakteri <color=#3c3cff>;</color> veya <color=#3c3cff>#</color> olduğunda, satırın geri kalanı yorum olarak kabul edilir.  ",
+		"",
+		"<img src=Texture/Task/IniComment width=644 height=169>  ",
+		"",
+		"Örneğin, <color=#3c3cff># bu bir yorumdur</color> bir yorum satırıdır.  ",
+		"",
+		"Amaçlanan, aşağıdaki kurallarla yorum satırlarını eşleştirmektir:  ",
+		"1. Her test senaryosu yalnızca 1 satırdan oluşur (\\n içermez)  ",
+		"2. Satır yorum ise, tüm içeriği eşleştir  ",
+		"3. Satır başında sıfır veya daha fazla boşluk karakteri bulunabilir  ",
+		"",
+		"",
+		"Sağdaki tüm test senaryolarını geçecek bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

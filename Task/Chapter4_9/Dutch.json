@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"Internet Protocol versie 4, vaak aangeduid als IPv4, bestaat uit 4 getallen tussen 0 en 255, gescheiden door drie punten \".\".",
+		"",
+		"Bijvoorbeeld:  ",
+		"<color=#3c3cff>127.0.0.1</color> is een geldig IPv4-adres.",
+		"",
+		"Soms voeren gebruikers per ongeluk ongeldige adressen in, zoals:  ",
+		"1.2.3.4.5     <color=#ee3300>X</color> Aantal segmenten overschrijdt 4  ",
+		"1.0.0.256    <color=#ee3300>X</color> 256 overschrijdt bereik 0~255  ",
+		"127.0.0.01  <color=#ee3300>X</color> Hoewel \"01\" technisch voldoet aan IPv4-definitie, wijkt dit af van standaardnotatie en is waarschijnlijk een invoerfout",
+		"",
+		"Het doel is om geldige IPv4-adressen te herkennen.",
+		"",
+		"Ter vereenvoudiging gelden deze regels:  ",
+		"1. Elke testcase bevat slechts 1 te controleren invoer  ",
+		"2. Voor 100% van de testcases falen getallen met voorloopnullen (2 of 3 cijfers)",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle testcases aan de rechterkant doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

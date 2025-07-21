@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Le texte contient souvent des espaces, c'est pourquoi nous utilisons <color=#3173FF>\\s</color> pour représenter l'\"espace\".",
+		"",
+		"<color=#3173FF>\\s</color> correspond à un caractère d'espacement.",
+		"",
+		"<b>Exemple :</b>",
+		"<color=#AB2800>1</color><color=#3173FF>\\s</color><color=#AB2800>2</color>  correspond à <color=#3c3cff>A1 2B</color> → <color=#666666>A</color><color=#3c3cff>1 2</color><color=#666666>B</color> ",
+		"<color=#AB2800>o</color><color=#3173FF>\\s</color><color=#AB2800>W</color> correspond à <color=#3c3cff>Hello World</color> → <color=#666666>Hell</color><color=#3c3cff>o W</color><color=#666666>orld</color>",
+		"",
+		"Le patron fait sa ronde ! Quiconque qui n'est pas à son poste aura des problèmes !  ",
+		"o(*￣︶￣*)o  ",
+		"Un poste occupé est marqué par \"X\", un poste vide par \" \".  ",
+		"",
+		"<b>Exemple :</b>  ",
+		"| |X|X| indique que le premier poste est vide, les deuxième et troisième sont occupés.  ",
+		"",
+		"À présent, le patron vous demande de vérifier les postes vacants pour déduire sans pitié leurs primes.  ",
+		"",
+		"Pour 100% des données d'entrée, les règles suivantes s'appliquent :  ",
+		"1. Contient uniquement 3 caractères : \" \" (\\u0020), \"|\", \"X\"  ",
+		"2. Entre deux symboles \"|\" adjacents, il doit y avoir soit \" \" soit \"X\"  ",
+		"",
+		"<img src=Texture/Task/Level2_2WhiteChar width=524 height=160>  ",
+		"Lorsqu'un résultat correspondant est sélectionné, les espaces dans le résultat seront représentés par <color=#e06600>□</color>.",
+		"",
+		"",
+		"Veuillez construire une expression régulière qui passe tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"INI 파일에서 각 섹션은 여러 개의 키-값 쌍을 포함합니다.",
+		"",
+		"<img src=Texture/Task/IniKeyValue width=339 height=102>",
+		"",
+		"위 그림과 같이 여러 키-값 쌍을 보여줍니다:  ",
+		"키(key)는 <color=#3c3cff>a_2</color>, 값(value)은 <color=#3c3cff>\"'a_2' is key name\"</color>  ",
+		"키는 <color=#3c3cff>key</color>, 값은 <color=#3c3cff>value</color>  ",
+		"키는 <color=#3c3cff>c</color>, 값은 <color=#3c3cff>1</color>",
+		"",
+		"이제 다음 규칙으로 섹션 내용을 매칭하고자 합니다:  ",
+		"1. 각 테스트 케이스는 독립된 한 줄입니다  ",
+		"2. 해당 줄이 키-값 형식일 경우 전체 내용을 매칭합니다  ",
+		"3. 키를 캡처하는 그룹 이름은 \"key\"로 지정합니다  ",
+		"4. 값을 캡처하는 그룹 이름은 \"value\"로 지정합니다  ",
+		"5. 키와 등호 사이, 또는 \"=\"과 값 사이에 공백이 있을 수 있습니다. \"key\"와 \"value\" 캡처 그룹에는 \"=\" 양측의 공백이 포함되지 않아야 합니다  ",
+		"",
+		"",
+		"오른쪽의 모든 테스트 케이스를 통과하는 정규 표현식을 구성해 주세요."
+	],
+	"m_SystemLanguage":"Korean"
+}

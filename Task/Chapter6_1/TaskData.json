@@ -1,0 +1,46 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"\"1.2.3\"",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"public const string ResourceVersion = \"1.2.3\";",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"public const string ResourceVersion = \"1.2.3\";",
+				"<version>1.2.3"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":46
+				},
+				{
+					"start":39,
+					"length":5
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"public const string ResourceVersion = \"not number, invalid\";",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"/* miss prefix */ResourceVersion = \"1.2.3\";",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":"public\\sconst\\sstring\\sResourceVersion\\s=\\s\"(?<version>[\\d\\.]+)\";"
+}

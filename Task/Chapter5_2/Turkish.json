@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"Markdown'da başlıklar, art arda gelen birkaç # sembolü kullanılarak belirtilir.  ",
+		"# sembolünün sayısı, başlık seviyesini belirler.  ",
+		"",
+		"Örneğin:  ",
+		"<img src=Texture/Task/MarkdownTitle width=267 height=89>  ",
+		"",
+		"Amaç, aşağıdaki kurallara uygun başlık bölümlerini eşleştiren bir düzenli ifade oluşturmaktır:  ",
+		"1. <b>Ön ek olarak #</b> içermeli ve ardından en az bir boşluk gelmeli  ",
+		"2. Tüm girdiler yalnızca tek satırlık dizgilerden oluşur  ",
+		"3. Başlık içeriği için yakalama grubunun adı \"title\" olmalıdır  ",
+		"",
+		"Not: RegexOptions.IgnorePatternWhitespace modu kullanıldığından, <color=#33aa55>#</color> ile başlayan satırlar açıklama satırı olarak değerlendirilir.  ",
+		"",
+		"\"#\" karakterini eşleştirmek için \\# kullanın  ",
+		"",
+		"",
+		"Sağ taraftaki tüm testleri geçen bir düzenli ifade oluşturun. "
+	],
+	"m_SystemLanguage":"Turkish"
+}

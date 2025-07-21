@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"W kodzie C#, jeśli w linii występuje \"//\", treść po tych znakach w tej samej linii jest traktowana jako komentarz i nie jest kompilowana.  ",
+		"",
+		"<color=#249622>// To jest komentarz</color>  ",
+		"<color=#3c3cff>public int</color> UserID;  ",
+		"",
+		"<color=#60a3da>[SerializeField]</color> <color=#249622>// Komentarz 123</color>  ",
+		"<color=#3c3cff>private string</color> m_TextAssetPath;  ",
+		"",
+		"<color=#249622>// Znaki // występujące w komentarzu nadal są jego częścią</color>  ",
+		"<color=#3c3cff>public class</color> <color=#60a3da>A</color>  ",
+		"{  ",
+		"}  ",
+		"",
+		"W powyższych przykładach zielone sekcje są komentarzami. Rozpoczynając od \"//\", cała następująca po nich zielona treść w tej linii stanowi część komentarza.  ",
+		"",
+		"Teraz należy zaprojektować wyrażenie regularne symulujące zachowanie kompilatora przy dopasowywaniu komentarzy jednolinijkowych.  ",
+		"",
+		"Dla 100% danych wejściowych obowiązują następujące zasady:  ",
+		"1. Nie istnieją komentarze wielolinijkowe, występują tylko jednolinijkowe  ",
+		"2. Dane wejściowe używają \"",
+		"\" jako znacznika nowej linii; znaki takie jak \"\\r\" czy \"\\v\" nie wystąpią  ",
+		"3. Dwa lub więcej kolejnych znaków \"/\" jest traktowanych jako komentarz jednolinijkowy (np. \"///\")  ",
+		"",
+		"",
+		"Proszę skonstruować wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie. "
+	],
+	"m_SystemLanguage":"Polish"
+}

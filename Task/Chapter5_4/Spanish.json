@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"En Markdown, usa triple comilla invertida ``` para envolver bloques de código. Markdown renderizará un marco con borde para los bloques de código.  ",
+		"",
+		"Ejemplo:  ",
+		"```  ",
+		"public class Program  ",
+		"{  ",
+		"}  ",
+		"```  ",
+		"<img src=Texture/Task/MarkdownCode width=792 height=122>  ",
+		"",
+		"Ahora, diseña una expresión regular para coincidir con el contenido de <b>bloques de código</b> con las siguientes especificaciones:  ",
+		"1. La coincidencia completa <b>incluye</b> los símbolos de triple comilla invertida ```  ",
+		"2. Los casos de prueba implican **entrada multilínea**  ",
+		"3. Nombra el grupo de captura para bloques de código como \"code\". Este grupo debe excluir las triples comillas invertidas y los caracteres de nueva línea  ",
+		"4. Para simplificar, asume que 0% de los casos de prueba contienen triples comillas invertidas dentro de los bloques de código  ",
+		"",
+		"",
+		"Por favor, construye una expresión regular que apruebe todos los casos de prueba a la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

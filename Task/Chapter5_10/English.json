@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"In INI files, each section contains several key-value pairs.",
+		"",
+		"<img src=Texture/Task/IniKeyValue width=339 height=102>",
+		"",
+		"As shown above, it illustrates several key-value pairs:  ",
+		"Key is <color=#3c3cff>a_2</color>, value is <color=#3c3cff>\"'a_2' is key name\"</color>  ",
+		"Key is <color=#3c3cff>key</color>, value is <color=#3c3cff>value</color>  ",
+		"Key is <color=#3c3cff>c</color>, value is <color=#3c3cff>1</color>",
+		"",
+		"We now aim to match section contents with the following conventions:  ",
+		"1. Each test case is an independent line  ",
+		"2. If a line follows the key-value format, match its complete content  ",
+		"3. Name the capture group for keys as \"key\"  ",
+		"4. Name the capture group for values as \"value\"  ",
+		"5. Spaces may exist between the key and equals sign, or between \"=\" and the value. The \"key\" and \"value\" capture groups should exclude spaces adjacent to \"=\"  ",
+		"",
+		"",
+		"Please construct a regular expression that passes all test cases on the right."
+	],
+	"m_SystemLanguage":"English"
+}

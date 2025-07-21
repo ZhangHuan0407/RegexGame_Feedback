@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"Önceki sefer <color=#AB2800>Sna.</color><color=#FF68DD>*</color><color=#AB2800>ke</color> ile <color=#3c3cff>Snake Snaake</color> eşleştirildiğinde,  ",
+		"sonuç doğrudan iki yılanı birden yakaladı <color=#3c3cff>Snake Snaake</color>, neredeyse ısırılıyordum. T_T  ",
+		"",
+		"Yılanlar birbirine dolanmış durumda.  ",
+		"<color=#3c3cff>Snasssnkeake</color> için beklenen eşleşme sonucu:  ",
+		"<color=#3c3cff>Snasssnke</color><color=#666666>ake</color>  ",
+		"",
+		"Bu sefer <color=#3c3cff>Sna</color> ile başlıyor ve ilk <color=#3c3cff>ke</color> bulunduğunda sonlanıyor.  ",
+		"",
+		"<b>Açgözlü Eşleme</b>  ",
+		"Düzenli ifadelerde, <color=#FF68DD>*</color> açgözlü eşlemeyi etkinleştirir ve mümkün olduğunca çok karakter eşlemeye çalışır.  ",
+		"",
+		"Örneğin, <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> ile <color=#3c3cff>BABAB</color> eşleşmesi tüm <color=#3c3cff>BABAB</color>'ı yakalar, sadece \"BAB\" kısmını değil. <color=#FF68DD>*</color> olabildiğince fazla içeriği yakalar.  ",
+		"",
+		"<b>Tembel Eşleme</b>  ",
+		"Düzenli ifadelerde, <color=#FF68DD>*?</color> tembel eşlemeyi etkinleştirir ve mümkün olduğunca az karakter eşler.  ",
+		"",
+		"Örneğin, <color=#AB2800>BA.</color><color=#FF68DD>*?</color><color=#AB2800>B</color> ile <color=#3c3cff>BABAB</color> eşleşmesi iki sonuç verir:  ",
+		"<color=#3c3cff>BAB</color><color=#666666>AB</color>  ",
+		"<color=#666666>BA</color><color=#3c3cff>BAB</color>  ",
+		"",
+		"Girdi verilerinin %100'ü için aşağıdaki kurallar geçerlidir:  ",
+		"1. Açgözlü ve tembel eşlemenin karışık kullanımı fazla karmaşıktır; <b>tembel eşleme</b> tüm test senaryolarını geçer  ",
+		"2. Her seferinde <b>sadece bir yılan</b> yakalanır  ",
+		"3. Beklenen eşleşme \"Sna\" ile başlar, ardışık karakterlerle devam eder ve \"ke\" ile biter  ",
+		"",
+		"",
+		"Sağdaki tüm testleri geçecek bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

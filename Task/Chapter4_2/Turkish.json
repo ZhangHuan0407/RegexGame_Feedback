@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"Patron, önceki bölümde yazdığınız \"邮件过滤小助手.exe\" (E-posta Filtre Yardımcısı.exe) programını kullandı ve bu durumdan <b>hiç memnun kalmadı<b>!",
+		"",
+		"Size yeni bir görev verdi: Özgeçmişlerdeki adres bilgilerini eşleştirerek adaylara \"Mülakatı Geçemediniz\" içerikli bir e-posta göndermenizi istiyor. Adres bilgilerinde fazladan \"Address:\" metni <b>kesinlikle bulunmamalı</b>.",
+		"",
+		"Şu şekilde yazılan <b>\"Sıfır Genişlikli Pozitif Geriye Bakış Onayı\"<b> (_Zero-Width Positive Lookbehind Assertion_) adlı regex kalıbını duydunuz:  ",
+		"<color=#05C3BA>(?</color><color=#AB2800><= alt_ifade </color><color=#05C3BA>)</color>",
+		"",
+		"Örneğin, <color=#05C3BA>(?</color><color=#AB2800><= A </color><color=#05C3BA>)</color><color=#AB2800>BC</color> kalıbını <color=#3c3cff>ABC</color> metniyle eşleştirirseniz, sonuç:  ",
+		"<color=#3c3cff>BC</color>  ",
+		"olacaktır.",
+		"",
+		"<color=#05C3BA>(?</color><color=#AB2800><= alt_ifade </color><color=#05C3BA>)</color> kalıbı, <color=#AB2800>alt_ifade</color> ile eşleşen kısmı <b>sihirli bir şekilde \"yutar\"</b>!",
+		"",
+		"",
+		"Lütfen sağdaki tüm testleri geçecek bir düzenli ifade (_regex_) oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

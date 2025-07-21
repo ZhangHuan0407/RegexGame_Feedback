@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"During software development, Git may be used as the version control tool, with Jira selected as the project management tool.  ",
+		"When a developer's commit log contains [PROJ-XXX], the commit record automatically links to the specified Jira issue.  ",
+		"",
+		"Special commit record format conventions are as follows:  ",
+		"<color=#3173FF>[</color>     Half-width special character \"[\"  ",
+		"<color=#3173FF>\\w</color>   Several text characters  ",
+		"<color=#3173FF>-</color>     Half-width special character \"-\"  ",
+		"<color=#3173FF>\\d</color>   Multiple digits  ",
+		"<color=#3173FF>]</color>     Half-width special character \"]\"  ",
+		"",
+		"For example, the following is a matching commit record:  ",
+		"<color=#3c3cff>[PROJ-123]</color> <color=#666666>fix null reference error</color>  ",
+		"",
+		"Now, please construct a regular expression to check whether commit logs match the linking format.  ",
+		"",
+		"",
+		"Please build a regular expression that passes all tests on the right. "
+	],
+	"m_SystemLanguage":"English"
+}

@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"Dans Markdown, vous pouvez insérer du texte formaté spécialement pour que Markdown affiche des images depuis des chemins spécifiés.",
+		"",
+		"Par exemple :  ",
+		"<color=#3c3cff>![Image Alt]</color>(<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> <color=#33aa55>\"ImageTitle\"</color>)",
+		"",
+		"<color=#3c3cff>![Image Alt]</color> commence par ! et utilise [] pour encadrer le texte alternatif. Ce texte s'affiche si l'image échoue à se charger.",
+		"Un texte alternatif vide <color=#3c3cff>![]</color> est valide.  ",
+		"<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> spécifie le chemin du fichier image  ",
+		"<color=#33aa55>\"ImageTitle\"</color> est le texte d'affichage au survol (hover title) visible lorsque la souris passe sur l'image",
+		"",
+		"<img src=Texture/Task/MarkdownImage width=840 height=167>",
+		"",
+		"L'objectif est désormais de créer une expression régulière qui corresponde au contenu du <b>chemin d'image</b>, selon les conventions suivantes :  ",
+		"1. Ne correspondre qu'aux entrées correctement formatées  ",
+		"2. Chaque cas de test contient exactement une cible à faire correspondre  ",
+		"3. Nommer le groupe de capture du chemin de fichier \"file\"  ",
+		"4. Ne faire correspondre que les chemins de fichier non vides  ",
+		"5. 100% des cas de test ont des chemins de fichier sans espaces",
+		"",
+		"",
+		"Concevez une regex qui réussisse tous les cas de test à droite."
+	],
+	"m_SystemLanguage":"French"
+}

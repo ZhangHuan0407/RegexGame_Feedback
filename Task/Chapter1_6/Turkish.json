@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"Düzenli ifade yazarken, genellikle \"herhangi bir\" karakteri ifade etmek gerekir. Bu nedenle <color=#AB2800>.</color> \"herhangi\" anlamını temsil etmek için kullanılır.",
+		"",
+		"<color=#AB2800>.</color>   Satır sonu karakteri dışındaki herhangi bir karakterle eşleşir",
+		"<color=#AB2800>\\.</color> Yalnızca ondalık noktayla eşleşir",
+		"",
+		"<color=#3c3cff>123.456</color>",
+		"Örneğin, yukarıdaki örnekle eşleşmek için <color=#AB2800>\\..</color> kullanıldığında,",
+		"    İlk <color=#AB2800>\\.</color> \"yalnızca ondalık noktayla eşleş\" olarak yorumlanır,",
+		"    İkinci <color=#e06600>.</color> \"herhangi bir\" karakter olarak yorumlanır",
+		"<color=#3c3cff>123.456</color> .4 döndürür",
+		"<color=#666666>123</color><color=#3c3cff>.4</color><color=#666666>56</color>",
+		"",
+		"<color=#3c3cff>(x3x)</color>",
+		"Örneğin, yukarıdaki örnekle eşleşmek için <color=#AB2800>3..</color> kullanıldığında,",
+		"    İlk <color=#AB2800>3</color> \"3 rakamı\" olarak yorumlanır,",
+		"    İkinci ve üçüncü <color=#AB2800>.</color> \"herhangi bir\" karakter olarak yorumlanır",
+		"<color=#3c3cff>(x3x)</color> 3x) döndürür",
+		"<color=#666666>(x</color><color=#3c3cff>3x)</color>",
+		"",
+		"",
+		"Şimdi, 1 rakamından sonra mümkün olduğunca çok karakteri eşleştirmek hedeflenmektedir.",
+		"",
+		"Bu testte, eşleştirilecek dize şu özelliklere sahiptir:",
+		"<color=#3c3cff>1</color>     En az bir adet 1 rakamı içerir",
+		"<color=#3c3cff>.</color>      Ardından herhangi uzunlukta karakterler gelir",
+		"",
+		"",
+		"Lütfen sağdaki tüm testleri geçecek bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

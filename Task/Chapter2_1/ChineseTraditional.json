@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"在正則表達式中，這兩個符號具有特殊含義：  ",
+		"<color=#AB2800>.</color> 匹配任意字元  ",
+		"<color=#FF68DD>*</color> 匹配前面的子表達式零次或多次",
+		"",
+		"例如：  ",
+		"<color=#AB2800>1</color><color=#FF68DD>*</color> 匹配 <color=#3c3cff>A111A</color> 中的 <color=#666666>A</color><color=#3c3cff>111</color><color=#666666>A</color>",
+		"<color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> 匹配 <color=#3c3cff>BABAB</color> 中的 <color=#3c3cff>BABAB</color>",
+		"",
+		"本次測試中，需要匹配的內容具有以下特徵：  ",
+		"<color=#3c3cff>Sna</color>   存在Sna開頭的一段字元  ",
+		"<color=#3c3cff>.</color>        中間包含若干個任意字元  ",
+		"<color=#3c3cff>ke</color>      存在ke結尾的一段字元  ",
+		"",
+		"不要拿錯蛇，會咬人！  ",
+		"",
+		"<b>貪婪匹配</b>  ",
+		"在正則表達式中，<color=#FF68DD>*</color> 會啟用貪婪匹配，它會嘗試匹配盡可能多的字元。  ",
+		"例如，<color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> 匹配 <color=#3c3cff>BABAB</color> 中的 BABAB，而不是僅匹配一部分BAB。<color=#FF68DD>*</color> 會盡可能地捕獲更多內容。  ",
+		"",
+		"現在，期望匹配\"Snake\"單詞。  ",
+		"如果a很多，匹配盡可能多的a。  ",
+		"",
+		"",
+		"請構造一個正則表達式使之通過右側所有測試。  "
+	],
+	"m_SystemLanguage":"ChineseTraditional"
+}

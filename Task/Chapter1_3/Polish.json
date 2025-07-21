@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"Tekst zazwyczaj ma początek i koniec.",
+		"",
+		"Użyj <color=#FF68DD>\\A</color> lub <color=#FF68DD>^</color> by oznaczyć początek ciągu znaków.",
+		"",
+		"Przykład:",
+		"<color=#3c3cff>011</color>",
+		"<color=#3c3cff>0</color>",
+		"<color=#3c3cff>_0</color>",
+		"Na przykład, użycie <color=#FF68DD>\\A</color><color=#AB2800>0</color> do dopasowania powyższych próbek, czyli \"dopasuj treść zaczynającą się od 0\":",
+		"<color=#3c3cff>011</color> zwraca 0",
+		"<color=#3c3cff>0</color> zwraca 0",
+		"<color=#3c3cff>_0</color> brak dopasowania",
+		"",
+		"Użyj <color=#FF68DD>\\Z</color> lub <color=#FF68DD>$</color> by oznaczyć koniec ciągu znaków.",
+		"",
+		"Przykład:",
+		"<color=#3c3cff>001</color>",
+		"<color=#3c3cff>1</color>",
+		"<color=#3c3cff>1_</color>",
+		"Na przykład, użycie <color=#AB2800>1</color><color=#FF68DD>\\Z</color> do dopasowania powyższych próbek, czyli \"dopasuj treść kończącą się na 1\":",
+		"<color=#3c3cff>001</color> zwraca 1",
+		"<color=#3c3cff>1</color> zwraca 1",
+		"<color=#3c3cff>1_</color> brak dopasowania",
+		"",
+		"Teraz należy dopasować wszystkie ciągi znaków zawierające wyłącznie cyfrę 1.",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które przechodzi wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

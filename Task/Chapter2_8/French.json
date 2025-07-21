@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Nous avons précédemment discuté de la correspondance d'un nombre de 100 chiffres, qui est bien sûr :",
+		"<color=#666666>\\d\\d\\d\\d\\d...</color> <color=#ff0000>X</color>",
+		"",
+		"Ajouter <color=#FF68DD>{n}</color> après une expression régulière signifie que l'expression précédente se répète n fois, où n est un entier naturel.",
+		"",
+		"<b>Par exemple</b>, <color=#AB2800>1</color><color=#FF68DD>{3}</color> signifie \"correspondre à trois '1' répétés\".",
+		"<color=#AB2800>1</color><color=#FF68DD>{3}</color> correspond à <color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color> dans <color=#3c3cff>12111311</color>.",
+		"",
+		"Ajouter <color=#FF68DD>{n,}</color> après une expression régulière signifie que l'expression précédente se répète au moins n fois, où n est un entier naturel.",
+		"",
+		"<b>Par exemple</b>, <color=#AB2800>1</color><color=#FF68DD>{2,}</color> correspond dans <color=#3c3cff>12111311</color> à :",
+		"<color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color>",
+		"<color=#666666>121113</color><color=#3c3cff>11</color>",
+		"",
+		"Ajouter <color=#FF68DD>{n,m}</color> après une expression régulière signifie que l'expression précédente se répète au moins n fois et au plus m fois, où n et m sont des entiers naturels.",
+		"",
+		"<b>Par exemple</b>, <color=#AB2800>o</color><color=#FF68DD>{1,2}</color> correspond dans <color=#3c3cff>Choose your right friends ooo</color> à :",
+		"<color=#666666>Ch</color><color=#3c3cff>oo</color><color=#666666>se your right friends ooo</color>",
+		"<color=#666666>Choose y</color><color=#3c3cff>o</color><color=#666666>ur right friends ooo</color>",
+		"",
+		"Longtemps sans se voir, les serpents se sont allongés !",
+		"L'objectif est maintenant de filtrer les serpents où la longueur des \"a\" est supérieure à 3 et inférieure à 5.",
+		"Ne prenez pas le mauvais serpent, il mord !",
+		"",
+		"",
+		"Veuillez construire une expression régulière qui réussit tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

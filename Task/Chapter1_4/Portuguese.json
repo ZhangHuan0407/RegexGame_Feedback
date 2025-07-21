@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"Às vezes, não temos certeza se uma string contém a <b>subexpressão</b> alvo.",
+		"",
+		"Você pode envolver um trecho de conteúdo potencial com <color=#05C3BA>( )</color> e adicionar <color=#FF68DD>?</color> para indicar que um trecho pode aparecer 0 ou 1 vez.",
+		"",
+		"Por exemplo, usar <color=#AB2800>a</color><color=#05C3BA>(</color><color=#AB2800>b</color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#AB2800>c</color> para corresponder a <color=#3c3cff>abcac</color> resulta em:",
+		"<color=#3c3cff>abc</color><color=#666666>ac</color>",
+		"<color=#666666>abc</color><color=#3c3cff>ac</color>",
+		"",
+		"Por exemplo, um número de telefone fixo pode ter um prefixo de código de área ou não.",
+		"",
+		"<color=#3c3cff>010-12345678</color>",
+		"<color=#3c3cff>12345678</color>",
+		"No exemplo acima, 010 é o código de área.",
+		"",
+		"Por exemplo, ao usar <color=#05C3BA>( </color><color=#AB2800>010- </color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#3173FF>\\d</color><color=#FF68DD>+</color> para corresponder aos exemplos acima,",
+		"<color=#3c3cff>010-12345678</color> retorna <color=#3c3cff>010-12345678</color>",
+		"<color=#3c3cff>12345678</color> retorna <color=#3c3cff>12345678</color>",
+		"",
+		"Agora, queremos interceptar a letra A em qualquer posição e tentar anexar o número a seguir.",
+		"",
+		"Neste teste, a string a ser correspondida tem as seguintes características:",
+		"<color=#3c3cff>A</color>   Letra A",
+		"<color=#3c3cff>\\d</color>   0 ou 1 dígito decimal",
+		"",
+		"Construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

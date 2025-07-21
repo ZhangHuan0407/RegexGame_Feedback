@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"Em arquivos INI, cada seção contém vários pares chave-valor.",
+		"",
+		"<img src=Texture/Task/IniKeyValue width=339 height=102>",
+		"",
+		"Conforme ilustrado acima, mostra vários pares chave-valor:  ",
+		"Chave é <color=#3c3cff>a_2</color>, valor é <color=#3c3cff>\"'a_2' is key name\"</color>  ",
+		"Chave é <color=#3c3cff>key</color>, valor é <color=#3c3cff>value</color>  ",
+		"Chave é <color=#3c3cff>c</color>, valor é <color=#3c3cff>1</color>",
+		"",
+		"Agora desejamos corresponder ao conteúdo das seções com as seguintes convenções:  ",
+		"1. Cada caso de teste é uma linha independente  ",
+		"2. Se uma linha seguir o formato chave-valor, corresponda ao conteúdo completo  ",
+		"3. Nomeie o grupo de captura para chaves como \"key\"  ",
+		"4. Nomeie o grupo de captura para valores como \"value\"  ",
+		"5. Pode haver espaços entre a chave e o sinal de igual, ou entre \"=\" e o valor. Os grupos \"key\" e \"value\" devem excluir espaços adjacentes ao \"=\"  ",
+		"",
+		"",
+		"Por favor, construa uma expressão regular que passe em todos os casos de teste à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

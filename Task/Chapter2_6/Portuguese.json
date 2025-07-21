@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"<color=#AB2800>.</color>  corresponde a qualquer caractere  ",
+		"<color=#AB2800>\\.</color> corresponde ao caractere \".\"  ",
+		"",
+		"Por exemplo, <color=#AB2800>\\.1</color> corresponde a .1 em <color=#3c3cff>2.13</color>  ",
+		"",
+		"A extensão de arquivo geralmente consiste em um \".\" seguido por uma sequência de letras, localizada no final do nome do arquivo. A extensão de arquivo indica o formato de armazenamento do arquivo.  ",
+		"",
+		"<color=#3173FF>\\w</color> corresponde a qualquer caractere da palavra, geralmente contendo letras maiúsculas e minúsculas a-z, A-Z, sublinhados _ e dígitos de 0 a 9",
+		"Em C#, caracteres em diferentes idiomas também são correspondidos, por exemplo, <color=#3173FF>\\w</color><color=#FF68DD>+</color> corresponde a <color=#3c3cff> 汉字, 日本語, 한국어, Português</color> em:",
+		"<color=#3c3cff>汉字</color><color=#666666>, 日本語, 한국어, Português</color>",
+		"<color=#666666>汉字, </color><color=#3c3cff>日本語</color><color=#666666>, 한국어, Português</color>",
+		"<color=#666666>汉字, 日本語, </color><color=#3c3cff>한국어</color><color=#666666>, Português</color>",
+		"<color=#666666>汉字, 日本語, 한국어, </color><color=#3c3cff>Português</color>",
+		"",
+		"",
+		"O usuário inseriu alguns caminhos de arquivo. Para entradas válidas, corresponda à extensão do arquivo;  ",
+		"para entradas inválidas, não é necessário gerar saída.  ",
+		"",
+		"Por exemplo:  ",
+		"C:/ABCD/readme.txt    saída esperada: extensão .txt  ",
+		"/home/abc/config.ini     saída esperada: extensão .ini  ",
+		"/var/www/log                nenhuma extensão de arquivo  ",
+		"",
+		"",
+		"Por favor, construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

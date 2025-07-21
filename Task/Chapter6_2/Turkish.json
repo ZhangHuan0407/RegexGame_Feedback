@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"Programlar bazen klasörlerdeki tüm dosyaları özyinelemeli olarak tarar. Basit gereksinimler için joker karakterler kullanılabilir.  ",
+		"Karmaşık gereksinimler için dosya yollarını eşleştirmek üzere regex de kullanılabilir.  ",
+		"",
+		"Amaç şu kurallara uyan dosyaları eşleştirmektir:  ",
+		"1. Yolda bin adında bir klasör bulunmalıdır.  ",
+		"2. Dosya .exe veya .dll ile bitmelidir.  ",
+		"",
+		"Örnek:  ",
+		"<color=#3c3cff>/path/a/bin/b/c/test.exe</color> şu nedenlerle eşleşir:  ",
+		"<color=#666666>/path/a/</color><color=#3c3cff>bin</color><color=#666666>/b/c/test</color><color=#3c3cff>.exe</color>",
+		"",
+		"Basitleştirmeler:  ",
+		"1. Yollarda sadece \"/\" bulunur (ters eğik çizgi \"\" yoktur).  ",
+		"2. Her test senaryosu sadece bir yol içerir.  ",
+		"3. Test senaryoları tamamen küçük harflidir.  ",
+		"",
+		"",
+		"Sağdaki tüm test senaryolarını geçecek bir regex oluşturun. "
+	],
+	"m_SystemLanguage":"Turkish"
+}

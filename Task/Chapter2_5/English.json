@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"Different operating systems use different newline representations:",
+		"Windows: Uses a combination of carriage return and line feed, i.e. <color=#7E3B50>\\r\\n</color>",
+		"Linux/Unix: Uses only line feed, i.e. <color=#7E3B50>\\n</color> (\\u000A)",
+		"Classic Mac: Uses only carriage return, i.e. <color=#7E3B50>\\r</color> (\\u000D)",
+		"However, modern macOS uses the same newline character as Linux/Unix: <color=#7E3B50>\\n</color>",
+		"",
+		"When organizing document structures:",
+		"Some use spaces <color=#AB2800>\\u0020</color>,",
+		"Some use non-breaking spaces <color=#AB2800>\\u00A0</color>,",
+		"Some use tabs <color=#7E3B50>\\t</color>,",
+		"Some use vertical tabs <color=#7E3B50>\\v</color>",
+		"...",
+		"",
+		"Some software can recognize these symbols and display them correctly, while others cannot. Ultimately, this leads to chaotic document presentation!",
+		"",
+		"<img src=Texture/Task/WhiteSpace width=572 height=990>",
+		"",
+		"The following characters are expected to match: <color=#7E3B50>\\r \\n \\t \\v </color><color=#AB2800>\\u0020 \\u00A0</color>",
+		"",
+		"",
+		"Please construct a regular expression that passes all tests on the right."
+	],
+	"m_SystemLanguage":"English"
+}

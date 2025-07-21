@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Daha önce 100 karakter uzunluğunda bir sayıyı nasıl eşleştireceğimizi konuşmuştuk, elbette:",
+		"<color=#666666>\\d\\d\\d\\d\\d...</color> <color=#ff0000>X</color>",
+		"",
+		"Bir düzenli ifadenin (regex) sonuna <color=#FF68DD>{n}</color> eklemek, önündeki düzenli ifadenin `n` kez tekrar ettiği anlamına gelir; `n` bir doğal sayıdır.",
+		"",
+		"<b>Örneğin</b>, <color=#AB2800>1</color><color=#FF68DD>{3}</color> üç kez tekrar eden 1'i eşleştirir.",
+		"<color=#AB2800>1</color><color=#FF68DD>{3}</color>, <color=#3c3cff>12111311</color> içindeki <color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color> ile eşleşir.",
+		"",
+		"Bir düzenli ifadenin sonuna <color=#FF68DD>{n,}</color> eklemek, önündeki düzenli ifadenin *en az* `n` kez tekrar ettiği anlamına gelir; `n` bir doğal sayıdır.",
+		"",
+		"<b>Örneğin</b>, <color=#AB2800>1</color><color=#FF68DD>{2,}</color> <color=#3c3cff>12111311</color> içindeki aşağıdakilerle eşleşir:",
+		"<color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color>",
+		"<color=#666666>121113</color><color=#3c3cff>11</color>",
+		"",
+		"Bir düzenli ifadenin sonuna <color=#FF68DD>{n,m}</color> eklemek, önündeki düzenli ifadenin *en az* `n` kez ve *en çok* `m` kez tekrar ettiği anlamına gelir; `n` ve `m` doğal sayılardır.",
+		"",
+		"<b>Örneğin</b>, <color=#AB2800>o</color><color=#FF68DD>{1,2}</color> <color=#3c3cff>Choose your right friends ooo</color> içindeki aşağıdakilerle eşleşir:",
+		"<color=#666666>Ch</color><color=#3c3cff>oo</color><color=#666666>se your right friends ooo</color>",
+		"<color=#666666>Choose y</color><color=#3c3cff>o</color><color=#666666>ur right friends ooo</color>",
+		"",
+		"Aradan zaman geçti, yılanlar daha da uzadı!",
+		"Şimdi, \"a\" harfinin uzunluğu 3'ten büyük *ve* 5'ten küçük olan yılanları seçmeniz gerekiyor.",
+		"Yanlış yılanı almayın, ısırır!",
+		"",
+		"",
+		"Lütfen, sağdaki tüm testleri geçecek bir düzenli ifade (regex) oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

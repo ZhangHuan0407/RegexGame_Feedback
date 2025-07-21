@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Discutimos anteriormente como combinar números com 100 dígitos, claro que seria:  ",
+		"<color=#666666>\\d\\d\\d\\d\\d...</color> <color=#ff0000>X</color>  ",
+		"",
+		"Adicionar <color=#FF68DD>{n}</color> após uma expressão regular indica que ela se repete exatamente *n* vezes, onde *n* é um número natural.  ",
+		"",
+		"<b>Por exemplo</b>, <color=#AB2800>1</color><color=#FF68DD>{3}</color> significa \"1 repetido 3 vezes\".  ",
+		"<color=#AB2800>1</color><color=#FF68DD>{3}</color> combina com <color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color> em <color=#3c3cff>12111311</color>  ",
+		"",
+		"Adicionar <color=#FF68DD>{n,}</color> após uma expressão regular indica repetição de *pelo menos n* vezes.  ",
+		"",
+		"<b>Por exemplo</b>, <color=#AB2800>1</color><color=#FF68DD>{2,}</color> combina em <color=#3c3cff>12111311</color>:  ",
+		"<color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color>",
+		"<color=#666666>121113</color><color=#3c3cff>11</color>",
+		"",
+		"Adicionar <color=#FF68DD>{n,m}</color> indica repetição de *no mínimo n* e *no máximo m* vezes.  ",
+		"",
+		"<b>Por exemplo</b>, <color=#AB2800>o</color><color=#FF68DD>{1,2}</color> combina em <color=#3c3cff>Choose your right friends ooo</color>:  ",
+		"<color=#666666>Ch</color><color=#3c3cff>oo</color><color=#666666>se your right friends ooo</color>",
+		"<color=#666666>Choose y</color><color=#3c3cff>o</color><color=#666666>ur right friends ooo</color>",
+		"",
+		"Há quanto tempo! As cobras ficaram mais longas!  ",
+		"Agora, precisamos filtrar cobras onde o comprimento de \"a\" seja maior que 3 e menor que 5.  ",
+		"Não escolha as cobras erradas - elas mordem!  ",
+		"",
+		"",
+		"Construa uma expressão regular que passe em todos os testes à direita.  "
+	],
+	"m_SystemLanguage":"Portuguese"
+}

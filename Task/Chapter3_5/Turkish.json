@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Tarih gösterimi bölgelere göre değişir.  ",
+		"Bazı diller <b>ay-gün-yıl</b> sırasını kullanırken, bazıları <b>yıl-ay-gün</b> sırasını kullanır.  ",
+		"",
+		"Küreselleşme çağında, kullanıcıların girdiği tarih formatları kültürel geçmişlerini yansıtır. Mütevazı bir program olarak, yalnızca bugünün gerçek tarihini belirlemek istiyorum!  ",
+		"",
+		"Örneğin:  ",
+		"<color=#3c3cff>The current time is 1/18/2025</color> → Beklenen eşleşme:  ",
+		"<color=#666666>The current time is </color><color=#3c3cff>1/18/2025</color>",
+		"",
+		"<color=#3c3cff>현재 시간은 2025-01-18입니다</color> → Beklenen eşleşme: 2025-01-18  ",
+		"<color=#666666>현재 시간은 </color><color=#3c3cff>2025-01-18</color><color=#666666>입니다</color>",
+		"",
+		"<color=#666666>Şimdi, cevaba yönelik programlama yapmak için inanılmaz gözlem yeteneklerinizi devreye sokun (üstünü çizelim)</color>  ",
+		"Şimdi, bir metin parçası içindeki tarih bölümünü eşleştirmeyi deneyin  ",
+		"",
+		"Bu testte, hedef veri şu özelliklere sahiptir:",
+		"<color=#3173FF>\\w \\s</color>  Olası kelime karakterleri veya boşluk  ",
+		"<color=#3173FF>\\d</color>      Rakamlar  ",
+		"<color=#AB2800>\\. \\- /</color>   Rakam ayırıcılar  ",
+		"<color=#3173FF>\\d</color>      Rakamlar  ",
+		"<color=#AB2800>\\. \\- /</color>   Rakam ayırıcılar  ",
+		"<color=#3173FF>\\d</color>      Rakamlar  ",
+		"<color=#3173FF>\\w \\s</color>  Olası kelime karakterleri veya boşluk  ",
+		"",
+		"",
+		"Sağdaki tüm testleri geçen bir düzenli ifade oluşturun.  "
+	],
+	"m_SystemLanguage":"Turkish"
+}

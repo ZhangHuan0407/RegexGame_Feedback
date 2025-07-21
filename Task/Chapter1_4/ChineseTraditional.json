@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"有時我們不確定一個字串中是否包含目標<b>子運算式</b>。",
+		"",
+		"可以將可能存在的一段內容用 <color=#05C3BA>( )</color> 包圍，然後添加 <color=#FF68DD>?</color> 來表示一段內容可能出現了0次或1次。",
+		"",
+		"例如，使用 <color=#AB2800>a</color><color=#05C3BA>(</color><color=#AB2800>b</color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#AB2800>c</color> 匹配 <color=#3c3cff>abcac</color> 的結果為：",
+		"<color=#3c3cff>abc</color><color=#666666>ac</color>",
+		"<color=#666666>abc</color><color=#3c3cff>ac</color>",
+		"",
+		"例如，市內電話號碼可能附帶區號前綴，也可能沒有區號前綴。",
+		"",
+		"<color=#3c3cff>010-12345678</color>",
+		"<color=#3c3cff>12345678</color>",
+		"上述範例中，010為區號前綴。",
+		"",
+		"例如，使用 <color=#05C3BA>( </color><color=#AB2800>010- </color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#3173FF>\\d</color><color=#FF68DD>+</color> 匹配上述範例，",
+		"<color=#3c3cff>010-12345678</color> 返回 <color=#3c3cff>010-12345678</color>",
+		"<color=#3c3cff>12345678</color> 返回 <color=#3c3cff>12345678</color>",
+		"",
+		"現在，期望截取任意位置的字母A，並嘗試追加其後面一位的數字。",
+		"",
+		"本次測試中，需要匹配的字串具有以下特徵：",
+		"<color=#3c3cff>A</color>   字母A",
+		"<color=#3c3cff>\\d</color>   0位或1位十進位數字",
+		"",
+		"請構造一個正規表示式使其通過右側所有測試。"
+	],
+	"m_SystemLanguage":"ChineseTraditional"
+}

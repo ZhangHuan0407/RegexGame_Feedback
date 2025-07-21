@@ -1,0 +1,19 @@
+{
+	"m_DescList":[
+		"老闆使用了你上一關寫的「郵件過濾小助手.exe」，他對此<b>非常不滿意</b>！",
+		"",
+		"他給了你一個新的任務，匹配簡歷裡的地址資訊，給他們發送一封「你沒有通過面試」的信件。地址資訊<b>不允許<b>存在額外的 \"Address:\" 文字。",
+		"",
+		"你聽說了被稱作 「零寬度正回顧後發斷言」的正則寫法：",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color>",
+		"",
+		"比如，使用 <color=#05C3BA>(?</color><color=#AB2800><= A </color><color=#05C3BA>)</color><color=#AB2800>BC</color> 匹配 <color=#3c3cff>ABC</color>，結果為：",
+		"<color=#666666>A</color><color=#3c3cff>BC</color>",
+		"",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color> 會神奇地吃掉 <color=#AB2800>subexpression</color> 匹配的部分！",
+		"",
+		"",
+		"請構造一個正則表達式使之通過右側所有測試。"
+	],
+	"m_SystemLanguage":"ChineseTraditional"
+}

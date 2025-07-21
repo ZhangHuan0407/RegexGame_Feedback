@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"In verschiedenen Betriebssystemen werden Zeilenumbrüche unterschiedlich dargestellt.  ",
+		"Windows: Verwendet eine Kombination aus Wagenrücklauf und Zeilenvorschub, d. h. <color=#7E3B50>\\r\\n</color>",
+		"Linux/Unix: Verwendet ausschließlich den Zeilenvorschub, d. h. <color=#7E3B50>\\n</color> (\\u000A)  ",
+		"Mac (ältere Versionen): Verwendet ausschließlich den Wagenrücklauf, d. h. <color=#7E3B50>\\r</color> (\\u000D)  ",
+		"In modernen macOS-Systemen entspricht der Zeilenumbruch jedoch dem von Linux/Unix und verwendet <color=#7E3B50>\\n</color>",
+		"",
+		"Bei der Strukturierung von Dokumenten  ",
+		"verwenden manche Leerzeichen <color=#AB2800>\\u0020</color>,  ",
+		"manche verwenden geschützte Leerzeichen <color=#AB2800>\\u00A0</color>,  ",
+		"manche verwenden Tabulatoren <color=#7E3B50>\\t</color>,  ",
+		"manche verwenden vertikale Tabulatoren <color=#7E3B50>\\v</color> ",
+		"...",
+		"",
+		"Einige Programme erkennen diese Symbole und stellen sie korrekt dar, andere nicht. Letztendlich führt dies dazu, dass die Dokumentdarstellung ein völliges Durcheinander wird!",
+		"",
+		"<img src=Texture/Task/WhiteSpace width=572 height=990>",
+		"",
+		"Es wird erwartet, dass die folgenden Zeichen übereinstimmen: <color=#7E3B50>\\r \\n \\t \\v </color><color=#AB2800>\\u0020 \\u00A0</color>",
+		"",
+		"",
+		"Bitte konstruiere einen regulären Ausdruck, der alle Testfälle auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

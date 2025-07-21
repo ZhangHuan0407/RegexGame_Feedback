@@ -1,0 +1,27 @@
+{
+	"m_DescList":[
+		"Das Anhängen von <color=#FF68DD>?</color> an einen regulären Ausdruck bedeutet, dass der vorherige Ausdruck null- oder einmal vorkommen kann.",
+		"",
+		"Beispiel:  ",
+		"Zum Beispiel bedeutet <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color>: Auf mehrere Ziffern folgt möglicherweise ein \"%\".",
+		"",
+		"Verwenden von <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> zum Abgleichen von <color=#3c3cff>100%</color>,  ",
+		"Ergebnis:  ",
+		"<color=#3c3cff>100%</color>",
+		"",
+		"Verwenden von <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> zum Abgleichen von <color=#3c3cff>0.99</color>  ",
+		"Ergebnis:  ",
+		"<color=#3c3cff>0</color><color=#666666>.99</color>",
+		"<color=#666666>0.</color><color=#3c3cff>99</color>",
+		"",
+		"Verwenden von <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> zum Abgleichen von <color=#3c3cff>ALL%</color>  ",
+		"<color=#3c3cff>ALL%</color> keine Übereinstimmung",
+		"",
+		"Nun erhalten Sie eine \"ASCII\"-Zeichnung, in der alle Ziffern 8 gezählt werden müssen. Wenn vor einer 8 ein \".\" steht, muss dieser ebenfalls eingeschlossen werden.",
+		"",
+		"Zum Beispiel: Bei <color=#3c3cff>11.88</color> ist das erwartete Ergebnis <color=#666666>11</color><color=#3c3cff>.88</color>",
+		"",
+		"Bitte konstruieren Sie einen regulären Ausdruck, der alle Tests auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

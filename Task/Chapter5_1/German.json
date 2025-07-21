@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"Markdown ist eine leichtgewichtige Auszeichnungssprache, die darauf ausgelegt ist, Text gut lesbar und einfach schreibbar zu machen.",
+		"",
+		"In Markdown erzeugt das Umschließen von Text mit doppelten Tilden ~~ einen Durchstreichungseffekt.",
+		"",
+		"Beispiel:  ",
+		"~~Markdown~~  ",
+		"<img src=Texture/Task/MarkdownDelete width=230 height=47>",
+		"",
+		"Die Aufgabe besteht darin, einen regulären Ausdruck zu erstellen, der den durchgestrichenen Inhalt erfasst, wobei folgende Konventionen gelten:  ",
+		"1. <b>Einschließlich</b> der doppelten Tilden auf beiden Seiten  ",
+		"2. Alle Eingaben bestehen nur aus einzeiligen Zeichenketten  ",
+		"3. Fünf oder mehr aufeinanderfolgende Tilden sollten nicht erkannt werden",
+		"",
+		"",
+		"Erstellen Sie einen regulären Ausdruck, der alle Tests auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

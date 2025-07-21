@@ -1,0 +1,13 @@
+{
+	"m_DescList":[
+		"**《Ode à Alegria》** é um poema escrito pelo poeta alemão Schiller, para o qual Beethoven compôs a música.",
+		"",
+		"Estou curioso para saber quantas vezes, na letra da música, uma letra anterior está no intervalo de caracteres **a-i** e a letra seguinte está no intervalo **j-z**.",
+		"",
+		"Agora, pretende-se capturar os pares acima descritos.",
+		"",
+		"",
+		"Por favor, construa uma **expressão regular** que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

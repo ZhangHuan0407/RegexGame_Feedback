@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"Dans le code C#, si une ligne contient \"//\", tout contenu suivant sur la même ligne est considéré comme un commentaire et n'est pas compilé.  ",
+		"",
+		"<color=#249622>// Ceci est un commentaire</color>  ",
+		"<color=#3c3cff>public int</color> UserID;  ",
+		"",
+		"<color=#60a3da>[SerializeField]</color> <color=#249622>// Commentaire 123</color>  ",
+		"<color=#3c3cff>private string</color> m_TextAssetPath;  ",
+		"",
+		"<color=#249622>// Les symboles \"//\" dans un commentaire restent du contenu de commentaire</color>  ",
+		"<color=#3c3cff>public class</color> <color=#60a3da>A</color>  ",
+		"{  ",
+		"}  ",
+		"",
+		"Dans les exemples ci-dessus, les sections vertes sont des commentaires. À partir de \"//\", tout contenu vert suivant sur cette ligne fait partie du commentaire.  ",
+		"",
+		"Nous souhaitons maintenant concevoir une expression régulière qui reproduit le comportement du compilateur pour les commentaires monolignes.  ",
+		"",
+		"Pour 100% des données d'entrée, les règles suivantes s'appliquent :  ",
+		"1. Aucun commentaire multiligne n'existe ; seuls les commentaires monolignes sont présents  ",
+		"2. Les données utilisent \"",
+		"\" comme marqueur de fin de ligne ; aucun caractère spécial comme \"\\r\" ou \"\\v\" n'apparaîtra  ",
+		"3. Deux barres obliques \"/\" ou plus consécutives sont traitées comme un commentaire monoligne (ex. \"///\")  ",
+		"",
+		"",
+		"Veuillez construire une expression régulière qui passe tous les tests à droite. "
+	],
+	"m_SystemLanguage":"French"
+}

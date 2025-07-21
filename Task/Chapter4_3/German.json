@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"Während der Spieleentwicklung wollte ich stets Bilder oder Memes einbinden, um eine entspanntere Atmosphäre zu schaffen.  ",
+		"",
+		"Ein Bild umfasst folgende Komponenten:  ",
+		"1. Ressourcenpfad  ",
+		"2. Bildbreite  ",
+		"3. Bildhöhe  ",
+		"",
+		"Beispielsweise folgende Grafik:  ",
+		"<img src=Texture/emoji_1 width=213 height=131>  ",
+		"",
+		"Der tatsächliche Eingabetext im Editor lautet:  ",
+		"<color=#3c3cff><img src=</color><color=#ee3300>Texture/emoji_1</color> <color=#3c3cff>width=</color><color=#ee3300>213</color> <color=#3c3cff>height=</color><color=#ee3300>131</color><color=#3c3cff>></color>  ",
+		"",
+		"Konvention:  ",
+		"- Erfassungsgruppenname für src: \"Src\"  ",
+		"- Erfassungsgruppenname für width: \"Width\"  ",
+		"- Erfassungsgruppenname für height: \"Height\"  ",
+		"",
+		"Für alle Testfälle gelten folgende Vereinbarungen:  ",
+		"1. Die Reihenfolge von src, width, height ist nicht festgelegt  ",
+		"2. In Testfällen wird src niemals Leerzeichen enthalten  ",
+		"",
+		"Bitte konstruieren Sie einen regulären Ausdruck, der alle Testfälle auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

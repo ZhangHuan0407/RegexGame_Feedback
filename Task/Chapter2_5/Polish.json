@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"Oto precyzyjne tłumaczenie na język polski, z zachowaniem wszystkich specyfikacji:",
+		"",
+		"W różnych systemach operacyjnych znaki nowej linii są reprezentowane inaczej.  ",
+		"Windows: Używa kombinacji powrotu karetki i znaku nowej linii, czyli <color=#7E3B50>\\r\\n</color>",
+		"Linux/Unix: Używa wyłącznie znaku nowej linii, czyli <color=#7E3B50>\\n</color> (\\u000A)  ",
+		"Mac (starsze wersje): Używa wyłącznie powrotu karetki, czyli <color=#7E3B50>\\r</color> (\\u000D)  ",
+		"Jednak w nowoczesnych systemach macOS znak nowej linii jest taki sam jak w Linux/Unix, czyli <color=#7E3B50>\\n</color>",
+		"",
+		"Podczas porządkowania struktury dokumentu:  ",
+		"niektórzy używają spacji <color=#AB2800>\\u0020</color>,  ",
+		"niektórzy używają spacji nierozdzielającej <color=#AB2800>\\u00A0</color>,  ",
+		"niektórzy używają znaku tabulacji <color=#7E3B50>\\t</color>,  ",
+		"niektórzy używają tabulacji pionowej <color=#7E3B50>\\v</color> ",
+		"...",
+		"",
+		"Niektóre programy poprawnie rozpoznają te znaki, a inne nie. W efekcie prezentacja dokumentu staje się bałaganem!",
+		"",
+		"<img src=Texture/Task/WhiteSpace width=572 height=990>",
+		"",
+		"Oczekuje się, że następujące znaki będą zgodne: <color=#7E3B50>\\r \\n \\t \\v </color><color=#AB2800>\\u0020 \\u00A0</color>",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

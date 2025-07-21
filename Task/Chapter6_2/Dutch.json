@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"Programma's doorlopen soms recursief alle bestanden in mappen. Voor eenvoudige vereisten kunnen wildcards worden gebruikt.  ",
+		"Voor complexe vereisten kunnen reguliere expressies ook bestandspaden matchen.  ",
+		"",
+		"Het doel is om bestanden te matchen die aan deze regels voldoen:  ",
+		"1. Het pad bevat een map met de naam bin.  ",
+		"2. Het bestand eindigt op .exe of .dll.  ",
+		"",
+		"Voorbeeld:  ",
+		"<color=#3c3cff>/path/a/bin/b/c/test.exe</color> matcht omdat:  ",
+		"<color=#666666>/path/a/</color><color=#3c3cff>bin</color><color=#666666>/b/c/test</color><color=#3c3cff>.exe</color>",
+		"",
+		"Vereenvoudigingen:  ",
+		"1. Paden bevatten alleen \"/\" (nooit backslashes \"\").  ",
+		"2. Elke testcase bevat slechts één pad.  ",
+		"3. Testcases zijn volledig in kleine letters.  ",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle testcases rechts doorstaat. "
+	],
+	"m_SystemLanguage":"Dutch"
+}

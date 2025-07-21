@@ -1,0 +1,19 @@
+{
+	"m_DescList":[
+		"The boss used the \"Email Filter Assistant.exe\" you wrote in the previous level, and he is very dissatisfied with it!  ",
+		"",
+		"He has given you a new task to match address information in resumes and send them a \"You did not pass the interview\" letter. The address information must not contain extra \"Address:\" text.  ",
+		"",
+		"You have heard of a regular expression pattern called \"Zero-Width Positive Lookbehind Assertion\":  ",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color>",
+		"",
+		"For example, using <color=#05C3BA>(?</color><color=#AB2800><= A </color><color=#05C3BA>)</color><color=#AB2800>BC</color> to match <color=#3c3cff>ABC</color>, the result is:  ",
+		"<color=#666666>A</color><color=#3c3cff>BC</color>",
+		"",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color> will magically \"eat\" the part matched by <color=#AB2800>subexpression</color>!",
+		"",
+		"",
+		"Please construct a regular expression to pass all tests on the right."
+	],
+	"m_SystemLanguage":"English"
+}

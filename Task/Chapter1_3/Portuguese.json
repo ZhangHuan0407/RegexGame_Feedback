@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"Um texto geralmente tem um início e um fim.",
+		"",
+		"Use <color=#FF68DD>\\A</color> ou <color=#FF68DD>^</color> para representar o início de uma string.",
+		"",
+		"Exemplo:  ",
+		"<color=#3c3cff>011</color>  ",
+		"<color=#3c3cff>0</color>  ",
+		"<color=#3c3cff>_0</color>  ",
+		"Por exemplo, ao usar <color=#FF68DD>\\A</color><color=#AB2800>0</color> para corresponder ao exemplo acima, ou seja, \"corresponder a conteúdo que começa com 0\":  ",
+		"<color=#3c3cff>011</color> retorna 0  ",
+		"<color=#3c3cff>0</color> retorna 0  ",
+		"<color=#3c3cff>_0</color> não corresponde  ",
+		"",
+		"Use <color=#FF68DD>\\Z</color> ou <color=#FF68DD>$</color> para representar o fim de uma string.",
+		"",
+		"Exemplo:  ",
+		"<color=#3c3cff>001</color>  ",
+		"<color=#3c3cff>1</color>  ",
+		"<color=#3c3cff>1_</color>  ",
+		"Por exemplo, ao usar <color=#AB2800>1</color><color=#FF68DD>\\Z</color> para corresponder ao exemplo acima, ou seja, \"corresponder a conteúdo que termina com 1\":  ",
+		"<color=#3c3cff>001</color> retorna 1  ",
+		"<color=#3c3cff>1</color> retorna 1  ",
+		"<color=#3c3cff>1_</color> não corresponde  ",
+		"",
+		"Agora, você precisa fazer correspondência a todas as strings que contêm apenas o dígito 1.",
+		"",
+		"Construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

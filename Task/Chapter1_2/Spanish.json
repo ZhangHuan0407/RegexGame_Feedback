@@ -1,0 +1,18 @@
+{
+	"m_DescList":[
+		"Los números negativos se representan usando el símbolo <color=#AB2800>-</color>.",
+		"",
+		"Por ejemplo, al usar la expresión regular <color=#AB2800>-</color> para coincidir con <color=#3c3cff>-1</color>, el resultado es:",
+		"<color=#3c3cff>-</color><color=#666666>1</color>",
+		"",
+		"Ahora, el objetivo es coincidir con números negativos.",
+		"",
+		"En esta prueba, los números decimales que deben coincidir tienen las siguientes características:",
+		"<color=#3c3cff>-</color>     Signo negativo",
+		"<color=#3c3cff>\\d</color>   Uno o más dígitos arábigos repetidos",
+		"",
+		"",
+		"Por favor, construye una expresión regular que pase todas las pruebas en el lado derecho."
+	],
+	"m_SystemLanguage":"Spanish"
+}

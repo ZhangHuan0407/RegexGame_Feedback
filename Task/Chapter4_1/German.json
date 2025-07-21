@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"Wenn reguläre Ausdrücke zunehmend komplexer werden, kann eine einzelne Textübereinstimmung mehrere Erfassungsgruppen liefern.  ",
+		"Wir weisen diesen Ausdrücken eindeutige Namen zu, um zu unterscheiden, welches Gruppenergebnis extrahiert werden soll.  ",
+		"",
+		"Beispiel: <color=#AB2800>A</color> passt auf <color=#3c3cff>A</color><color=#666666>BC</color> in <color=#3c3cff>ABC</color>.  ",
+		"",
+		"Wir können die Erfassungsgruppe für <color=#AB2800>A</color> als <color=#AB2800>test</color> benennen: <color=#05C3BA>(?</color><color=#AB2800><test>A</color><color=#05C3BA>)</color>",
+		"",
+		"Beim Abgleich mit <color=#3c3cff>ABC</color> liefert dieser Ausdruck:  ",
+		"<color=#3c3cff>A</color>            Gesamtergebnis der Übereinstimmung  ",
+		"<color=#3c3cff><test>A</color>   Ergebnis der \"test\"-Capturing-Gruppe  ",
+		"",
+		"Um etwa die Ganzzahl vor einem Dezimalpunkt zu erfassen (Gruppenname \"int\"): <color=#05C3BA>(?</color><color=#AB2800><int></color><color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#05C3BA>)</color><color=#AB2800>\\.</color><color=#3173FF>\\d</color><color=#FF68DD>+</color>",
+		"",
+		"Bei Abgleich mit <color=#3c3cff>Preis: 1.99</color> ergibt sich:  ",
+		"<color=#3c3cff>1.99</color>    Gesamtergebnis  ",
+		"<color=#3c3cff><int>1</color> Ergebnis der \"int\"-Gruppe",
+		"",
+		"In Firmen-E-Mails müssen Namen im Text identifiziert werden. Zu erfassende Inhalte haben folgende Merkmale:  ",
+		"1. Beginnt mit <b>name</b> oder <b>Name</b>  ",
+		"2. Muster: *name is xxx*, *name: xxx*, *name:xxx*  ",
+		"3. Namen enthalten keine , . oder , – Abbruch bei diesen Symbolen  ",
+		"",
+		"Konvention: Benennen Sie die Erfassungsgruppe als \"Name\".",
+		"",
+		"Erstellen Sie einen regulären Ausdruck, der alle Tests auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

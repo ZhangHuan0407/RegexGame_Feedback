@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"Volgens beleidseisen moet de software gebruikers in het vasteland van China vragen om hun residentiële identiteitskaartnummer in te voeren bij het leveren van internetdiensten.  ",
+		"Normaal gesproken valideert de client eerst het ingevoerde ID-nummer voordat het naar de server wordt verzonden.  ",
+		"",
+		"Een residentiële identiteitskaart bestaat doorgaans uit 18 tekens:  ",
+		"<color=#3c3cff>123456</color><color=#e06600>78901234</color><color=#ee3300>567</color><color=#33aa55>8</color>  ",
+		"Cijfers <color=#3c3cff>1-6</color>: Adrescode  ",
+		"Cijfers <color=#e06600>7-14</color>: Geboortedatumcode  ",
+		"Bijv. <color=#e06600>78901234</color> betekent 31 december 7890  ",
+		"Bijv. <color=#e06600>19990102</color> betekent 2 januari 1999  ",
+		"Cijfers <color=#ee3300>15-17</color>: Volgordecode  ",
+		"Cijfer <color=#33aa55>18</color>: Controlecijfer (cijfer of hoofdletter X)  ",
+		"",
+		"Op basis van algemene kennis kunnen we deze validatieregels samenvatten:  ",
+		"1. Een jaar heeft 12 maanden, dus de maandwaarde moet tussen 1~12 liggen.  ",
+		"2. Elke maand heeft 29, 30 of 31 dagen, dus de dagwaarde moet tussen 1~31 liggen.  ",
+		"3. De eerste twee cijfers van het jaar moeten 19 of 20 zijn.  ",
+		"4. De totale lengte moet 18 tekens zijn (of 17 cijfers + X).  ",
+		"5. Het controlecijfer moet een cijfer of hoofdletter X zijn.  ",
+		"",
+		"Ter vereenvoudiging hanteren we deze afspraken:  ",
+		"1. Valideer niet het exacte aantal dagen per maand. Jaar-, maand- en dagcomponenten worden apart gecontroleerd. Bijvoorbeeld: februari heeft geen 30e, maar een invoer zoals 19990230 zal toch matchen.  ",
+		"2. Adrescode en volgordecode worden alleen als cijfers gevalideerd, zonder extra controles.  ",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle tests aan de rechterzijde doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

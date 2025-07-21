@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"INI dosyalarında her bölüm, birden fazla anahtar-değer çifti içerir.",
+		"",
+		"<img src=Texture/Task/IniKeyValue width=339 height=102>",
+		"",
+		"Yukarıdaki görselde gösterildiği gibi, çeşitli anahtar-değer çiftleri bulunur:  ",
+		"Anahtar (key) <color=#3c3cff>a_2</color>, değer (value) <color=#3c3cff>\"'a_2' is key name\"</color>  ",
+		"Anahtar <color=#3c3cff>key</color>, değer <color=#3c3cff>value</color>  ",
+		"Anahtar <color=#3c3cff>c</color>, değer <color=#3c3cff>1</color>",
+		"",
+		"Şimdi bölüm içeriğini eşleştirmek için aşağıdaki kurallar belirlenmiştir:  ",
+		"1. Her test senaryosu bağımsız bir satırdır  ",
+		"2. Satır anahtar-değer formatındaysa, tüm içeriği eşleştirin  ",
+		"3. Anahtarı yakalayan grubun adı \"key\" olacaktır  ",
+		"4. Değeri yakalayan grubun adı \"value\" olacaktır  ",
+		"5. Anahtar ile eşittir işareti arasında veya \"=\" ile değer arasında boşluklar olabilir; \"key\" ve \"value\" yakalama grupları \"=\" işaretine bitişik boşlukları içermemelidir  ",
+		"",
+		"",
+		"Lütfen sağdaki tüm testleri geçecek bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

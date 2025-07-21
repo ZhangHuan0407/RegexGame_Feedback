@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Bazen bir dizinin hedef <b>alt ifadeyi</b> içerip içermediğinden emin olamayız.",
+		"",
+		"Muhtemel bir içerik parçasını <color=#05C3BA>( )</color> ile çevreleyip ardından <color=#FF68DD>?</color> ekleyerek bir içeriğin 0 veya 1 kez görünebileceğini ifade edebiliriz.",
+		"",
+		"Örneğin, <color=#AB2800>a</color><color=#05C3BA>(</color><color=#AB2800>b</color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#AB2800>c</color> ile <color=#3c3cff>abcac</color> eşleştirildiğinde sonuç:",
+		"<color=#3c3cff>abc</color><color=#666666>ac</color>",
+		"<color=#666666>abc</color><color=#3c3cff>ac</color>",
+		"",
+		"Örneğin, sabit hat telefon numaraları alan kodu öneki içerebilir veya içermeyebilir.",
+		"",
+		"<color=#3c3cff>010-12345678</color>",
+		"<color=#3c3cff>12345678</color>",
+		"Yukarıdaki örnekte, 010 alan kodudur.",
+		"",
+		"Örneğin, yukarıdaki örnekleri eşleştirmek için <color=#05C3BA>( </color><color=#AB2800>010- </color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#3173FF>\\d</color><color=#FF68DD>+</color> kullanıldığında,",
+		"<color=#3c3cff>010-12345678</color> 010-12345678 döndürür",
+		"<color=#3c3cff>12345678</color> 12345678 döndürür",
+		"",
+		"Şimdi A harfini herhangi bir noktada kesip, arkasına rakam eklemeye çalışacağız.",
+		"",
+		"Bu testte eşleştirilecek dizinin özellikleri:",
+		"<color=#3c3cff>A</color>   A harfi",
+		"<color=#3c3cff>\\d</color>   0 veya 1 ondalık basamak",
+		"",
+		"",
+		"Lütfen sağdaki tüm testleri geçen bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

@@ -1,0 +1,24 @@
+{
+	"m_DescList":[
+		"El jefe solicitó recopilar las direcciones de correo electrónico QQ de los empleados. Ayer le asignó esta tarea a tu colega Zhang San. Esta mañana, Zhang San fue despedido por entrar en la empresa con el pie izquierdo primero.  ",
+		"¡Ahora el jefe te ha asignado esta tarea a ti!  ",
+		"",
+		"El correo QQ tiene las siguientes características:  ",
+		"<color=#3c3cff>0-9</color>             Consta de 5 a 11 dígitos decimales.  ",
+		"<color=#3c3cff>@qq.com</color>   Consta de un sufijo fijo.  ",
+		"",
+		"Tus colegas siempre son descuidados y es probable que ingresen información incorrecta.  ",
+		"Diseña una expresión regular que solo coincida con correos QQ que parezcan normales.  ",
+		"",
+		"<b>Por ejemplo</b>, los siguientes datos de entrada contienen errores evidentes:  ",
+		"123.123@qq.com Contiene el símbolo erróneo \".\"  ",
+		"12345@qq.com12346@qq.com Dos correos electrónicos escritos juntos  ",
+		"",
+		"",
+		"Por favor, construye una expresión regular que pase todas las pruebas a la derecha.  ",
+		"",
+		"",
+		"<color=#666666>Sugerencia: Usa el conocimiento aprendido en los dos ejercicios anteriores</color> "
+	],
+	"m_SystemLanguage":"Spanish"
+}

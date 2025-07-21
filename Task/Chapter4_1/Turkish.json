@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Düzenli ifadeler giderek karmaşıklaştıkça, tek bir metin eşleşmesi birden fazla grup yakalayabilir.  ",
+		"Hangi yakalanan grup sonucunu almamız gerektiğini ayırt etmek için bu ifadelere benzersiz isimler atarız.  ",
+		"",
+		"Örneğin, <color=#AB2800>A</color> ifadesi <color=#3c3cff>ABC</color> içindeki <color=#3c3cff>A</color><color=#666666>BC</color> ile eşleşir.",
+		"",
+		"<color=#AB2800>A</color> için beklenen yakalama grubuna <color=#AB2800>test</color> adını vererek şu ifadeyi oluşturabiliriz: <color=#05C3BA>(?</color><color=#AB2800><test>A</color><color=#05C3BA>)</color>",
+		"",
+		"Yukarıdaki ifadenin <color=#3c3cff>ABC</color> ile eşleşmesi sonucunda:  ",
+		"<color=#3c3cff>A</color>            Genel eşleşme sonucu  ",
+		"<color=#3c3cff><test>A</color>  \"test\" yakalama grubunun eşleşme sonucu elde edilir.  ",
+		"",
+		"Örneğin, metindeki ondalık noktasından önceki tamsayıyı eşleştirmek ve bu yakalama grubuna \"int\" adını vermek için şu ifade oluşturulur: <color=#05C3BA>(?</color><color=#AB2800><int></color><color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#05C3BA>)</color><color=#AB2800>\\.</color><color=#3173FF>\\d</color><color=#FF68DD>+</color>",
+		"",
+		"Yukarıdaki ifadenin <color=#3c3cff>Fiyat: 1.99</color> ile eşleşmesi sonucunda:  ",
+		"<color=#3c3cff>1.99</color>    Genel eşleşme sonucu  ",
+		"<color=#3c3cff><int>1</color> \"int\" yakalama grubunun eşleşme sonucu elde edilir.",
+		"",
+		"Şirket e-postalarında, e-posta metinlerindeki isimlerin eşleştirilmesi gerekmektedir. Eşleştirilecek içerik şu özelliklere sahiptir:  ",
+		"1. <b>name</b> veya <b>Name</b> ile başlar  ",
+		"2. Şu kalıpları izler: name is xxx, name: xxx, name:xxx",
+		"3. İsimler \\n , . sembollerini içermez - bu sembollerle karşılaşıldığında eşleme durur  ",
+		"",
+		"Kural: Yakalama grubunun adı \"Name\" olarak belirlenmiştir.",
+		"",
+		"",
+		"Lütfen sağdaki tüm testleri geçen bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

@@ -1,0 +1,27 @@
+{
+	"m_DescList":[
+		"在不同的操作系统中，换行符的表示方式有所不同。",
+		"Windows: 使用回车符和换行符的组合，即 <color=#7E3B50>\\r\\n</color>",
+		"Linux/Unix: 仅使用换行符，即 <color=#7E3B50>\\n</color> (\\u000A)",
+		"Mac（旧版）: 仅使用回车符，即 <color=#7E3B50>\\r</color> (\\u000D)",
+		"但在现代的 macOS 中，换行符与 Linux/Unix 相同，使用 <color=#7E3B50>\\n</color>",
+		"",
+		"在整理文档结构时，",
+		"有的人使用空格 <color=#AB2800>\\u0020</color>，",
+		"有的人使用不间断空格 <color=#AB2800>\\u00A0</color>，",
+		"有的人使用制表符 <color=#7E3B50>\\t</color>，",
+		"有的人使用垂直制表符 <color=#7E3B50>\\v</color>",
+		"...",
+		"",
+		"有的软件能识别这些符号准确显示，有的软件则不能。最终，这导致文档展示变得一团糟！",
+		"",
+		"<img src=Texture/Task/WhiteSpace width=572 height=990>",
+		"",
+		"期望匹配以下字符：<color=#7E3B50>\\r \\n \\t \\v </color><color=#AB2800>\\u0020 \\u00A0</color>",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。",
+		""
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

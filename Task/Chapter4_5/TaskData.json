@@ -1,0 +1,76 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"{\n}",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"{\n}"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":3
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"{{{1{",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"{\n    \"name\" = \"value\",\n    []\n}",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"{\n    \"name\" = \"value\",\n    []\n}"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":32
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"{ \"skip first\": { }",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"{ }"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":16,
+					"length":3
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"{\n    data: {\n        \"array\": [ 1, 2, 3 ]\n    }\n    value: {\n        \"a\": \"1\"\n    }\n}",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"{\n    data: {\n        \"array\": [ 1, 2, 3 ]\n    }\n    value: {\n        \"a\": \"1\"\n    }\n}"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":86
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"}{",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":"{\n    (\r [^{}]+ | { (?<Depth>) | } (?<-Depth>)\r )*\r\n    (?(Depth)(?!))\r\n}"
+}

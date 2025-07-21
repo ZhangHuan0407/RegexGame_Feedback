@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"Quando usei <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> para corresponder a <color=#3c3cff>Snake Snaake</color> da última vez,  ",
+		"o resultado capturou ambas as cobras de uma só vez <color=#3c3cff>Snake Snaake</color>, e quase fui mordido. T_T  ",
+		"",
+		"As cobras agora estão entrelaçadas.  ",
+		"Para <color=#3c3cff>Snasssnkeake</color>, o resultado esperado é:  ",
+		"<color=#3c3cff>Snasssnke</color><color=#666666>ake</color>  ",
+		"",
+		"Desta vez começa com <color=#3c3cff>Sna</color>, e termina quando o primeiro <color=#3c3cff>ke</color> é encontrado.  ",
+		"",
+		"<b>Correspondência Gulosa (Greedy Matching)</b>  ",
+		"Em expressões regulares, <color=#FF68DD>*</color> ativa a correspondência gulosa, que tenta capturar o máximo possível de caracteres.  ",
+		"",
+		"Por exemplo, <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> corresponde a <color=#3c3cff>BABAB</color> em <color=#3c3cff>BABAB</color>, não apenas a \"BAB\". <color=#FF68DD>*</color> captura o máximo de conteúdo possível.  ",
+		"",
+		"<b>Correspondência Preguiçosa (Lazy Matching)</b>  ",
+		"Em expressões regulares, <color=#FF68DD>*?</color> ativa a correspondência não-gulosa, que captura o mínimo possível de caracteres.  ",
+		"",
+		"Por exemplo, <color=#AB2800>BA.</color><color=#FF68DD>*?</color><color=#AB2800>B</color> retorna duas correspondências para <color=#3c3cff>BABAB</color>:  ",
+		"<color=#3c3cff>BAB</color><color=#666666>AB</color>  ",
+		"<color=#666666>BA</color><color=#3c3cff>BAB</color>  ",
+		"",
+		"Para 100% dos dados de entrada, aplicam-se estas regras:  ",
+		"1. Misturar correspondência gulosa e preguiçosa é complexo demais; usar <b>correspondência preguiçosa</b> passa em todos os casos de teste  ",
+		"2. Capture apenas <b>uma cobra</b> por vez  ",
+		"3. A correspondência esperada inicia com \"Sna\", seguida de caracteres consecutivos, e termina com \"ke\"  ",
+		"",
+		"",
+		"Por favor, construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

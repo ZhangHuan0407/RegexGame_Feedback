@@ -1,0 +1,27 @@
+{
+	"m_DescList":[
+		"正則表達式 <color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> 表示 <color=#AB2800>subexpression</color> 會以<b>不區分大小寫</b>的方式匹配。  ",
+		"這些操作被稱為組選項，所有可選參數請參考 <color=#05C3BA>(?</color><color=#AB2800>imnsx-imnsx: subexpression</color><color=#05C3BA>)</color>。  ",
+		"",
+		"例如，<color=#05C3BA>(?i: </color><color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color><color=#05C3BA>)</color> 匹配範例字串 <color=#3c3cff>aBC</color> 的結果為：  ",
+		"<color=#3c3cff>a</color><color=#666666>BC</color>  ",
+		"<color=#666666>a</color><color=#3c3cff>B</color><color=#666666>C</color>  ",
+		"<color=#666666>aB</color><color=#3c3cff>C</color>  ",
+		"<color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> 使 <color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color> 能同時匹配大小寫字母，等價於 <color=#3173FF>[</color><color=#AB2800>abcABC</color><color=#3173FF>]</color>。  ",
+		"",
+		"在工作流情境中，某個程式有時會讀取其他程式輸出的日誌，並根據日誌訊息進行差異化處理。  ",
+		"",
+		"舉例來說，若前一程式的日誌包含 \"error\"，表示上游程式執行可能存在錯誤，需要特別關注。  ",
+		"",
+		"現在目標是匹配包含 \"error\" 的日誌。  ",
+		"",
+		"為簡化難度，設定以下約定：  ",
+		"1. 測試案例以 <b>4位年-2位月-2位日</b> 開頭  ",
+		"2. 每個測試案例僅包含<b>一行</b>日誌  ",
+		"3. 僅存在大寫 \"ERROR\" 和小寫 \"error\"  ",
+		"",
+		"",
+		"請構造能通過右側所有測試案例的正則表達式。"
+	],
+	"m_SystemLanguage":"ChineseTraditional"
+}

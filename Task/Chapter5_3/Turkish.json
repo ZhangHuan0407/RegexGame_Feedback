@@ -1,0 +1,18 @@
+{
+	"m_DescList":[
+		"Markdown'da, $ sembolleri arasına alınan metin formülleri standart matematik denklemleri olarak görüntülenecektir.  ",
+		"",
+		"Örnek:  ",
+		"$y_{0} = x^\\frac{1}{2}_{0}$  ",
+		"<img src=Texture/Task/MarkdownMath width=140 height=69>  ",
+		"",
+		"Amaç, aşağıdaki kurallarla <b>tek satırlık formülleri</b> eşleştiren bir düzenli ifade tasarlamaktır:  ",
+		"1. Her iki taraftaki $ sembolleri <b>dahil edilmelidir</b>  ",
+		"2. Tüm girdiler yalnızca tek satırlık dizgilerdir  ",
+		"3. Eşleşen formüller için yakalama grubu adı \"exp\" olarak belirlenmiştir  ",
+		"",
+		"",
+		"Sağdaki tüm test senaryolarını geçecek bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

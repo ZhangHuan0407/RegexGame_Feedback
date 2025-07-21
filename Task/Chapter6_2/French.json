@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"Les programmes parcourent parfois récursivement tous les fichiers des dossiers. Pour des besoins simples, des caractères génériques (wildcards) peuvent être utilisés.  ",
+		"Pour des besoins complexes, les expressions régulières peuvent également correspondre à des chemins de fichiers.  ",
+		"",
+		"L'objectif est de faire correspondre les fichiers respectant ces règles :  ",
+		"1. Le chemin contient un dossier nommé bin.  ",
+		"2. Le fichier se termine par .exe ou .dll.  ",
+		"",
+		"Exemple :  ",
+		"<color=#3c3cff>/path/a/bin/b/c/test.exe</color> correspond car :  ",
+		"<color=#666666>/path/a/</color><color=#3c3cff>bin</color><color=#666666>/b/c/test</color><color=#3c3cff>.exe</color>  ",
+		"",
+		"Simplifications :  ",
+		"1. Les chemins contiennent uniquement \"/\" (jamais de barres inverses \"\").  ",
+		"2. Chaque cas de test ne contient qu'un seul chemin.  ",
+		"3. Les cas de test sont entièrement en minuscules.  ",
+		"",
+		"",
+		"Concevez une expression régulière pour réussir tous les tests à droite. "
+	],
+	"m_SystemLanguage":"French"
+}

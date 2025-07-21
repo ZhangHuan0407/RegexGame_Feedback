@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Rijke Emoji-expressies maken communicatie levendiger.  ",
+		"Het is echter spijtig dat ondersteuning voor Emoji in software niet kosteloos is.  ",
+		"",
+		"Emoji-definities worden regelmatig geüpdatet, en sommige software loopt vaak achter bij het aanpassen aan nieuwe Emoji-releases.  ",
+		"<img src=Texture/Task/EmojiNewIcon width=788 height=404>  ",
+		"",
+		"Soms kunnen mobiele apparaten crashen bij het renderen van niet-ondersteunde Emoji.  ",
+		"Momenteel bestaan er meer dan 3.000 Emoji. We hebben er 20 geselecteerd en zullen proberen deze te filteren met reguliere expressies.  ",
+		"",
+		"Voor complexe reguliere expressies varieert de uitvoeringsefficiëntie.  ",
+		"Bijvoorbeeld:  ",
+		"<color=#3173FF>[</color><color=#AB2800>12</color><color=#3173FF>][</color><color=#AB2800>34</color><color=#3173FF>][</color><color=#AB2800>56</color><color=#3173FF>]</color> somt mogelijkheden op voor drie opeenvolgende cijfers, waarbij het eerste cijfer prioriteit krijgt. Als het eerste cijfer niet matcht, mislukt de volledige matching.  ",
+		"<color=#05C3BA>(</color><color=#AB2800>135 </color><color=#05C3BA>| </color><color=#AB2800>136 </color><color=#05C3BA>| </color><color=#AB2800>145 </color><color=#05C3BA>| </color><color=#AB2800>156 </color><color=#05C3BA>| </color><color=#AB2800>235 </color><color=#05C3BA>| </color><color=#AB2800>236 </color><color=#05C3BA>| </color><color=#AB2800>245 </color><color=#05C3BA>| </color><color=#AB2800>246</color><color=#05C3BA>)</color>  ",
+		"somt alle mogelijkheden op, wat tijdens matching alle opties vereist en tijdrovender is.  ",
+		"",
+		"<color=#666666>De originele opdracht vereiste het filteren van alle Emoji. Vanwege de hoge moeilijkheidsgraad is de taak herzien.</color>  ",
+		"<color=#666666>Voor waarlijk dappere strijders zijn 1.910 Emoji beschikbaar op: Game-installatiepad/StreamingAssets/FullEmoji.txt</color>  ",
+		"<color=#666666>Bij het filteren van alle Emoji via regex is het aan te raden code te schrijven die dit automatiseert</color>  ",
+		"",
+		"Voor alle testgevallen gelden deze afspraken:  ",
+		"1. Behalve de eerste twee testgevallen bevat elk slechts één Emoji  ",
+		"2. Behalve de eerste twee toont elk testgeval zijn escape-sequence \\uxxxx gevolgd door een spatie vóór de Emoji  ",
+		"3. Omdat Unity Text Emoji niet kan weergeven, blijven Emoji-karakters onzichtbaar.  ",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle testgevallen rechts doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

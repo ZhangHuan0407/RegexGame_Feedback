@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Rich Emoji expressions make communication more engaging.  ",
+		"Ancak yazılımlarda Emoji desteği sağlamanın bedelsiz olmadığı üzücü bir gerçektir.  ",
+		"",
+		"Emoji tanımları periyodik olarak güncellenir ve bazı yazılımlar yeni Emoji sürümlerine uyum sağlamada gecikebilir.  ",
+		"<img src=Texture/Task/EmojiNewIcon width=788 height=404>  ",
+		"",
+		"Bazen mobil cihazlar, desteklenmeyen Emoji'leri görüntülemeye çalışırken çökebilir.  ",
+		"Şu anda 3.000'den fazla mevcut Emoji bulunmaktadır. Bunlardan 20 tanesini seçtik ve düzenli ifadeler kullanarak filtrelemeye çalışacağız.  ",
+		"",
+		"Karmaşık düzenli ifadelerde yürütme verimliliği değişkenlik gösterir.  ",
+		"Örneğin:  ",
+		"<color=#3173FF>[</color><color=#AB2800>12</color><color=#3173FF>][</color><color=#AB2800>34</color><color=#3173FF>][</color><color=#AB2800>56</color><color=#3173FF>]</color> üç ardışık rakam olasılıklarını sıralar, ilk rakamın eşleştirilmesine öncelik verir. İlk rakam eşleşmezse tüm eşleme başarısız olur.  ",
+		"<color=#05C3BA>(</color><color=#AB2800>135 </color><color=#05C3BA>| </color><color=#AB2800>136 </color><color=#05C3BA>| </color><color=#AB2800>145 </color><color=#05C3BA>| </color><color=#AB2800>156 </color><color=#05C3BA>| </color><color=#AB2800>235 </color><color=#05C3BA>| </color><color=#AB2800>236 </color><color=#05C3BA>| </color><color=#AB2800>245 </color><color=#05C3BA>| </color><color=#AB2800>246</color><color=#05C3BA>)</color>  ",
+		"tüm olasılıkları sıralar ve eşleme sırasında tüm seçeneklerin taranmasını gerektirir, bu da daha zaman alıcıdır.  ",
+		"",
+		"<color=#666666>Orijinal görev tüm Emoji'lerin filtrelenmesini gerektiriyordu. Aşırı zorluğu nedeniyle görev yeniden tasarlandı.</color>  ",
+		"<color=#666666>Gerçek cesur savaşçılar için hazırladığım 1.910 Emoji: Oyun kurulum yolu/StreamingAssets/FullEmoji.txt</color>  ",
+		"<color=#666666>Tüm Emoji'leri regex ile filtrelemeye çalışıyorsanız, bu işi otomatikleştirmek için kod yazmak en iyisidir</color>  ",
+		"",
+		"Tüm test senaryoları için aşağıdaki kurallar geçerlidir:  ",
+		"1. İlk iki test senaryosu hariç, her biri yalnızca bir Emoji içerir  ",
+		"2. İlk iki test senaryosu hariç, her birinde kaçış dizisi \\uxxxx gösterilir, ardından bir boşluk ve Emoji gelir  ",
+		"3. Unity Text Emoji'leri görüntüleyemediğinden, Emoji karakterleri görünmez durumdadır.  ",
+		"",
+		"",
+		"Sağdaki tüm test senaryolarını geçecek bir düzenli ifade oluşturunuz."
+	],
+	"m_SystemLanguage":"Turkish"
+}

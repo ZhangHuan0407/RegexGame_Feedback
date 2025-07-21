@@ -1,0 +1,89 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"$",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"$x=1$",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"$x=1$",
+				"<exp>x=1"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":5
+				},
+				{
+					"start":1,
+					"length":3
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"$y = x + 1$",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"$y = x + 1$",
+				"<exp>y = x + 1"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":11
+				},
+				{
+					"start":1,
+					"length":9
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"$y_{0} = x^\\frac{1}{2}_{0}$",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"$y_{0} = x^\\frac{1}{2}_{0}$",
+				"<exp>y_{0} = x^\\frac{1}{2}_{0}"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":27
+				},
+				{
+					"start":1,
+					"length":25
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"$z=\\$$",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"$z=\\$$",
+				"<exp>z=\\$"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":6
+				},
+				{
+					"start":1,
+					"length":4
+				}
+			],
+			"m_CheckOrder":false
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":"\\$(?<exp>([^$\\\\]|\\\\.)*)\\$"
+}

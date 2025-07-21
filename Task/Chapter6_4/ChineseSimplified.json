@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"软件开发时可能使用Git作为版本控制工具，并选用Jira作为项目管理工具。",
+		"当一名开发者的提交日志包含[PROJ-XXX] 时，提交记录会自动关联到指定Jira。",
+		"",
+		"提交记录的特殊格式约定如下：",
+		"<color=#3173FF>[</color>     英文半角特殊字符 \"[\"",
+		"<color=#3173FF>\\w</color>   若干个文本字符",
+		"<color=#3173FF>-</color>     英文半角特殊字符 \"-\"",
+		"<color=#3173FF>\\d</color>   若干位数字",
+		"<color=#3173FF>]</color>     英文半角特殊字符 \"]\"",
+		"",
+		"例如，以下是一个匹配的提交记录",
+		"<color=#3c3cff>[PROJ-123]</color> <color=#666666>fix null reference error</color>",
+		"",
+		"现在，请编写一个正则表达式，用于检查提交日志是否匹配关联格式。",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。"
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

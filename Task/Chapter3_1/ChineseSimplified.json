@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"在正则表达式后添加 <color=#FF68DD>?</color> 表示前面的正则表达式可能出现0次或1次",
+		"",
+		"示例：",
+		"例如，<color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> 的含义是: 连续若干个数字后可能存在1个\"%\"",
+		"",
+		"",
+		"使用 <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> 匹配 <color=#3c3cff>100%</color>，",
+		"结果为:",
+		"<color=#3c3cff>100%</color>",
+		"",
+		"使用 <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> 匹配 <color=#3c3cff>0.99</color>",
+		"结果为:",
+		"<color=#3c3cff>0</color><color=#666666>.99</color>",
+		"<color=#666666>0.</color><color=#3c3cff>99</color>",
+		"",
+		"使用 <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> 匹配 <color=#3c3cff>ALL%</color>",
+		"<color=#3c3cff>ALL%</color> 不匹配",
+		"",
+		"现在得到了一副\"ASCII\"的字符画，需要统计所有的数字8，如果8前有\".\"也要包含\".\"",
+		"",
+		"例如，<color=#3c3cff>11.88</color> 预期的匹配结果是 <color=#666666>11</color><color=#3c3cff>.88</color>",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。",
+		""
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

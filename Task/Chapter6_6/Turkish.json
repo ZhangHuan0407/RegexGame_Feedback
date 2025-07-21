@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Politika gereğince, yazılım Çin anakarasındaki kullanıcılara internet hizmeti sağlarken, kullanıcıların Nüfus Kimlik Kartı bilgilerini girmesi gerekmektedir.  ",
+		"Genellikle istemci tarafında, girilen kimlik numarası basitçe doğrulanır ve ardından sunucuya iletilir.  ",
+		"",
+		"Bir Nüfus Kimlik numarası genellikle 18 karakterden oluşur:  ",
+		"<color=#3c3cff>123456</color><color=#e06600>78901234</color><color=#ee3300>567</color><color=#33aa55>8</color>  ",
+		"<color=#3c3cff>1-6</color>. haneler: Adres kodu  ",
+		"<color=#e06600>7-14</color>. haneler: Doğum tarihi kodu  ",
+		"Örn. <color=#e06600>78901234</color> → 31 Aralık 7890  ",
+		"Örn. <color=#e06600>19990102</color> → 2 Ocak 1999  ",
+		"<color=#ee3300>15-17</color>. haneler: Sıra kodu  ",
+		"<color=#33aa55>18</color>. hane: Kontrol basamağı (rakam veya büyük harf X)  ",
+		"",
+		"Genel bilgiler ışığında doğrulama kuralları şöyle özetlenebilir:  ",
+		"1. Bir yılda 12 ay vardır, ay değeri yalnızca 1-12 aralığında olmalıdır.  ",
+		"2. Her ay 29, 30 veya 31 gün olabilir, gün değeri yalnızca 1-31 aralığında olmalıdır.  ",
+		"3. Yılın ilk iki hanesi 19 veya 20 olmalıdır.  ",
+		"4. Toplam uzunluk 18 karakter (veya 17 rakam + X) olmalıdır.  ",
+		"5. Kontrol basamağı rakam veya büyük harf X olmalıdır.  ",
+		"",
+		"Hesaplamayı basitleştirmek için aşağıdaki varsayımlar yapılır:  ",
+		"1. Belirli bir aydaki gün sayısı kontrol edilmez. Yıl, ay ve gün bileşenleri ayrı ayrı doğrulanır.  ",
+		"   Örneğin, Şubat ayında 30 gün olmamasına rağmen \"19990230\" girişi başarıyla eşleşir.  ",
+		"2. Adres kodu ve sıra kodu yalnızca rakam olarak doğrulanır, ek kontrol yapılmaz.  ",
+		"",
+		"",
+		"Sağdaki tüm testleri geçecek bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"Markdown'da, bir kod bloğunu sarmak için üç ters tırnak ``` kullanılır. Markdown, işlenmiş ekranda kod bloğuna bir çerçeve ekler.",
+		"",
+		"Örnek:",
+		"```",
+		"public class Program",
+		"{",
+		"}",
+		"```",
+		"<img src=Texture/Task/MarkdownCode width=792 height=122>",
+		"",
+		"Şimdi, <b>kod bloklarının</b> içeriğini eşleştirecek bir düzenli ifade yazmak istiyoruz. Kurallar şu şekildedir:",
+		"1.  Tam eşleşen sonuç, kod bloğunun ``` sembollerini <b>içerir</b>.",
+		"2.  Test senaryoları çok satırlı giriş içerir.",
+		"3.  Kod blokları için yakalama grubunun adı \"code\" olarak belirlenmiştir. Bu yakalama grubu, iki taraftaki üçlü ters tırnakları ``` ve satır sonu karakterlerini <b>içermez</b>.",
+		"4.  Sorunu basitleştirmek için, test senaryolarının <b>%0'ında</b> kod bloklarının içinde üçlü ters tırnak ``` bulunmadığı varsayılır."
+	],
+	"m_SystemLanguage":"Turkish"
+}

@@ -1,0 +1,76 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"{\n  \"key\": 1\n}",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"{\n  \"key\": 1\n}"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":14
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"{\n  array: [1,2],\n  \"missing symbol\": {\n}",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"{\r\n    \"m_Guid\": \"123123\",\r\n    \"m_DateTimeTS\": 1752593787,\r\n    \"m_TaskRecordMap\": {\r\n        \"Keys\": [866830],\r\n        \"Values\": [\r\n            { \"id\": 866830, \"tf\": true, \"ts\": 1751643771, \"d\": 1, \"sg\": false, \"rt\": 0 }\n        ],\r\n        \"Count\": 107\r\n    },\r\n    \"m_WoodenFish\": \"Galaxy\",\r\n    \"m_UnlockedWoodenFishList\": [ \"Wood\", \"Sliver\", \"Golden\", \"Galaxy\" ],\r\n    \"m_NewWoodenFishList\": [],\r\n    \"m_WoodenFishGuide\": 0,\r\n    \"m_Version\": \"1.0.5\"\r\n}",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"{\r\n    \"m_Guid\": \"123123\",\r\n    \"m_DateTimeTS\": 1752593787,\r\n    \"m_TaskRecordMap\": {\r\n        \"Keys\": [866830],\r\n        \"Values\": [\r\n            { \"id\": 866830, \"tf\": true, \"ts\": 1751643771, \"d\": 1, \"sg\": false, \"rt\": 0 }\n        ],\r\n        \"Count\": 107\r\n    },\r\n    \"m_WoodenFish\": \"Galaxy\",\r\n    \"m_UnlockedWoodenFishList\": [ \"Wood\", \"Sliver\", \"Golden\", \"Galaxy\" ],\r\n    \"m_NewWoodenFishList\": [],\r\n    \"m_WoodenFishGuide\": 0,\r\n    \"m_Version\": \"1.0.5\"\r\n}"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":460
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"{\n  \"Deepth\": 1,\n  \"Child\": {\n    \"Deepth\": 2,\n    \"Child\": \"{[[\"\n  }\n}",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"{\n  \"Deepth\": 1,\n  \"Child\": {\n    \"Deepth\": 2,\n    \"Child\": \"{[[\"\n  }\n}"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":71
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"{\n  \"array\": [,\n  \"value\": \"]\"\n}",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"{ \"123\": [}] }",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"{ \"key: 1 }",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":"\\A\n(\r\n    \\\"[^\\\"]*\\\" |\r\n    [^\\\"\\{\\}\\[\\]]+ |\r\n    (?<Stack0>\\{) |\r\n    (?<Stack1>\\[) |\r\n    (?<-Stack0>\\}) |\r\n    (?<-Stack1>\\])\r\n)*\n(?(Stack0)(?!))\n(?(Stack1)(?!))\n\\Z"
+}

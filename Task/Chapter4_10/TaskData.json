@@ -1,0 +1,172 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"GET /static/xxxxx.3ea1e62ca7.css HTTP/1.1\r",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"GET /static/xxxxx.3ea1e62ca7.css HTTP/1.1\r",
+				"<url>/static/xxxxx.3ea1e62ca7.css HTTP/1.1\r"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":42
+				},
+				{
+					"start":4,
+					"length":38
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"GET /extensions/marketplace.json HTTP/1.1\r\nHost: main.vscode-cdn.net\r\nConnection: keep-alive\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: no-cors\r\nSec-Fetch-Dest: empty\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.99.3 Chrome/132.0.6834.210 Electron/34.3.2 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br, zstd",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"GET /extensions/marketplace.json HTTP/1.1\r\n",
+				"<url>/extensions/marketplace.json HTTP/1.1\r",
+				"Host: main.vscode-cdn.net\r\n",
+				"<host>main.vscode-cdn.net\r",
+				"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.99.3 Chrome/132.0.6834.210 Electron/34.3.2 Safari/537.36\r\n",
+				"<user_agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.99.3 Chrome/132.0.6834.210 Electron/34.3.2 Safari/537.36\r",
+				"Accept-Encoding: gzip, deflate, br, zstd",
+				"<accept_encoding>gzip, deflate, br, zstd"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":43
+				},
+				{
+					"start":4,
+					"length":38
+				},
+				{
+					"start":43,
+					"length":27
+				},
+				{
+					"start":49,
+					"length":20
+				},
+				{
+					"start":164,
+					"length":158
+				},
+				{
+					"start":176,
+					"length":145
+				},
+				{
+					"start":322,
+					"length":40
+				},
+				{
+					"start":339,
+					"length":23
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"GET /static/xxxxx.3ea1e62ca7.css HTTP/1.1\r\nHost: chat.xxxxx.com\r\nConnection: keep-alive\r\nsec-ch-ua-platform: \"Windows\"\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\r\nsec-ch-ua: \"Microsoft Edge\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"\r\nsec-ch-ua-mobile: ?0\r\nAccept: text/css,*/*;q=0.1\r\nSec-Fetch-Site: same-origin\r\nSec-Fetch-Mode: no-cors\r\nSec-Fetch-Dest: style\r\nReferer: https://xxxxx.com/6413f2ae\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6\r\nCookie: smV2=2025020520",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"GET /static/xxxxx.3ea1e62ca7.css HTTP/1.1\r\n",
+				"<url>/static/xxxxx.3ea1e62ca7.css HTTP/1.1\r",
+				"Host: chat.xxxxx.com\r\n",
+				"<host>chat.xxxxx.com\r",
+				"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\r\n",
+				"<user_agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\r",
+				"Accept-Encoding: gzip, deflate, br, zstd\r\n",
+				"<accept_encoding>gzip, deflate, br, zstd\r"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":43
+				},
+				{
+					"start":4,
+					"length":38
+				},
+				{
+					"start":43,
+					"length":22
+				},
+				{
+					"start":49,
+					"length":15
+				},
+				{
+					"start":120,
+					"length":139
+				},
+				{
+					"start":132,
+					"length":126
+				},
+				{
+					"start":501,
+					"length":42
+				},
+				{
+					"start":518,
+					"length":24
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"GET /server/config HTTP/1.1\r\nHost: raspberry4.local:12345\r\nConnection: keep-alive\r\nsec-ch-ua: \"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"\r\nsec-ch-ua-mobile: ?0\r\nsec-ch-ua-platform: \"Windows\"\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nSec-Fetch-Dest: document\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept-Language: zh-CN,zh;q=0.9,tr;q=0.8,pt;q=0.7,es;q=0.6,ja;q=0.5,ru;q=0.4,de;q=0.3,fr;q=0.2",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"GET /server/config HTTP/1.1\r\n",
+				"<url>/server/config HTTP/1.1\r",
+				"Host: raspberry4.local:12345\r\n",
+				"<host>raspberry4.local:12345\r",
+				"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\r\n",
+				"<user_agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\r",
+				"Accept-Encoding: gzip, deflate, br, zstd\r\n",
+				"<accept_encoding>gzip, deflate, br, zstd\r"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":29
+				},
+				{
+					"start":4,
+					"length":24
+				},
+				{
+					"start":29,
+					"length":30
+				},
+				{
+					"start":35,
+					"length":23
+				},
+				{
+					"start":243,
+					"length":125
+				},
+				{
+					"start":255,
+					"length":112
+				},
+				{
+					"start":607,
+					"length":42
+				},
+				{
+					"start":624,
+					"length":24
+				}
+			],
+			"m_CheckOrder":false
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":"(\r\n  GET\\s(?<url>[^\\n]+)\\n? |\r\n  Host:\\s(?<host>[^\\n]+)\\n? |\n  User-Agent:\\s(?<user_agent>[^\\n]+)\\n? |\n  Accept-Encoding:\\s(?<accept_encoding>[^\\n]+)\\n?\n)"
+}

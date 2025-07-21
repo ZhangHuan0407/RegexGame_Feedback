@@ -1,0 +1,19 @@
+{
+	"m_DescList":[
+		"Se han mezclado algunos decimales \"1.1\", enteros \"0\" y cadenas no numéricas \"a.1\". Ahora es necesario coincidir con precisión con todos los decimales.",
+		"",
+		"El punto decimal se representa con <color=#AB2800>\\.</color>",
+		"",
+		"Ahora, se necesita coincidir con números decimales.",
+		"Si hay letras del alfabeto inglés u otros símbolos superfluos antes o después del decimal, la coincidencia fallará.",
+		"",
+		"En esta prueba, los decimales que necesitan coincidir tienen las siguientes características:",
+		"<color=#3c3cff>-</color>     Un signo negativo como prefijo <b>puede que exista</b>",
+		"<color=#3c3cff>\\d</color>   Varios <b>dígitos</b> arábigos",
+		"<color=#3c3cff>.</color>     Un <b>punto decimal</b>",
+		"<color=#3c3cff>\\d</color>   Varios <b>dígitos</b> arábigos",
+		"",
+		"Por favor, construye una expresión regular que pase todas las pruebas del lado derecho."
+	],
+	"m_SystemLanguage":"Spanish"
+}

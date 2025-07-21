@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"在游戏开发的过程中，我始终想添加一些图片 或者 表情包，从而营造一个更轻松的氛围。",
+		"",
+		"一个图片包含以下几部分：",
+		"1. 资源路径",
+		"2. 图片宽度",
+		"3. 图片高度",
+		"",
+		"例如下面的贴图：",
+		"<img src=Texture/emoji_1 width=213 height=131>",
+		"",
+		"其编辑器实际输入的文本为",
+		"<color=#3c3cff><img src=</color><color=#ee3300>Texture/emoji_1</color> <color=#3c3cff>width=</color><color=#ee3300>213</color> <color=#3c3cff>height=</color><color=#ee3300>131</color><color=#3c3cff>></color>",
+		"",
+		"约定:",
+		"1. src 部分捕获组名称为 \"Src\"，",
+		"2. width 部分捕获组名称为 \"Width\"，",
+		"3. heigh t部分捕获组名称为 \"Height\"",
+		"",
+		"对于所有测试用例，做出如下约定：",
+		"1. src, width, height出现的顺序不固定",
+		"2. 测试用例中，src一定不包含空格",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。"
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

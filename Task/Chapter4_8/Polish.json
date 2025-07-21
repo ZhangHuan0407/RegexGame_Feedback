@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"Bogate wyrażenia Emoji sprawiają, że komunikacja nie jest już nudna.  ",
+		"Niestety, obsługa Emoji w oprogramowaniu nie jest pozbawiona kosztów.  ",
+		"",
+		"Definicje Emoji są okresowo aktualizowane, a niektóre programy często nie nadążają z dostosowywaniem się do nowych wersji Emoji.  ",
+		"<img src=Texture/Task/EmojiNewIcon width=788 height=404>  ",
+		"",
+		"Czasami aplikacje mobilne mogą ulegać awarii podczas próby renderowania nieobsługiwanych Emoji.  ",
+		"Obecnie istnieje ponad 3000 Emoji. Wybrano 20 z nich i podejmie się próbę ich odfiltrowania za pomocą wyrażeń regularnych.  ",
+		"",
+		"W przypadku złożonych wyrażeń regularnych występują różnice w wydajności wykonania.  ",
+		"Na przykład:  ",
+		"<color=#3173FF>[</color><color=#AB2800>12</color><color=#3173FF>][</color><color=#AB2800>34</color><color=#3173FF>][</color><color=#AB2800>56</color><color=#3173FF>]</color> wylicza możliwości dla trzech kolejnych cyfr, priorytetowo dopasowując pierwszą cyfrę. Jeśli pierwsza cyfra nie zostanie dopasowana, całe dopasowanie zawodzi.  ",
+		"<color=#05C3BA>(</color><color=#AB2800>135 </color><color=#05C3BA>| </color><color=#AB2800>136 </color><color=#05C3BA>| </color><color=#AB2800>145 </color><color=#05C3BA>| </color><color=#AB2800>156 </color><color=#05C3BA>| </color><color=#AB2800>235 </color><color=#05C3BA>| </color><color=#AB2800>236 </color><color=#05C3BA>| </color><color=#AB2800>245 </color><color=#05C3BA>| </color><color=#AB2800>246</color><color=#05C3BA>)</color>  ",
+		"wylicza wszystkie możliwości, wymagając przeglądnięcia wszystkich opcji podczas dopasowywania, co jest bardziej czasochłonne.  ",
+		"",
+		"<color=#666666>Pierwotne zadanie wymagało filtrowania wszystkich Emoji. Ze względu na nadmierny poziom trudności, zadanie zostało przeprojektowane.</color>  ",
+		"<color=#666666>Dla prawdziwie odważnych przygotowano 1910 Emoji w ścieżce: Ścieżka instalacji gry/StreamingAssets/FullEmoji.txt</color>  ",
+		"<color=#666666>Jeśli próbujesz filtrować wszystkie Emoji za pomocą regex, najlepiej napisać kod automatyzujący to zadanie</color>  ",
+		"",
+		"Dla wszystkich przypadków testowych obowiązują następujące konwencje:  ",
+		"1. Z wyjątkiem pierwszych dwóch przypadków testowych, każdy zawiera tylko jeden Emoji  ",
+		"2. Z wyjątkiem pierwszych dwóch przypadków testowych, każdy wyświetla sekwencję ucieczkową \\uxxxx, po której następuje spacja i Emoji  ",
+		"3. Ponieważ Unity Text nie może wyświetlić Emoji, znaki Emoji pozostają niewidoczne.  ",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie przypadki testowe po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"Markdown est un langage de balisage léger conçu pour être facile à lire et à écrire.  ",
+		"",
+		"Dans Markdown, utilisez des doubles tildes ~~ autour d'un texte pour lui appliquer un effet de <b>barré</b>.  ",
+		"",
+		"Exemple :  ",
+		"~~Markdown~~  ",
+		"<img src=Texture/Task/MarkdownDelete width=230 height=47>  ",
+		"",
+		"L'objectif est de créer une expression régulière qui corresponde au contenu barré, selon les conventions suivantes :  ",
+		"1. <b>Inclure</b> les doubles tildes de chaque côté  ",
+		"2. Toutes les entrées sont des chaînes de caractères sur une seule ligne  ",
+		"3. Cinq tildes consécutifs ou plus ne doivent pas être reconnus  ",
+		"",
+		"",
+		"Construisez une expression régulière qui passe tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

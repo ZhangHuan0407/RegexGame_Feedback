@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"Markdown에서는 특정 형식의 텍스트를 추가할 수 있으며, Markdown은 지정된 경로의 이미지를 렌더링합니다.  ",
+		"",
+		"예시:   ",
+		"<color=#3c3cff>![Image Alt]</color>(<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> <color=#33aa55>\"ImageTitle\"</color>)",
+		"",
+		"<color=#3c3cff>![Image Alt]</color> : !로 시작하며 대체 텍스트는 []로 묶입니다. 이미지 로딩 실패 시 이 텍스트가 표시됩니다.",
+		"빈 값 <color=#3c3cff>![]</color> 도 유효합니다  ",
+		"<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> : 이미지 파일 경로  ",
+		"<color=#33aa55>\"ImageTitle\"</color> : 이미지 위에 마우스를 올리면 표시되는 제목  ",
+		"",
+		"<img src=Texture/Task/MarkdownImage width=840 height=167>  ",
+		"",
+		"이제 <b>이미지 경로</b>를 매칭하는 정규 표현식을 작성합니다. 규칙은 다음과 같습니다:  ",
+		"1. 올바른 형식의 입력만 매칭  ",
+		"2. 각 테스트 케이스는 하나의 매칭 대상만 포함  ",
+		"3. 파일 경로 캡처 그룹 이름은 \"file\"로 지정  ",
+		"4. 비어 있지 않은 파일 경로만 매칭  ",
+		"5. 100% 테스트 케이스에서 파일 경로에 공백 미포함  ",
+		"",
+		"",
+		"오른쪽의 모든 테스트를 통과하는 정규 표현식을 구성하세요."
+	],
+	"m_SystemLanguage":"Korean"
+}

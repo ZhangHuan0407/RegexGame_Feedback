@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"<color=#AB2800>.</color> coincide con cualquier carácter  ",
+		"<color=#AB2800>\\.</color> coincide con el carácter \".\"  ",
+		"",
+		"Por ejemplo, <color=#AB2800>\\.1</color> coincide con .1 en <color=#3c3cff>2.13</color>  ",
+		"",
+		"La extensión de archivo generalmente consiste en un \".\" seguido de una secuencia de letras, ubicada al final del nombre del archivo. La extensión indica el formato de almacenamiento del archivo.  ",
+		"",
+		"<color=#3173FF>\\w</color> coincide con cualquier carácter de la palabra, que suele contener letras mayúsculas y minúsculas a-z, A-Z, guiones bajos _ y dígitos del 0 al 9",
+		"En C#, los caracteres de diferentes idiomas también coinciden, por ejemplo, <color=#3173FF>\\w</color><color=#FF68DD>+</color> coincide con <color=#3c3cff> 汉字, 日本語, 한국어, Português</color> en:",
+		"<color=#3c3cff>汉字</color><color=#666666>, 日本語, 한국어, Português</color>",
+		"<color=#666666>汉字, </color><color=#3c3cff>日本語</color><color=#666666>, 한국어, Português</color>",
+		"<color=#666666>汉字, 日本語, </color><color=#3c3cff>한국어</color><color=#666666>, Português</color>",
+		"<color=#666666>汉字, 日本語, 한국어, </color><color=#3c3cff>Português</color>",
+		"",
+		"El usuario ha ingresado algunas rutas de archivo. Para entradas válidas, coincida con la extensión del archivo; para entradas no válidas, no se requiere salida.  ",
+		"",
+		"Por ejemplo:  ",
+		"C:/ABCD/readme.txt    salida esperada: extensión de archivo .txt  ",
+		"/home/abc/config.ini     salida esperada: extensión de archivo .ini  ",
+		"/var/www/log                sin extensión de archivo  ",
+		"",
+		"",
+		"Por favor, construya una expresión regular que pase todas las pruebas a la derecha.  "
+	],
+	"m_SystemLanguage":"Spanish"
+}

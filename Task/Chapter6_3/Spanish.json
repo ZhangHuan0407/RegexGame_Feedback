@@ -1,0 +1,27 @@
+{
+	"m_DescList":[
+		"La expresión regular <color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> indica que <color=#AB2800>subexpression</color> tendrá una <b>coincidencia sin distinguir mayúsculas y minúsculas</b>.  ",
+		"Estas operaciones se denominan opciones de grupo. Para todos los parámetros opcionales disponibles, consulta <color=#05C3BA>(?</color><color=#AB2800>imnsx-imnsx: subexpression</color><color=#05C3BA>)</color>.  ",
+		"",
+		"Por ejemplo, <color=#05C3BA>(?i: </color><color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color><color=#05C3BA>)</color> coincide con la cadena de ejemplo <color=#3c3cff>aBC</color> con los siguientes resultados:  ",
+		"<color=#3c3cff>a</color><color=#666666>BC</color>  ",
+		"<color=#666666>a</color><color=#3c3cff>B</color><color=#666666>C</color>  ",
+		"<color=#666666>aB</color><color=#3c3cff>C</color>  ",
+		"<color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> permite que <color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color> coincida tanto con letras minúsculas como mayúsculas, equivalente a <color=#3173FF>[</color><color=#AB2800>abcABC</color><color=#3173FF>]</color>.  ",
+		"",
+		"En flujos de trabajo, un programa a veces lee registros (logs) generados por otro programa y realiza procesamiento diferenciado según los mensajes del registro.  ",
+		"",
+		"Por ejemplo, si el programa anterior contiene \"error\", sugiere posibles errores en la ejecución del programa ascendente que requieren atención.  ",
+		"",
+		"Ahora, el objetivo es encontrar registros que contengan \"error\".  ",
+		"",
+		"Para simplificar la dificultad, se establecen las siguientes convenciones:  ",
+		"1. Los casos de prueba comienzan con el prefijo <b>año de 4 dígitos-mes de 2 dígitos-día de 2 dígitos</b>.  ",
+		"2. Cada caso de prueba contiene <b>solo una línea</b> de registros.  ",
+		"3. Solo existen <b>\"ERROR\" en mayúsculas y \"error\" en minúsculas</b>.  ",
+		"",
+		"",
+		"Por favor, construya una expresión regular que pase todos los casos de prueba a la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

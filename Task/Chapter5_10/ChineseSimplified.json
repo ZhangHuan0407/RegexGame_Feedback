@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"INI文件中，每一个节都包含若干个键值对。",
+		"",
+		"<img src=Texture/Task/IniKeyValue width=339 height=102>",
+		"",
+		"如上图所示，表述了若干个键值对：",
+		"键(key) 为 <color=#3c3cff>a_2</color>, 值(value)为 <color=#3c3cff>\"'a_2' is key name\"</color>",
+		"键为 <color=#3c3cff>key</color>, 值为 <color=#3c3cff>value</color>",
+		"键为 <color=#3c3cff>c</color>, 值为<color=#3c3cff>1</color>",
+		"",
+		"现在期望匹配节的内容，做出如下约定：",
+		"1. 每个测试用例为独立的一行",
+		"2. 如果这一行是键值对的格式，则匹配完整的内容",
+		"3. 约定匹配键的捕获组名称为\"key\"",
+		"4. 约定匹配值的捕获组名称为\"value\"",
+		"5. 键与\"=\"之间，\"=\"与值之间可能有空格，捕获组\"key\"和捕获组\"value\"中不要包含\"=\"两侧的空格",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。"
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

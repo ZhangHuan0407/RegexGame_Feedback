@@ -1,0 +1,24 @@
+{
+	"m_DescList":[
+		"软件开发时往往需要读取版本号。",
+		"",
+		"例如，一些初学者喜欢在软件的脚本内直接写死版本号：",
+		"",
+		"<color=#3c3cff>public const string</color> ResourceVersion = <color=#ee3300>\"1.2.3\"</color>;",
+		"",
+		"这不是最佳实践，但却是最简单的实现。",
+		"终于有一天，轮到你来维护这屎山代码了！",
+		"",
+		"你期望以文本的形式读入代码，然后使用正则精准匹配版本号！",
+		"",
+		"约定匹配版本号的捕获组名称为\"version\"",
+		"",
+		"例如，<color=#3c3cff>public const string ResourceVersion = \"1.2.3\";</color> ",
+		"预期匹配结果的version捕获组为 ",
+		"<color=#666666>public const string ResourceVersion = \"</color><color=#3c3cff>1.2.3</color><color=#666666>\";</color>",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。"
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

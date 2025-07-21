@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"W Markdown, nagłówki są oznaczane za pomocą kilku kolejnych symboli #.  ",
+		"Liczba symboli # określa poziom nagłówka.  ",
+		"",
+		"Na przykład:  ",
+		"<img src=Texture/Task/MarkdownTitle width=267 height=89>  ",
+		"",
+		"Celem jest utworzenie wyrażenia regularnego, które dopasuje sekcje nagłówków, z następującymi zasadami:  ",
+		"1. <b>Zawiera</b> prefiks #, po którym następuje co najmniej jedna spacja  ",
+		"2. Wszystkie dane wejściowe składają się wyłącznie z ciągów jedno wierszowych  ",
+		"3. Grupa przechwytująca zawartość nagłówka powinna mieć nazwę \"title\"  ",
+		"",
+		"Uwaga: Ponieważ wyrażenie regularne używa trybu RegexOptions.IgnorePatternWhitespace, linie zaczynające się od <color=#33aa55>#</color> będą traktowane jako komentarze.  ",
+		"",
+		"Użyj \\# do dopasowania znaku \"#\"  ",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

@@ -1,0 +1,114 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"<img src=./UnitText.jpg>",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"<img src=./UnitText.jpg>",
+				"<Src>./UnitText.jpg"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":24
+				},
+				{
+					"start":9,
+					"length":14
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"<img src=aaa.png width=11>",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"<img src=aaa.png width=11>",
+				"<Src>aaa.png",
+				"<Width>11"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":26
+				},
+				{
+					"start":9,
+					"length":7
+				},
+				{
+					"start":23,
+					"length":2
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"<img src=D:\\RegexGame\\UnityProject\\Assets\\Resources\\Texture\\Question.png width=256 height=256>",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"<img src=D:\\RegexGame\\UnityProject\\Assets\\Resources\\Texture\\Question.png width=256 height=256>",
+				"<Src>D:\\RegexGame\\UnityProject\\Assets\\Resources\\Texture\\Question.png",
+				"<Width>256",
+				"<Height>256"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":94
+				},
+				{
+					"start":9,
+					"length":63
+				},
+				{
+					"start":79,
+					"length":3
+				},
+				{
+					"start":90,
+					"length":3
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"<img width=256 height=256 src=D:\\RegexGame\\UnityProject\\Assets\\Resources\\Texture\\Question.png>",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"<img width=256 height=256 src=D:\\RegexGame\\UnityProject\\Assets\\Resources\\Texture\\Question.png>",
+				"<Src>D:\\RegexGame\\UnityProject\\Assets\\Resources\\Texture\\Question.png",
+				"<Width>256",
+				"<Height>256"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":94
+				},
+				{
+					"start":30,
+					"length":63
+				},
+				{
+					"start":11,
+					"length":3
+				},
+				{
+					"start":22,
+					"length":3
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"<img src=width=height=1>",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":"\\A<img (src=(?<Src>[\\w/\\\\_\\.\\:]+) |\r\n         width=(?<Width>\\d+) |\r\n         height=(?<Height>\\d+) |\r\n         \\s)+\r\n  >\\Z"
+}

@@ -1,0 +1,13 @@
+{
+	"m_DescList":[
+		"\"Neşeye Övgü\", Alman şair Schiller tarafından yazılan bir şiirdir ve Beethoven bu şiire beste yapmıştır.",
+		"",
+		"Şarkı sözlerinde, önceki harfin a-i karakter aralığında, sonraki harfin ise j-z karakter aralığında olduğu durumun kaç kez gerçekleştiğini merak ediyorum.",
+		"",
+		"Şimdi bu durumu eşleştirmeyi hedefliyoruz.",
+		"",
+		"",
+		"Lütfen sağdaki tüm testleri geçecek bir düzenli ifade (regex) oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

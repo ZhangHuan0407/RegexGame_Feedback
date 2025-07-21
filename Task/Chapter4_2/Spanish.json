@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"El jefe usó tu \"Asistente de Filtrado de Correos.exe\" del nivel anterior, ¡y estaba muy insatisfecho!  ",
+		"",
+		"Te ha asignado una nueva tarea: hacer coincidir la información de dirección en los currículums para enviarles un correo de \"No pasaste la entrevista\". La información de dirección no debe contener texto adicional \"Address:\".  ",
+		"",
+		"Has oído hablar de la sintaxis de expresiones regulares llamada:  ",
+		"afirmación de búsqueda hacia atrás positiva de ancho cero:  ",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color>",
+		"",
+		"Por ejemplo, al usar <color=#05C3BA>(?</color><color=#AB2800><= A </color><color=#05C3BA>)</color><color=#AB2800>BC</color> para coincidir con <color=#3c3cff>ABC</color>, el resultado es:  ",
+		"<color=#666666>A</color><color=#3c3cff>BC</color>",
+		"",
+		"¡<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color> consumirá mágicamente la parte coincidente de <color=#AB2800>subexpression</color>!  ",
+		"",
+		"",
+		"Por favor, construye una expresión regular que pase todas las pruebas del lado derecho."
+	],
+	"m_SystemLanguage":"Spanish"
+}

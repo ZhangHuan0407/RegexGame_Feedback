@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"Als ich letztes Mal <color=#AB2800>Sna.</color><color=#FF68DD>*</color><color=#AB2800>ke</color> verwendete, um <color=#3c3cff>Snake Snaake</color> zu matchen,  ",
+		"erfasste das Ergebnis direkt beide Schlangen auf einmal <color=#3c3cff>Snake Snaake</color>, was fast zu einem Biss führte. T_T  ",
+		"",
+		"Nun sind die Schlangen ineinander verschlungen.  ",
+		"Für <color=#3c3cff>Snasssnkeake</color> ist das erwartete Ergebnis:  ",
+		"<color=#3c3cff>Snasssnke</color><color=#666666>ake</color>  ",
+		"",
+		"Dieses Mal beginnt es mit <color=#3c3cff>Sna</color> und endet, wenn das erste <color=#3c3cff>ke</color> gefunden wird.  ",
+		"",
+		"<b>Gierige Quantoren (Greedy Matching)</b>  ",
+		"In regulären Ausdrücken aktiviert <color=#FF68DD>*</color> gieriges Matching, das versucht, so viele Zeichen wie möglich zu erfassen.  ",
+		"",
+		"Beispiel: <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> matched <color=#3c3cff>BABAB</color> in <color=#3c3cff>BABAB</color>, anstatt nur \"BAB\". <color=#FF68DD>*</color> erfasst maximal möglichen Inhalt.  ",
+		"",
+		"<b>Faule Quantoren (Lazy Matching)</b>  ",
+		"In regulären Ausdrücken aktiviert <color=#FF68DD>*?</color> nicht-gieriges Matching, das so wenige Zeichen wie möglich erfasst.  ",
+		"",
+		"Beispiel: <color=#AB2800>BA.</color><color=#FF68DD>*?</color><color=#AB2800>B</color> liefert zwei Treffer für <color=#3c3cff>BABAB</color>:  ",
+		"<color=#3c3cff>BAB</color><color=#666666>AB</color>  ",
+		"<color=#666666>BA</color><color=#3c3cff>BAB</color>  ",
+		"",
+		"Für 100% der Eingabedaten gelten folgende Regeln:  ",
+		"1. Gierige und faule Quantoren kombiniert sind zu komplex; <b>faule Quantoren</b> allein bestehen alle Testfälle  ",
+		"2. Es wird immer <b>nur eine Schlange</b> erfasst  ",
+		"3. Der erwartete Treffer beginnt mit \"Sna\", gefolgt von beliebigen Zeichen, und endet mit \"ke\"  ",
+		"",
+		"",
+		"Konstruieren Sie einen regulären Ausdruck, der alle Tests auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

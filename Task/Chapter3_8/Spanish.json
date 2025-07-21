@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"Cuando usé <color=#AB2800>Sna.</color><color=#FF68DD>*</color><color=#AB2800>ke</color> para buscar <color=#3c3cff>Snake Snaake</color> la última vez,  ",
+		"el resultado capturó ambas serpientes de golpe <color=#3c3cff>Snake Snaake</color>, casi me muerden. T_T  ",
+		"",
+		"Ahora las serpientes están enredadas.  ",
+		"Para <color=#3c3cff>Snasssnkeake</color>, el resultado esperado es:  ",
+		"<color=#3c3cff>Snasssnke</color><color=#666666>ake</color>  ",
+		"",
+		"Esta vez debe comenzar con <color=#3c3cff>Sna</color> y terminar al encontrar el primer <color=#3c3cff>ke</color>.  ",
+		"",
+		"<b>Coincidencia codiciosa (Greedy Matching)</b>  ",
+		"En expresiones regulares, <color=#FF68DD>*</color> activa la coincidencia codiciosa, intentando capturar la mayor cantidad de caracteres posible.  ",
+		"",
+		"Ejemplo: <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> coincide con <color=#3c3cff>BABAB</color> en <color=#3c3cff>BABAB</color>, no solo con \"BAB\". <color=#FF68DD>*</color> captura el máximo posible.  ",
+		"",
+		"<b>Coincidencia no codiciosa (Lazy Matching)</b>  ",
+		"En expresiones regulares, <color=#FF68DD>*?</color> activa la coincidencia no codiciosa, capturando la menor cantidad de caracteres posible.  ",
+		"",
+		"Ejemplo: <color=#AB2800>BA.</color><color=#FF68DD>*?</color><color=#AB2800>B</color> devuelve dos coincidencias en <color=#3c3cff>BABAB</color>:  ",
+		"<color=#3c3cff>BAB</color><color=#666666>AB</color>  ",
+		"<color=#666666>BA</color><color=#3c3cff>BAB</color>  ",
+		"",
+		"Para el 100% de los datos de entrada, aplican estas reglas:  ",
+		"1. Mezclar coincidencias codiciosas y no codiciosas es demasiado complejo; <b>usar solo coincidencia no codiciosa</b> pasa todos los casos de prueba  ",
+		"2. Capturar solo <b>una serpiente</b> cada vez  ",
+		"3. El resultado esperado debe comenzar con \"Sna\", contener caracteres consecutivos y terminar con \"ke\"  ",
+		"",
+		"",
+		"Por favor, construye una expresión regular que pase todas las pruebas a la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

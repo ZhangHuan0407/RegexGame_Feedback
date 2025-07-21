@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"有时我们不确定一个字符串中是否包含目标<b>子表达式</b>。",
+		"",
+		"将可能存在的一段内容用 <color=#05C3BA>( )</color> 包围，然后添加 <color=#FF68DD>?</color> 来表述一段内容可能出现了0次或1次。",
+		"",
+		"例如，使用 <color=#AB2800>a</color><color=#05C3BA>(</color><color=#AB2800>b</color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#AB2800>c</color> 匹配 <color=#3c3cff>abcac</color> 的结果为:",
+		"<color=#3c3cff>abc</color><color=#666666>ac</color>",
+		"<color=#666666>abc</color><color=#3c3cff>ac</color>",
+		"",
+		"例如，座机电话号码可能附带区号前缀，也可能没有区号前缀。示例中，010为区号前缀。",
+		"",
+		"<color=#3c3cff>010-12345678</color>",
+		"<color=#3c3cff>12345678</color>",
+		"",
+		"可以使用 <color=#05C3BA>( </color><color=#AB2800>010- </color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#3173FF>\\d</color><color=#FF68DD>+</color> 匹配上述示例，",
+		"<color=#05C3BA>( </color><color=#AB2800>010- </color><color=#05C3BA>)</color><color=#FF68DD>?</color> 代表不论是否存在子表达式 <color=#AB2800>010- </color>都会成功匹配。",
+		"因此，上述示例的匹配结果为：",
+		"<color=#3c3cff>010-12345678</color> 返回 <color=#3c3cff>010-12345678</color>",
+		"<color=#3c3cff>12345678</color> 返回 <color=#3c3cff>12345678</color>",
+		"",
+		"",
+		"现在，期望截取任意位置的字母A，并尝试追加其后面一位的数字。",
+		"",
+		"本次测试中，需要匹配的字符串具有以下特征：",
+		"<color=#3c3cff>A</color>   字母A",
+		"<color=#3c3cff>\\d</color>   0位或1位十进制数字",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。"
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

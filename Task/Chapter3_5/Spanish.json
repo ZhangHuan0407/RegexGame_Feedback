@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"La notación de fechas varía según las regiones.  ",
+		"Algunos idiomas usan orden <b>mes-día-año</b>, mientras que otros usan <b>año-mes-día</b>.  ",
+		"",
+		"¡En esta era globalizada, los formatos de fecha ingresados por usuarios reflejan sus contextos culturales! Como un humilde programa, ¡solo quiero determinar la fecha actual!  ",
+		"",
+		"Por ejemplo:  ",
+		"<color=#3c3cff>The current time is 1/18/2025</color> → Coincidencia esperada:  ",
+		"<color=#666666>The current time is </color><color=#3c3cff>1/18/2025</color>",
+		"",
+		"<color=#3c3cff>현재 시간은 2025-01-18입니다</color> → Coincidencia esperada: 2025-01-18  ",
+		"<color=#666666>현재 시간은 </color><color=#3c3cff>2025-01-18</color><color=#666666>입니다</color> ",
+		"",
+		"<color=#666666>Ahora, despliega tus asombrosas habilidades de observación para programar hacia la solución (tacha eso)</color>  ",
+		"Ahora, intenta identificar la porción de fecha dentro de un segmento de texto  ",
+		"",
+		"En esta prueba, los datos objetivo tienen estas características:",
+		"<color=#3173FF>\\w \\s</color>  Posibles caracteres de palabra o espacios  ",
+		"<color=#3173FF>\\d</color>      Dígitos  ",
+		"<color=#AB2800>\\. \\- /</color>   Separadores numéricos  ",
+		"<color=#3173FF>\\d</color>      Dígitos  ",
+		"<color=#AB2800>\\. \\- /</color>   Separadores numéricos  ",
+		"<color=#3173FF>\\d</color>      Dígitos  ",
+		"<color=#3173FF>\\w \\s</color>  Posibles caracteres de palabra o espacios  ",
+		"",
+		"",
+		"Construye una expresión regular que pase todas las pruebas a la derecha.  "
+	],
+	"m_SystemLanguage":"Spanish"
+}

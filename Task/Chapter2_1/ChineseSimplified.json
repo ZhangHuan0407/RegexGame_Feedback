@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"在正则表达式中，这两个符号具有特殊含义:",
+		"<color=#AB2800>.</color> 匹配任意字符",
+		"<color=#FF68DD>*</color> 匹配前面的子表达式零次或多次",
+		"",
+		"例如",
+		"<color=#AB2800>1</color><color=#FF68DD>*</color> 匹配 <color=#3c3cff>A111A</color> 中的 <color=#666666>A</color><color=#3c3cff>111</color><color=#666666>A</color>",
+		"<color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> 匹配 <color=#3c3cff>BABAB</color> 中的 <color=#3c3cff>BABAB</color>",
+		"",
+		"本次测试中，需要匹配的内容具有以下特征：",
+		"<color=#3c3cff>Sna</color>   存在Sna开头的一段字符",
+		"<color=#3c3cff>.</color>        中间包含若干个任意字符",
+		"<color=#3c3cff>ke</color>      存在ke结尾的一段字符",
+		"",
+		"不要拿错蛇，会咬人！",
+		"",
+		"<b>贪婪匹配</b>",
+		"在正则表达式中，<color=#FF68DD>*</color> 会启用贪婪匹配，它会尝试匹配尽可能多的字符。",
+		"例如，<color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> 匹配 <color=#3c3cff>BABAB</color> 中的 BABAB，而不是仅匹配一部分BAB。",
+		"<color=#FF68DD>*</color> 会尽可能的捕获更多内容。",
+		"",
+		"",
+		"现在，期望匹配\"Snake\"单词。",
+		"如果a很多，匹配尽可能多的a。",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。",
+		""
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

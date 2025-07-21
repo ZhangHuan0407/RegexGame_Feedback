@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"<color=#AB2800>.</color>  matches any character",
+		"<color=#AB2800>\\.</color> matches the \".\" character",
+		"",
+		"For example, <color=#AB2800>\\.1</color> matches .1 in <color=#3c3cff>2.13</color>",
+		"",
+		"File extensions typically consist of a \".\" followed by letters, located at the end of filenames. The file extension indicates the storage format of the file.",
+		"",
+		"<color=#3173FF>\\w</color> matches any character of the word, usually containing uppercase and lowercase letters a-z, A-Z, underscores _, and digits 0-9",
+		"In C#, characters in different languages are also matched, ",
+		"",
+		"e.g. <color=#3173FF>\\w</color><color=#FF68DD>+</color> matches <color=#3c3cff> 汉字, 日本語, 한국어, Português</color> in:",
+		"<color=#3c3cff>汉字</color><color=#666666>, 日本語, 한국어, Português</color>",
+		"<color=#666666>汉字, </color><color=#3c3cff>日本語</color><color=#666666>, 한국어, Português</color>",
+		"<color=#666666>汉字, 日本語, </color><color=#3c3cff>한국어</color><color=#666666>, Português</color>",
+		"<color=#666666>汉字, 日本語, 한국어, </color><color=#3c3cff>Português</color>",
+		"",
+		"When users input file paths, match valid file extensions for proper inputs, and output nothing for invalid inputs.",
+		"",
+		"Examples:",
+		"C:/ABCD/readme.txt   Expected output: .txt",
+		"/home/abc/config.ini    Expected output: .ini",
+		"/var/www/log               No file extension",
+		"",
+		"",
+		"Construct a regular expression that passes all tests on the right."
+	],
+	"m_SystemLanguage":"English"
+}

@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"Devido a requisitos legais, o software deve solicitar o número do Cartão de Residente ao fornecer serviços online para usuários da China continental.  ",
+		"Geralmente, o cliente realiza uma validação básica do número de identificação antes de enviá-lo ao servidor.  ",
+		"",
+		"Um Cartão de Residente possui 18 caracteres:  ",
+		"<color=#3c3cff>123456</color><color=#e06600>78901234</color><color=#ee3300>567</color><color=#33aa55>8</color>  ",
+		"Dígitos <color=#3c3cff>1-6</color>: Código de endereço  ",
+		"Dígitos <color=#e06600>7-14</color>: Código de data de nascimento  ",
+		"Ex.: <color=#e06600>78901234</color> significa 31 de dezembro de 7890  ",
+		"Ex.: <color=#e06600>19990102</color> significa 2 de janeiro de 1999  ",
+		"Dígitos <color=#ee3300>15-17</color>: Código sequencial  ",
+		"Dígito <color=#33aa55>18</color>: Dígito verificador (número ou letra maiúscula X)  ",
+		"",
+		"Com base em convenções, temos estas regras de validação:  ",
+		"1. Um ano tem 12 meses: o valor do mês deve estar entre 1~12  ",
+		"2. Dias devem estar entre 1~31 (independente do mês)  ",
+		"3. Os dois primeiros dígitos do ano devem ser 19 ou 20  ",
+		"4. Comprimento total: 18 caracteres (17 dígitos + X)  ",
+		"5. Dígito verificador: número ou letra X maiúscula  ",
+		"",
+		"Simplificações adotadas:  ",
+		"1. Não validamos dias específicos por mês (ex.: 30 de fevereiro é aceito)  ",
+		"2. Códigos de endereço/sequenciais só verificamos se são numéricos  ",
+		"",
+		"",
+		"Construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

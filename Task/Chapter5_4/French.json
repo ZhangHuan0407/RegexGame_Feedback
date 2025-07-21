@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"En Markdown, utilisez des triples accents graves ``` pour encadrer les blocs de code. Markdown affichera un cadre avec bordure pour les blocs de code.  ",
+		"",
+		"Exemple :  ",
+		"```  ",
+		"public class Program  ",
+		"{  ",
+		"}  ",
+		"```  ",
+		"<img src=Texture/Task/MarkdownCode width=792 height=122>  ",
+		"",
+		"Maintenant, concevez une expression régulière pour correspondre au contenu des <b>blocs de code</b> avec les spécifications suivantes :  ",
+		"1. La correspondance complète <b>inclut</b> les symboles de triples accents graves ```  ",
+		"2. Les cas de test impliquent une entrée multiligne  ",
+		"3. Nommez le groupe de capture pour les blocs de code \"code\". Ce groupe doit exclure les triples accents graves et les sauts de ligne  ",
+		"4. Pour simplifier, supposez qu'aucun cas de test ne contient de triples accents graves à l'intérieur des blocs de code  ",
+		"",
+		"",
+		"Veuillez construire une expression régulière qui réussit tous les cas de test à droite."
+	],
+	"m_SystemLanguage":"French"
+}

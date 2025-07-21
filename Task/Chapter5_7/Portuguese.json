@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"Arquivos INI são arquivos de texto usados para armazenar informações de configuração.  ",
+		"Geralmente consistem em múltiplas seções e pares chave-valor.  ",
+		"Quando o primeiro caractere visível de uma linha é <color=#3c3cff>;</color> ou <color=#3c3cff>#</color>, todo o conteúdo restante dessa linha é considerado um comentário.  ",
+		"",
+		"<img src=Texture/Task/IniComment width=644 height=169>  ",
+		"",
+		"Por exemplo, <color=#3c3cff># this is a comment</color> é uma linha de comentário.  ",
+		"",
+		"O objetivo é identificar linhas de comentário com as seguintes convenções:  ",
+		"1. Cada caso de teste contém exatamente 1 linha (sem \\n)  ",
+		"2. Se a linha for um comentário, corresponde a todo o seu conteúdo  ",
+		"3. O início da linha pode conter zero ou mais caracteres de espaço em branco  ",
+		"",
+		"",
+		"Construa uma expressão regular que passe em todos os casos de teste à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

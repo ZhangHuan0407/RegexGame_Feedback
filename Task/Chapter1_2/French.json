@@ -1,0 +1,18 @@
+{
+	"m_DescList":[
+		"Les nombres négatifs sont représentés à l'aide du symbole <color=#AB2800>-</color>.",
+		"",
+		"Par exemple, l'utilisation de l'expression régulière <color=#AB2800>-</color> pour correspondre à <color=#3c3cff>-1</color> donne :",
+		"<color=#3c3cff>-</color><color=#666666>1</color>",
+		"",
+		"À présent, l'objectif est de reconnaître les nombres négatifs.",
+		"",
+		"Dans ce test, les nombres décimaux à reconnaître ont les caractéristiques suivantes :",
+		"<color=#3c3cff>-</color>     Signe négatif",
+		"<color=#3c3cff>\\d</color>   Un ou plusieurs chiffres arabes répétés",
+		"",
+		"",
+		"Veuillez construire une expression régulière qui réussit tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

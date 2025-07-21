@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Date notation varies across locales.  ",
+		"Some languages use <b>month-day-year</b> order, while others use <b>year-month-day</b>.  ",
+		"",
+		"In this globalized era, date formats entered by users reflect their cultural backgrounds. As a humble program, I just want to determine today's actual date!  ",
+		"",
+		"For example:  ",
+		"<color=#3c3cff>The current time is 1/18/2025</color> → Expected match:  ",
+		"The current time is <color=#3c3cff>1/18/2025</color>  ",
+		"",
+		"<color=#3c3cff>현재 시간은 2025-01-18입니다</color> → Expected match: ",
+		"현재 시간은 <color=#3c3cff>2025-01-18</color>입니다  ",
+		"",
+		"<color=#666666>Now, deploy your amazing observation skills to program toward the answer (scratch that)</color> ",
+		"Now, attempt to match the date portion within a text segment  ",
+		"",
+		"In this test, target data has these characteristics:",
+		"<color=#3173FF>\\w \\s</color>  Possible word characters or whitespace  ",
+		"<color=#3173FF>\\d</color>      Digits  ",
+		"<color=#AB2800>\\. \\- /</color>   Digit separators  ",
+		"<color=#3173FF>\\d</color>      Digits  ",
+		"<color=#AB2800>\\. \\- /</color>   Digit separators  ",
+		"<color=#3173FF>\\d</color>      Digits  ",
+		"<color=#3173FF>\\w \\s</color>  Possible word characters or whitespace  ",
+		"",
+		"",
+		"Construct a regular expression that passes all tests on the right."
+	],
+	"m_SystemLanguage":"English"
+}

@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"Bij het schrijven van reguliere expressies is het vaak nodig \"willekeurige\" karakters uit te drukken. Daarom wordt <color=#AB2800>.</color> conventioneel gebruikt voor de betekenis van \"willekeurig\".",
+		"",
+		"<color=#AB2800>.</color>   Komt overeen met elk enkel karakter behalve een regeleinde",
+		"<color=#AB2800>\\.</color> Komt alleen overeen met een decimaalpunt",
+		"",
+		"<color=#3c3cff>123.456</color>",
+		"Bijvoorbeeld, bij gebruik van <color=#AB2800>\\..</color> om bovenstaand voorbeeld te matchen:",
+		"    De eerste <color=#AB2800>\\.</color> wordt geïnterpreteerd als \"komt alleen overeen met decimaalpunt\",",
+		"    De tweede <color=#e06600>.</color> wordt geïnterpreteerd als \"willekeurig\" karakter",
+		"<color=#3c3cff>123.456</color>",
+		"<color=#666666>123</color><color=#3c3cff>.4</color><color=#666666>56</color>",
+		"",
+		"<color=#3c3cff>(x3x)</color>",
+		"Bijvoorbeeld, bij gebruik van <color=#AB2800>3..</color> om bovenstaand voorbeeld te matchen:",
+		"    De eerste <color=#AB2800>3</color> wordt geïnterpreteerd als \"cijfer 3\",",
+		"    De tweede en derde <color=#e06600>.</color> worden geïnterpreteerd als \"willekeurige\" karakters",
+		"<color=#3c3cff>(x3x)</color> geeft 3x) terug",
+		"<color=#666666>(x</color><color=#3c3cff>3x)</color>",
+		"",
+		"",
+		"Nu is het doel om het cijfer 1 gevolgd door zoveel mogelijk willekeurige karakters te matchen.",
+		"",
+		"In deze test heeft de te matchen string de volgende kenmerken:",
+		"<color=#3c3cff>1</color>    Bevat minstens één cijfer 1",
+		"<color=#3c3cff>.</color>     Gevolgd door een willekeurig aantal willekeurige karakters",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle tests aan de rechterkant doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

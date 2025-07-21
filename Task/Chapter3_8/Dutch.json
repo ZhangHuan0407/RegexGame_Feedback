@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"Toen ik eerder <color=#AB2800>Sna.</color><color=#FF68DD>*</color><color=#AB2800>ke</color> gebruikte om <color=#3c3cff>Snake Snaake</color> te matchen,  ",
+		"werden beide slangen in één keer gevangen <color=#3c3cff>Snake Snaake</color>, waardoor ik bijna werd gebeten. T_T  ",
+		"",
+		"De slangen zijn nu met elkaar verstrengeld.  ",
+		"Voor <color=#3c3cff>Snasssnkeake</color> is het verwachte resultaat:  ",
+		"<color=#3c3cff>Snasssnke</color><color=#666666>ake</color>  ",
+		"",
+		"Deze keer begint het met <color=#3c3cff>Sna</color> en eindigt wanneer de eerste <color=#3c3cff>ke</color> wordt gevonden.  ",
+		"",
+		"<b>Greedy Matching (Hebbige matching)</b>  ",
+		"Bij reguliere expressies activeert <color=#FF68DD>*</color> hebbige matching, die probeert zoveel mogelijk tekens te matchen.  ",
+		"",
+		"Bijvoorbeeld: <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> matcht <color=#3c3cff>BABAB</color> in zijn geheel, niet slechts \"BAB\". <color=#FF68DD>*</color> vangt maximaal mogelijke inhoud.  ",
+		"",
+		"<b>Lazy Matching (Luwe matching)</b>  ",
+		"Bij reguliere expressies activeert <color=#FF68DD>*?</color> niet-hebbige matching, die zo min mogelijk tekens matcht.  ",
+		"",
+		"Bijvoorbeeld: <color=#AB2800>BA.</color><color=#FF68DD>*?</color><color=#AB2800>B</color> levert twee resultaten op voor <color=#3c3cff>BABAB</color>:  ",
+		"<color=#3c3cff>BAB</color><color=#666666>AB</color>  ",
+		"<color=#666666>BA</color><color=#3c3cff>BAB</color>  ",
+		"",
+		"Voor 100% van de invoergegevens gelden deze regels:  ",
+		"1. Combinaties van greedy/lazy matching zijn te complex; <b>lazy matching</b> volstaat voor alle testgevallen  ",
+		"2. Vang slechts <b>één slang</b> per keer  ",
+		"3. Verwacht patroon: begint met \"Sna\", gevolgd door opeenvolgende tekens, eindigt met \"ke\"  ",
+		"",
+		"Construeer een reguliere expressie die slaagt voor alle testen rechts."
+	],
+	"m_SystemLanguage":"Dutch"
+}

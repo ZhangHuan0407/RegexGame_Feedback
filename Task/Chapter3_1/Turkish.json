@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"Appending <color=#FF68DD>?</color> after a regular expression indicates that the preceding expression may occur 0 or 1 time.",
+		"",
+		"Example:",
+		"For instance, <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> means: there may be a \"%\" following a series of consecutive digits.",
+		"",
+		"Using <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> to match <color=#3c3cff>100%</color>,",
+		"the result is:",
+		"<color=#3c3cff>100%</color>",
+		"",
+		"Using <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> to match <color=#3c3cff>0.99</color>",
+		"the result is:",
+		"<color=#3c3cff>0</color><color=#666666>.99</color>",
+		"<color=#666666>0.</color><color=#3c3cff>99</color>",
+		"",
+		"Using <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> to match <color=#3c3cff>ALL%</color>",
+		"<color=#3c3cff>ALL%</color> no match.",
+		"",
+		"Now you are given an \"ASCII\" art, and you need to count all the digit '8's. If there is a '.' immediately before an '8', include that '.' as well.",
+		"",
+		"For example, for <color=#3c3cff>11.88</color> the expected matching result is <color=#666666>11</color><color=#3c3cff>.88</color>",
+		"",
+		"",
+		"Please construct a regular expression to pass all the tests on the right.",
+		""
+	],
+	"m_SystemLanguage":"Turkish"
+}

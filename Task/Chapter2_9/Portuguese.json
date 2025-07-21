@@ -1,0 +1,24 @@
+{
+	"m_DescList":[
+		"O chefe solicitou a coleta de e-mails QQ dos funcionários. Ele atribuiu essa tarefa ao seu colega Zhang San ontem. Hoje de manhã, Zhang San foi demitido por entrar na empresa com o pé esquerdo primeiro.  ",
+		"Agora, o chefe entregou essa tarefa a você!",
+		"",
+		"Os e-mails QQ têm as seguintes características:  ",
+		"<color=#3c3cff>0-9</color>             Compõem-se de 5 a 11 dígitos decimais  ",
+		"<color=#3c3cff>@qq.com</color>   Sufixo fixo obrigatório  ",
+		"",
+		"Seus colegas sempre são descuidados e provavelmente inserirão informações erradas.  ",
+		"Crie uma expressão regular que corresponda apenas a e-mails QQ que pareçam válidos.",
+		"",
+		"<b>Por exemplo</b>, os dados abaixo contêm erros evidentes:  ",
+		"123.123@qq.com Contém o símbolo inválido \".\"  ",
+		"12345@qq.com12345@qq.com Dois e-mails preenchidos juntos  ",
+		"",
+		"",
+		"Construa uma expressão regular que passe em todos os testes do lado direito.  ",
+		"",
+		"",
+		"<color=#666666>Dica: Use o conhecimento aprendido nas duas questões anteriores</color> "
+	],
+	"m_SystemLanguage":"Portuguese"
+}

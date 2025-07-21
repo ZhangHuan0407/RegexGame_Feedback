@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"Aquí tienes la traducción al español manteniendo todas las etiquetas y formatos técnicos:",
+		"",
+		"En diferentes sistemas operativos, los saltos de línea se representan de manera distinta.  ",
+		"Windows: Usa una combinación de retorno de carro y salto de línea, es decir <color=#7E3B50>\\r\\n</color>",
+		"Linux/Unix: Usa únicamente el salto de línea <color=#7E3B50>\\n</color> (\\u000A)  ",
+		"Mac (versiones antiguas): Usa solo retorno de carro <color=#7E3B50>\\r</color> (\\u000D)  ",
+		"Pero en macOS moderno, el salto de línea es idéntico al de Linux/Unix: <color=#7E3B50>\\n</color>",
+		"",
+		"Al estructurar documentos:  ",
+		"algunos usan espacios regulares <color=#AB2800>\\u0020</color>,  ",
+		"algunos usan espacios de no separación <color=#AB2800>\\u00A0</color>,  ",
+		"algunos usan tabuladores <color=#7E3B50>\\t</color>,  ",
+		"algunos usan tabulaciones verticales <color=#7E3B50>\\v</color> ",
+		"...",
+		"",
+		"Algunos programas reconocen estos símbolos y los muestran correctamente, otros no. ¡Al final el documento se convierte en un caos!",
+		"",
+		"<img src=Texture/Task/WhiteSpace width=572 height=990>",
+		"",
+		"Se espera que coincidan los siguientes caracteres: <color=#7E3B50>\\r \\n \\t \\v </color><color=#AB2800>\\u0020 \\u00A0</color>",
+		"",
+		"",
+		"Por favor, construye una expresión regular que pase todas las pruebas del lado derecho."
+	],
+	"m_SystemLanguage":"Spanish"
+}

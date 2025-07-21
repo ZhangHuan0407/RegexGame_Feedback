@@ -1,0 +1,19 @@
+{
+	"m_DescList":[
+		"Szef użył napisanego przez Ciebie \"AsystentaFiltrowaniaWiadomości.exe\" z poprzedniego etapu i jest tym <b>bardzo niezadowolony</b>!  ",
+		"",
+		"Dał ci nowe zadanie: dopasować informacje adresowe z CV i wysłać do nich wiadomość \"Nie przeszedłeś rozmowy kwalifikacyjnej\". Informacje adresowe <b>nie mogą zawierać</b> dodatkowego tekstu \"Address:\".  ",
+		"",
+		"Usłyszałeś o składni wyrażeń regularnych nazywanej \"zerowej szerokości asercja wsteczna dodatnia\":  ",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color>",
+		"",
+		"Na przykład, użycie <color=#05C3BA>(?</color><color=#AB2800><= A </color><color=#05C3BA>)</color><color=#AB2800>BC</color> do dopasowania <color=#3c3cff>ABC</color> daje wynik:  ",
+		"<color=#666666>A</color><color=#3c3cff>BC</color> ",
+		"",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color> magicznie <b>pożera</b> część dopasowaną przez <color=#AB2800>subexpression</color>!  ",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

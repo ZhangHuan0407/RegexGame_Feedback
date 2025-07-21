@@ -1,0 +1,25 @@
+{
+	"m_DescList":[
+		"In Markdown können Sie speziell formatierten Text hinzufügen, der Bilder von angegebenen Pfaden rendert.  ",
+		"",
+		"Beispiel:",
+		"<color=#3c3cff>![Image Alt]</color>(<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> <color=#33aa55>\"ImageTitle\"</color>)",
+		"",
+		"<color=#3c3cff>![Bildbeschreibung]</color> beginnt mit ! und verwendet [] für Alternativtext. Alternativtext wird bei fehlgeschlagenem Bildladen angezeigt.",
+		"Leerer Alternativtext <color=#3c3cff>![]</color> ist gültig.  ",
+		"<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> gibt den Bilddateipfad an  ",
+		"<color=#33aa55>\"Bildtitel\"</color> ist der Hover-Titel, der bei Mausberührung angezeigt wird  ",
+		"",
+		"<img src=Texture/Task/MarkdownImage width=840 height=167>  ",
+		"",
+		"Ziel: Regulärer Ausdruck zum Abgleichen von <b>Bildpfaden</b> mit folgenden Konventionen:  ",
+		"1. Nur korrekt formatierte Eingaben abgleichen  ",
+		"2. Jeder Testfall enthält genau ein Zielmatch  ",
+		"3. Benenne die Dateipfad-Erfassungsgruppe als \"file\"  ",
+		"4. Nur nicht-leere Dateipfade abgleichen  ",
+		"5. 100% der Testfälle haben pfadnamen ohne Leerzeichen  ",
+		"",
+		"Erstellen Sie einen Regex, der alle Testfälle auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

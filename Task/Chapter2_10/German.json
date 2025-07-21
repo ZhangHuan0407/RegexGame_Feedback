@@ -1,0 +1,14 @@
+{
+	"m_DescList":[
+		"„Ode an die Freude“ ist ein Gedicht des deutschen Dichters Schiller, zu dem Beethoven die Musik komponierte.  ",
+		"",
+		"Ich bin neugierig, wie oft im Liedtext ein Buchstabe im Bereich a-i auf einen Buchstaben im Bereich j-z folgt.  ",
+		"",
+		"Es gilt nun, die oben beschriebene Situation zu finden.  ",
+		"",
+		"",
+		"Bitte konstruieren Sie einen regulären Ausdruck, der alle Tests auf der rechten Seite besteht.",
+		""
+	],
+	"m_SystemLanguage":"German"
+}

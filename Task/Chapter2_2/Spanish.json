@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"Aquí tienes la traducción al español respetando todas las etiquetas y especificaciones técnicas:",
+		"",
+		"El texto a menudo contiene espacios, por lo que usamos <color=#3173FF>\\s</color> para representar \"espacio\".",
+		"",
+		"<color=#3173FF>\\s</color> coincide con un carácter de espacio.",
+		"",
+		"<b>Por ejemplo:</b>",
+		"<color=#AB2800>1</color><color=#3173FF>\\s</color><color=#AB2800>2</color>  coincide con <color=#3c3cff>A1 2B</color> → <color=#666666>A</color><color=#3c3cff>1 2</color><color=#666666>B</color>",
+		"<color=#AB2800>o</color><color=#3173FF>\\s</color><color=#AB2800>W</color> coincide con <color=#3c3cff>Hello World</color> → <color=#666666>Hell</color><color=#3c3cff>o W</color><color=#666666>orld</color>",
+		"",
+		"¡El jefe está haciendo rondas! ¡Quien no esté en su puesto tendrá problemas!",
+		"o(*￣︶￣*)o",
+		"Un puesto ocupado se marca con \"X\", uno vacío con \" \".",
+		"",
+		"<b>Por ejemplo:</b>",
+		"| |X|X| indica que el primer puesto está vacío, el segundo y tercero ocupados.",
+		"",
+		"Ahora el jefe quiere que verifiques los puestos vacíos y descontes sin piedad sus bonos.",
+		"",
+		"Para el 100% de los datos de entrada, aplican estas reglas:",
+		"1. Solo contiene 3 caracteres: \" \" (\\u0020), \"|\", \"X\"",
+		"2. Entre dos símbolos \"|\" adyacentes debe haber \" \" o \"X\"",
+		"",
+		"<img src=Texture/Task/Level2_2WhiteChar width=524 height=160>",
+		"Cuando se selecciona una coincidencia, los espacios dentro de la coincidencia se representarán con <color=#e06600>□</color>.",
+		"",
+		"",
+		"Construye una expresión regular que pase todas las pruebas a la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

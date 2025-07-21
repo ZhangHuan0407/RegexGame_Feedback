@@ -1,0 +1,11 @@
+{
+	"m_DescList":[
+		"\"Ode to Joy\" is a poem written by the German poet Schiller, for which Beethoven composed the music.",
+		"",
+		"I want to investigate how many times in the lyrics a pattern occurs where the first letter is in characters from a to i and the second letter is in characters from j to z.",
+		"",
+		"",
+		"Now, we need to construct a regular expression to match such cases."
+	],
+	"m_SystemLanguage":"English"
+}

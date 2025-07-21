@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"게임 개발 과정에서 항상 이미지나 밈을 추가해 더 편안한 분위기를 조성하고 싶었습니다.",
+		"",
+		"이미지는 다음과 같은 구성 요소를 포함합니다:  ",
+		"1. 리소스 경로  ",
+		"2. 이미지 너비  ",
+		"3. 이미지 높이  ",
+		"",
+		"예를 들어 아래 그래픽:  ",
+		"<img src=Texture/emoji_1 width=213 height=131>",
+		"",
+		"에디터에서 실제 입력된 텍스트:  ",
+		"<color=#3c3cff><img src=</color><color=#ee3300>Texture/emoji_1</color> <color=#3c3cff>width=</color><color=#ee3300>213</color> <color=#3c3cff>height=</color><color=#ee3300>131</color><color=#3c3cff>></color>",
+		"",
+		"규칙:  ",
+		"- src 캡처 그룹 이름: \"Src\"  ",
+		"- width 캡처 그룹 이름: \"Width\"  ",
+		"- height 캡처 그룹 이름: \"Height\"",
+		"",
+		"모든 테스트 케이스에 적용되는 규칙:  ",
+		"1. src, width, height의 순서는 고정되지 않음  ",
+		"2. 테스트 케이스에서 src는 절대 공백을 포함하지 않음 ",
+		"",
+		"오른쪽의 모든 테스트 케이스를 통과하는 정규 표현식을 구성해 주세요. "
+	],
+	"m_SystemLanguage":"Korean"
+}

@@ -1,0 +1,55 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"2024-03-11 01:02:03",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"2024-06-25 10:05:21 [INFO] User login successful",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"2025-06-25 10:06:45 [ERROR] Database connection failed",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"2025-06-25 10:06:45 [ERROR] Database connection failed"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":54
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"2026-06-25 10:07:12 [WARN] Disk usage exceeds 91%",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"2025-06-25 24:00:01 error! datetime have bug",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"2025-06-25 24:00:01 error! datetime have bug"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":44
+				}
+			],
+			"m_CheckOrder":false
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":".*(?i:ERROR).*"
+}

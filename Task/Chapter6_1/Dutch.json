@@ -1,0 +1,25 @@
+{
+	"m_DescList":[
+		"Bij softwareontwikkeling is het vaak nodig om versienummers te lezen.  ",
+		"",
+		"Bijvoorbeeld, sommige beginners schrijven versienummers liever direct in scripts:  ",
+		"",
+		"<color=#3c3cff>public const string</color> ResourceVersion = <color=#ee3300>\"1.2.3\"</color>;  ",
+		"",
+		"Hoewel geen beste praktijk, is dit de eenvoudigste implementatie.  ",
+		"Op een dag erft u onvermijdelijk deze shitberg code!  ",
+		"",
+		"U wilt de code als tekst lezen en regex gebruiken om versienummers precies te matchen!  ",
+		"",
+		"Afspraak: Noem de capture groep voor versie \"version\"  ",
+		"",
+		"Voorbeeld:  ",
+		"<color=#3c3cff>public const string ResourceVersion = \"1.2.3\";</color>  ",
+		"Verwacht matchresultaat:  ",
+		"<color=#666666>public const string ResourceVersion = \"</color><color=#3c3cff>1.2.3</color><color=#666666>\";</color>  ",
+		"",
+		"",
+		"Construeer een regexpatroon dat alle testen aan de rechterkant doorstaat.  "
+	],
+	"m_SystemLanguage":"Dutch"
+}

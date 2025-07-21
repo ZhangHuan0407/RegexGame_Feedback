@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"Farklı işletim sistemlerinde satır sonları farklı şekillerde temsil edilir.  ",
+		"Windows: Satır başı ve satır besleme karakterlerinin kombinasyonunu kullanır, yani <color=#7E3B50>\\r\\n</color>",
+		"Linux/Unix: Yalnızca satır besleme karakteri kullanır, yani <color=#7E3B50>\\n</color> (\\u000A)",
+		"Mac (Eski sürümler): Yalnızca satır başı karakteri kullanır, yani <color=#7E3B50>\\r</color> (\\u000D)  ",
+		"Ancak modern macOS'ta satır sonu Linux/Unix ile aynıdır, <color=#7E3B50>\\n</color> kullanır",
+		"",
+		"Belge yapısını düzenlerken,  ",
+		"bazıları boşluk karakterini <color=#AB2800>\\u0020</color> kullanır,  ",
+		"bazıları bölünemez boşluğu <color=#AB2800>\\u00A0</color>,  ",
+		"bazıları sekme karakterini <color=#7E3B50>\\t</color>,  ",
+		"bazıları dikey sekme karakterini <color=#7E3B50>\\v</color> kullanır  ",
+		"...",
+		"",
+		"Bazı yazılımlar bu sembolleri tanır ve doğru şekilde gösterirken, bazıları yapamaz. Sonuç olarak, bu durum belge görüntülemede karmaaşa yaratır!",
+		"",
+		"<img src=Texture/Task/WhiteSpace width=572 height=990>",
+		"",
+		"Aşağıdaki karakterlerin eşleşmesi beklenir: <color=#7E3B50>\\r \\n \\t \\v </color><color=#AB2800>\\u0020 \\u00A0</color>",
+		"",
+		"",
+		"Lütfen sağdaki tüm testleri geçecek bir düzenli ifade (regex) oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

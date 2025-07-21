@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Les riches expressions Emoji rendent la communication plus captivante.  ",
+		"Cependant, il est regrettable que la prise en charge des Emoji dans les logiciels ne soit pas sans coût.  ",
+		"",
+		"Les définitions d'Emoji se renouvellent périodiquement, et certains logiciels accusent souvent un retard d'adaptation.  ",
+		"<img src=Texture/Task/EmojiNewIcon width=788 height=404>  ",
+		"",
+		"Parfois, les applications mobiles pourraient planter en tentant d'afficher des Emoji non pris en charge.  ",
+		"Il existe actuellement plus de 3 000 Emoji. Nous en avons sélectionné 20 et tenterons de les filtrer via des expressions régulières.  ",
+		"",
+		"Pour les expressions régulières complexes, l'efficacité d'exécution varie.  ",
+		"Exemple :  ",
+		"<color=#3173FF>[</color><color=#AB2800>12</color><color=#3173FF>][</color><color=#AB2800>34</color><color=#3173FF>][</color><color=#AB2800>56</color><color=#3173FF>]</color> énumère des combinaisons de trois chiffres consécutifs, en priorisant le premier chiffre. Si celui-ci ne correspond pas, l'ensemble échoue.  ",
+		"<color=#05C3BA>(</color><color=#AB2800>135 </color><color=#05C3BA>| </color><color=#AB2800>136 </color><color=#05C3BA>| </color><color=#AB2800>145 </color><color=#05C3BA>| </color><color=#AB2800>156 </color><color=#05C3BA>| </color><color=#AB2800>235 </color><color=#05C3BA>| </color><color=#AB2800>236 </color><color=#05C3BA>| </color><color=#AB2800>245 </color><color=#05C3BA>| </color><color=#AB2800>246</color><color=#05C3BA>)</color>  ",
+		"énumère toutes les possibilités, nécessitant un parcours complet des options – processus plus chronophage.  ",
+		"",
+		"<color=#666666>Le défi initial exigeait de filtrer tous les Emoji. En raison de sa difficulté excessive, il a été repensé.</color>  ",
+		"<color=#666666>Pour les véritables guerriers, j'ai préparé 1 910 Emoji ici : Game installation path/StreamingAssets/FullEmoji.txt</color>  ",
+		"<color=#666666>Pour filtrer tous les Emoji par regex, il vaut mieux écrire un code automatisant cette tâche</color>  ",
+		"",
+		"Pour tous les cas de test, conventions suivantes :  ",
+		"1. Sauf les deux premiers, chaque cas contient un seul Emoji  ",
+		"2. Sauf les deux premiers, chaque cas affiche sa séquence d'échappement \\uxxxx suivie d'un espace avant l'Emoji  ",
+		"3. Les caractères Emoji restent invisibles car Unity Text ne les affiche pas.  ",
+		"",
+		"",
+		"Veuillez construire une expression régulière validant tous les cas de test à droite."
+	],
+	"m_SystemLanguage":"French"
+}

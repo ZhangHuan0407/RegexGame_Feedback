@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"Un texte a généralement un début et une fin.",
+		"",
+		"Utilisez <color=#FF68DD>\\A</color> ou <color=#FF68DD>^</color> pour représenter le début d'une chaîne de caractères.",
+		"",
+		"Exemple :",
+		"<color=#3c3cff>011</color>",
+		"<color=#3c3cff>0</color>",
+		"<color=#3c3cff>_0</color>",
+		"Par exemple, en utilisant <color=#FF68DD>\\A</color><color=#AB2800>0</color> pour correspondre à l'exemple ci-dessus, c'est-à-dire \"correspondre au contenu commençant par 0\" :",
+		"<color=#3c3cff>011</color> renvoie 0",
+		"<color=#3c3cff>0</color> renvoie 0",
+		"<color=#3c3cff>_0</color> ne correspond pas",
+		"",
+		"Utilisez <color=#FF68DD>\\Z</color> ou <color=#FF68DD>$</color> pour représenter la fin d'une chaîne de caractères.",
+		"",
+		"Exemple :",
+		"<color=#3c3cff>001</color>",
+		"<color=#3c3cff>1</color>",
+		"<color=#3c3cff>1_</color>",
+		"Par exemple, en utilisant <color=#AB2800>1</color><color=#FF68DD>\\Z</color> pour correspondre à l'exemple ci-dessus, c'est-à-dire \"correspondre au contenu se terminant par 1\" :",
+		"<color=#3c3cff>001</color> renvoie 1",
+		"<color=#3c3cff>1</color> renvoie 1",
+		"<color=#3c3cff>1_</color> ne correspond pas",
+		"",
+		"Maintenant, vous devez faire correspondre toutes les chaînes de caractères qui ne contiennent que le chiffre 1.",
+		"",
+		"Veuillez construire une expression régulière qui passe tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

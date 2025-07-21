@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"텍스트에는 종종 공백이 포함되므로 <color=#3173FF>\\s</color>가 \"공백\"(스페이스)을 의미합니다.",
+		"",
+		"<color=#3173FF>\\s</color> 공백 문자 매칭",
+		"",
+		"<b>예시:</b>",
+		"<color=#AB2800>1</color><color=#3173FF>\\s</color><color=#AB2800>2</color> → <color=#3c3cff>A1 2B</color> 에서 <color=#666666>A</color><color=#3c3cff>1 2</color><color=#666666>B</color> 매칭",
+		"<color=#AB2800>o</color><color=#3173FF>\\s</color><color=#AB2800>W</color> → <color=#3c3cff>Hello World</color> 에서 <color=#666666>Hell</color><color=#3c3cff>o W</color><color=#666666>orld</color> 매칭",
+		"",
+		"상사가 순찰 나왔습니다! 자리에 없는 동료들은 모두 문제 생길 거예요!  ",
+		"o(*￣︶￣*)o  ",
+		"좌석에 사람이 있으면 \"X\", 없으면 \" \"(공백)으로 표시합니다.",
+		"",
+		"<b>예시:</b>",
+		"| |X|X| → 첫 번째 자리 공란, 두/세 번째 자리 점유",
+		"",
+		"이제 상사님께서 자리를 비운 좌석을 확인해 보너스를 깎아버리라고 지시하셨습니다.",
+		"",
+		"입력 데이터 규칙 (100% 적용):",
+		"1. 오직 세 종류 문자만 존재: \" \"(\\u0020), \"|\", \"X\"  ",
+		"2. 인접한 두 개의 \"|\" 기호 사이에는 반드시 \" \" 또는 \"X\"가 존재",
+		"",
+		"<img src=Texture/Task/Level2_2WhiteChar width=524 height=160>",
+		"매치 결과 중 하나를 선택하면, 해당 매치 결과 내의 공백은 <color=#e06600>□</color>으로 대체됩니다.",
+		"",
+		"",
+		"우측 테스트를 모두 통과하는 정규 표현식을 구성하세요."
+	],
+	"m_SystemLanguage":"Korean"
+}

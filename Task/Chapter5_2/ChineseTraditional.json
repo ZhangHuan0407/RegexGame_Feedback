@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"在 Markdown 中，使用若干個連續的 # 來表示標題。",
+		"根據 # 的數量，分為不同級別的標題。",
+		"",
+		"例如：",
+		"<img src=Texture/Task/MarkdownTitle width=267 height=89>",
+		"",
+		"現在期望編寫一個正則表達式，匹配標題部分的內容，約定如下：",
+		"1. <b>包含</b>前綴 #，隨後至少 1 個空格",
+		"2. 所有輸入僅為單行字串",
+		"3. 約定匹配標題內容的捕獲組名稱為 \"title\"",
+		"",
+		"由於正則表達式使用了 RegexOptions.IgnorePatternWhitespace 模式，<color=#33aa55>#</color> 開頭的行內容將被識別為註解。",
+		"",
+		"請使用 \\# 匹配字元 \"#\"",
+		"",
+		"",
+		"請構造一個正則表達式使之通過右側所有測試。"
+	],
+	"m_SystemLanguage":"ChineseTraditional"
+}

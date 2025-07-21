@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"<color=#AB2800>.</color>  correspond à n'importe quel caractère  ",
+		"<color=#AB2800>\\.</color> correspond au caractère \".\"  ",
+		"",
+		"Par exemple, <color=#AB2800>\\.1</color> correspond à .1 dans <color=#3c3cff>2.13</color>  ",
+		"",
+		"L'extension de fichier est généralement composée d'un \".\" suivi d'une série de lettres  ",
+		"située à la fin du nom de fichier  ",
+		"L'extension de fichier indique le format de stockage du fichier  ",
+		"",
+		"<color=#3173FF>\\w</color> correspond à n’importe quel caractère du mot, contenant généralement des lettres majuscules et minuscules a-z, A-Z, des traits de soulignement _ et des chiffres 0-9",
+		"En C#, les caractères de différentes langues sont également mis en correspondance, par exemple <color=#3173FF>\\w</color><color=#FF68DD>+</color> correspond à <color=#3c3cff> 汉字, 日本語, 한국어, Português</color> en :",
+		"<color=#3c3cff>汉字</color><color=#666666>, 日本語, 한국어, Português</color>",
+		"<color=#666666>汉字, </color><color=#3c3cff>日本語</color><color=#666666>, 한국어, Português</color>",
+		"<color=#666666>汉字, 日本語, </color><color=#3c3cff>한국어</color><color=#666666>, Português</color>",
+		"<color=#666666>汉字, 日本語, 한국어, </color><color=#3c3cff>Português</color>",
+		"",
+		"L'utilisateur a saisi des chemins de fichiers  ",
+		"Pour les entrées valides, correspondre à l'extension de fichier  ",
+		"Aucune sortie n'est nécessaire pour les entrées non valides  ",
+		"",
+		"Par exemple :  ",
+		"C:/ABCD/readme.txt   Sortie attendue : extension .txt  ",
+		"/home/abc/config.ini    Sortie attendue : extension .ini  ",
+		"/var/www/log               Pas d'extension de fichier  ",
+		"",
+		"",
+		"Veuillez construire une expression régulière qui réussit tous les tests à droite"
+	],
+	"m_SystemLanguage":"French"
+}

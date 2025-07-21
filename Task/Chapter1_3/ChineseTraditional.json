@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"一段文字往往是有開頭有結尾的。",
+		"",
+		"使用 <color=#FF68DD>\\A</color> 或 <color=#FF68DD>^</color> 來表述字串的開頭。",
+		"",
+		"例如，使用 <color=#FF68DD>\\A</color><color=#AB2800>0</color> 符合範例，即「符合以0開頭的內容」：",
+		"範例：",
+		"<color=#FF68DD>\\A</color><color=#AB2800>0</color> 符合 <color=#3c3cff>011</color> 回傳 <color=#3c3cff>0</color><color=#666666>11</color>",
+		"<color=#FF68DD>\\A</color><color=#AB2800>0</color> 符合 <color=#3c3cff>0</color> 回傳 <color=#3c3cff>0</color>",
+		"<color=#FF68DD>\\A</color><color=#AB2800>0</color> 符合 <color=#3c3cff>_0</color> 不符合",
+		"",
+		"使用 <color=#FF68DD>\\Z</color> 或 <color=#FF68DD>$</color> 來表述字串的結尾。",
+		"",
+		"例如，使用 <color=#AB2800>1</color><color=#FF68DD>\\Z</color> 符合範例，即「符合以1結尾的內容」：",
+		"範例：",
+		"<color=#AB2800>1</color><color=#FF68DD>\\Z</color> 符合 <color=#3c3cff>001</color> 回傳 <color=#666666>00</color><color=#3c3cff>1</color>",
+		"<color=#AB2800>1</color><color=#FF68DD>\\Z</color> 符合 <color=#3c3cff>1</color> 回傳 <color=#3c3cff>1</color>",
+		"<color=#AB2800>1</color><color=#FF68DD>\\Z</color> 符合 <color=#3c3cff>1_</color> 不符合",
+		"",
+		"現在，需要符合所有**僅包含數字1的字串**。",
+		"",
+		"請建立一個正規表示式，使之通過右側所有測試。"
+	],
+	"m_SystemLanguage":"ChineseTraditional"
+}

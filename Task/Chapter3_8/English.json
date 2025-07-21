@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"When using <color=#AB2800>Sna.</color><color=#FF68DD>*</color><color=#AB2800>ke</color> to match <color=#3c3cff>Snake Snaake</color> last time,  ",
+		"the result directly captured both snakes at once <color=#3c3cff>Snake Snaake</color>, nearly getting bitten. T_T  ",
+		"",
+		"The snakes are now tangled together.  ",
+		"For <color=#3c3cff>Snasssnkeake</color>, the expected match result is:  ",
+		"<color=#3c3cff>Snasssnke</color><color=#666666>ake</color>  ",
+		"",
+		"This time it starts with <color=#3c3cff>Sna</color>, and ends when the first <color=#3c3cff>ke</color> is found.  ",
+		"",
+		"<b>Greedy Matching</b>  ",
+		"In regular expressions, <color=#FF68DD>*</color> enables greedy matching, which attempts to match as many characters as possible.  ",
+		"",
+		"For example, <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> matches <color=#3c3cff>BABAB</color> in <color=#3c3cff>BABAB</color>, rather than just matching \"BAB\". <color=#FF68DD>*</color> captures as much content as possible.  ",
+		"",
+		"<b>Lazy Matching</b>  ",
+		"In regular expressions, <color=#FF68DD>*?</color> enables non-greedy matching, which matches as few characters as possible.  ",
+		"",
+		"For example, <color=#AB2800>BA.</color><color=#FF68DD>*?</color><color=#AB2800>B</color> returns two matches for <color=#3c3cff>BABAB</color>:  ",
+		"<color=#3c3cff>BAB</color><color=#666666>AB</color>  ",
+		"<color=#666666>BA</color><color=#3c3cff>BAB</color>  ",
+		"",
+		"For 100% of input data, the following rules apply:  ",
+		"1. Mixing greedy and lazy matching is overly complex; using <b>lazy matching</b> alone passes all test cases  ",
+		"2. Capture only <b>one snake</b> at a time  ",
+		"3. The expected match starts with \"Sna\", followed by consecutive characters, and ends with \"ke\"  ",
+		"",
+		"",
+		"Please construct a regular expression that passes all tests on the right."
+	],
+	"m_SystemLanguage":"English"
+}

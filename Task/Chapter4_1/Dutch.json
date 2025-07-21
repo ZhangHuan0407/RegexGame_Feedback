@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"Naarmate reguliere expressies complexer worden, kan één tekstmatch meerdere groepen vastleggen.  ",
+		"We kennen unieke namen toe aan deze expressies om te bepalen welke vastgelegde groep we moeten gebruiken.  ",
+		"",
+		"Bijvoorbeeld: <color=#AB2800>A</color> matcht <color=#3c3cff>A</color><color=#666666>BC</color> in <color=#3c3cff>ABC</color>.  ",
+		"",
+		"We kunnen de verwachte groep voor <color=#AB2800>A</color> benoemen als <color=#AB2800>test</color>, waardoor de expressie ontstaat: <color=#05C3BA>(?</color><color=#AB2800><test>A</color><color=#05C3BA>)</color>",
+		"",
+		"Deze expressie matched met <color=#3c3cff>ABC</color> geeft:  ",
+		"<color=#3c3cff>A</color>            Volledige matchresultaat  ",
+		"<color=#3c3cff><test>A</color>  Matchresultaat van groep \"test\"  ",
+		"",
+		"Bijvoorbeeld: om het gehele getal vóór de decimale punt te matchen en deze groep \"int\" te noemen, construeren we: <color=#05C3BA>(?</color><color=#AB2800><int></color><color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#05C3BA>)</color><color=#AB2800>\\.</color><color=#3173FF>\\d</color><color=#FF68DD>+</color>",
+		"",
+		"Deze expressie matched met <color=#3c3cff>Prijs: 1.99</color> geeft:  ",
+		"<color=#3c3cff>1.99</color>    Volledige matchresultaat  ",
+		"<color=#3c3cff><int>1</color> Matchresultaat van groep \"int\"",
+		"",
+		"Bedrijfsmailboxen ontvangen e-mails waarin namen gematcht moeten worden. De te matchen inhoud heeft deze kenmerken:  ",
+		"1. Begint met <b>name</b> of <b>Name</b>  ",
+		"2. Volgt patronen: name is xxx, name: xxx, name:xxx",
+		"3. Namen bevatten geen \\n , . – stop met matchen bij deze symbolen  ",
+		"",
+		"Afspraak: Noem de groep \"Name\".",
+		""
+	],
+	"m_SystemLanguage":"Dutch"
+}

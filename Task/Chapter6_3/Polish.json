@@ -1,0 +1,27 @@
+{
+	"m_DescList":[
+		"Wyrażenie regularne <color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> oznacza, że <color=#AB2800>subexpression</color> będzie dopasowywane <b>bez uwzględniania wielkości liter</b>.  ",
+		"Te operacje nazywane są opcjami grup. Wszystkie dostępne parametry opcjonalne można znaleźć w <color=#05C3BA>(?</color><color=#AB2800>imnsx-imnsx: subexpression</color><color=#05C3BA>)</color>.",
+		"",
+		"Na przykład, <color=#05C3BA>(?i: </color><color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color><color=#05C3BA>)</color> dopasowuje się do przykładowego ciągu <color=#3c3cff>aBC</color> z następującymi wynikami:  ",
+		"<color=#3c3cff>a</color><color=#666666>BC</color>  ",
+		"<color=#666666>a</color><color=#3c3cff>B</color><color=#666666>C</color>  ",
+		"<color=#666666>aB</color><color=#3c3cff>C</color>  ",
+		"<color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> pozwala <color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color> na dopasowanie zarówno małych, jak i wielkich liter, co jest równoważne <color=#3173FF>[</color><color=#AB2800>abcABC</color><color=#3173FF>]</color>.",
+		"",
+		"W przepływach pracy, jeden program może odczytywać logi generowane przez inny program i podejmować zróżnicowane działania na podstawie komunikatów dziennika.  ",
+		"",
+		"Na przykład, jeśli log poprzedniego programu zawiera \"error\", wskazuje to na potencjalne błędy podczas wykonania programu nadrzędnego, wymagające uwagi.  ",
+		"",
+		"Celem jest teraz dopasowanie logów zawierających \"error\".  ",
+		"",
+		"W celu uproszczenia zadania, przyjęto następujące konwencje:  ",
+		"1. Przypadki testowe zaczynają się od <b>4-cyfrowego roku-2-cyfrowego miesiąca-2-cyfrowego dnia<b>.  ",
+		"2. Każdy przypadek testowy zawiera <b>tylko jedną linię</b> logów.  ",
+		"3. Występuje <b>tylko wielkie \"ERROR\" i małe \"error\"</b>.  ",
+		"",
+		"",
+		"Proszę skonstruować wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

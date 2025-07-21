@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"Hemos discutido antes cómo hacer coincidir un número de longitud 100, por supuesto:",
+		"<color=#666666>\\d\\d\\d\\d\\d...</color> <color=#ff0000>X</color>",
+		"",
+		"Agregar <color=#FF68DD>{n}</color> después de una expresión regular significa que la expresión regular anterior se repite `n` veces, donde `n` es un número natural.",
+		"",
+		"<b>Por ejemplo</b>, <color=#AB2800>1</color><color=#FF68DD>{3}</color> significa coincidir con '1' repetido 3 veces.",
+		"<color=#AB2800>1</color><color=#FF68DD>{3}</color> coincide con <color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color> en <color=#3c3cff>12111311</color>.",
+		"",
+		"Agregar <color=#FF68DD>{n,}</color> después de una expresión regular significa que la expresión regular anterior se repite al menos `n` veces, donde `n` es un número natural.",
+		"",
+		"<b>Por ejemplo</b>, <color=#AB2800>1</color><color=#FF68DD>{2,}</color> coincide con lo siguiente en <color=#3c3cff>12111311</color>:",
+		"<color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color>",
+		"<color=#666666>121113</color><color=#3c3cff>11</color>",
+		"",
+		"Agregar <color=#FF68DD>{n,m}</color> después de una expresión regular significa que la expresión regular anterior se repite al menos `n` veces y como máximo `m` veces, donde `n` y `m` son números naturales.",
+		"",
+		"<b>Por ejemplo</b>, <color=#AB2800>o</color><color=#FF68DD>{1,2}</color> coincide con lo siguiente en <color=#3c3cff>Choose your right friends ooo</color>:",
+		"<color=#666666>Ch</color><color=#3c3cff>oo</color><color=#666666>se your right friends ooo</color>",
+		"<color=#666666>Choose y</color><color=#3c3cff>o</color><color=#666666>ur right friends ooo</color>",
+		"*(Nota: Se adaptó el ejemplo en español manteniendo la 'o' como carácter objetivo)*",
+		"",
+		"¡Cuánto tiempo sin vernos, las serpientes se han vuelto más largas!",
+		"Ahora, el objetivo es filtrar las serpientes donde la longitud de las \"a\" sea mayor que 3 y menor que 5.",
+		"¡No cojas las equivocadas, muerden!",
+		"",
+		"",
+		"Por favor, construye una expresión regular que pase todas las pruebas de la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

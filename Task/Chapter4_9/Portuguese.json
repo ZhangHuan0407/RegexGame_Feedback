@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"Protocolo de Internet versão 4 (frequentemente chamado de IPv4) consiste em 4 números entre 0 e 255, separados por três \".\".",
+		"",
+		"Por exemplo,  ",
+		"<color=#3c3cff>127.0.0.1</color> é um endereço IPv4 válido.",
+		"",
+		"Às vezes, usuários inserem erroneamente endereços inválidos, como:  ",
+		"1.2.3.4.5     <color=#ee3300>X</color> Quantidade de segmentos excede 4  ",
+		"1.0.0.256    <color=#ee3300>X</color> 256 ultrapassa o intervalo 0~255  ",
+		"127.0.0.01  <color=#ee3300>X</color> Embora \"01\" tecnicamente cumpra a definição IPv4, não é a representação padrão e provavelmente é um erro de entrada  ",
+		"",
+		"O objetivo é auxiliar na correspondência de endereços IPv4 válidos.",
+		"",
+		"Para simplificar o problema, valem as seguintes convenções:  ",
+		"1. Cada caso de teste contém apenas 1 conteúdo para verificação  ",
+		"2. Para 100% dos casos de teste, números iniciados com 0 (com dois ou três dígitos) não serão correspondidos  ",
+		"",
+		"",
+		"Por favor, construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

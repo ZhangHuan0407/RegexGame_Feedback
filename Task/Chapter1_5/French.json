@@ -1,0 +1,21 @@
+{
+	"m_DescList":[
+		"Des nombres décimaux « 1.1 », des entiers « 0 » et des chaînes non numériques « a.1 » sont mélangés. Il faut maintenant repérer avec précision tous les nombres décimaux.",
+		"",
+		"Le point décimal est représenté par <color=#AB2800>\\.</color>.",
+		"",
+		"L'objectif est d'identifier les nombres décimaux.  ",
+		"Si des lettres ou symboles superflus apparaissent avant ou après le nombre, la correspondance <b>échouera</b>.",
+		"",
+		"Pour ce test, les nombres décimaux à repérer ont les caractéristiques suivantes :  ",
+		"<color=#3c3cff>-</color>     Un signe négatif peut précéder le nombre (optionnel)  ",
+		"<color=#3c3cff>\\d</color>   Plusieurs chiffres arabes  ",
+		"<color=#3c3cff>\\.</color>     Un point décimal  ",
+		"<color=#3c3cff>\\d</color>   Plusieurs chiffres arabes  ",
+		"",
+		"Veuillez construire une expression régulière qui réussira tous les tests à droite.",
+		"",
+		""
+	],
+	"m_SystemLanguage":"French"
+}

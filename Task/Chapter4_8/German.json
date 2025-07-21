@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Ausdrucksstarke Emoji-Funktionen machen die Kommunikation lebendiger.  ",
+		"Es ist jedoch bedauerlich, dass die Unterstützung von Emojis in Software nicht kostenlos ist.  ",
+		"",
+		"Emoji-Definitionen werden regelmäßig aktualisiert, und einige Software hinkt bei der Anpassung an neue Emoji-Versionen oft hinterher.  ",
+		"<img src=Texture/Task/EmojiNewIcon width=788 height=404>  ",
+		"",
+		"Manchmal können mobile Clients abstürzen, wenn sie versuchen, nicht unterstützte Emojis darzustellen.  ",
+		"Derzeit gibt es über 3.000 existierende Emojis. Wir haben 20 davon ausgewählt und werden versuchen, sie mit regulären Ausdrücken herauszufiltern.  ",
+		"",
+		"Bei komplexen regulären Ausdrücken variiert die Ausführungseffizienz.  ",
+		"Beispiel:  ",
+		"<color=#3173FF>[</color><color=#AB2800>12</color><color=#3173FF>][</color><color=#AB2800>34</color><color=#3173FF>][</color><color=#AB2800>56</color><color=#3173FF>]</color> zählt Möglichkeiten für drei aufeinanderfolgende Ziffern auf und priorisiert die Übereinstimmung der ersten Ziffer. Wenn die erste Ziffer nicht übereinstimmt, scheitert die gesamte Übereinstimmung.  ",
+		"<color=#05C3BA>(</color><color=#AB2800>135 </color><color=#05C3BA>| </color><color=#AB2800>136 </color><color=#05C3BA>| </color><color=#AB2800>145 </color><color=#05C3BA>| </color><color=#AB2800>156 </color><color=#05C3BA>| </color><color=#AB2800>235 </color><color=#05C3BA>| </color><color=#AB2800>236 </color><color=#05C3BA>| </color><color=#AB2800>245 </color><color=#05C3BA>| </color><color=#AB2800>246</color><color=#05C3BA>)</color>  ",
+		"zählt alle Möglichkeiten auf und erfordert das Durchlaufen aller Optionen während der Übereinstimmung, was zeitaufwändiger ist.  ",
+		"",
+		"<color=#666666>Die ursprüngliche Aufgabe erforderte das Filtern aller Emojis. Aufgrund der übermäßigen Schwierigkeit wurde die Aufgabe neu gestaltet.</color>  ",
+		"<color=#666666>Für wirklich mutige Kämpfer habe ich 1.910 Emojis vorbereitet unter: Spielinstallationspfad/StreamingAssets/FullEmoji.txt</color>  ",
+		"<color=#666666>Wenn Sie versuchen, alle Emojis per Regex zu filtern, schreiben Sie am besten Code, um diese Aufgabe zu automatisieren</color>  ",
+		"",
+		"Für alle Testfälle gelten folgende Konventionen:  ",
+		"1. Außer den ersten beiden Testfällen enthält jeder nur ein Emoji  ",
+		"2. Außer den ersten beiden zeigt jeder Testfall seine Escape-Sequenz \\uxxxx gefolgt von einem Leerzeichen vor dem Emoji  ",
+		"3. Da Unity Text keine Emojis darstellen kann, bleiben Emoji-Zeichen unsichtbar.",
+		"",
+		"",
+		"Bitte konstruieren Sie einen regulären Ausdruck, der alle Testfälle auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

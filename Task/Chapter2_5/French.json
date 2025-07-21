@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"Dans différents systèmes d'exploitation, les sauts de ligne sont représentés différemment.  ",
+		"Windows : Utilise une combinaison de retour chariot et saut de ligne, soit <color=#7E3B50>\\r\\n</color>",
+		"Linux/Unix : Utilise uniquement le saut de ligne, soit <color=#7E3B50>\\n</color> (\\u000A)  ",
+		"Mac (anciennes versions) : Utilise uniquement le retour chariot, soit <color=#7E3B50>\\r</color> (\\u000D)  ",
+		"Mais dans les versions modernes de macOS, le saut de ligne est identique à Linux/Unix, utilisant <color=#7E3B50>\\n</color>",
+		"",
+		"Lors de la structuration des documents,  ",
+		"certains utilisent l'espace <color=#AB2800>\\u0020</color>,  ",
+		"d'autres l'espace insécable <color=#AB2800>\\u00A0</color>,  ",
+		"d'autres la tabulation \r<color=#7E3B50>\\t</color>,  ",
+		"d'autres la tabulation verticale <color=#7E3B50>\\v</color>  ",
+		"...",
+		"",
+		"Certains logiciels reconnaissent ces symboles et les affichent correctement, d'autres non. Au final, cela rend les documents illisibles !",
+		"",
+		"<img src=Texture/Task/WhiteSpace width=572 height=990>",
+		"",
+		"Les caractères suivants doivent correspondre : <color=#7E3B50>\\r \\n \\t \\v </color><color=#AB2800>\\u0020 \\u00A0</color>",
+		"",
+		"",
+		"Veuillez construire une expression régulière qui réussit tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

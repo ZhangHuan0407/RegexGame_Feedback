@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"Durante el desarrollo de software, se puede usar Git como herramienta de control de versiones y Jira como herramienta de gestión de proyectos.  ",
+		"Cuando el registro de commit de un desarrollador contiene [PROJ-XXX], el registro se vincula automáticamente al Jira especificado.  ",
+		"",
+		"Las convenciones de formato especial para registros de commit son:  ",
+		"<color=#3173FF>[</color>     Carácter especial en ancho medio inglés \"[\"  ",
+		"<color=#3173FF>\\w</color>   Varios caracteres de texto  ",
+		"<color=#3173FF>-</color>     Carácter especial en ancho medio inglés \"-\"  ",
+		"<color=#3173FF>\\d</color>   Múltiples dígitos  ",
+		"<color=#3173FF>]</color>     Carácter especial en ancho medio inglés \"]\"  ",
+		"",
+		"Por ejemplo, el siguiente es un registro de commit válido:  ",
+		"<color=#3c3cff>[PROJ-123]</color> <color=#666666>corregir error de referencia nula</color>  ",
+		"",
+		"Ahora, construye una expresión regular para verificar si los registros de commit coinciden con el formato de vinculación.  ",
+		"",
+		"",
+		"Por favor, crea una expresión regular que pase todas las pruebas a la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

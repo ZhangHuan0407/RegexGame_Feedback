@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"In Markdown werden Überschriften mit mehreren aufeinanderfolgenden #-Symbolen gekennzeichnet.  ",
+		"Die Anzahl der #-Symbole bestimmt die Überschriftenebene.  ",
+		"",
+		"Beispiel:  ",
+		"<img src=Texture/Task/MarkdownTitle width=267 height=89>  ",
+		"",
+		"Ziel ist es, einen regulären Ausdruck zu erstellen, der Überschriftenabschnitte erkennt, mit folgenden Konventionen:  ",
+		"1. <b>Enthält</b> das Präfix #, gefolgt von mindestens einem Leerzeichen  ",
+		"2. Alle Eingaben bestehen ausschließlich aus einzeiligen Zeichenketten  ",
+		"3. Die Erfassungsgruppe für Überschrifteninhalte soll den Namen \"title\" tragen  ",
+		"",
+		"Hinweis: Da der Regex den RegexOptions.IgnorePatternWhitespace-Modus verwendet, werden Zeilen, die mit <color=#33aa55>#</color> beginnen, als Kommentare behandelt.  ",
+		"",
+		"Verwenden Sie \\#, um das \"#\"-Zeichen zu matchen  ",
+		"",
+		"",
+		"Erstellen Sie einen regulären Ausdruck, der alle Tests auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

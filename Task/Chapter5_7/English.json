@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"INI files are text files used for storing configuration information.  ",
+		"They generally consist of multiple sections and key-value pairs.  ",
+		"When the first visible character of a line is <color=#3c3cff>;</color> or <color=#3c3cff>#</color>, the entire remaining content of that line is considered a comment.  ",
+		"",
+		"<img src=Texture/Task/IniComment width=644 height=169>  ",
+		"",
+		"For example, <color=#3c3cff># this is a comment</color> is a comment line.  ",
+		"",
+		"The goal is to match comment lines with the following conventions:  ",
+		"1. Each test case contains exactly 1 line (no \\n)  ",
+		"2. If the line is a comment, match its entire content  ",
+		"3. Line beginnings may contain zero or more whitespace characters  ",
+		"",
+		"",
+		"Construct a regular expression to pass all test cases on the right."
+	],
+	"m_SystemLanguage":"English"
+}

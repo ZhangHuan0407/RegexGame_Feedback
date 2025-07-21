@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"<color=#AB2800>.</color>  pasuje do dowolnego znaku",
+		"<color=#AB2800>\\.</color> pasuje do znaku \".\"",
+		" ",
+		"Na przykład <color=#AB2800>\\.1</color> pasuje do .1 w <color=#3c3cff>2.13</color> ",
+		"",
+		"Rozszerzenie pliku składa się zwykle z kropki \".\" i ciągu liter,",
+		"znajdującego się na końcu nazwy pliku. Określa format przechowywania pliku.",
+		"",
+		"<color=#3173FF>\\w</color> pasuje do dowolnego znaku słowa, zwykle zawierającego wielkie i małe litery a-z, A-Z, podkreślenia _ i cyfry 0-9",
+		"W C# znaki w różnych językach są również dopasowywane, np. <color=#3173FF>\\w</color><color=#FF68DD>+</color> pasuje do <color=#3c3cff> 汉字, 日本語, 한국어, Português</color>:",
+		"<color=#3c3cff>汉字</color><color=#666666>, 日本語, 한국어, Português</color>",
+		"<color=#666666>汉字, </color><color=#3c3cff>日本語</color><color=#666666>, 한국어, Português</color>",
+		"<color=#666666>汉字, 日本語, </color><color=#3c3cff>한국어</color><color=#666666>, Português</color>",
+		"<color=#666666>汉字, 日本語, 한국어, </color><color=#3c3cff>Português</color>",
+		"",
+		"Użytkownik wprowadził ścieżki plików,  ",
+		"dla prawidłowych danych wyjściowych dopasuj rozszerzenie pliku,",
+		"dla nieprawidłowych danych nie jest wymagane wyświetlanie.",
+		"",
+		"e.g. ",
+		"C:/ABCD/readme.txt Oczekiwane wyjście: rozszerzenie .txt",
+		"/home/abc/config.ini  Oczekiwane wyjście: rozszerzenie .ini",
+		"/var/www/log             Brak rozszerzenia pliku",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"Programas às vezes percorrem recursivamente todos os arquivos em pastas. Para requisitos simples, caracteres curinga podem ser usados.  ",
+		"Para requisitos complexos, regex também pode corresponder a caminhos de arquivos.  ",
+		"",
+		"O objetivo é encontrar arquivos que atendam a estas regras:  ",
+		"1. O caminho contém uma pasta chamada bin.  ",
+		"2. O arquivo termina com .exe ou .dll.  ",
+		"",
+		"Exemplo:  ",
+		"<color=#3c3cff>/path/a/bin/b/c/test.exe</color>",
+		"corresponde porque:  ",
+		"<color=#666666>/path/a/</color><color=#3c3cff>bin</color><color=#666666>/b/c/test</color><color=#3c3cff>.exe</color>",
+		"",
+		"Simplificações:  ",
+		"1. Caminhos contêm apenas \"/\" (nunca barras invertidas \"\").  ",
+		"2. Cada caso de teste contém apenas um caminho.  ",
+		"3. Casos de teste usam apenas letras minúsculas.  ",
+		"",
+		"Construa uma regex que passe em todos os casos de teste à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

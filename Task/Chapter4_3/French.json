@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"Durant le développement du jeu, j'ai toujours voulu intégrer des images ou des memes pour créer une atmosphère plus décontractée.  ",
+		"",
+		"Une image comprend les éléments suivants :  ",
+		"1. Chemin de la ressource  ",
+		"2. Largeur de l'image  ",
+		"3. Hauteur de l'image  ",
+		"",
+		"Par exemple, cette illustration :  ",
+		"<img src=Texture/emoji_1 width=213 height=131>  ",
+		"",
+		"Le texte réel saisi dans l'éditeur est :  ",
+		"<color=#3c3cff><img src=</color><color=#ee3300>Texture/emoji_1</color> <color=#3c3cff>width=</color><color=#ee3300>213</color> <color=#3c3cff>height=</color><color=#ee3300>131</color><color=#3c3cff>></color>  ",
+		"",
+		"Conventions :  ",
+		"- Nom du groupe de capture pour src : \"Src\"  ",
+		"- Nom du groupe de capture pour width : \"Width\"  ",
+		"- Nom du groupe de capture pour height : \"Height\"  ",
+		"",
+		"Pour tous les cas de test, les règles suivantes s'appliquent :  ",
+		"1. L'ordre de src, width, height n'est pas fixe  ",
+		"2. Dans les cas de test, src ne contient jamais d'espaces  ",
+		"",
+		"Veuillez construire une expression régulière respectant tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

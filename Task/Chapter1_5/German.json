@@ -1,0 +1,19 @@
+{
+	"m_DescList":[
+		"Einige Dezimalzahlen »1.1«, Ganzzahlen »0« und nicht-numerische Zeichenketten »a.1« wurden vermischt. Es sollen nun exakt alle Dezimalzahlen erkannt werden.",
+		"",
+		"Der Dezimalpunkt wird durch <color=#AB2800>\\.</color> dargestellt.",
+		"",
+		"Ziel ist die Erkennung von Dezimalzahlen.  ",
+		"Wenn vor oder nach der Zahl Buchstaben oder überflüssige Symbole stehen, schlägt die Erkennung <b>fehl</b>.",
+		"",
+		"Für diesen Test haben die gesuchten Dezimalzahlen folgende Merkmale:  ",
+		"<color=#3c3cff>-</color>     Optionales negatives Vorzeichen  ",
+		"<color=#3c3cff>\\d</color>   Eine oder mehrere arabische Ziffern  ",
+		"<color=#3c3cff>\\.</color>     Ein Dezimalpunkt  ",
+		"<color=#3c3cff>\\d</color>   Eine oder mehrere arabische Ziffern  ",
+		"",
+		"Konstruieren Sie einen regulären Ausdruck, der alle Tests auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

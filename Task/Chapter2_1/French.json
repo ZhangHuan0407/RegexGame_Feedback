@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Voici la traduction française en conservant la mise en forme originale :",
+		"",
+		"Dans les expressions régulières, ces deux symboles ont une signification spéciale :  ",
+		"<color=#AB2800>.</color> correspond à n'importe quel caractère  ",
+		"<color=#FF68DD>*</color> correspond à zéro ou plusieurs occurrences du sous-élément précédent  ",
+		"",
+		"Par exemple :  ",
+		"<color=#AB2800>1</color><color=#FF68DD>*</color> correspond à <color=#3c3cff>111</color> dans <color=#3c3cff>A111A</color>  ",
+		"<color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> correspond à <color=#3c3cff>BABAB</color> dans <color=#3c3cff>BABAB</color>  ",
+		"",
+		"Dans ce test, le contenu à faire correspondre présente ces caractéristiques :  ",
+		"<color=#3c3cff>Sna</color>   une chaîne commençant par \"Sna\"  ",
+		"<color=#3c3cff>.</color>        des caractères arbitraires au milieu  ",
+		"<color=#3c3cff>ke</color>      une chaîne se terminant par \"ke\"  ",
+		"",
+		"Ne prenez pas le mauvais serpent – il mord !  ",
+		"",
+		"<b>Appariement glouton</b>  ",
+		"Dans les expressions régulières, <color=#FF68DD>*</color> active l'appariement glouton qui tente de faire correspondre le plus de caractères possible.  ",
+		"Par exemple, <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> correspond à l'intégralité de <color=#3c3cff>BABAB</color> dans <color=#3c3cff>BABAB</color>, pas seulement à une partie comme BAB.",
+		"<color=#FF68DD>*</color> capture le maximum de contenu possible.  ",
+		"",
+		"Maintenant, nous devons faire correspondre le mot \"Snake\".  ",
+		"S'il y a beaucoup de 'a', faites correspondre autant de 'a' que possible.  ",
+		"",
+		"Construisez une expression régulière qui réussit tous les tests à droite.  "
+	],
+	"m_SystemLanguage":"French"
+}

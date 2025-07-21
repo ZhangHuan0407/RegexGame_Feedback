@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"<color=#AB2800>.</color>   Herhangi bir karakterle eşleşir",
+		"<color=#AB2800>\\.</color>  \".\" karakteriyle eşleşir",
+		"",
+		"Örneğin, <color=#AB2800>\\.1</color> <color=#3c3cff>2.13</color> içindeki .1 ile eşleşir",
+		"",
+		"Dosya uzantısı genellikle \".\" ve ardından bir harf dizisinden oluşur, dosya adının sonunda bulunur. Dosya uzantısı, dosyanın saklama biçimini belirtir.",
+		"",
+		"<color=#3173FF>\\w</color>, genellikle büyük ve küçük harfler a-z, A-Z, altı çizili _ ve 0-9 rakamlarını içeren sözcüğün herhangi bir karakteriyle eşleşir",
+		"C# dilinde, farklı dillerdeki karakterler de eşleştirilir, örneğin <color=#3173FF>\\w</color><color=#FF68DD>+</color> eşleşir <color=#3c3cff> 汉字, 日本語, 한국어, Português</color> in:",
+		"<color=#3c3cff>汉字</color><color=#666666>, 日本語, 한국어, Português</color>",
+		"<color=#666666>汉字, </color><color=#3c3cff>日本語</color><color=#666666>, 한국어, Português</color>",
+		"<color=#666666>汉字, 日本語, </color><color=#3c3cff>한국어</color><color=#666666>, Português</color>",
+		"<color=#666666>汉字, 日本語, 한국어, </color><color=#3c3cff>Português</color>",
+		"",
+		"Kullanıcı bazı dosya yolları girdi. Geçerli girdiler için dosya uzantısını eşleştirin,",
+		"geçersiz girdiler için herhangi bir çıktı gerekmez.",
+		"",
+		"Örneğin:",
+		"C:/ABCD/readme.txt   Beklenen çıktı dosya uzantısı .txt",
+		"/home/abc/config.ini    Beklenen çıktı dosya uzantısı .ini",
+		"/var/www/log               Dosya uzantısı yok",
+		"",
+		"",
+		"Lütfen sağdaki tüm testleri geçecek bir düzenli ifade (regex) oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

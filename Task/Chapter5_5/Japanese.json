@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"Markdownでは、特定のパスから画像を読み込んで表示する特殊な書式を追加できます。",
+		"",
+		"例：",
+		"<color=#3c3cff>![Image Alt]</color>(<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> <color=#33aa55>\"ImageTitle\"</color>)",
+		"",
+		"<color=#3c3cff>![Image Alt]</color> は ! で始まり、代替テキストを [] で囲みます。画像の読み込み失敗時に代替テキストが表示されます。",
+		"空の代替テキスト<color=#3c3cff>![]</color>も有効です。",
+		"<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> は画像ファイルのパスを示します",
+		"<color=#33aa55>\"ImageTitle\"</color> はホバータイトルで、画像にマウスを乗せた際に表示されます",
+		"",
+		"<img src=Texture/Task/MarkdownImage width=840 height=167>",
+		"",
+		"<b>画像パス</b>を抽出する正規表現を作成する要件：",
+		"1. 正しい形式の入力のみマッチング",
+		"2. 各テストケースは1つのマッチ対象を持つ",
+		"3. ファイルパスのキャプチャグループ名は \"file\"",
+		"4. 空でないファイルパスのみマッチ",
+		"5. 全テストケースでファイルパスにスペースを含まない",
+		"",
+		"",
+		"右側のすべてのテストケースを通過する正規表現を作成してください。"
+	],
+	"m_SystemLanguage":"Japanese"
+}

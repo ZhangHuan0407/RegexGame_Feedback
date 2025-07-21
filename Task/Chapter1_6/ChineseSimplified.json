@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"在编写正则表达式时，通常需要表述\"任意\"字符，因此约定用 <color=#AB2800>.</color> 表示\"任意\"的含义。",
+		"",
+		"<color=#AB2800>.</color>  匹配除换行符之外的任何单字符",
+		"<color=#AB2800>\\.</color> 仅匹配小数点",
+		"",
+		"<color=#3c3cff>123.456</color>",
+		"例如，使用 <color=#AB2800>\\..</color> 匹配上述示例，",
+		"    第一个 <color=#AB2800>\\.</color> 被解析为\"仅匹配小数点\"，",
+		"    第二个 <color=#AB2800>.</color> 被解析为\"任意\"字符",
+		"<color=#3c3cff>123.456</color> 匹配结果为:",
+		"<color=#666666>123</color><color=#3c3cff>.4</color><color=#666666>56</color>",
+		"",
+		"<color=#3c3cff>(x3x)</color>",
+		"例如，使用 <color=#AB2800>3..</color> 匹配上述示例，",
+		"    第一个 <color=#AB2800>3</color> 被解析为\"数字3\"，",
+		"    第二、三个 <color=#AB2800>.</color> 被解析为\"任意\"字符",
+		"<color=#3c3cff>(x3x)</color> 返回 3x)",
+		"<color=#666666>(x</color><color=#3c3cff>3x)</color>",
+		"",
+		"",
+		"现在，期望匹配数字1后尽可能多的任意字符。",
+		"",
+		"本次测试中，需要匹配的字符串具有以下特征：",
+		"<color=#3c3cff>1</color>    存在至少1个数字1",
+		"<color=#3c3cff>.</color>     后续跟随若干长度的任意字符",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。"
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

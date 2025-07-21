@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"Oto przetłumaczony tekst na język polski, ściśle według Twoich wytycznych:",
+		"",
+		"Szef zażądał zebrania służbowych adresów e-mail QQ pracowników. Wczoraj zlecił to zadanie twojemu koledze, Zhang Sanowi. Dziś rano Zhang San został zwolniony, ponieważ wszedł do firmy lewą nogą pierwszą.  ",
+		"Teraz szef powierza to zadanie **tobie**!",
+		"",
+		"Adres e-mail QQ ma następujące cechy:  ",
+		"<color=#3c3cff>0-9</color> Składa się z **5-11 cyfr** dziesiętnych  ",
+		"<color=#3c3cff>@qq.com</color> Zawiera **stały sufiks**  ",
+		"",
+		"Twoi koledzy z pracy są zawsze nieuważni i prawdopodobnie wprowadzą błędne informacje.  ",
+		"Zaprojektuj wyrażenie regularne, które dopasuje **wyłącznie poprawnie wyglądające** adresy e-mail QQ.",
+		"",
+		"<b>Na przykład</b>, następujące dane wejściowe zawierają oczywiste błędy:  ",
+		"123.123@qq.com Zawiera błędny symbol \".\"  ",
+		"12345@qq.com12346@qq.com **Dwa adresy** wpisane razem  ",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które **pomyślnie przejdzie wszystkie testy** po prawej stronie.",
+		"",
+		"",
+		"<color=#666666>Wskazówka: Użyj wiedzy z dwóch poprzednich zadań</color>"
+	],
+	"m_SystemLanguage":"Polish"
+}

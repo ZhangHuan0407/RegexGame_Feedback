@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"Conformément aux exigences réglementaires, lorsque le logiciel fournit des services en ligne aux utilisateurs de la Chine continentale, il doit leur demander de saisir leur numéro de carte d'identité résidentielle.  ",
+		"Une validation de base est généralement effectuée côté client avant l'envoi au serveur.  ",
+		"",
+		"Un numéro de carte d'identité résidentielle se compose de 18 caractères :  ",
+		"<color=#3c3cff>123456</color><color=#e06600>78901234</color><color=#ee3300>567</color><color=#33aa55>8</color>  ",
+		"Chiffres <color=#3c3cff>1-6</color> : Code d'adresse  ",
+		"Chiffres <color=#e06600>7-14</color> : Code de date de naissance  ",
+		"Ex. <color=#e06600>78901234</color> = 31 décembre 7890  ",
+		"Ex. <color=#e06600>19990102</color> = 2 janvier 1999  ",
+		"Chiffres <color=#ee3300>15-17</color> : Code séquentiel  ",
+		"Chiffre <color=#33aa55>18</color> : Chiffre de contrôle (chiffre ou lettre majuscule X)  ",
+		"",
+		"Règles de validation :  ",
+		"1. Un mois doit être compris entre 1~12  ",
+		"2. Un jour doit être compris entre 1~31  ",
+		"3. Les deux premiers chiffres de l'année doivent être 19 ou 20  ",
+		"4. Longueur totale : 18 caractères (ou 17 chiffres + X)  ",
+		"5. Le chiffre de contrôle doit être un chiffre ou X majuscule  ",
+		"",
+		"Conventions de simplification :  ",
+		"1. Aucune vérification du nombre exact de jours par mois (ex. 19990230 accepté)  ",
+		"2. Codes d'adresse/séquentiel : uniquement vérifiés comme chiffres  ",
+		"",
+		"",
+		"Veuillez construire une expression régulière passant tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

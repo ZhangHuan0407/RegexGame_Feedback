@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"Text often contains spaces, therefore we use <color=#3173FF>\\s</color> to represent spaces.",
+		"",
+		"<color=#3173FF>\\s</color> matches space characters",
+		"",
+		"<b>Examples</b>:",
+		"<color=#AB2800>1</color><color=#3173FF>\\s</color><color=#AB2800>2</color>  matches <color=#3c3cff>A1 2B</color>: <color=#666666>A</color><color=#3c3cff>1 2</color><color=#666666>B</color>",
+		"<color=#AB2800>o</color><color=#3173FF>\\s</color><color=#AB2800>W</color> matches <color=#3c3cff>Hello World</color>: <color=#666666>Hell</color><color=#3c3cff>o W</color><color=#666666>orld</color>",
+		"",
+		"The boss is inspecting! All colleagues not at their workstations will be in trouble!",
+		"o(￣︶￣)o",
+		"Use \"X\" to indicate an occupied workstation and \" \" for unoccupied.",
+		"",
+		"<b>Example</b>:",
+		"| |X|X| indicates: first workstation empty, second and third occupied.",
+		"",
+		"Now the boss wants you to count absent colleagues and deduct their bonuses harshly.",
+		"",
+		"",
+		"For 100% of input data, follow these rules:",
+		"1. Only contains \" \" (\\u0020), \"|\", and \"X\"",
+		"2. Between adjacent \"|\" symbols, there must be either \" \" or \"X\"",
+		"",
+		"<img src=Texture/Task/Level2_2WhiteChar width=524 height=160>",
+		"When a match is selected, spaces within the match will be represented by <color=#e06600>□</color>.",
+		"",
+		"",
+		"Construct a regex to pass all test cases."
+	],
+	"m_SystemLanguage":"English"
+}

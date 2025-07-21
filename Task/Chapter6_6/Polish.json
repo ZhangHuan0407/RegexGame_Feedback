@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"Zgodnie z wymogami prawnymi, oprogramowanie świadczące usługi sieciowe dla użytkowników z Chin kontynentalnych musi prosić o podanie numeru Dowodu Osobistego.  ",
+		"Zazwyczaj klient przeprowadza podstawową walidację wprowadzonego numeru ID przed przesłaniem go na serwer.  ",
+		"",
+		"Numer Dowodu Osobistego składa się zazwyczaj z 18 znaków:  ",
+		"<color=#3c3cff>123456</color><color=#e06600>78901234</color><color=#ee3300>567</color><color=#33aa55>8</color>  ",
+		"Znaki <color=#3c3cff>1-6</color>: Kod adresowy  ",
+		"Znaki <color=#e06600>7-14</color>: Kod daty urodzenia  ",
+		"Np. <color=#e06600>78901234</color> oznacza 31 grudnia 7890 roku  ",
+		"Np. <color=#e06600>19990102</color> oznacza 2 stycznia 1999 roku  ",
+		"Znaki <color=#ee3300>15-17</color>: Kod porządkowy  ",
+		"Znak <color=#33aa55>18</color>: Cyfra kontrolna (cyfra lub wielka litera X)  ",
+		"",
+		"W oparciu o wiedzę ogólną można sformułować następujące zasady walidacji:  ",
+		"1. Rok ma 12 miesięcy, więc miesiąc musi mieścić się w zakresie 1-12.  ",
+		"2. Każdy miesiąc ma 29, 30 lub 31 dni, więc dzień musi mieścić się w zakresie 1-31.  ",
+		"3. Pierwsze dwie cyfry roku powinny wynosić 19 lub 20.  ",
+		"4. Całkowita długość musi wynosić 18 znaków (lub 17 cyfr + X).  ",
+		"5. Cyfra kontrolna musi być cyfrą lub wielką literą X.  ",
+		"",
+		"W celu uproszczenia obliczeń przyjmuje się:  ",
+		"1. Nie weryfikuje się dokładnej liczby dni w danym miesiącu. Składowe roku, miesiąca i dnia są sprawdzane niezależnie. Np. luty nie ma 30 dni, ale wprowadzenie kodu 19990230 zostanie zaakceptowane.  ",
+		"2. Kod adresowy i kod porządkowy weryfikuje się tylko pod kątem bycia cyframi, bez dodatkowych kontroli.  ",
+		"",
+		"",
+		"Proszę skonstruować wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"Aquí tienes la traducción al español, manteniendo todos los formatos y elementos técnicos según tus indicaciones:",
+		"",
+		"Debido a requisitos normativos, el software debe solicitar el Documento Nacional de Identidad (DNI) a los usuarios de China continental al prestar servicios en línea.  ",
+		"Generalmente, el cliente realiza primero una validación básica del número de identificación ingresado antes de transmitirlo al servidor.  ",
+		"",
+		"Un DNI chino generalmente consta de 18 caracteres:  ",
+		"<color=#3c3cff>123456</color><color=#e06600>78901234</color><color=#ee3300>567</color><color=#33aa55>8</color>  ",
+		"Dígitos <color=#3c3cff>1-6</color>: Código de área  ",
+		"Dígitos <color=#e06600>7-14</color>: Código de fecha de nacimiento  ",
+		"Ej. <color=#e06600>78901234</color> representa el 31 de diciembre de 7890  ",
+		"Ej. <color=#e06600>19990102</color> representa el 2 de enero de 1999  ",
+		"Dígitos <color=#ee3300>15-17</color>: Código secuencial  ",
+		"Dígito <color=#33aa55>18</color>: Dígito de verificación (número o letra X mayúscula)  ",
+		"",
+		"Según conocimientos básicos, podemos resumir estas reglas de validación:  ",
+		"1. Un año tiene 12 meses → el valor del mes debe ser 1~12  ",
+		"2. Cada mes tiene 29, 30 o 31 días → el valor del día debe ser 1~31  ",
+		"3. Los dos primeros dígitos del año deben ser 19 o 20  ",
+		"4. Longitud total: 18 caracteres (o 17 dígitos + X)  ",
+		"5. El dígito de verificación debe ser número o X mayúscula  ",
+		"",
+		"Para simplificar, adoptamos estas convenciones:  ",
+		"1. No validar días exactos por mes (año/mes/día se verifican por separado).  ",
+		"   Ej. Febrero no tiene día 30, pero 19990230 coincidirá exitosamente.  ",
+		"2. Código de área y secuencial solo se verifican como dígitos numéricos.  ",
+		"",
+		"",
+		"Por favor construye una expresión regular que pase todas las pruebas a la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

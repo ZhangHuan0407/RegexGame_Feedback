@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Al escribir expresiones regulares, a menudo es necesario expresar \"cualquier\" carácter, por lo que se conviene en usar <color=#AB2800>.</color> para representar el significado de \"cualquier\".",
+		"",
+		"<color=#AB2800>.</color>  Coincide con cualquier carácter único excepto un salto de línea.",
+		"<color=#AB2800>\\.</color> Coincide solo con el punto decimal.",
+		"",
+		"<color=#3c3cff>123.456</color>",
+		"Por ejemplo, al usar <color=#AB2800>\\..</color> para coincidir con la muestra anterior,",
+		"    El primer <color=#AB2800>\\.</color> se analiza como \"coincidir solo con el punto decimal\",",
+		"    El segundo <color=#AB2800>.</color> se analiza como \"cualquier\" carácter.",
+		"<color=#3c3cff>123.456</color> devuelve .4",
+		"<color=#666666>123</color><color=#3c3cff>.4</color><color=#666666>56</color>",
+		"",
+		"<color=#3c3cff>(x3x)</color>",
+		"Por ejemplo, al usar <color=#AB2800>3..</color> para coincidir con la muestra anterior,",
+		"    El primer <color=#AB2800>3</color> se analiza como \"el dígito 3\",",
+		"    El segundo y tercer <color=#e06600>.</color> se analizan como \"cualquier\" carácter.",
+		"<color=#3c3cff>(x3x)</color> devuelve 3x)",
+		"<color=#666666>(x</color><color=#3c3cff>3x)</color>",
+		"",
+		"Ahora, se desea coincidir con el dígito 1 seguido de tantos caracteres arbitrarios como sea posible.",
+		"",
+		"En esta prueba, la cadena a coincidir tiene las siguientes características:",
+		"<color=#3c3cff>1</color>    Existe al menos un dígito 1.",
+		"<color=#3c3cff>.</color>     Seguido de una cantidad arbitraria de cualquier carácter.",
+		"",
+		"Por favor, construye una expresión regular que pase todas las pruebas a la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

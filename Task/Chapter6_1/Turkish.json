@@ -1,0 +1,25 @@
+{
+	"m_DescList":[
+		"Yazılım geliştirirken genellikle sürüm numaralarını okumak gerekir.  ",
+		"",
+		"Örneğin, bazı yeni başlayanlar sürüm numaralarını doğrudan betiklere sabit kodlamayı tercih eder:  ",
+		"",
+		"<color=#3c3cff>public const string</color> ResourceVersion = <color=#ee3300>\"1.2.3\"</color>;  ",
+		"",
+		"En iyi uygulama olmasa da, bu en basit yöntemdir.  ",
+		"Bir gün, bu boktan kod yığınını miras almak sana kalacak!  ",
+		"",
+		"Kodu metin olarak okuyup regex ile sürüm numaralarını tam olarak eşleştirmeyi hedefliyorsun!  ",
+		"",
+		"Kural: Sürüm yakalama grubunun adı \"version\" olmalı  ",
+		"",
+		"Örnek:  ",
+		"<color=#3c3cff>public const string ResourceVersion = \"1.2.3\";</color>  ",
+		"Beklenen eşleşme sonucu:  ",
+		"<color=#666666>public const string ResourceVersion = \"</color><color=#3c3cff>1.2.3</color><color=#666666>\";</color>  ",
+		"",
+		"",
+		"Sağdaki tüm testleri geçecek bir regex kalıbı oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

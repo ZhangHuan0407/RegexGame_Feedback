@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"때로는 문자열에 목표 <b>하위 표현식(subexpression)</b>이 포함되어 있는지 확실하지 않을 때가 있습니다.",
+		"",
+		"존재할 수 있는 내용 부분을 <color=#05C3BA>( )</color> 로 감싼 다음, <color=#FF68DD>?</color> 를 추가하여 해당 내용이 0번 또는 1번 나타날 수 있음을 나타낼 수 있습니다.",
+		"",
+		"예를 들어, <color=#AB2800>a</color><color=#05C3BA>(</color><color=#AB2800>b</color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#AB2800>c</color>를 사용하여 <color=#3c3cff>abcac</color>와 매칭한 결과는 다음과 같습니다:",
+		"<color=#3c3cff>abc</color><color=#666666>ac</color>",
+		"<color=#666666>abc</color><color=#3c3cff>ac</color>",
+		"",
+		"예를 들어, 유선 전화번호에는 지역 번호 접두사가 있을 수도 있고 없을 수도 있습니다.",
+		"",
+		"<color=#3c3cff>010-12345678</color>",
+		"<color=#3c3cff>12345678</color>",
+		"위 예시에서 010은 지역 번호 접두사입니다.",
+		"",
+		"예를 들어, <color=#05C3BA>( </color><color=#AB2800>010- </color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#3173FF>\\d</color><color=#FF68DD>+</color>를 사용하여 위 예시를 매칭하면,",
+		"<color=#05C3BA>( </color><color=#AB2800>010- </color><color=#05C3BA>)</color><color=#FF68DD>?</color> 는 <color=#AB2800>010-</color> 이 존재하는지 여부는 중요하지 않음을 의미합니다.",
+		"<color=#3c3cff>010-12345678</color> 은 <color=#3c3cff>010-12345678</color> 을 반환합니다.",
+		"<color=#3c3cff>12345678</color> 은 <color=#3c3cff>12345678</color>을 반환합니다.",
+		"",
+		"이제 우리는 문자 A를 어느 위치에서나 가로채서 그 뒤에 숫자를 추가해 보려고 합니다.",
+		"",
+		"이번 테스트에서 매칭할 문자열은 다음과 같은 특징을 가집니다:",
+		"<color=#3c3cff>A</color>   문자 A",
+		"<color=#3c3cff>\\d</color>   0개 또는 1개의 십진수 숫자",
+		"",
+		"오른쪽의 모든 테스트를 통과하는 정규 표현식을 구성하세요."
+	],
+	"m_SystemLanguage":"Korean"
+}

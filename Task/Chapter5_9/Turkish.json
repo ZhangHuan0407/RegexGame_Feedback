@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"<color=#e06600>(?<= subexpression )</color> bir sıfır genişlikli pozitif geriye dönük onaylama (lookbehind) ifadesidir, sola bakar ve <b>eşleşen içeriği tüketir</b>.",
+		"",
+		"<color=#e06600>(?= subexpression )</color> bir sıfır genişlikli pozitif ileriye dönük onaylama (lookahead) ifadesidir, sağa doğru tahminde bulunur ve önündeki metnin alt ifadeyle eşleşip eşleşmediğini kontrol eder. Tahmin edilen metin alt ifadeyle eşleşirse, <b>içerik eşleşme sonucuna dahil edilmez</b>.",
+		"",
+		"Örneğin, <color=#e06600>1(?= 2 )</color> düzenli ifadesiyle aşağıdaki test senaryolarını eşleştirmeye çalışalım:",
+		"<color=#3c3cff>123</color>, sonuç: <color=#3c3cff>1</color><color=#666666>23</color>",
+		"<color=#3c3cff>111</color>, <color=#e06600>(?= 2 )</color> ile eşleşen içerik bulunmadığından eşleşme olmaz",
+		"",
+		"Markdown'da, bir metni ** çift yıldız ile sarmak kalın efekt ekler.",
+		"",
+		"Örnek:",
+		"**Markdown**",
+		"<img src=Texture/Task/MarkdownBold width=193 height=40>",
+		"",
+		"Şimdi, kalın kısımdaki içeriği eşleştiren bir düzenli ifade yazmak istiyoruz, kurallar şöyle:",
+		"1. <b>İki taraftaki çift yıldızları içermesin</b>",
+		"2. Tüm girdiler tek satırlık dizgilerdir",
+		"3. Sorunun zorluğunu basitleştirmek için üç arka arkaya *** içeren test durumu yok",
+		"",
+		"",
+		"Lütfen sağdaki tüm testleri geçen bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

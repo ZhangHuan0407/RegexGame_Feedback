@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"在編寫正則表達式時，通常需要表述「任意」字元，因此約定用<color=#AB2800>.</color>表示「任意」的含義。",
+		"",
+		"<color=#AB2800>.</color>  匹配除換行符之外的任何單一字元。",
+		"<color=#AB2800>\\.</color> 僅匹配小數點。",
+		"",
+		"<color=#3c3cff>123.456</color>",
+		"例如，使用 <color=#AB2800>\\..</color> 匹配上述範例，",
+		"    第一個 <color=#AB2800>\\.</color> 被解析為「僅匹配小數點」，",
+		"    第二個 <color=#AB2800>.</color> 被解析為「任意」字元。",
+		"<color=#3c3cff>123.456</color> 匹配结果为:",
+		"<color=#666666>123</color><color=#3c3cff>.4</color><color=#666666>56</color>",
+		"",
+		"<color=#3c3cff>(x3x)</color>",
+		"例如，使用 <color=#AB2800>3..</color> 匹配上述範例，",
+		"    第一個 <color=#AB2800>3</color> 被解析為「數字3」，",
+		"    第二、三個 <color=#AB2800>.</color> 被解析為「任意」字元。",
+		"<color=#3c3cff>(x3x)</color> 返回 3x)",
+		"<color=#666666>(x</color><color=#3c3cff>3x)</color>",
+		"",
+		"",
+		"現在，期望匹配數字1後儘可能多的任意字元。",
+		"",
+		"本次測試中，需要匹配的字串具有以下特徵：",
+		"<color=#3c3cff>1</color>    存在至少1個數字1。",
+		"<color=#3c3cff>.</color>     後續跟隨若干長度的任意字元。",
+		"",
+		"",
+		"請構造一個正則表達式使之通過右側所有測試。"
+	],
+	"m_SystemLanguage":"ChineseTraditional"
+}

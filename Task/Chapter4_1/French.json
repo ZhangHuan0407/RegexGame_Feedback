@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"Lorsque les expressions régulières deviennent complexes, une correspondance de texte peut capturer plusieurs groupes.  ",
+		"Nous attribuons des noms distincts à ces expressions pour identifier quel résultat de groupe capturé nous devons extraire.  ",
+		"",
+		"Par exemple, <color=#AB2800>A</color> correspond à <color=#3c3cff>A</color><color=#666666>BC</color> dans <color=#3c3cff>ABC</color>.  ",
+		"",
+		"Nous pouvons nommer le groupe de capture attendu pour <color=#AB2800>A</color> comme <color=#AB2800>test</color>, en construisant l'expression : <color=#05C3BA>(?</color><color=#AB2800><test>A</color><color=#05C3BA>)</color>",
+		"",
+		"La correspondance de cette expression avec <color=#3c3cff>ABC</color> donne :  ",
+		"<color=#3c3cff>A</color>            Résultat global de la correspondance  ",
+		"<color=#3c3cff><test>A</color>  Résultat du groupe de capture \"test\"  ",
+		"",
+		"Par exemple, pour correspondre à l'entier précédant la virgule décimale dans un texte et nommer ce groupe \"int\", construisez : <color=#05C3BA>(?</color><color=#AB2800><int></color><color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#05C3BA>)</color><color=#AB2800>\\.</color><color=#3173FF>\\d</color><color=#FF68DD>+</color> ",
+		"",
+		"La correspondance de cette expression avec <color=#3c3cff>Prix : 1.99</color> donne :  ",
+		"<color=#3c3cff>1.99</color>    Résultat global  ",
+		"<color=#3c3cff><int>1</color> Résultat du groupe de capture \"int\"",
+		"",
+		"Des courriels professionnels nécessitent l'extraction de noms dans leur contenu. Les éléments à capturer présentent ces caractéristiques :  ",
+		"1. Commencent par <b>name</b> ou <b>Name</b>  ",
+		"2. Suivent les structures : name is xxx, name: xxx, name:xxx",
+		"3. Excluent les symboles \\n , . – cessent la correspondance à leur rencontre  ",
+		"",
+		"Convention : Nommez le groupe de capture <b>\"Name\"<b>.  ",
+		"",
+		"Veuillez construire une expression régulière passant tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"In INI-Dateien enthält jeder Abschnitt mehrere Schlüssel-Wert-Paare.",
+		"",
+		"<img src=Texture/Task/IniKeyValue width=339 height=102>",
+		"",
+		"Wie oben dargestellt, werden mehrere Schlüssel-Wert-Paare illustriert:  ",
+		"Schlüssel (key) ist <color=#3c3cff>a_2</color>, Wert (value) ist <color=#3c3cff>\"'a_2' is key name\"</color>  ",
+		"Schlüssel ist <color=#3c3cff>key</color>, Wert ist <color=#3c3cff>value</color>  ",
+		"Schlüssel ist <color=#3c3cff>c</color>, Wert ist <color=#3c3cff>1</color>",
+		"",
+		"Ziel ist das Abgleichen von Abschnittsinhalten mit folgenden Konventionen:  ",
+		"1. Jeder Testfall ist eine eigenständige Zeile  ",
+		"2. Bei Schlüssel-Wert-Format wird der vollständige Inhalt erfasst  ",
+		"3. Die Erfassungsgruppe für Schlüssel heißt \"key\"  ",
+		"4. Die Erfassungsgruppe für Werte heißt \"value\"  ",
+		"5. Leerzeichen können zwischen Schlüssel und Gleichheitszeichen bzw. zwischen \"=\" und Wert vorkommen. Die Gruppen \"key\" und \"value\" dürfen keine anliegenden Leerzeichen enthalten  ",
+		"",
+		"",
+		"Bitte konstruieren Sie einen regulären Ausdruck, der alle Testfälle auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

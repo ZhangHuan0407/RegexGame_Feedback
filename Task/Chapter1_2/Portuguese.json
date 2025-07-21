@@ -1,0 +1,18 @@
+{
+	"m_DescList":[
+		"Os números negativos são representados pelo símbolo <color=#AB2800>-</color>.",
+		"",
+		"Por exemplo, ao usar a expressão regular <color=#AB2800>-</color> para corresponder a <color=#3c3cff>-1</color>, o resultado é:",
+		"<color=#3c3cff>-</color><color=#666666>1</color>",
+		"",
+		"Agora, o objetivo é corresponder a números negativos.",
+		"",
+		"Neste teste, os números decimais a serem correspondidos possuem as seguintes características:",
+		"<color=#3c3cff>-</color>     Sinal negativo",
+		"<color=#3c3cff>\\d</color>   Um ou mais algarismos arábicos repetidos",
+		"",
+		"",
+		"Por favor, construa uma expressão regular que passe em todos os testes do lado direito."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

@@ -1,0 +1,58 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"#",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"# level1 title",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"# level1 title",
+				"<title>level1 title"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":14
+				},
+				{
+					"start":2,
+					"length":12
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"##### level5 title",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"##### level5 title",
+				"<title>level5 title"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":18
+				},
+				{
+					"start":6,
+					"length":12
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":";# not valid",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":"\\A\\#+\\s(?<title>.*)\\Z"
+}

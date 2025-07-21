@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"A mix of decimals \"1.1\", integers \"0\", and non-numeric strings \"a.1\" needs to be processed. Your task is to precisely match all decimal numbers.",
+		"",
+		"Use <color=#AB2800>\\.</color> to represent the decimal point.",
+		"",
+		"Requirements:",
+		"",
+		"The match should fail if letters or extraneous symbols appear before/after the decimal number.",
+		"",
+		"Key characteristics for matching decimals in this test:",
+		"<color=#3c3cff>-</color>     Optional leading negative sign",
+		"<color=#3c3cff>\\d</color>   One or more Arabic numerals",
+		"<color=#3c3cff>.</color>     A single decimal point",
+		"<color=#3c3cff>\\d</color>   One or more Arabic numerals",
+		"",
+		"Construct a regular expression that passes all test cases on the right."
+	],
+	"m_SystemLanguage":"English"
+}

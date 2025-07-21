@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Tekst bevat vaak spaties, daarom gebruiken we <color=#3173FF>\\s</color> om \"spatie\" aan te duiden.",
+		"",
+		"<color=#3173FF>\\s</color> matcht een spatiekarakter",
+		"",
+		"<b>Bijvoorbeeld:</b>",
+		"<color=#AB2800>1</color><color=#3173FF>\\s</color><color=#AB2800>2</color>  matcht <color=#3c3cff>A1 2B</color> → <color=#666666>A</color><color=#3c3cff>1 2</color><color=#666666>B</color>",
+		"<color=#AB2800>o</color><color=#3173FF>\\s</color><color=#AB2800>W</color> matcht <color=#3c3cff>Hello World</color> → <color=#666666>Hell</color><color=#3c3cff>o W</color><color=#666666>orld</color>",
+		"",
+		"De baas doet rondes! Iedereen wiens kont niet op de werkplek zit, krijgt problemen!  ",
+		"o(*￣︶￣*)o  ",
+		"Een bezette werkplek wordt aangegeven met \"X\", een lege met \" \".",
+		"",
+		"<b>Bijvoorbeeld:</b>  ",
+		"| |X|X| betekent: eerste werkplek leeg, tweede en derde bezet.  ",
+		"",
+		"Nu wil de baas dat je lege werkplekken registreert om genadeloos bonussen in te houden.",
+		"",
+		"Voor 100% van de invoergegevens gelden deze regels:  ",
+		"1. Bevat alleen deze karakters: \" \" (\\u0020), \"|\", \"X\"  ",
+		"2. Tussen twee aangrenzende \"|\"-symbolen moet \" \" of \"X\" staan  ",
+		"",
+		"<img src=Texture/Task/Level2_2WhiteChar width=524 height=160>",
+		"Wanneer een overeenkomst is geselecteerd, worden spaties binnen die overeenkomst weergegeven door <color=#e06600>□</color>.",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle tests aan de rechterkant doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"Podczas tworzenia oprogramowania narzędzie Git może być używane jako system kontroli wersji, a Jira jako narzędzie do zarządzania projektami.  ",
+		"Gdy dziennik commitów programisty zawiera [PROJ-XXX], wpis commita automatycznie łączy się z określonym zgłoszeniem w Jirze.  ",
+		"",
+		"Konwencje specjalnego formatu wpisu commita są następujące:  ",
+		"<color=#3173FF>[</color>     Specjalny znak o połowę szerokości \"[\"  ",
+		"<color=#3173FF>\\w</color>   Kilka znaków tekstowych  ",
+		"<color=#3173FF>-</color>     Specjalny znak o połowę szerokości \"-\"  ",
+		"<color=#3173FF>\\d</color>   Wielokrotne cyfry  ",
+		"<color=#3173FF>]</color>     Specjalny znak o połowę szerokości \"]\"  ",
+		"",
+		"Na przykład, poniżej znajduje się pasujący wpis commita:  ",
+		"<color=#3c3cff>[PROJ-123]</color> <color=#666666>fix null reference error</color>  ",
+		"",
+		"Teraz proszę skonstruować wyrażenie regularne sprawdzające, czy dzienniki commitów pasują do formatu łączenia.  ",
+		"",
+		"",
+		"Proszę zbudować wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

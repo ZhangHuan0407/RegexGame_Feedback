@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"En archivos INI, cada sección contiene varios pares clave-valor.",
+		"",
+		"<img src=Texture/Task/IniKeyValue width=339 height=102>",
+		"",
+		"Como se muestra arriba, ilustra varios pares clave-valor:  ",
+		"Clave es <color=#3c3cff>a_2</color>, valor es <color=#3c3cff>\"'a_2' is key name\"</color>  ",
+		"Clave es <color=#3c3cff>key</color>, valor es <color=#3c3cff>value</color>  ",
+		"Clave es <color=#3c3cff>c</color>, valor es <color=#3c3cff>1</color>",
+		"",
+		"Ahora buscamos coincidir con contenidos de sección bajo estas convenciones:  ",
+		"1. Cada caso de prueba es una línea independiente  ",
+		"2. Si una línea sigue el formato clave-valor, debe coincidir completamente  ",
+		"3. El grupo de captura para claves se nombrará \"key\"  ",
+		"4. El grupo de captura para valores se nombrará \"value\"  ",
+		"5. Puede haber espacios entre la clave y el signo igual, o entre \"=\" y el valor. Los grupos \"key\" y \"value\" deben excluir espacios adyacentes a \"=\"  ",
+		"",
+		"",
+		"Por favor construya una expresión regular que pase todos los casos de prueba a la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

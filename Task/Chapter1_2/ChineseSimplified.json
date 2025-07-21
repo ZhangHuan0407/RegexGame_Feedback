@@ -1,0 +1,18 @@
+{
+	"m_DescList":[
+		"负数使用符号 <color=#AB2800>-</color> 来表述",
+		"",
+		"例如使用正则表达式 <color=#AB2800>-</color> 匹配 <color=#3c3cff>-1</color> 的结果为:",
+		"<color=#3c3cff>-</color><color=#666666>1</color>",
+		"",
+		"现在，期望匹配负数。",
+		"",
+		"本次测试中，需要匹配的小数具有以下特征：",
+		"<color=#3c3cff>-</color>     负号",
+		"<color=#3c3cff>\\d</color>   若干个重复的阿拉伯数字",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。"
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

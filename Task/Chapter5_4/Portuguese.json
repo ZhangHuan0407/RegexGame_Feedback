@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"Em Markdown, use três acentos graves ``` para envolver blocos de código. O Markdown renderizará uma moldura com bordas para blocos de código.  ",
+		"",
+		"Exemplo:  ",
+		"```  ",
+		"public class Program  ",
+		"{  ",
+		"}  ",
+		"```  ",
+		"<img src=Texture/Task/MarkdownCode width=792 height=122>  ",
+		"",
+		"Agora, elabore uma expressão regular para corresponder ao conteúdo de <b>blocos de código</b> com as seguintes especificações:  ",
+		"1. A correspondência completa <b>inclui</b> os símbolos de três acentos graves ```  ",
+		"2. Os casos de teste envolvem entrada de múltiplas linhas  ",
+		"3. Nomeie o grupo de captura para blocos de código como \"code\". Este grupo deve excluir os três acentos graves e caracteres de nova linha  ",
+		"4. Para simplificar, assuma que 0% dos casos de teste contêm três acentos graves dentro de blocos de código  ",
+		"",
+		"Por favor, construa uma expressão regular que passe em todos os casos de teste à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

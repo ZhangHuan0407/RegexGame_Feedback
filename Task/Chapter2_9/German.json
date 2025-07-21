@@ -1,0 +1,24 @@
+{
+	"m_DescList":[
+		"Der Chef hat angeordnet, die QQ-E-Mail-Adressen der Mitarbeiter zu sammeln. Gestern übertrug er diese Aufgabe Ihrem Kollegen Zhang San. Heute Morgen wurde Zhang San fristlos gekündigt, weil er mit dem linken Fuß zuerst das Unternehmen betreten hat.  ",
+		"Jetzt überträgt der Chef Ihnen diese Aufgabe!  ",
+		"",
+		"QQ-E-Mail-Adressen weisen folgende Merkmale auf:  ",
+		"<color=#3c3cff>0-9</color> Besteht aus 5-11 Dezimalziffern  ",
+		"<color=#3c3cff>@qq.com</color> Besteht aus einer festen Endung  ",
+		"",
+		"Ihre Kollegen sind stets unachtsam und geben wahrscheinlich fehlerhafte Informationen ein.  ",
+		"Entwerfen Sie einen regulären Ausdruck, der nur plausibel erscheinende QQ-E-Mail-Adressen erkennt.  ",
+		"",
+		"<b>Zum Beispiel</b> enthalten folgende Eingabedaten offensichtliche Fehler:  ",
+		"123.123@qq.com Enthält ein ungültiges Zeichen \".\"  ",
+		"12345@qq.com12346@qq.com Zwei Adressen wurden zusammengefügt  ",
+		"",
+		"",
+		"Konstruieren Sie einen regulären Ausdruck, der alle Tests auf der rechten Seite besteht.  ",
+		"",
+		"",
+		"<color=#666666>Tipp: Verwenden Sie das Wissen aus den vorherigen zwei Aufgaben</color>  "
+	],
+	"m_SystemLanguage":"German"
+}

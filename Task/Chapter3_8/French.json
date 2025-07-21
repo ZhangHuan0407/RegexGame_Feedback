@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"Lors de l'utilisation de <color=#AB2800>Sna.</color><color=#FF68DD>*</color><color=#AB2800>ke</color> pour correspondre à <color=#3c3cff>Snake Snaake</color> la dernière fois,  ",
+		"le résultat a capturé directement les deux serpents <color=#3c3cff>Snake Snaake</color>, faillant me mordre. T_T  ",
+		"",
+		"Les serpents sont désormais entremêlés.  ",
+		"Pour <color=#3c3cff>Snasssnkeake</color>, le résultat attendu est :  ",
+		"<color=#3c3cff>Snasssnke</color><color=#666666>ake</color>  ",
+		"",
+		"Cette fois, cela commence par <color=#3c3cff>Sna</color> et se termine lors de la première occurrence de <color=#3c3cff>ke</color>.  ",
+		"",
+		"<b>Appariement avide (Greedy Matching)</b>  ",
+		"Dans les expressions régulières, <color=#FF68DD>*</color> active l'appariement avide, qui tente de correspondre au maximum de caractères possibles.  ",
+		"",
+		"Par exemple, <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> correspond à <color=#3c3cff>BABAB</color> dans <color=#3c3cff>BABAB</color>, plutôt qu'à seulement \"BAB\". <color=#FF68DD>*</color> capture autant de contenu que possible.  ",
+		"",
+		"<b>Appariement non avide (Lazy Matching)</b>  ",
+		"Dans les expressions régulières, <color=#FF68DD>*?</color> active l'appariement non avide, qui correspond au minimum de caractères possible.  ",
+		"",
+		"Par exemple, <color=#AB2800>BA.</color><color=#FF68DD>*?</color><color=#AB2800>B</color> renvoie deux correspondances pour <color=#3c3cff>BABAB</color> :  ",
+		"<color=#3c3cff>BAB</color><color=#666666>AB</color>  ",
+		"<color=#666666>BA</color><color=#3c3cff>BAB</color>  ",
+		"",
+		"Pour 100% des données d'entrée, les règles suivantes s'appliquent :  ",
+		"1. L'utilisation mixte d'appariements avide et non avide est trop complexe ; <b>l'appariement non avide</b> seul passe tous les cas de test  ",
+		"2. Ne capturer qu'<b>un seul serpent</b> à la fois  ",
+		"3. La correspondance attendue commence par \"Sna\", suivie de caractères consécutifs, et se termine par \"ke\"  ",
+		"",
+		"",
+		"Veuillez construire une expression régulière qui passe tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

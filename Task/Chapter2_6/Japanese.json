@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"<color=#AB2800>.</color>  任意の1文字にマッチ",
+		"<color=#AB2800>\\.</color> \".\"文字にマッチ",
+		"",
+		"例えば、<color=#AB2800>\\.1</color> は <color=#3c3cff>2.13</color> の中の .1 にマッチします。",
+		"",
+		"ファイル拡張子は、一般的に \".\" の後に一連の英字が続く形で、ファイル名の末尾に位置します。ファイル拡張子はファイルの保存形式を表します。",
+		"",
+		"<color=#3173FF>\\w</color> は任意の単語文字にマッチし、通常は英語の大文字と小文字 a-z、A-Z、アンダースコア _、数字 0-9 を含みます。C# では、異なる言語の文字にもマッチします。例えば：<color=#3173FF>\\w</color><color=#FF68DD>+</color> は <color=#3c3cff>汉字, 日本語, 한국어, Português</color> にマッチします。",
+		"<color=#3c3cff>汉字</color><color=#666666>, 日本語, 한국어, Português</color>",
+		"<color=#666666>汉字, </color><color=#3c3cff>日本語</color><color=#666666>, 한국어, Português</color>",
+		"<color=#666666>汉字, 日本語, </color><color=#3c3cff>한국어</color><color=#666666>, Português</color>",
+		"<color=#666666>汉字, 日本語, 한국어, </color><color=#3c3cff>Português</color>",
+		"",
+		"",
+		"ユーザーがいくつかのファイルパスを入力しました。妥当な入力に対してはファイル拡張子をマッチさせ、",
+		"妥当でない入力に対しては出力する必要はありません。",
+		"",
+		"例えば：",
+		"C:/ABCD/readme.txt   期待される出力：ファイル拡張子 .txt",
+		"/home/abc/config.ini    期待される出力：ファイル拡張子 .ini",
+		"/var/www/log               ファイル拡張子なし",
+		"",
+		"",
+		"右側のすべてのテストを通過する正規表現を構築してください。"
+	],
+	"m_SystemLanguage":"Japanese"
+}

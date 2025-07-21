@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"Bei der Softwareentwicklung kann Git als Versionskontrolltool eingesetzt werden, wobei Jira als Projektmanagement-Tool gewählt wird.  ",
+		"Wenn die Commit-Meldung eines Entwicklers [PROJ-XXX] enthält, wird der Commit automatisch mit dem entsprechenden Jira-Issue verknüpft.  ",
+		"",
+		"Konventionen für das spezielle Commit-Format sind wie folgt:  ",
+		"<color=#3173FF>[</color>     Halbbreites Sonderzeichen \"[\"  ",
+		"<color=#3173FF>\\w</color>   Mehrere Textzeichen  ",
+		"<color=#3173FF>-</color>     Halbbreites Sonderzeichen \"-\"  ",
+		"<color=#3173FF>\\d</color>   Mehrere Ziffern  ",
+		"<color=#3173FF>]</color>     Halbbreites Sonderzeichen \"]\"  ",
+		"",
+		"Beispielsweise ist folgender Commit ein Treffer:  ",
+		"<color=#3c3cff>[PROJ-123]</color> <color=#666666>fix null reference error</color>  ",
+		"",
+		"Bitte erstellen Sie nun einen regulären Ausdruck, um zu prüfen, ob Commit-Meldungen dem Verknüpfungsformat entsprechen.  ",
+		"",
+		"",
+		"Konstruieren Sie einen regulären Ausdruck, der alle Tests auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

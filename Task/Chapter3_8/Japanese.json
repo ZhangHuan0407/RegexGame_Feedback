@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"前回、<color=#AB2800>Sna.</color><color=#FF68DD>*</color><color=#AB2800>ke</color> を使って <color=#3c3cff>Snake Snaake</color> をマッチングさせた時、  ",
+		"結果は <color=#3c3cff>Snake Snaake</color> と、直接2匹の蛇を一度に取得してしまい、危うく噛まれそうになりました。T_T",
+		"",
+		"蛇たちが互いに絡み合っています。  ",
+		"<color=#3c3cff>Snasssnkeake</color> に対する期待されるマッチ結果は：  ",
+		"<color=#3c3cff>Snasssnke</color><color=#666666>ake</color>",
+		"",
+		"今回は <color=#3c3cff>Sna</color> で始まり、最初に見つかった <color=#3c3cff>ke</color> でマッチングが終了します。",
+		"",
+		"<b>貪欲マッチング (Greedy Matching)</b>  ",
+		"正規表現において、<color=#FF68DD>*</color> は貪欲マッチングを有効にし、可能な限り多くの文字にマッチしようとします。",
+		"",
+		"例えば、<color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> は <color=#3c3cff>BABAB</color> という文字列に対して <color=#3c3cff>BABAB</color> 全体にマッチし、\"BAB\" の一部だけをマッチさせることはありません。<color=#FF68DD>*</color> は可能な限り多くの内容を取得します。",
+		"",
+		"<b>非貪欲マッチング / 最小マッチング (Lazy Matching)</b>  ",
+		"正規表現において、<color=#FF68DD>*?</color> は非貪欲マッチング（最小マッチング）を有効にし、可能な限り少ない文字にマッチしようとします。",
+		"",
+		"例えば、<color=#AB2800>BA.</color><color=#FF68DD>*?</color><color=#AB2800>B</color> で <color=#3c3cff>BABAB</color> をマッチングさせると、以下の2つの結果が返されます：  ",
+		"<color=#3c3cff>BAB</color><color=#666666>AB</color>  ",
+		"<color=#666666>BA</color><color=#3c3cff>BAB</color>",
+		"",
+		"入力データの100%について、以下のルールが適用されます：  ",
+		"1.  貪欲マッチングと非貪欲マッチングを混在させると難易度が高すぎるため、この問題では<b>非貪欲マッチング<b>を使用することで全てのテストケースを通過可能です  ",
+		"2.  一度に取得する蛇は<b>1匹のみ<b>とします  ",
+		"3.  期待されるマッチ内容は \"Sna\" で始まり、中間に連続する任意の数の文字が続き、\"ke\" で終わるものです  ",
+		"",
+		"",
+		"右側の全てのテストを通過する正規表現を構築してください。"
+	],
+	"m_SystemLanguage":"Japanese"
+}

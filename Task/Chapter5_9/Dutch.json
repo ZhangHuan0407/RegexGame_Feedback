@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"<color=#e06600>(?<= subexpression )</color> is een zero-width positieve lookbehind-assertie, kijkt naar links en <b>vindt en verbruikt</b> overeenkomende inhoud.",
+		"",
+		"<color=#e06600>(?= subexpression )</color> is een zero-width positieve lookahead-assertie, voorspelt rechts en controleert of de tekst voldoet aan de subexpressie. Bij overeenkomst <b>wordt de inhoud niet opgenomen in het resultaat</b>.",
+		"",
+		"Voorbeeld: regex <color=#e06600>1(?= 2 )</color> op testgevallen:",
+		"<color=#3c3cff>123</color>, resultaat: <color=#3c3cff>1</color><color=#666666>23</color>",
+		"<color=#3c3cff>111</color>, geen overeenkomst met <color=#e06600>(?= 2 )</color>",
+		"",
+		"In Markdown creëert ** dubbele sterren een vetgedrukte tekst.",
+		"",
+		"Voorbeeld:",
+		"**Markdown**",
+		"<img src=Texture/Task/MarkdownBold width=193 height=40>",
+		"",
+		"Ontwerp nu een regex die de vetgedrukte inhoud matcht, met voorwaarden:",
+		"1. <b>Exclusief</b> de omringende dubbele sterren",
+		"2. Alle invoer is enkelregelige strings",
+		"3. Vereenvoudiging: geen testgevallen met drie opeenvolgende ***",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle testen rechts doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

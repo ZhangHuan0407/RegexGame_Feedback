@@ -1,0 +1,13 @@
+{
+	"m_DescList":[
+		"\"Ode an die Freude\" is een gedicht geschreven door de Duitse dichter Schiller, waarvoor Beethoven muziek componeerde.  ",
+		"",
+		"Ik ben benieuwd hoe vaak in de songtekst een letter op de a-i positie gevolgd wordt door een letter op de j-z positie.  ",
+		"",
+		"Nu willen we dergelijke gevallen matchen.  ",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle tests aan de rechterkant doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

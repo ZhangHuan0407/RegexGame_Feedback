@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"Text enthält oft Leerzeichen, daher verwenden wir <color=#3173FF>\\s</color> für \"Leerzeichen\".",
+		"",
+		"<color=#3173FF>\\s</color> passt auf ein Leerzeichen.",
+		"",
+		"<b>Beispiele:</b>",
+		"<color=#AB2800>1</color><color=#3173FF>\\s</color><color=#AB2800>2</color>  passt auf <color=#3c3cff>A1 2B</color> → <color=#666666>A</color><color=#3c3cff>1 2</color><color=#666666>B</color>",
+		"<color=#AB2800>o</color><color=#3173FF>\\s</color><color=#AB2800>W</color> passt auf <color=#3c3cff>Hello World</color> → <color=#666666>Hell</color><color=#3c3cff>o W</color><color=#666666>orld</color> ",
+		"",
+		"Der Chef kontrolliert! Alle, deren Hintern nicht am Arbeitsplatz ist, bekommen Ärger!  ",
+		"o(*￣︶￣*)o  ",
+		"Ein besetzter Arbeitsplatz wird mit \"X\" angezeigt, ein freier mit \" \".",
+		"",
+		"<b>Beispiel:</b>  ",
+		"| |X|X| bedeutet: Erster Platz frei, zweiter und dritter besetzt.  ",
+		"",
+		"Jetzt sollst du die Abwesenheiten erfassen und schön die Boni kürzen!",
+		"",
+		"Für 100% der Eingaben gelten folgende Regeln:  ",
+		"1. Nur diese Zeichen: \" \" (\\u0020), \"|\", \"X\"  ",
+		"2. Zwischen zwei angrenzenden \"|\"-Symbolen muss \" \" oder \"X\" stehen  ",
+		"",
+		"<img src=Texture/Task/Level2_2WhiteChar width=524 height=160>  ",
+		"Wenn ein Treffer ausgewählt wird, werden Leerzeichen innerhalb des Treffers durch <color=#e06600>□</color> dargestellt.",
+		"",
+		"",
+		"Erstelle einen regulären Ausdruck, der alle Tests rechts besteht.",
+		""
+	],
+	"m_SystemLanguage":"German"
+}

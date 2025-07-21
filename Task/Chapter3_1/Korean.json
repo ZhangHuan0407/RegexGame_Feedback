@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"정규 표현식 뒤에 <color=#FF68DD>?</color>를 추가하면 앞의 정규 표현식이 0번 또는 1번 나타날 수 있음을 의미합니다.",
+		"",
+		"예시:",
+		"예를 들어 <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color>의 의미는: 연속된 숫자 뒤에 \"%\"가 하나 있을 수 있음",
+		"",
+		"<color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color>로 <color=#3c3cff>100%</color> 매칭 시,",
+		"결과:",
+		"<color=#3c3cff>100%</color>",
+		"",
+		"<color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color>로 <color=#3c3cff>0.99</color> 매칭 시",
+		"결과:",
+		"<color=#3c3cff>0</color><color=#666666>.99</color>",
+		"<color=#666666>0.</color><color=#3c3cff>99</color>",
+		"",
+		"<color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color>로 <color=#3c3cff>ALL%</color> 매칭 시",
+		"<color=#3c3cff>ALL%</color> 불일치",
+		"",
+		"이제 \"ASCII\" 아트가 주어졌으며, 모든 숫자 8을 세어야 합니다. 8 앞에 \".\"이 있을 경우 \".\"도 포함해야 합니다.",
+		"",
+		"예를 들어 <color=#3c3cff>11.88</color>의 예상 매칭 결과는 <color=#666666>11</color><color=#3c3cff>.88</color>입니다",
+		"",
+		"",
+		"오른쪽의 모든 테스트를 통과하는 정규 표현식을 구성하세요."
+	],
+	"m_SystemLanguage":"Korean"
+}

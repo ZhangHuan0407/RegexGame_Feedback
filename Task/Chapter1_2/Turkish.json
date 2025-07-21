@@ -1,0 +1,18 @@
+{
+	"m_DescList":[
+		"Negatif sayılar <color=#AB2800>-</color> sembolü kullanılarak ifade edilir.",
+		"",
+		"Örneğin, <color=#3c3cff>-1</color> ile eşleşmek için <color=#AB2800>-</color> düzenli ifadesini kullanmanın sonucu:",
+		"<color=#3c3cff>-</color><color=#666666>1</color>",
+		"",
+		"Şimdi amaç, negatif sayıları eşleştirmektir.",
+		"",
+		"Bu testte eşleştirmeniz gereken ondalık sayılar aşağıdaki özelliklere sahiptir:",
+		"<color=#3c3cff>-</color>     Negatif işareti",
+		"<color=#3c3cff>\\d</color>   Bir veya daha fazla Arap rakamı",
+		"",
+		"",
+		"Sağ taraftaki tüm testlerden geçecek bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

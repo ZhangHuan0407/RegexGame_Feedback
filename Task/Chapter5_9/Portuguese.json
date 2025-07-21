@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"<color=#e06600>(?<= subexpression )</color> é uma **asserção de lookbehind positiva de largura zero** que verifica o conteúdo à esquerda, <b>correspondendo e consumindo</b> o texto compatível.",
+		"",
+		"<color=#e06600>(?= subexpression )</color> é uma **asserção de lookahead positiva de largura zero** que prevê à direita e verifica se o texto subsequente corresponde à subexpressão. Se o texto previsto corresponder, <b>não incluirá o conteúdo no resultado da correspondência</b>.",
+		"",
+		"Por exemplo, ao usar a expressão regular <color=#e06600>1(?= 2 )</color> nos seguintes casos de teste:",
+		"<color=#3c3cff>123</color>, o resultado é <color=#3c3cff>1</color><color=#666666>23</color>",
+		"<color=#3c3cff>111</color>, nenhum conteúdo corresponde a <color=#e06600>(?= 2 )</color>, portanto sem correspondência",
+		"",
+		"No Markdown, usar ** asteriscos duplos para envolver um texto aplica efeito de negrito.",
+		"",
+		"Exemplo:",
+		"**Markdown**",
+		"<img src=Texture/Task/MarkdownBold width=193 height=40>",
+		"",
+		"O objetivo é criar uma expressão regular que corresponda **apenas ao conteúdo em negrito**, com as convenções:",
+		"1. <b>Não incluir</b> os asteriscos duplos laterais",
+		"2. Todas as entradas são strings de linha única",
+		"3. Para simplificar, não haverá casos de teste com três asteriscos consecutivos ***",
+		"",
+		"",
+		"Construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

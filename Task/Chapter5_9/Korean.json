@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"<color=#e06600>(?<= subexpression )</color>은 제로 너비 긍정형 후방 탐색 어서션(zero-width positive lookbehind assertion)으로, 왼쪽 방향을 탐색하며 매칭된 콘텐츠를 <b>찾아내고 소비합니다</b>.",
+		"",
+		"<color=#e06600>(?= subexpression )</color>은 제로 너비 긍정형 전방 탐색 어서션(zero-width positive lookahead assertion)으로, 오른쪽 방향을 예측하며 하위 표현식과 일치하는지 확인합니다. 예측 텍스트가 하위 표현식과 일치할 경우 <b>매칭 결과에 콘텐츠를 포함시키지 않습니다</b>.",
+		"",
+		"예시: 정규식 <color=#e06600>1(?= 2 )</color>로 다음 테스트 케이스 매칭 시도",
+		"<color=#3c3cff>123</color> → 결과: <color=#3c3cff>1</color><color=#666666>23</color>",
+		"<color=#3c3cff>111</color> → <color=#e06600>(?= 2 )</color>와 일치하는 내용 없으므로 미매칭",
+		"",
+		"Markdown에서 ** 더블 애스터리스크(별표)로 텍스트를 감싸면 굵게 표시됩니다.",
+		"",
+		"예시:",
+		"**Markdown**",
+		"<img src=Texture/Task/MarkdownBold width=193 height=40>",
+		"",
+		"이제 다음 규칙에 따라 굵은 부분의 내용을 매칭하는 정규식 작성 필요:",
+		"1. 양쪽 더블 애스터리스크 <b>포함하지 않음</b>",
+		"2. 모든 입력은 단일 라인 문자열",
+		"3. 문제 난이도 간소화를 위해 연속된 별표 세 개 *** 의 테스트 케이스는 존재하지 않음",
+		"",
+		"",
+		"오른쪽의 모든 테스트를 통과하는 정규식을 구성해 주세요."
+	],
+	"m_SystemLanguage":"Korean"
+}

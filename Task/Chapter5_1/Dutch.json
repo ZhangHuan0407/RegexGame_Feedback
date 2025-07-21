@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"Markdown is een lichtgewicht opmaaktaal ontworpen om tekst makkelijk leesbaar en schrijfbaar te maken.  ",
+		"",
+		"In Markdown voeg je een doorhalingsweergave toe door tekst tussen dubbele tildes ~~ te plaatsen.  ",
+		"",
+		"Voorbeeld:  ",
+		"~~Markdown~~  ",
+		"<img src=Texture/Task/MarkdownDelete width=230 height=47>  ",
+		"",
+		"De opdracht is om een reguliere expressie te maken die de doorgehaalde inhoud herkent, met deze regels:  ",
+		"1. <b>Inclusief</b> de dubbele tildes aan beide zijden  ",
+		"2. Alle invoer bestaat uit éénregelige strings  ",
+		"3. Vijf of meer opeenvolgende tildes worden niet herkend  ",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle tests aan de rechterkant doorstaat. "
+	],
+	"m_SystemLanguage":"Dutch"
+}

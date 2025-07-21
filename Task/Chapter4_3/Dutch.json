@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"Tijdens game-ontwikkeling wilde ik altijd afbeeldingen of memes toevoegen om een ontspannen sfeer te creëren.",
+		"",
+		"Een afbeelding bestaat uit:",
+		"1. Bronpad",
+		"2. Afbeeldingsbreedte",
+		"3. Afbeeldingshoogte",
+		"",
+		"Bijvoorbeeld deze afbeelding:",
+		"<img src=Texture/emoji_1 width=213 height=131>",
+		"",
+		"De daadwerkelijke editorinvoer is:",
+		"<color=#3c3cff><img src=</color><color=#ee3300>Texture/emoji_1</color> <color=#3c3cff>width=</color><color=#ee3300>213</color> <color=#3c3cff>height=</color><color=#ee3300>131</color><color=#3c3cff>></color>",
+		"",
+		"Afspraken:",
+		"- Vangstgroepnaam voor src: \"Src\"",
+		"- Vangstgroepnaam voor width: \"Width\"",
+		"- Vangstgroepnaam voor height: \"Height\"",
+		"",
+		"Voor alle testgevallen gelden deze afspraken:",
+		"1. Volgorde van src, width, height is niet vast",
+		"2. In testgevallen bevat src nooit spaties",
+		"",
+		"Construeer een reguliere expressie die alle testgevallen rechts doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

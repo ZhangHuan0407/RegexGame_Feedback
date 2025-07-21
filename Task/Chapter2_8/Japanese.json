@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"私たちは以前、長さが100の数字をマッチングさせる方法について話しました。もちろん：",
+		"<color=#666666>\\d\\d\\d\\d\\d...</color> <color=#ff0000>X</color>",
+		"",
+		"正規表現の後に <color=#FF68DD>{n}</color> を追加すると、その前の正規表現がn回繰り返されることを意味します。nは自然数です。",
+		"",
+		"<b>例えば</b>、<color=#AB2800>1</color><color=#FF68DD>{3}</color> は「1」が3回繰り返されるものとマッチすることを意味し、",
+		"<color=#AB2800>1</color><color=#FF68DD>{3}</color> は <color=#3c3cff>12111311</color> の中の  <color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color> とマッチします。",
+		"",
+		"正規表現の後に <color=#FF68DD>{n,}</color> を追加すると、その前の正規表現が少なくともn回繰り返されることを意味します。nは自然数です。",
+		"",
+		"<b>例えば</b>、<color=#AB2800>1</color><color=#FF68DD>{2,}</color> は <color=#3c3cff>12111311</color> の中の以下の部分とマッチします：",
+		"<color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color>",
+		"<color=#666666>121113</color><color=#3c3cff>11</color>",
+		"",
+		"正規表現の後に <color=#FF68DD>{n,m}</color> を追加すると、その前の正規表現が少なくともn回、多くともm回繰り返されることを意味します。n、mはともに自然数です。",
+		"",
+		"<b>例えば</b>、<color=#AB2800>o</color><color=#FF68DD>{1,2}</color> は <color=#3c3cff>Choose your right friends ooo</color> の中の以下の部分とマッチします：",
+		"<color=#666666>Ch</color><color=#3c3cff>oo</color><color=#666666>se your right friends ooo</color>",
+		"<color=#666666>Choose y</color><color=#3c3cff>o</color><color=#666666>ur right friends ooo</color>",
+		"",
+		"しばらく会わないうちに、蛇がもっと長くなりました！",
+		"今、期待されるのは「a」の長さが3より大きく5より小さい蛇を選び出すことです。",
+		"間違った蛇を捕まえないでください、噛まれますよ！",
+		"",
+		"",
+		"右側のすべてのテストを通過する正規表現を構築してください。"
+	],
+	"m_SystemLanguage":"Japanese"
+}

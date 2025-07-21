@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"Diferentes sistemas operacionais representam quebras de linha de maneiras distintas.  ",
+		"Windows: Usa uma combinação de retorno de carro e salto de linha, ou seja, <color=#7E3B50>\\r\\n</color>",
+		"Linux/Unix: Usa apenas o caractere de salto de linha, ou seja, <color=#7E3B50>\\n</color> (\\u000A)  ",
+		"Mac (antigo): Usa apenas o caractere de retorno de carro, ou seja, <color=#7E3B50>\\r</color> (\\u000D)  ",
+		"Porém, no macOS moderno, a quebra de linha é igual à do Linux/Unix, usando <color=#7E3B50>\\n</color>",
+		"",
+		"Ao organizar a estrutura de documentos,  ",
+		"algumas pessoas usam espaço <color=#AB2800>\\u0020</color>,  ",
+		"algumas usam espaço ininterrupto <color=#AB2800>\\u00A0</color>,  ",
+		"algumas usam tabulação <color=#7E3B50>\\t</color>,  ",
+		"algumas usam tabulação vertical <color=#7E3B50>\\v</color>",
+		"...",
+		"",
+		"Alguns softwares reconhecem esses símbolos e os exibem corretamente, enquanto outros não. No final, isso faz com que a exibição do documento vire uma bagunça!",
+		"",
+		"<img src=Texture/Task/WhiteSpace width=572 height=990>",
+		"",
+		"Espera-se que os seguintes caracteres correspondam: <color=#7E3B50>\\r \\n \\t \\v </color><color=#AB2800>\\u0020 \\u00A0</color>",
+		"",
+		"",
+		"Por favor, construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

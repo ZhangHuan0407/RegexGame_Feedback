@@ -1,0 +1,27 @@
+{
+	"m_DescList":[
+		"A expressão regular <color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> indica que <color=#AB2800>subexpression</color> terá correspondência <b>ignorando maiúsculas/minúsculas</b>.  ",
+		"Essas operações são chamadas de opções de grupo. Para todos os parâmetros opcionais disponíveis, consulte <color=#05C3BA>(?</color><color=#AB2800>imnsx-imnsx: subexpression</color><color=#05C3BA>)</color>.  ",
+		"",
+		"Por exemplo, <color=#05C3BA>(?i: </color><color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color><color=#05C3BA>)</color> corresponde à string de exemplo <color=#3c3cff>aBC</color> com os seguintes resultados:  ",
+		"<color=#3c3cff>a</color><color=#666666>BC</color>  ",
+		"<color=#666666>a</color><color=#3c3cff>B</color><color=#666666>C</color>  ",
+		"<color=#666666>aB</color><color=#3c3cff>C</color>  ",
+		"<color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> permite que <color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color> corresponda tanto a letras minúsculas quanto maiúsculas, equivalente a <color=#3173FF>[</color><color=#AB2800>abcABC</color><color=#3173FF>]</color>.  ",
+		"",
+		"Em fluxos de trabalho, um programa pode ler registros (logs) gerados por outro programa e realizar processamento diferenciado com base nas mensagens de log.  ",
+		"",
+		"Por exemplo, se o programa anterior contiver \"error\", isso indica possíveis erros na execução do programa upstream que exigem atenção.  ",
+		"",
+		"O objetivo agora é corresponder registros que contenham \"error\".  ",
+		"",
+		"Para simplificar, as seguintes convenções são adotadas:  ",
+		"1. Casos de teste começam com prefixo <b>ano de 4 dígitos-mês de 2 dígitos-dia de 2 dígitos</b>  ",
+		"2. Cada caso de teste contém apenas <b>uma linha</b> de registros  ",
+		"3. Existirão apenas \"ERROR\" em maiúsculas e \"error\" em minúsculas  ",
+		"",
+		"",
+		"Construa uma expressão regular que passe em todos os casos de teste à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

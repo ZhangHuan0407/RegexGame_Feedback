@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"老板使用了你上一关写的\"邮件过滤小助手.exe\"，他对此非常不满意！",
+		"",
+		"他给了你一个新的任务，匹配简历里的地址信息，给他们发送一封\"你没有通过面试\"的信件。地址信息不允许存在额外的 \"Address:\" 文字。",
+		"",
+		"",
+		"你听说了被称作 “零宽度正回顾后发断言”的正则写法:",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color>",
+		"",
+		"比如，使用 <color=#05C3BA>(?</color><color=#AB2800><= A </color><color=#05C3BA>)</color><color=#AB2800>BC</color> 匹配 <color=#3c3cff>ABC</color>，结果为：",
+		"<color=#666666>A</color><color=#3c3cff>BC</color>",
+		"",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color> 会神奇的吃掉 <color=#AB2800>subexpression</color> 匹配的部分！",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。"
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

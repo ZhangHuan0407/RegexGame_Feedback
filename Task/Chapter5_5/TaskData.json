@@ -1,0 +1,89 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"![](Logo32.gif \"Image2\")",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"![](Logo32.gif \"Image2\")",
+				"<file>Logo32.gif"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":24
+				},
+				{
+					"start":4,
+					"length":10
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"![](../PSD/Logo32.png)",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"![](../PSD/Logo32.png)",
+				"<file>../PSD/Logo32.png"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":22
+				},
+				{
+					"start":4,
+					"length":17
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"![Image Alt](../PSD/Logo32.gif \"ImageTitle\")",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"![Image Alt](../PSD/Logo32.gif \"ImageTitle\")",
+				"<file>../PSD/Logo32.gif"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":44
+				},
+				{
+					"start":13,
+					"length":17
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"![](../PSD/Logo32.png \"ImageTitle\")",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"![](../PSD/Logo32.png \"ImageTitle\")",
+				"<file>../PSD/Logo32.png"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":35
+				},
+				{
+					"start":4,
+					"length":17
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"![]( \"Not match\")",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":"!\\[[^\\]]*]\\(\\s*(?<file>[^\\)\"\\s]+)\\s*[^\\)]*\\)"
+}

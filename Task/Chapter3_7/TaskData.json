@@ -1,0 +1,90 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"public static readonly object aa;",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"public static readonly object aa;"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":33
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"protected byte _1   ;",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"protected byte _1   ;"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":21
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"internal readonly long bcd;",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"internal readonly long bcd;"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":27
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"short m_Value;",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"short m_Value;"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":14
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"internal;",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"int aa",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"public static need_more_word",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"public static readonly object a!#;",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":"\\A((public|private|internal|protected)\\s+)?(static\\s+)?(readonly\\s+)?[a-zA-Z_]\\w*\\s+[a-zA-Z_]\\w*\\s*;\\Z"
+}

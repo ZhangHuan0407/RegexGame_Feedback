@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"W wyrażeniach regularnych te dwa symbole mają specjalne znaczenie:  ",
+		"<color=#AB2800>.</color> dopasowuje dowolny znak  ",
+		"<color=#FF68DD>*</color> dopasowuje poprzednie podwyrażenie zero lub więcej razy  ",
+		"",
+		"Na przykład:  ",
+		"<color=#AB2800>1</color><color=#FF68DD>*</color> dopasowuje <color=#3c3cff>111</color> w <color=#3c3cff>A111A</color>  ",
+		"<color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> dopasowuje <color=#3c3cff>BABAB</color> w <color=#3c3cff>BABAB</color>  ",
+		"",
+		"W tym teście dopasowywana treść ma następujące cechy:  ",
+		"<color=#3c3cff>Sna</color>   fragment zaczynający się od \"Sna\"  ",
+		"<color=#3c3cff>.</color>        dowolna liczba znaków pomiędzy  ",
+		"<color=#3c3cff>ke</color>     fragment kończący się na \"ke\"  ",
+		"",
+		"Nie bierz złego węża – ugryzie!  ",
+		"",
+		"<b>Dopasowanie zachłanne</b>  ",
+		"W wyrażeniach regularnych <color=#FF68DD>*</color> aktywuje dopasowanie zachłanne, które stara się dopasować jak najwięcej znaków.  ",
+		"Na przykład <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> dopasowuje <color=#3c3cff>całe BABAB</color> w <color=#3c3cff>BABAB</color>, a nie tylko fragment typu BAB. ",
+		"<color=#FF68DD>*</color> przechwytuje maksymalną możliwą treść.  ",
+		"",
+		"Teraz oczekujemy dopasowania słowa \"Snake\".  ",
+		"Jeśli występuje wiele liter 'a', dopasuj jak najwięcej 'a'.  ",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"A medida que las expresiones regulares se vuelven más complejas, una coincidencia de texto puede capturar varios grupos.",
+		"Asignamos nombres únicos a estas expresiones para distinguir qué resultado de grupo capturado debemos obtener.",
+		"",
+		"Por ejemplo, <color=#AB2800>A</color> coincide con <color=#3c3cff>A</color><color=#666666>BC</color> en <color=#3c3cff>ABC</color>.",
+		"",
+		"Podemos nombrar el grupo de captura esperado para <color=#AB2800>A</color> como <color=#AB2800>test</color>, construyendo la expresión: <color=#05C3BA>(?</color><color=#AB2800><test>A</color><color=#05C3BA>)</color>",
+		"",
+		"La expresión anterior al coincidir con <color=#3c3cff>ABC</color> produce:",
+		"<color=#3c3cff>A</color>             El resultado general de la coincidencia",
+		"<color=#3c3cff><test>A</color>  El resultado de la coincidencia del grupo de captura \"test\"",
+		"",
+		"Por ejemplo, para coincidir con el número entero antes del punto decimal en un texto y nombrar este grupo de captura como <b>int</b>, construya: <color=#05C3BA>(?</color><color=#AB2800><int></color><color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#05C3BA>)</color><color=#AB2800>\\.</color><color=#3173FF>\\d</color><color=#FF68DD>+</color>",
+		"",
+		"La expresión anterior al coincidir con <color=#3c3cff>Precio: 1.99</color> produce:",
+		"<color=#3c3cff>1.99</color>    El resultado general de la coincidencia",
+		"<color=#3c3cff><int>1</color> El resultado de la coincidencia del grupo de captura \"int\"",
+		"",
+		"En los correos electrónicos corporativos se requiere hacer coincidir nombres dentro del texto del correo. El contenido a coincidir tiene las siguientes características:",
+		"1.  Comienza con <b>name</b> o <b>Name</b> (en inglés)",
+		"2.  Sigue los patrones: name is xxx, name: xxx, name:xxx (los patrones verbales/keywords se mantienen en inglés)",
+		"3.  Los nombres excluyen los símbolos \\n , . – se detiene la coincidencia al encontrar estos.",
+		"",
+		"Convención: Nombrar el grupo de captura \"Name\".",
+		"",
+		"",
+		"Por favor, construya una expresión regular que pase todas las pruebas a la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

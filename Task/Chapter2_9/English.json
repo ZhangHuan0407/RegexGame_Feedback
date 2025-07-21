@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"The boss requested to collect employees' QQ email addresses. He assigned this task to your colleague Wilson yesterday. This morning, Wilson was fired for entering the company with his left foot first.",
+		"Now, the boss has given this task to you!",
+		"",
+		"QQ email addresses have the following characteristics:",
+		"<color=#3c3cff>0-9</color>            Consists of 5-11 decimal digits",
+		"<color=#3c3cff>@qq.com</color>  Formed by a fixed suffix",
+		"",
+		"Your colleagues are always careless and likely to enter incorrect information.",
+		"Design a regular expression that only matches valid-looking QQ email addresses.",
+		"",
+		"<b>For example</b>, the following input data contains obvious errors:",
+		"123.123@qq.com                        contains invalid character \".\"",
+		"12345@qq.com12346@qq.com   two email addresses entered together",
+		"",
+		"",
+		"Please construct a regular expression that passes all tests on the right.",
+		"",
+		"<color=#666666>Hint: Apply knowledge from the previous two questions</color>"
+	],
+	"m_SystemLanguage":"English"
+}

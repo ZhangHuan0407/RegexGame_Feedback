@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"In verschillende besturingssystemen worden regeleindes op verschillende manieren weergegeven.  ",
+		"Windows: Gebruikt een combinatie van terugloop en regeleinde, d.w.z. <color=#7E3B50>\\r\\n</color>",
+		"Linux/Unix: Gebruikt alleen het regeleindeteken, d.w.z. <color=#7E3B50>\\n</color>",
+		"Mac (verouderd): Gebruikt alleen het terugloopteken, d.w.z. <color=#7E3B50>\\r</color> ",
+		"In moderne macOS-systemen is het regeleinde echter hetzelfde als in Linux/Unix, namelijk <color=#7E3B50>\\n</color> ",
+		"",
+		"Bij het opmaken van documenten:  ",
+		"gebruiken sommigen een spatie <color=#AB2800>\\u0020</color>,  ",
+		"gebruiken sommigen een harde spatie <color=#AB2800>\\u00A0</color>,  ",
+		"gebruiken sommigen een tabteken <color=#7E3B50>\\t</color>,",
+		"gebruiken sommigen een verticaal tabteken <color=#7E3B50>\\v</color>",
+		"...",
+		"",
+		"Sommige software herkent deze symbolen en toont ze correct, andere niet. Het resultaat is dat de documentweergave een rommeltje wordt!",
+		"",
+		"<img src=Texture/Task/WhiteSpace width=572 height=990>",
+		"",
+		"De volgende tekens komen naar verwachting overeen: <color=#7E3B50>\\r \\n \\t \\v </color><color=#AB2800>\\u0020 \\u00A0</color>",
+		"",
+		"",
+		"Maak een reguliere expressie die alle testgevallen rechts doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

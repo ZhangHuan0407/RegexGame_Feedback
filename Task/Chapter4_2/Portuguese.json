@@ -1,0 +1,18 @@
+{
+	"m_DescList":[
+		"O chefe usou o \"Email Filter Assistant.exe\" que você escreveu na fase anterior e está <b>muito insatisfeito</b>!  ",
+		"",
+		"Ele te deu uma nova tarefa: <b>extrair informações de endereço de currículos</b> para enviar cartas de \"<b>você não passou na entrevista</b>\". O texto do endereço <b>não pode conter</b> as palavras extras \"Address:\".  ",
+		"",
+		"Você ouviu falar de um padrão de expressão regular chamado \"asserção positiva de olhar para trás de largura zero\":  ",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color>",
+		"",
+		"Por exemplo, usar <color=#05C3BA>(?</color><color=#AB2800><= A </color><color=#05C3BA>)</color><color=#AB2800>BC</color> para corresponder a <color=#3c3cff>ABC</color> resulta em:  ",
+		"<color=#666666>A</color><color=#3c3cff>BC</color>",
+		"",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color> vai magicamente <b>consumir</b> a parte correspondente a <color=#AB2800>subexpression</color>!  ",
+		"",
+		"Por favor, construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

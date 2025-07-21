@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"W plikach INI każda sekcja zawiera kilka par klucz-wartość.",
+		"",
+		"<img src=Texture/Task/IniKeyValue width=339 height=102>",
+		"",
+		"Jak pokazano powyżej, przedstawiono kilka par klucz-wartość:",
+		"Klucz (key) to <color=#3c3cff>a_2</color>, wartość (value) to <color=#3c3cff>\"'a_2' is key name\"</color>",
+		"Klucz to <color=#3c3cff>key</color>, wartość to <color=#3c3cff>value</color>",
+		"Klucz to <color=#3c3cff>c</color>, wartość to <color=#3c3cff>1</color>",
+		"",
+		"Obecnie oczekuje się dopasowania zawartości sekcji przy następujących ustaleniach:",
+		"1. Każdy przypadek testowy to osobna linia",
+		"2. Jeśli linia ma format pary klucz-wartość, należy dopasować jej pełną zawartość",
+		"3. Nazwa grupy przechwytującej klucz: \"key\"",
+		"4. Nazwa grupy przechwytującej wartość: \"value\"",
+		"5. Między kluczem a znakiem równości oraz między \"=\" a wartością mogą występować spacje. Grupy \"key\" i \"value\" nie powinny zawierać spacji przylegających do \"=\"",
+		"",
+		"",
+		"Proszę skonstruować wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

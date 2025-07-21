@@ -1,0 +1,132 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"Super Man",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"Super"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":5
+				}
+			],
+			"m_CheckOrder":true
+		},
+		{
+			"m_Input":"x Susanna x",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				" Susanna"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":1,
+					"length":8
+				}
+			],
+			"m_CheckOrder":true
+		},
+		{
+			"m_Input":"I come from Alabama with my banjo on my knee\r\nI'm going to Louisiana, my true love for to see\r\nIt rained all night the day I left\r\nThe weather it was dry\r\nThe sun so hot, I froze to death\r\nSusanna don't you cry\r\nOh, Susanna,\r\nOh don't you cry for me\r\nFor I come from Alabama\r\nWith my banjo on my knee\r\nI jumped aboard the telegraph and traveled down the river\r\nThe 'lectric fluid magnified and killed five hundread nigger\r\nThe bulgine bust the horse ran off l really thought I'd died\r\nI shut my eyes to hold my breath Susanna don't you cry\r\nI had a dream the other night when everything was still\r\nI thought I saw Susanna a'coming down the hill\r",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				" see",
+				" sun",
+				" so",
+				"\nSusanna",
+				" Susanna,",
+				" shut",
+				" Susanna",
+				" still",
+				" saw",
+				" Susanna"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":89,
+					"length":4
+				},
+				{
+					"start":158,
+					"length":4
+				},
+				{
+					"start":162,
+					"length":3
+				},
+				{
+					"start":188,
+					"length":8
+				},
+				{
+					"start":215,
+					"length":9
+				},
+				{
+					"start":486,
+					"length":5
+				},
+				{
+					"start":517,
+					"length":8
+				},
+				{
+					"start":590,
+					"length":6
+				},
+				{
+					"start":609,
+					"length":4
+				},
+				{
+					"start":613,
+					"length":8
+				}
+			],
+			"m_CheckOrder":true
+		},
+		{
+			"m_Input":"Oh, Susanna,\r\nOh don‘t you cry for me\r\nI'm going to Louisiana\r\nWith my banjo on my knee\r\nThe bucekwheat cake was in her mouth\r\nThe tear was in her eye\r\nSays I, I'm coming from the south\r\nSusanna, don't you cry\r\nOh, Susanna,\r\nOh don‘t you cry for me\r\nI'm going to Louisiana\r\nWith my banjo on my knee\r\nOh, Susanna,\r\nOh don‘t you cry for me\r\nI'm going to Lo",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				" Susanna,",
+				"\nSays",
+				" south",
+				"\nSusanna,",
+				" Susanna,",
+				" Susanna,"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":3,
+					"length":9
+				},
+				{
+					"start":151,
+					"length":5
+				},
+				{
+					"start":179,
+					"length":6
+				},
+				{
+					"start":186,
+					"length":9
+				},
+				{
+					"start":214,
+					"length":9
+				},
+				{
+					"start":303,
+					"length":9
+				}
+			],
+			"m_CheckOrder":true
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":"(\\A|\\s)(s|S)\\S*"
+}

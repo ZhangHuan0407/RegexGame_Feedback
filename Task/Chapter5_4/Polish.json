@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"W Markdown użyj potrójnych backticków ``` do otoczenia bloków kodu. Markdown doda ramkę w renderowanym dokumencie.  ",
+		"",
+		"Przykład:  ",
+		"```  ",
+		"public class Program  ",
+		"{  ",
+		"}  ",
+		"```  ",
+		"<img src=Texture/Task/MarkdownCode width=792 height=122>  ",
+		"",
+		"Zaprojektuj wyrażenie regularne dopasowujące zawartość <b>bloków kodu</b> według specyfikacji:  ",
+		"1. Pełne dopasowanie <b>zawiera</b> potrójne backticki ```  ",
+		"2. Przypadki testowe zawierają wielolinijkowe dane wejściowe  ",
+		"3. Nazwij grupę przechwytującą bloki kodu jako \"code\". Grupa wyklucza potrójne backticki i znaki nowej linii  ",
+		"4. Dla uproszczenia zakładamy, że w żadnym teście nie wystąpią potrójne backticki wewnątrz bloków kodu  ",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

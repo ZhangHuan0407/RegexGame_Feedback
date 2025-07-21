@@ -1,0 +1,55 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"1 [error, any string at the beginning of the line]",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":" [have_space]",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"[have_space]"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":1,
+					"length":12
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"[section]",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"[section]"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":9
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"[!@#$%&*O)]",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"[!@#$%&*O)]"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":11
+				}
+			],
+			"m_CheckOrder":false
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":"(?<=\\A|\\A\\s*)\\[[^\\]\\n]+\\]"
+}

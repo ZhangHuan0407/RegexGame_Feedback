@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"Adding <color=#FF68DD>?</color> na een reguliere expressie geeft aan dat de voorgaande expressie 0 of 1 keer mag voorkomen.",
+		"",
+		"Voorbeeld:",
+		"Bijvoorbeeld, <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> betekent: een reeks cijfers die mogelijk wordt gevolgd door één \"%\"",
+		"",
+		"Met <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> komt overeen met <color=#3c3cff>100%</color>,",
+		"resultaat:",
+		"<color=#3c3cff>100%</color>",
+		"",
+		"Met <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> komt overeen met <color=#3c3cff>0.99</color>",
+		"resultaat:",
+		"<color=#3c3cff>0</color><color=#666666>.99</color>",
+		"<color=#666666>0.</color><color=#3c3cff>99</color>",
+		"",
+		"Met <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> komt overeen met <color=#3c3cff>ALL%</color>",
+		"<color=#3c3cff>ALL%</color> komt niet overeen",
+		"",
+		"Je hebt nu een \"ASCII\"-tekening gekregen. Tel alle cijfers 8, en als er een \".\" vóór de 8 staat, neem deze \".\" ook mee.",
+		"",
+		"Bijvoorbeeld, voor <color=#3c3cff>11.88</color> is het verwachte resultaat <color=#666666>11</color><color=#3c3cff>.88</color>",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle testen aan de rechterkant doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

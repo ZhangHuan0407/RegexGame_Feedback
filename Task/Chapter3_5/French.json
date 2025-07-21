@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"La notation des dates varie selon les langues :",
+		"Certaines utilisent l'ordre <b>mois-jour-année</b>, d'autres <b>année-mois-jour</b>.  ",
+		"",
+		"À l'ère de la mondialisation, les formats de dates saisis par les utilisateurs reflètent leurs origines culturelles. En tant qu'humble programme, je veux simplement déterminer la date d'aujourd'hui !  ",
+		"",
+		"Exemples : ",
+		"<color=#3c3cff>The current time is 1/18/2025</color> → ",
+		"<color=#666666>The current time is </color><color=#3c3cff>1/18/2025</color> ",
+		"",
+		"<color=#3c3cff>현재 시간은 2025-01-18입니다</color> → ",
+		"<color=#666666>현재 시간은 </color><color=#3c3cff>2025-01-18</color><color=#666666>입니다</color> ",
+		"",
+		"<color=#666666>Déployez maintenant vos incroyables talents d'observation pour programmer vers la solution (rayez ça)</color>  ",
+		"Tentez d'extraire la partie \"date\" d'un segment de texte.  ",
+		"",
+		"Dans ce test, les données cibles ont ces caractéristiques :  ",
+		"<color=#3173FF>\\w \\s</color> Caractères de mot ou espaces possibles  ",
+		"<color=#3173FF>\\d</color>      Chiffres  ",
+		"<color=#AB2800>\\. \\- /</color>  Séparateurs numériques  ",
+		"<color=#3173FF>\\d</color>      Chiffres  ",
+		"<color=#AB2800>\\. \\- /</color>  Séparateurs numériques  ",
+		"<color=#3173FF>\\d</color>      Chiffres  ",
+		"<color=#3173FF>\\w \\s</color>  Caractères de mot ou espaces possibles  ",
+		"",
+		"",
+		"Concevez une expression régulière qui réussit tous les tests à droite.  "
+	],
+	"m_SystemLanguage":"French"
+}

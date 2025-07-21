@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"Programs sometimes recursively traverse all files in folders. For simple requirements, wildcards can be used.  ",
+		"For complex requirements, regex can also match file paths.  ",
+		"",
+		"The goal is to match files meeting these rules:  ",
+		"1. The path contains a folder named bin.  ",
+		"2. The file ends with .exe or .dll.  ",
+		"",
+		"Example:  ",
+		"<color=#3c3cff>/path/a/bin/b/c/test.exe</color> matches because:  ",
+		"<color=#666666>/path/a/</color><color=#3c3cff>bin</color><color=#666666>/b/c/test</color><color=#3c3cff>.exe</color>",
+		"",
+		"Simplifications:  ",
+		"1. Paths contain only \"/\" (never backslashes \"\").  ",
+		"2. Each test case contains only one path.  ",
+		"3. Test cases are entirely in lowercase.  ",
+		"",
+		"",
+		"Construct a regex to pass all test cases on the right.  "
+	],
+	"m_SystemLanguage":"English"
+}

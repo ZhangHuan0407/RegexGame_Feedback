@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"In regulären Ausdrücken haben diese beiden Symbole besondere Bedeutungen:  ",
+		"<color=#AB2800>.</color> passt auf beliebige Zeichen  ",
+		"<color=#FF68DD>*</color> passt auf das vorhergehende Teilmuster nullmal oder öfter  ",
+		"",
+		"Beispiele:  ",
+		"<color=#AB2800>1</color><color=#FF68DD>*</color> passt auf <color=#3c3cff>111</color> in <color=#3c3cff>A111A</color>  ",
+		"<color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> passt auf <color=#3c3cff>BABAB</color> in <color=#3c3cff>BABAB</color>  ",
+		"",
+		"In diesem Test hat der zu treffende Inhalt folgende Merkmale:  ",
+		"<color=#3c3cff>Sna</color>    Ein Textsegment beginnend mit \"Sna\"  ",
+		"<color=#3c3cff>.</color>        Beliebige Zeichen in der Mitte  ",
+		"<color=#3c3cff>ke</color>      Ein Textsegment endend mit \"ke\"  ",
+		"",
+		"Nimm nicht die falsche Schlange – sie beißt!  ",
+		"",
+		"<b>Greedy Matching (Gierige Übereinstimmung)</b>  ",
+		"In regulären Ausdrücken aktiviert <color=#FF68DD>*</color> den gierigen Modus, der versucht, so viele Zeichen wie möglich zu finden.  ",
+		"Beispiel: <color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> passt auf das gesamte <color=#3c3cff>BABAB</color> in <color=#3c3cff>BABAB</color>, nicht nur auf Teile wie BAB. ",
+		"<color=#FF68DD>*</color> erfasst maximal möglichen Inhalt.  ",
+		"",
+		"Ziel ist nun, das Wort \"Snake\" zu treffen.  ",
+		"Falls viele 'a' vorhanden sind, treffe so viele 'a' wie möglich.  ",
+		"",
+		"Konstruiere einen regulären Ausdruck, der alle Tests rechts besteht.  "
+	],
+	"m_SystemLanguage":"German"
+}

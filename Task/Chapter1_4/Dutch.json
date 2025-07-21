@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"Soms zijn we niet zeker of een tekenreeks de doel-<b>subexpressie</b> bevat.",
+		"",
+		"Je kunt een mogelijk aanwezig stuk inhoud omsluiten met <color=#05C3BA>( )</color> en vervolgens een <color=#FF68DD>?</color> toevoegen om aan te geven dat een stuk inhoud 0 of 1 keer kan voorkomen.",
+		"",
+		"Bijvoorbeeld, het gebruik van <color=#AB2800>a</color><color=#05C3BA>(</color><color=#AB2800>b</color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#AB2800>c</color> om te matchen met <color=#3c3cff>abcac</color> geeft als resultaat:",
+		"<color=#3c3cff>abc</color><color=#666666>ac</color>",
+		"<color=#666666>abc</color><color=#3c3cff>ac</color>",
+		"",
+		"Een vast telefoonnummer kan bijvoorbeeld een netnummer als voorvoegsel hebben, of niet.",
+		"",
+		"<color=#3c3cff>010-12345678</color>",
+		"<color=#3c3cff>12345678</color>",
+		"In bovenstaand voorbeeld is 010 het netnummer.",
+		"",
+		"Bijvoorbeeld, door <color=#05C3BA>( </color><color=#AB2800>010- </color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#3173FF>\\d</color><color=#FF68DD>+</color> te gebruiken om te matchen met de bovenstaande voorbeelden,",
+		"<color=#3c3cff>010-12345678</color> retourneert <color=#3c3cff>010-12345678</color>",
+		"<color=#3c3cff>12345678</color> retourneert <color=#3c3cff>12345678</color>",
+		"",
+		"Nu willen we de letter A op een willekeurige positie onderscheppen en het nummer erachter toevoegen.",
+		"",
+		"In deze test heeft de te matchen tekenreeks de volgende kenmerken:",
+		"<color=#3c3cff>A</color>   De letter A",
+		"<color=#3c3cff>\\d</color>   0 of 1 decimaal cijfer",
+		"",
+		"Construeer een reguliere expressie die alle tests aan de rechterkant doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

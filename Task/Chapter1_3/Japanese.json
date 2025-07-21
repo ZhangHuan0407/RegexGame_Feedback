@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"テキストには通常、開始位置と終了位置があります。",
+		"",
+		"文字列の先頭を表すには <color=#FF68DD>\\A</color> または <color=#FF68DD>^</color> を使用します。",
+		"",
+		"例：",
+		"<color=#3c3cff>011</color>",
+		"<color=#3c3cff>0</color>",
+		"<color=#3c3cff>_0</color>",
+		"例えば <color=#FF68DD>\\A</color><color=#AB2800>0</color> で上記の例をマッチングさせる場合（「0で始まる内容にマッチ」）：",
+		"<color=#3c3cff>011</color> は 0 を返します",
+		"<color=#3c3cff>0</color> は 0 を返します",
+		"<color=#3c3cff>_0</color> はマッチしません",
+		"",
+		"文字列の末尾を表すには <color=#FF68DD>\\Z</color> または <color=#FF68DD>$</color> を使用します。",
+		"",
+		"例：",
+		"<color=#3c3cff>001</color>",
+		"<color=#3c3cff>1</color>",
+		"<color=#3c3cff>1_</color>",
+		"例えば <color=#AB2800>1</color><color=#FF68DD>\\Z</color> で上記の例をマッチングさせる場合（「1で終わる内容にマッチ」）：",
+		"<color=#3c3cff>001</color> は 1 を返します",
+		"<color=#3c3cff>1</color> は 1 を返します",
+		"<color=#3c3cff>1_</color> はマッチしません"
+	],
+	"m_SystemLanguage":"Japanese"
+}

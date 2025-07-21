@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"INI-Dateien sind Textdateien zur Speicherung von Konfigurationsinformationen.  ",
+		"Sie bestehen im Allgemeinen aus mehreren Abschnitten und Schlüssel-Wert-Paaren.  ",
+		"Wenn das erste sichtbare Zeichen einer Zeile <color=#3c3cff>;</color> oder <color=#3c3cff>#</color> ist, wird der gesamte restliche Inhalt dieser Zeile als Kommentar betrachtet.  ",
+		"",
+		"<img src=Texture/Task/IniComment width=644 height=169>  ",
+		"",
+		"Beispielsweise ist <color=#3c3cff># this is a comment</color> eine Kommentarzeile.  ",
+		"",
+		"Ziel ist es, Kommentarzeilen mit folgenden Konventionen zu matchen:  ",
+		"1. Jeder Testfall enthält genau 1 Zeile (kein \\n)  ",
+		"2. Falls die Zeile ein Kommentar ist, wird der gesamte Inhalt gematcht  ",
+		"3. Zeilenanfänge dürfen null oder mehrere Leerzeichen enthalten  ",
+		"",
+		"",
+		"Konstruieren Sie einen regulären Ausdruck, der alle Testfälle auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

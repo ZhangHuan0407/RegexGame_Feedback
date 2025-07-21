@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"テキストにはスペースが含まれることが多いため、<color=#3173FF>\\s</color>で「スペース」を表す規則とします。",
+		"",
+		"<color=#3173FF>\\s</color> はスペース文字にマッチ",
+		"",
+		"<b>例:</b>",
+		"<color=#AB2800>1</color><color=#3173FF>\\s</color><color=#AB2800>2</color>   <color=#3c3cff>A1 2B</color> の <color=#666666>A</color><color=#3c3cff>1 2</color><color=#666666>B</color> にマッチ",
+		"<color=#AB2800>o</color><color=#3173FF>\\s</color><color=#AB2800>W</color>  <color=#3c3cff>Hello World</color> の <color=#666666>Hell</color><color=#3c3cff>o W</color><color=#666666>orld</color> にマッチ",
+		"",
+		"上司が巡回中！席にいない社員は全員トラブルです！",
+		"o(*￣︶￣*)o",
+		"席に人がいる場合は \"X\"、不在の場合は \" \" で表示します。",
+		"",
+		"<b>例:</b>",
+		"| |X|X|  → 1番目の席が空席、2・3番目の席に在席中",
+		"",
+		"",
+		"上司の指示で、空席状況を統計し、容赦なくボーナスを減額してください。",
+		"",
+		"入力データ規則 (100%適用):",
+		"1. 使用文字は \" \"(\\u0020), \"|\", \"X\" のみ",
+		"2. 隣接する二つの \"|\" 記号の間には必ず \" \" か \"X\" が存在",
+		"",
+		"<img src=Texture/Task/Level2_2WhiteChar width=524 height=160>  ",
+		"一致結果が選択された場合、一致結果内のスペースは<color=#e06600>□</color>で表示されます。",
+		"",
+		"",
+		"右側のテストを全て通過する正規表現を作成してください。"
+	],
+	"m_SystemLanguage":"Japanese"
+}

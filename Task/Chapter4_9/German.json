@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"Internetprotokoll Version 4 (häufig als IPv4 bezeichnet) besteht aus 4 Zahlen zwischen 0 und 255, die durch drei \".\" verbunden sind.  ",
+		"",
+		"Beispielsweise ist <color=#3c3cff>127.0.0.1</color> eine gültige IPv4-Adresse.  ",
+		"",
+		"Manchmal geben Benutzer fälschlicherweise ungültige Adressen ein, wie z.B.:  ",
+		"",
+		"1.2.3.4.5     <color=#ee3300>X</color> Anzahl der Segmente überschreitet 4  ",
+		"1.0.0.256    <color=#ee3300>X</color> 256 überschreitet den Bereich 0~255  ",
+		"127.0.0.01  <color=#ee3300>X</color> Obwohl die Schreibweise \"01\" technisch IPv4-konform ist, entspricht sie nicht der Standarddarstellung und ist wahrscheinlich ein Eingabefehler  ",
+		"",
+		"Ziel ist es, gültige IPv4-Adressen zu identifizieren.  ",
+		"",
+		"Zur Vereinfachung gelten folgende Regeln:  ",
+		"1. Jeder Testfall enthält nur 1 zu prüfende Zeichenkette  ",
+		"2. Bei 100% der Testfälle scheitert die Übereinstimmung bei Zahlen mit führender Null (zweistellig oder dreistellig)  ",
+		"",
+		"",
+		"Erstellen Sie einen regulären Ausdruck, der alle Testfälle auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

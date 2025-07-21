@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"En Markdown, los encabezados se denotan mediante varios símbolos # consecutivos.  ",
+		"La cantidad de símbolos # determina el nivel del encabezado.  ",
+		"",
+		"Por ejemplo:  ",
+		"<img src=Texture/Task/MarkdownTitle width=267 height=89>  ",
+		"",
+		"El objetivo es crear una expresión regular que coincida con secciones de encabezado, con las siguientes convenciones:  ",
+		"1. <b>Incluye</b> el prefijo #, seguido de al menos un espacio  ",
+		"2. Toda la entrada consiste únicamente en cadenas de una sola línea  ",
+		"3. El grupo de captura para el contenido del encabezado debe nombrarse \"title\"  ",
+		"",
+		"Nota: Dado que el regex usa el modo RegexOptions.IgnorePatternWhitespace, las líneas que comienzan con <color=#33aa55>#</color> serán tratadas como comentarios.  ",
+		"",
+		"Usa \\# para coincidir con el carácter \"#\"  ",
+		"",
+		"",
+		"Construye una expresión regular que pase todas las pruebas a la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

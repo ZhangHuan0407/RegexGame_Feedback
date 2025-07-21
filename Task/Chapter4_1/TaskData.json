@@ -1,0 +1,82 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"Name:John",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"Name:John",
+				"<Name>Name:John"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":9
+				},
+				{
+					"start":0,
+					"length":9
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"Email: 123987AAbbcc@gmail.com\nName: Zhang San\nPhone: 123-4567890",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"Name: Zhang San",
+				"<Name>Name: Zhang San"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":30,
+					"length":15
+				},
+				{
+					"start":30,
+					"length":15
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"My name is Alice, I am expecting to get a job as an engineer in your company. \nI was fired last week for stepping into the company with my left foot first, and now I am in dire need of a new job.",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"name is Alice",
+				"<Name>name is Alice"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":3,
+					"length":13
+				},
+				{
+					"start":3,
+					"length":13
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"Hi,\n  Sorry for the hasty letter.\n  My name is Miyamoto. I accidentally left my computer behind when I checked into the Kokusai Hotel last week.",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"name is Miyamoto",
+				"<Name>name is Miyamoto"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":39,
+					"length":16
+				},
+				{
+					"start":39,
+					"length":16
+				}
+			],
+			"m_CheckOrder":false
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":"(?<Name>[Nn]ame(:|\\s|\\sis\\s)[^\\n,\\.]+)"
+}

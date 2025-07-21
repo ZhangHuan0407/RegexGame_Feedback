@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"在Markdown中，可以添加一段特殊格式的文本，Markdown 会在渲染界面读取指定路径的图片。",
+		"",
+		"例如：",
+		"<color=#3c3cff>![Image Alt]</color>(<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> <color=#33aa55>\"ImageTitle\"</color>)",
+		"",
+		"<color=#3c3cff>![Image Alt]</color> 以 ! 开头，并使用 [] 包裹替代文本。当图片加载失败时，显示替代文本。",
+		"替代文本可以为空，<color=#3c3cff>![]</color> 也是有效输入。",
+		"<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> 描述图片文件的路径",
+		"<color=#33aa55>\"ImageTitle\"</color> 为悬停标题，当鼠标悬于图片上方时，展示此标题",
+		"",
+		"<img src=Texture/Task/MarkdownImage width=840 height=167>",
+		"",
+		"现在期望编写一个正则表达式，匹配<b>图片路径</b>的内容，约定如下：",
+		"1. 仅匹配格式正确的输入",
+		"2. 每个测试用例对应一个待匹配项",
+		"3. 约定匹配文件路径的表达式名称为\"file\"",
+		"4. 仅匹配文件路径不为空的项",
+		"5. 100%测试用例的文件路径不包含空格",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。"
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

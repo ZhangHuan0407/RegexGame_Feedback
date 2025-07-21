@@ -1,0 +1,27 @@
+{
+	"m_DescList":[
+		"正则表达式 <color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> 表示 <color=#AB2800>subexpression</color> 会忽略大小写匹配。",
+		"这些操作被称为组选项，所有的可选参数可参考 <color=#05C3BA>(?</color><color=#AB2800>imnsx-imnsx: subexpression</color><color=#05C3BA>)</color>",
+		"",
+		"例如，<color=#05C3BA>(?i: </color><color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color><color=#05C3BA>)</color> 匹配示例 <color=#3c3cff>aBC</color> 结果为：",
+		"<color=#3c3cff>a</color><color=#666666>BC</color>",
+		"<color=#666666>a</color><color=#3c3cff>B</color><color=#666666>C</color>",
+		"<color=#666666>aB</color><color=#3c3cff>C</color>",
+		"<color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> 让 <color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color> 同时可以匹配大小写字母，等价于 <color=#3173FF>[</color><color=#AB2800>abcABC</color><color=#3173FF>]</color>",
+		"",
+		"在工作流中，一个程序有时会读取另一个程序输出的日志，基于其日志信息做出差异化处理。",
+		"",
+		"例如，如果上一个程序包含 \"error\"，说明上游程序的执行可能存在错误，应当予以注意。",
+		"",
+		"现在，期望匹配存在 \"error\" 的日志",
+		"",
+		"为了简化难度，做出以下约定：",
+		"1. 测试用例以 4位年-2位月-2位日 开头",
+		"2. 每个测试用例仅存在一行日志",
+		"3. 仅存在大写 \"ERROR\" 和小写 \"error\"",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。"
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

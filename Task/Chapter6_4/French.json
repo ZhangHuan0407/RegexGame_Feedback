@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"Dans le développement logiciel, Git peut être utilisé comme outil de contrôle de version, avec Jira comme outil de gestion de projet.  ",
+		"Lorsqu'un journal de commit contient [PROJ-XXX], l'enregistrement est automatiquement lié à l'issue Jira correspondante.  ",
+		"",
+		"Conventions spéciales du format de commit :  ",
+		"<color=#3173FF>[</color>     Caractère spécial demi-chasse \"[\"  ",
+		"<color=#3173FF>\\w</color>   Plusieurs caractères textuels  ",
+		"<color=#3173FF>-</color>     Caractère spécial demi-chasse \"-\"  ",
+		"<color=#3173FF>\\d</color>   Chiffres (un ou plusieurs)  ",
+		"<color=#3173FF>]</color>     Caractère spécial demi-chasse \"]\"  ",
+		"",
+		"Exemple d'enregistrement valide :  ",
+		"<color=#3c3cff>[PROJ-123]</color> <color=#666666>fix null reference error</color>  ",
+		"",
+		"Veuillez maintenant construire une expression régulière pour vérifier si les journaux de commit respectent ce format de liaison.  ",
+		"",
+		"",
+		"Concevez une expression régulière qui réussit tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

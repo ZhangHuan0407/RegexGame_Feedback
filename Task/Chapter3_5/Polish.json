@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Zapis dat różni się w zależności od lokalizacji.  ",
+		"Niektóre języki używają kolejności <b>miesiąc-dzień-rok</b>, podczas gdy inne stosują <b>rok-miesiąc-dzień</b>.  ",
+		"",
+		"W tej globalizacyjnej erze formaty dat wprowadzane przez użytkowników odzwierciedlają ich pochodzenie kulturowe. Jako skromny program, po prostu chcę określić dzisiejszą datę!  ",
+		"",
+		"Na przykład:  ",
+		"<color=#3c3cff>The current time is 1/18/2025</color> → Oczekiwane dopasowanie:  ",
+		"<color=#666666>The current time is </color><color=#3c3cff>1/18/2025</color>",
+		"",
+		"<color=#3c3cff>현재 시간은 2025-01-18입니다</color> → Oczekiwane dopasowanie: ",
+		"<color=#666666>현재 시간은 </color><color=#3c3cff>2025-01-18</color><color=#666666>입니다</color>",
+		"",
+		"<color=#666666>Teraz wykorzystaj swoje zdumiewające umiejętności obserwacji, aby programować pod odpowiedź (skreślone)</color>  ",
+		"Teraz spróbuj dopasować część zawierającą datę w fragmencie tekstu  ",
+		"",
+		"W tym teście, docelowe dane mają następujące cechy:",
+		"<color=#3173FF>\\w \\s</color>  Możliwe znaki alfanumeryczne lub białe znaki  ",
+		"<color=#3173FF>\\d</color>      Cyfry  ",
+		"<color=#AB2800>\\. \\- /</color>  Separatory cyfr  ",
+		"<color=#3173FF>\\d</color>      Cyfry  ",
+		"<color=#AB2800>\\. \\- /</color>  Separatory cyfr  ",
+		"<color=#3173FF>\\d</color>      Cyfry  ",
+		"<color=#3173FF>\\w \\s</color>  Możliwe znaki alfanumeryczne lub białe znaki  ",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie. "
+	],
+	"m_SystemLanguage":"Polish"
+}

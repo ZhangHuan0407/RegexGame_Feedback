@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"We talked earlier about how to match numbers of length 100, which are, of course:",
+		"<color=#666666>\\d\\d\\d\\d\\d...</color> <color=#ff0000>X</color>",
+		"",
+		"Adding <color=#FF68DD>{n}</color> after a regular expression indicates the preceding regex should repeat n times, where n is a natural number.",
+		"",
+		"E.g., <color=#AB2800>1</color><color=#FF68DD>{3}</color> means matching \"1\" repeated 3 times.",
+		"<color=#AB2800>1</color><color=#FF68DD>{3}</color> matches <color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color> in <color=#3c3cff>12111311</color>",
+		"",
+		"Adding <color=#FF68DD>{n,}</color> after a regular expression indicates the preceding regex should repeat at least n times (n is a natural number).",
+		"",
+		"E.g., <color=#AB2800>1</color><color=#FF68DD>{2,}</color> matches in <color=#3c3cff>12111311</color>:",
+		"<color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color>",
+		"<color=#666666>121113</color><color=#3c3cff>11</color>",
+		"",
+		"Adding <color=#FF68DD>{n,m}</color> after a regular expression indicates the preceding regex should repeat between n and m times (both natural numbers).",
+		"",
+		"E.g., <color=#AB2800>o</color><color=#FF68DD>{1,2}</color> matches in <color=#3c3cff>Choose your right friends ooo</color>:",
+		"<color=#666666>Ch</color><color=#3c3cff>oo</color><color=#666666>se your right friends ooo</color>",
+		"<color=#666666>Choose y</color><color=#3c3cff>o</color><color=#666666>ur right friends ooo</color>",
+		"",
+		"Long time no see, the snake has grown longer!",
+		"Now we need to filter snakes with \"a\" length greater than 3 and less than 5.",
+		"Don\"t pick wrong snakes - they bite!",
+		"",
+		"",
+		"Please construct a regular expression that passes all test cases on the right."
+	],
+	"m_SystemLanguage":"English"
+}

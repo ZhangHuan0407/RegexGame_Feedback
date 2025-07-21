@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"Rich Emoji expressions make communication more engaging.  ",
+		"However, it's regrettable that supporting Emoji in software isn't cost-free.  ",
+		"",
+		"Emoji definitions are periodically updated, and some software often lags in adapting to new Emoji releases.  ",
+		"<img src=Texture/Task/EmojiNewIcon width=788 height=404>  ",
+		"",
+		"Sometimes, mobile clients may crash when attempting to render unsupported Emoji.  ",
+		"Currently, there are over 3,000 existing Emoji. We've selected 20 of them and will attempt to filter them out using regular expressions.  ",
+		"",
+		"For complex regular expressions, execution efficiency varies.  ",
+		"For example:  ",
+		"<color=#3173FF>[</color><color=#AB2800>12</color><color=#3173FF>][</color><color=#AB2800>34</color><color=#3173FF>][</color><color=#AB2800>56</color><color=#3173FF>]</color> enumerates possibilities for three consecutive digits, prioritizing matching the first digit. If the first digit fails to match, the entire match fails.  ",
+		"<color=#05C3BA>(</color><color=#AB2800>135 </color><color=#05C3BA>| </color><color=#AB2800>136 </color><color=#05C3BA>| </color><color=#AB2800>145 </color><color=#05C3BA>| </color><color=#AB2800>156 </color><color=#05C3BA>| </color><color=#AB2800>235 </color><color=#05C3BA>| </color><color=#AB2800>236 </color><color=#05C3BA>| </color><color=#AB2800>245 </color><color=#05C3BA>| </color><color=#AB2800>246</color><color=#05C3BA>)</color>  ",
+		"enumerates all possibilities, requiring traversal of all options during matching, which is more time-consuming.  ",
+		"",
+		"<color=#666666>The original challenge required filtering all Emoji. Due to its excessive difficulty, the task has been redesigned.</color>  ",
+		"<color=#666666>For truly brave warriors, I've prepared 1,910 Emoji at: Game installation path/StreamingAssets/FullEmoji.txt</color>  ",
+		"<color=#666666>If attempting to filter all Emoji via regex, it's best to write code to automate this task</color>  ",
+		"",
+		"For all test cases, the following conventions apply:  ",
+		"1. Except for the first two test cases, each contains only one Emoji  ",
+		"2. Except for the first two test cases, each displays its escape sequence \\uxxxx followed by a space before the Emoji  ",
+		"3. Since Unity Text cannot display Emoji, Emoji characters remain invisible.  ",
+		"",
+		"Please construct a regular expression that passes all test cases on the right."
+	],
+	"m_SystemLanguage":"English"
+}

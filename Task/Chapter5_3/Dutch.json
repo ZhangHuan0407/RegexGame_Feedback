@@ -1,0 +1,18 @@
+{
+	"m_DescList":[
+		"In Markdown worden formules tussen $-symbolen weergegeven als wiskundige vergelijkingen.  ",
+		"",
+		"Voorbeeld:  ",
+		"$y_{0} = x^\\frac{1}{2}_{0}$  ",
+		"<img src=Texture/Task/MarkdownMath width=140 height=69>  ",
+		"",
+		"Doel is een reguliere expressie te ontwerpen die <b>éénregelige formules<b> matcht volgens deze afspraken:  ",
+		"1. <b>Includeert</b> de $-symbolen aan beide kanten  ",
+		"2. Alle invoer bestaat uitsluitend uit éénregelige tekenreeksen  ",
+		"3. De vangstgroep voor gematchte formules moet de naam \"exp\" dragen  ",
+		"",
+		"",
+		"Construeer een reguliere expressie die slaagt voor alle testgevallen rechts.  "
+	],
+	"m_SystemLanguage":"Dutch"
+}

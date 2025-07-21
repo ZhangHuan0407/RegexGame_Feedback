@@ -1,0 +1,25 @@
+{
+	"m_DescList":[
+		"Podczas tworzenia oprogramowania często konieczne jest odczytywanie numerów wersji.  ",
+		"",
+		"Na przykład, niektórzy początkujący wolą na sztywno wpisywać numery wersji bezpośrednio w skryptach:  ",
+		"",
+		"<color=#3c3cff>public const string</color> ResourceVersion = <color=#ee3300>\"1.2.3\"</color>;  ",
+		"",
+		"Choć nie jest to najlepsza praktyka, jest to najprostsza implementacja.  ",
+		"Pewnego dnia przyjdzie dzień, gdy odziedziczysz tę górę gównianego kodu!  ",
+		"",
+		"Twoim celem jest odczytanie kodu jako tekstu i użycie wyrażeń regularnych do precyzyjnego dopasowania numerów wersji!  ",
+		"",
+		"Konwencja: Nazwij grupę przechwytującą wersję jako \"version\"  ",
+		"",
+		"Przykład:  ",
+		"<color=#3c3cff>public const string ResourceVersion = \"1.2.3\";</color>  ",
+		"Oczekiwany wynik dopasowania:  ",
+		"<color=#666666>public const string ResourceVersion = \"</color><color=#3c3cff>1.2.3</color><color=#666666>\";</color>  ",
+		"",
+		"",
+		"Skonstruuj wzorzec wyrażenia regularnego, który przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"A notação de data varia conforme o idioma.  ",
+		"Alguns idiomas usam a ordem <b>mês-dia-ano</b>, enquanto outros usam <b>ano-mês-dia</b>.  ",
+		"",
+		"Nesta era globalizada, os formatos de data inseridos pelos usuários refletem seus contextos culturais. Como um programa humilde, só quero determinar a data real de hoje!  ",
+		"",
+		"Por exemplo:  ",
+		"<color=#3c3cff>The current time is 1/18/2025</color> → Correspondência esperada:  ",
+		"<color=#666666>The current time is </color><color=#3c3cff>1/18/2025</color>",
+		"",
+		"<color=#3c3cff>현재 시간은 2025-01-18입니다</color> → Correspondência esperada: ",
+		"<color=#666666>현재 시간은 </color><color=#3c3cff>2025-01-18</color><color=#666666>입니다</color>",
+		"",
+		"<color=#666666>Agora, utilize seus incríveis poderes de observação para programar direto na resposta (riscando)</color>  ",
+		"Agora, tente identificar a parte da data em um segmento de texto  ",
+		"",
+		"Neste teste, os dados alvo têm estas características:  ",
+		"<color=#3173FF>\\w \\s</color>  Caracteres de palavra ou espaços em branco  ",
+		"<color=#3173FF>\\d</color>      Dígitos  ",
+		"<color=#AB2800>\\. \\- /</color>   Separadores numéricos  ",
+		"<color=#3173FF>\\d</color>      Dígitos  ",
+		"<color=#AB2800>\\. \\- /</color>   Separadores numéricos  ",
+		"<color=#3173FF>\\d</color>      Dígitos  ",
+		"<color=#3173FF>\\w \\s</color>  Caracteres de palavra ou espaços em branco  ",
+		"",
+		"",
+		"Construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

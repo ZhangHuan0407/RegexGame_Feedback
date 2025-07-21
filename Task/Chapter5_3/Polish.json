@@ -1,0 +1,18 @@
+{
+	"m_DescList":[
+		"W Markdown, formuły matematyczne zawinięte między symbolami $ będą renderowane jako standardowe równania matematyczne.  ",
+		"",
+		"Przykład:  ",
+		"$y_{0} = x^\\frac{1}{2}_{0}$  ",
+		"<img src=Texture/Task/MarkdownMath width=140 height=69>  ",
+		"",
+		"Celem jest zaprojektowanie wyrażenia regularnego dopasowującego <b>formuły jednoliniowe</b> według następujących konwencji:  ",
+		"1. <b>Zawiera</b> symbole $ po obu stronach  ",
+		"2. Wszystkie dane wejściowe są wyłącznie ciągami jednoliniowymi  ",
+		"3. Grupa przechwytująca dla dopasowanych formuł musi być nazwana \"exp\"  ",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie przypadki testowe po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

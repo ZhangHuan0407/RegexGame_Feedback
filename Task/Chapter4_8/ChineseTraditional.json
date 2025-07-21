@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"豐富的 Emoji 表情讓溝通不再枯燥乏味。",
+		"但令人遺憾的是，讓軟體支援 Emoji 並不是一件毫無成本的事情。",
+		"",
+		"Emoji 每隔一段時間，就會推出新的 Emoji 定義。一些軟體往往還沒來得及適配新 Emoji。",
+		"<img src=Texture/Task/EmojiNewIcon width=788 height=404>",
+		"",
+		"有時，行動端可能因嘗試渲染不支援的 Emoji 而崩潰。",
+		"已知現存 Emoji 總計有3000個以上，現在抽取20個Emoji，企圖使用正則表達式過濾掉它們。",
+		"",
+		"對於比較複雜的正則表達式，存在執行效率的差異。",
+		"例如：",
+		"<color=#3173FF>[</color><color=#AB2800>12</color><color=#3173FF>][</color><color=#AB2800>34</color><color=#3173FF>][</color><color=#AB2800>56</color><color=#3173FF>]</color> 分別列舉了連續三位數字的可能性，在匹配時優先比對第一位數，如果第一位不匹配則匹配失敗。",
+		"<color=#05C3BA>(</color><color=#AB2800>135 </color><color=#05C3BA>| </color><color=#AB2800>136 </color><color=#05C3BA>| </color><color=#AB2800>145 </color><color=#05C3BA>| </color><color=#AB2800>156 </color><color=#05C3BA>| </color><color=#AB2800>235 </color><color=#05C3BA>| </color><color=#AB2800>236 </color><color=#05C3BA>| </color><color=#AB2800>245 </color><color=#05C3BA>| </color><color=#AB2800>246</color><color=#05C3BA>)</color>",
+		"列舉了所有的可能性，在匹配時需要遍歷所有可能項，耗時更長。",
+		"",
+		"<color=#666666>原始題目需要過濾所有 Emoji。由於原題難度過高，現已重做題目。</color>",
+		"<color=#666666>我為真的猛士準備了 1910個 Emoji。遊戲安裝路徑下 StreamingAssets/FullEmoji.txt</color>",
+		"<color=#666666>如果嘗試使用正則表達式過濾所有Emoji，最好編寫一段程式碼，讓程式碼幫助你完成這項工作</color>",
+		"",
+		"對於所有測試用例，做出如下約定：",
+		"1. 除前兩個測試用例外，其餘僅包含一個Emoji",
+		"2. 除前兩個測試用例外，其餘每個測試用例先展示其轉義字元\\uxxxx，接一個空格，再輸入Emoji",
+		"3. 由於 Unity Text 無法顯示 Emoji，這導致 Emoji 字元不可見。",
+		"",
+		"",
+		"請構造一個正則表達式使之通過右側所有測試。"
+	],
+	"m_SystemLanguage":"ChineseTraditional"
+}

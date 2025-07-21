@@ -1,0 +1,18 @@
+{
+	"m_DescList":[
+		"在Markdown中，可以使用 $ 包裹一段文本公式，Markdown 会在渲染界面转化为标准的数学公式。",
+		"",
+		"例如：",
+		"$y_{0} = x^\\frac{1}{2}_{0}$",
+		"<img src=Texture/Task/MarkdownMath width=140 height=69>",
+		"",
+		"现在期望编写一个正则表达式，匹配<b>单行公式</b>的内容，约定如下：",
+		"1. <b>包含</b>两侧的 $ 符号",
+		"2. 所有输入仅为单行字符串",
+		"3. 约定匹配公式的捕获组名称为\"exp\"",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。"
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

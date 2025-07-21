@@ -1,0 +1,27 @@
+{
+	"m_DescList":[
+		"正規表現 <color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> は、<color=#AB2800>subexpression</color> が<b>大文字小文字を区別せずに</b>マッチングすることを表します。  ",
+		"これらの操作はグループオプションと呼ばれ、すべてのオプションパラメータについては <color=#05C3BA>(?</color><color=#AB2800>imnsx-imnsx: subexpression</color><color=#05C3BA>)</color> を参照してください。",
+		"",
+		"例えば、<color=#05C3BA>(?i: </color><color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color><color=#05C3BA>)</color> がサンプル文字列 <color=#3c3cff>aBC</color> とマッチングした場合の結果は次の通りです：  ",
+		"<color=#3c3cff>a</color><color=#666666>BC</color>  ",
+		"<color=#666666>a</color><color=#3c3cff>B</color><color=#666666>C</color>  ",
+		"<color=#666666>aB</color><color=#3c3cff>C</color>  ",
+		"<color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> により、<color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color> は大文字と小文字の両方の文字をマッチングできるようになり、<color=#3173FF>[</color><color=#AB2800>abcABC</color><color=#3173FF>]</color> と等価です。",
+		"",
+		"ワークフローにおいて、あるプログラムが別のプログラムが出力したログを読み取り、そのログメッセージに基づいて異なる処理を行うことがあります。",
+		"",
+		"例えば、前のプログラムのログに \"error\" が含まれている場合、上流プログラムの実行にエラーが発生した可能性があることを示しており、注意が必要です。",
+		"",
+		"ここでは、\"error\" を含むログをマッチングさせることが目的です。",
+		"",
+		"難易度を下げるため、以下の取り決めを設けます：  ",
+		"1. テストケースの先頭は <b>4桁の年-2桁の月-2桁の日<b> です。  ",
+		"2. 各テストケースには <b>1行のみ</b> のログが存在します。  ",
+		"3. 存在するのは <b>大文字の \"ERROR\" と小文字の \"error\"</b> のみです。  ",
+		"",
+		"",
+		"右側のすべてのテストに合格する正規表現を構築してください。"
+	],
+	"m_SystemLanguage":"Japanese"
+}

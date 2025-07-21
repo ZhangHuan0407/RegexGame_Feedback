@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"Markdown, okunabilirliği ve kolay yazımı hedefleyen hafif bir işaretleme dilidir.  ",
+		"",
+		"Markdown'da, metni iki tilde işareti ~~ ile sarmak, üstü çizili efekt ekler.  ",
+		"",
+		"Örneğin:  ",
+		"~~Markdown~~  ",
+		"<img src=Texture/Task/MarkdownDelete width=230 height=47>  ",
+		"",
+		"Şimdi üstü çizili içeriği eşleştiren bir düzenli ifade oluşturmanız bekleniyor. Kurallar:  ",
+		"1. <b>İçerecek</b> şekilde her iki taraftaki çift tildeler ~ ",
+		"2. Tüm girdiler tek satırlık dizelerdir  ",
+		"3. Ardışık beş veya daha fazla tilde ~ eşleşme olmamalı  ",
+		"",
+		"",
+		"Sağdaki tüm testleri geçecek bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

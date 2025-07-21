@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"Internet Protocol version 4, comúnmente conocido como IPv4, está formada por cuatro números entre 0 y 255, separados por tres \".\".  ",
+		"",
+		"Por ejemplo, <color=#3c3cff>127.0.0.1</color> es una dirección IPv4 válida.  ",
+		"",
+		"A veces los usuarios ingresan por error direcciones inválidas, como:  ",
+		"",
+		"1.2.3.4.5     <color=#ee3300>X</color> Cantidad de segmentos excede 4  ",
+		"1.0.0.256    <color=#ee3300>X</color> 256 supera el rango 0~255  ",
+		"127.0.0.01  <color=#ee3300>X</color> Aunque \"01\" cumple técnicamente la definición de IPv4, no es la forma estándar y probablemente sea un error de ingreso  ",
+		"",
+		"El objetivo es ayudar a identificar direcciones IPv4 válidas.  ",
+		"",
+		"Para simplificar, se aplican estas convenciones:  ",
+		"1. Cada caso de prueba contiene solo 1 cadena a verificar  ",
+		"2. En el 100% de los casos, fallarán números de 2-3 dígitos que comiencen con 0  ",
+		"",
+		"",
+		"Construya una expresión regular que pase todos los casos de prueba del lado derecho."
+	],
+	"m_SystemLanguage":"Spanish"
+}

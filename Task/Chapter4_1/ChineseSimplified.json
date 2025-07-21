@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"随着正则表达式逐渐变得复杂，一次文本匹配可能获取若干个捕获组。",
+		"我们为表达式赋予独立的名称，便于区分我们应当获取哪一个捕获组的结果。",
+		"",
+		"例如，<color=#AB2800>A</color> 匹配 <color=#3c3cff>ABC</color> 中的 <color=#3c3cff>A</color><color=#666666>BC</color>",
+		"",
+		"可以命名 <color=#AB2800>A</color> 预期的捕获组为 <color=#AB2800>test</color>，从而构造表达式 <color=#05C3BA>(?</color><color=#AB2800><test>A</color><color=#05C3BA>)</color>",
+		"",
+		"上述表达式匹配 <color=#3c3cff>ABC</color> 的结果为：",
+		"<color=#3c3cff>A</color>            表达式整体的匹配结果",
+		"<color=#3c3cff><test>A</color>  test 捕获组的匹配结果",
+		"",
+		"例如，尝试匹配文字中小数点之前的整数，将这部分捕获组命名为 \"int\"，从而构造表达式 <color=#05C3BA>(?</color><color=#AB2800><int></color><color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#05C3BA>)</color><color=#AB2800>\\.</color><color=#3173FF>\\d</color><color=#FF68DD>+</color>",
+		"",
+		"上述表达式匹配 <color=#3c3cff>价格: 1.99</color> 的结果为：",
+		"<color=#3c3cff>1.99</color>    整体的匹配结果",
+		"<color=#3c3cff><int>1</color> int 捕获组的匹配结果",
+		"",
+		"",
+		"公司的邮箱里收到了一些邮件，需要匹配邮件文本中的名称。需要匹配的内容具有以下特征：",
+		"1. name 或 Name 开头",
+		"2. 句式为 name is xxx, name: xxx, name:xxx",
+		"3. 名称中不包含 \\n , . 符号，遇到这三者时停止匹配",
+		"",
+		"约定，匹配的捕获组名称为\"Name\"",
+		"",
+		"",
+		"请构造一个正则表达式使之通过右侧所有测试。"
+	],
+	"m_SystemLanguage":"ChineseSimplified"
+}

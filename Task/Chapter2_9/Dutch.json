@@ -1,0 +1,24 @@
+{
+	"m_DescList":[
+		"De baas heeft gevraagd om de QQ-e-mailadressen van de werknemers te verzamelen. Hij gaf deze taak gisteren aan je collega Zhang San. Vanmorgen is Zhang San ontslagen omdat hij met zijn linkervoet als eerste het bedrijf binnenstapte.  ",
+		"Nu heeft de baas deze taak aan jou gegeven!",
+		"",
+		"QQ-e-mailadressen hebben de volgende kenmerken:  ",
+		"<color=#3c3cff>0-9</color> Bestaat uit 5-11 decimale cijfers  ",
+		"<color=#3c3cff>@qq.com</color> Bestaat uit een vast achtervoegsel  ",
+		"",
+		"Je collega's zijn altijd onzorgvuldig, dus ze voeren waarschijnlijk foutieve informatie in.  ",
+		"Ontwerp een reguliere expressie die alleen normaal uitziende QQ-e-mailadressen herkent.  ",
+		"",
+		"<b>Bijvoorbeeld</b>, de volgende invoer bevat duidelijke fouten:  ",
+		"123.123@qq.com Bevat een fout symbool \".\"  ",
+		"12345@qq.com12346@qq.com Twee e-mailadressen zijn samengevoegd  ",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle tests aan de rechterkant doorstaat.  ",
+		"",
+		"",
+		"<color=#666666>Tip: Gebruik kennis uit de vorige twee opdrachten</color>  "
+	],
+	"m_SystemLanguage":"Dutch"
+}

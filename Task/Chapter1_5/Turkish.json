@@ -1,0 +1,19 @@
+{
+	"m_DescList":[
+		"Bazı ondalık sayılar \"1.1\", tamsayılar \"0\" ve sayısal olmayan dizgiler \"a.1\" birbirine karışmış durumda. Şimdi tüm ondalık sayıları tam olarak eşleştirmek gerekiyor.",
+		"",
+		"Ondalık noktası, <color=#AB2800>\\.</color> ile ifade edilir.",
+		"",
+		"Amacımız ondalık sayıları eşleştirmek.  ",
+		"Eğer sayının <b>önünde veya arkasında</b> İngilizce harfler veya fazladan semboller varsa, eşleşme <b>başarısız olur</b>.",
+		"",
+		"Bu testte eşleştirilmesi gereken ondalık sayılar şu özelliklere sahiptir:  ",
+		"<color=#3c3cff>-</color>     İsteğe bağlı olarak negatif işareti bulunabilir  ",
+		"<color=#3c3cff>\\d</color>   Bir veya daha fazla Arap rakamı  ",
+		"<color=#3c3cff>\\.</color>     Bir ondalık nokta  ",
+		"<color=#3c3cff>\\d</color>   Bir veya daha fazla Arap rakamı  ",
+		"",
+		"Sağdaki tüm testleri geçecek bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

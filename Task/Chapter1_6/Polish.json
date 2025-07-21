@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"Podczas tworzenia wyrażeń regularnych często konieczne jest wyrażenie \"dowolnego\" znaku, dlatego konwencja przyjmuje, że <color=#AB2800>.</color> oznacza \"dowolny\" znak.",
+		"",
+		"<color=#AB2800>.</color>   Dopasowuje dowolny pojedynczy znak z wyjątkiem znaku nowej linii",
+		"<color=#AB2800>\\.</color> Dopasowuje wyłącznie kropkę dziesiętną",
+		"",
+		"<color=#3c3cff>123.456</color>",
+		"Na przykład, użycie <color=#AB2800>\\..</color> do dopasowania powyższego przykładu:",
+		"    Pierwszy <color=#AB2800>\\.</color> jest interpretowany jako \"dopasuj wyłącznie kropkę dziesiętną\",",
+		"    Drugi <color=#AB2800>.</color> jest interpretowany jako \"dowolny\" znak",
+		"<color=#3c3cff>123.456</color> zwraca .4",
+		"<color=#666666>123</color><color=#3c3cff>.4</color><color=#666666>56</color>",
+		"",
+		"<color=#3c3cff>(x3x)</color>",
+		"Na przykład, użycie <color=#AB2800>3..</color> do dopasowania powyższego przykładu:",
+		"    Pierwszy <color=#AB2800>3</color> jest interpretowany jako \"cyfra 3\",",
+		"    Drugi i trzeci <color=#AB2800>.</color> są interpretowane jako \"dowolny\" znak",
+		"<color=#3c3cff>(x3x)</color> zwraca 3x)",
+		"<color=#666666>(x</color><color=#3c3cff>3x)</color>",
+		"",
+		"",
+		"Teraz celem jest dopasowanie cyfry 1, po której następuje jak najwięcej dowolnych znaków.",
+		"",
+		"W tym teście dopasowywany ciąg znaków ma następujące cechy:",
+		"<color=#3c3cff>1</color>    Zawiera co najmniej jedną cyfrę 1",
+		"<color=#3c3cff>.</color>     Po której następuje pewna liczba dowolnych znaków",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

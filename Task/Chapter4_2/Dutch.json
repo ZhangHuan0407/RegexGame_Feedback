@@ -1,0 +1,19 @@
+{
+	"m_DescList":[
+		"De baas gebruikte het \"E-mailfilterassistent.exe\"-programma dat je in het vorige level schreef, en hij is <b>er zeer ontevreden over</b>!",
+		"",
+		"Hij heeft je een nieuwe taak gegeven: match adresgegevens in cv's om hen een \"Je bent niet geslaagd voor het sollicitatiegesprek\"-brief te sturen. De adresinformatie mag geen extra tekst \"Address:\" bevatten.",
+		"",
+		"Je hoorde van een patroon voor reguliere expressies dat een \"<b>positieve lookbehind-assertie met nulbreedte<b>\" wordt genoemd:",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color>",
+		"",
+		"Bijvoorbeeld, het gebruik van <color=#05C3BA>(?</color><color=#AB2800><= A </color><color=#05C3BA>)</color><color=#AB2800>BC</color> om <color=#3c3cff>ABC</color> te matchen, resulteert in:",
+		"<color=#666666>A</color><color=#3c3cff>BC</color>",
+		"",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color> zal op magische wijze het deel opeten dat overeenkomt met <color=#AB2800>subexpression</color>!",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle tests aan de rechterkant doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

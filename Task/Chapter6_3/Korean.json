@@ -1,0 +1,27 @@
+{
+	"m_DescList":[
+		"정규 표현식 <color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color> 는 <color=#AB2800>subexpression</color>이 <b>대소문자를 구분하지 않고</b> 매칭됨을 의미합니다.  ",
+		"이러한 연산을 그룹 옵션(group options)이라 하며, 전체 옵션 파라미터는 <color=#05C3BA>(?</color><color=#AB2800>imnsx-imnsx: subexpression</color><color=#05C3BA>)</color>에서 확인할 수 있습니다.  ",
+		"",
+		"예시: <color=#05C3BA>(?i: </color><color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color><color=#05C3BA>)</color>은 샘플 문자열 <color=#3c3cff>aBC</color>에서 다음과 같이 매칭됩니다:  ",
+		"<color=#3c3cff>a</color><color=#666666>BC</color>  ",
+		"<color=#666666>a</color><color=#3c3cff>B</color><color=#666666>C</color>  ",
+		"<color=#666666>aB</color><color=#3c3cff>C</color>  ",
+		"<color=#05C3BA>(?i: </color><color=#AB2800>subexpression</color><color=#05C3BA>)</color>는 <color=#3173FF>[</color><color=#AB2800>abc</color><color=#3173FF>]</color>가 대소문자 모두 매칭 가능하도록 하며, <color=#3173FF>[</color><color=#AB2800>abcABC</color><color=#3173FF>]</color>와 동등합니다.  ",
+		"",
+		"워크플로에서 프로그램은 다른 프로그램이 출력한 로그를 읽고, 해당 로그 정보를 기반으로 차별화된 처리를 수행할 수 있습니다.  ",
+		"",
+		"예를 들어 이전 프로그램 로그에 \"error\"가 포함된 경우, 상위 프로그램 실행에 오류가 있을 수 있으므로 주의가 필요함을 의미합니다.  ",
+		"",
+		"이제 \"error\"가 포함된 로그를 매칭하는 것이 목표입니다.  ",
+		"",
+		"난이도 조정을 위해 다음 규칙을 적용합니다:  ",
+		"1. 테스트 케이스는 <b>4자리 연도-2자리 월-2자리 일<b> 형식으로 시작  ",
+		"2. 각 테스트 케이스는 <b>한 줄의 로그</b>만 포함  ",
+		"3. <b>대문자 \"ERROR\"와 소문자 \"error\"</b> 만 존재  ",
+		"",
+		"",
+		"오른쪽의 모든 테스트 케이스를 통과하는 정규 표현식을 구성하십시오."
+	],
+	"m_SystemLanguage":"Korean"
+}

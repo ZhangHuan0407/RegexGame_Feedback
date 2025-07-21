@@ -1,0 +1,26 @@
+{
+	"m_DescList":[
+		"In Markdown, you can add specially formatted text where Markdown will render images from specified paths.  ",
+		"",
+		"For example:  ",
+		"<color=#3c3cff>![Image Alt]</color>(<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> <color=#33aa55>\"ImageTitle\"</color>) ",
+		"",
+		"<color=#3c3cff>![Image Alt]</color> starts with ! and uses [] to wrap alt text. Alt text displays when images fail to load. ",
+		"Empty alt text <color=#3c3cff>![]</color> is valid.  ",
+		"<color=#ee3300>../PSD/Store/AllLevel_schinese.gif</color> specifies the image file path  ",
+		"<color=#33aa55>\"ImageTitle\"</color> is the hover title shown when mousing over the image  ",
+		"",
+		"<img src=Texture/Task/MarkdownImage width=840 height=167>  ",
+		"",
+		"Now, we aim to create a regular expression that matches the <b>image path</b> content with the following conventions:  ",
+		"1. Only match correctly formatted inputs  ",
+		"2. Each test case contains exactly one match target  ",
+		"3. Name the file path capture group \"file\"  ",
+		"4. Only match non-empty file paths  ",
+		"5. 100% of test cases have file paths without spaces  ",
+		"",
+		"",
+		"Construct a regex that passes all test cases on the right."
+	],
+	"m_SystemLanguage":"English"
+}

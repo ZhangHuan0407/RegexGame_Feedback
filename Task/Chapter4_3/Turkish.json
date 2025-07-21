@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"Oyun geliştirme sürecinde, her zaman daha rahat bir atmosfer yaratmak için resimler veya caps'ler eklemek istedim.  ",
+		"",
+		"Bir resim şu bileşenlerden oluşur:  ",
+		"1. Kaynak yolu  ",
+		"2. Resim genişliği  ",
+		"3. Resim yüksekliği  ",
+		"",
+		"Örneğin aşağıdaki grafik:  ",
+		"<img src=Texture/emoji_1 width=213 height=131>",
+		"",
+		"Editördeki gerçek girdi metni:  ",
+		"<color=#3c3cff><img src=</color><color=#ee3300>Texture/emoji_1</color> <color=#3c3cff>width=</color><color=#ee3300>213</color> <color=#3c3cff>height=</color><color=#ee3300>131</color><color=#3c3cff>></color>  ",
+		"",
+		"Kural:  ",
+		"1. src için yakalama grubu adı: \"Src\"  ",
+		"2. width için yakalama grubu adı: \"Width\"  ",
+		"3. height için yakalama grubu adı: \"Height\"  ",
+		"",
+		"Tüm test senaryoları için geçerli kurallar:  ",
+		"1. src, width, height sıralaması sabit değildir  ",
+		"2. Test senaryolarında src kesinlikle boşluk içermez  ",
+		"",
+		"",
+		"Lütfen sağdaki tüm testleri geçecek bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"<color=#AB2800>.</color>  匹配任意字元",
+		"<color=#AB2800>\\.</color> 匹配\".\"字元",
+		"",
+		"例如，<color=#AB2800>\\.1</color> 匹配 <color=#3c3cff>2.13</color> 中的 .1",
+		"",
+		"檔案副檔名一般由\".\"外加一段字母組成，位於檔案名稱的末尾。檔案副檔名表述了檔案的儲存格式。",
+		"",
+		"<color=#3173FF>\\w</color> 匹配任意單詞字元，通常包含英文大小寫字母 a-z, A-Z， 下劃線 _， 數位 0-9",
+		"在C#中，也會匹配不同語言的文字，例如：<color=#3173FF>\\w</color><color=#FF68DD>+</color> 匹配 <color=#3c3cff> 汉字， 日本語， 한국어， Português</color> 中的：",
+		"<color=#3c3cff>汉字</color><color=#666666>, 日本語, 한국어, Português</color>",
+		"<color=#666666>汉字, </color><color=#3c3cff>日本語</color><color=#666666>, 한국어, Português</color>",
+		"<color=#666666>汉字, 日本語, </color><color=#3c3cff>한국어</color><color=#666666>, Português</color>",
+		"<color=#666666>汉字, 日本語, 한국어, </color><color=#3c3cff>Português</color>",
+		"",
+		"使用者輸入了一些檔案路徑，對於合理的輸入匹配檔案副檔名，",
+		"對於不合理的輸入無需輸出。",
+		"",
+		"例如：",
+		"C:/ABCD/readme.txt   預期輸出檔案副檔名 .txt",
+		"/home/abc/config.ini    預期輸出檔案副檔名 .ini",
+		"/var/www/log               沒有檔案副檔名",
+		"",
+		"",
+		"請構造一個正則表達式使之通過右側所有測試。",
+		""
+	],
+	"m_SystemLanguage":"ChineseTraditional"
+}

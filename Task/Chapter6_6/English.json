@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"As per policy requirements, when providing online services to users in mainland China, the software must prompt users to enter their Resident Identity Card number.  ",
+		"Typically, the client-side first performs basic validation on the entered ID number before transmitting it to the server.  ",
+		"",
+		"A Resident Identity Card number generally consists of 18 characters:  ",
+		"<color=#3c3cff>123456</color><color=#e06600>78901234</color><color=#ee3300>567</color><color=#33aa55>8</color>  ",
+		"Digits <color=#3c3cff>1-6</color>: Address code  ",
+		"Digits <color=#e06600>7-14</color>: Date of birth code  ",
+		"E.g., <color=#e06600>78901234</color> represents December 31, 7890  ",
+		"E.g., <color=#e06600>19990102</color> represents January 2, 1999  ",
+		"Digits <color=#ee3300>15-17</color>: Sequence code  ",
+		"Digit <color=#33aa55>18</color>: Check digit (numeric digit or uppercase letter X)  ",
+		"",
+		"Based on common knowledge, we can summarize the following validation rules:  ",
+		"1. A year has 12 months, so the month value must be between 1~12.  ",
+		"2. Each month has 29, 30, or 31 days, so the day value must be between 1~31.  ",
+		"3. The first two digits of the year should be 19 or 20.  ",
+		"4. The total length must be 18 characters (or 17 digits + X).  ",
+		"5. The check digit must be a numeric digit or uppercase letter X.  ",
+		"",
+		"To simplify calculations, we adopt the following conventions:  ",
+		"1. Do not validate the exact number of days in a specific month. Year, month, and day components are validated separately. For example, although February has no 30th, an input like 19990230 will still match successfully.  ",
+		"2. The address code and sequence code are only verified as numeric digits, with no additional checks.  ",
+		"",
+		"",
+		"Please construct a regular expression that passes all tests on the right."
+	],
+	"m_SystemLanguage":"English"
+}

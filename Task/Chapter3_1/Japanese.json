@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"正規表現の後に<color=#FF68DD>?</color>を追加すると、直前の正規表現が0回または1回現れることを示します  ",
+		"",
+		"例：  ",
+		"例えば、<color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color>は「連続する数字の後に'%'が存在する可能性がある」という意味です  ",
+		"",
+		"<color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color>を使用して<color=#3c3cff>100%</color>をマッチさせると、  ",
+		"結果は次のようになります：  ",
+		"<color=#3c3cff>100%</color>  ",
+		"",
+		"<color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color>を使用して<color=#3c3cff>0.99</color>をマッチさせると  ",
+		"結果は次のようになります：  ",
+		"<color=#3c3cff>0</color><color=#666666>.99</color>",
+		"<color=#666666>0.</color><color=#3c3cff>99</color>",
+		"",
+		"<color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color>を使用して<color=#3c3cff>ALL%</color>をマッチさせると  ",
+		"<color=#3c3cff>ALL%</color>はマッチしません  ",
+		"",
+		"ここで\"ASCII\"アートが与えられます。すべての数字「8」をカウントする必要があります。8の直前に「.」がある場合は、その「.」も含めてください  ",
+		"",
+		"例えば、<color=#3c3cff>11.88</color>に対する期待されるマッチ結果は<color=#666666>11</color><color=#3c3cff>.88</color>です  ",
+		"",
+		"",
+		"右側のすべてのテストに合格する正規表現を作成してください  "
+	],
+	"m_SystemLanguage":"Japanese"
+}

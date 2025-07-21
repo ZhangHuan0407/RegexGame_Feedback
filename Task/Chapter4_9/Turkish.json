@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"İnternet Protokolü sürüm 4 (IPv4), genellikle 0~255 arasında 4 sayıdan oluşur ve bu sayılar üç \".\" ile birleştirilir.  ",
+		"",
+		"Örneğin, <color=#3c3cff>127.0.0.1</color> geçerli bir IPv4 adresidir.  ",
+		"",
+		"Bazen kullanıcılar yanlışlıkla geçersiz adresler girebilir:  ",
+		"",
+		"1.2.3.4.5     <color=#ee3300>X</color> 4'ten fazla sayı segmenti var  ",
+		"1.0.0.256    <color=#ee3300>X</color> 256, 0~255 aralığını aşıyor  ",
+		"127.0.0.01  <color=#ee3300>X</color> \"01\" IPv4 tanımına teknik olarak uysa da, standart gösterimle uyumsuzdur ve büyük olasılıkla kullanıcı hatasıdır  ",
+		"",
+		"Amacımız geçerli IPv4 adreslerini eşleştirmektir.  ",
+		"",
+		"Sorunun basitleştirilmesi için aşağıdaki kurallar belirlenmiştir:  ",
+		"1. Her test durumu yalnızca 1 kontrol edilecek içerik içerir  ",
+		"2. Test durumlarının %100'ünde, 0 ile başlayan iki veya üç basamaklı sayılar eşleşmeyecektir  ",
+		"",
+		"",
+		"Sağdaki tüm testleri geçecek bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}

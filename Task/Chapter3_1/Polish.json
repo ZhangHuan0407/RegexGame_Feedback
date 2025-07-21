@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"Dodanie <color=#FF68DD>?</color> po wyrażeniu regularnym oznacza, że poprzedzające wyrażenie może wystąpić 0 lub 1 raz.",
+		"",
+		"Przykład:",
+		"Np. <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> oznacza: ciąg cyfr, po którym może (ale nie musi) występować znak \"%\"",
+		"",
+		"Dopasowanie <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> do <color=#3c3cff>100%</color>:",
+		"Wynik: ",
+		"<color=#3c3cff>100%</color>",
+		"",
+		"Dopasowanie <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> do <color=#3c3cff>0.99</color>:",
+		"wynik:",
+		"<color=#3c3cff>0</color><color=#666666>.99</color>",
+		"<color=#666666>0.</color><color=#3c3cff>99</color>",
+		"",
+		"Dopasowanie <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> do <color=#3c3cff>ALL%</color>:",
+		"<color=#3c3cff>ALL%</color> - brak dopasowania",
+		"",
+		"Otrzymano rysunek ASCII - należy znaleźć wszystkie cyfry 8, uwzględniając poprzedzającą kropkę \".\" jeśli występuje.",
+		"",
+		"Np. dla <color=#3c3cff>11.88</color> oczekiwany wynik to <color=#666666>11</color><color=#3c3cff>.88</color>",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"When writing regular expressions, we typically use <color=#AB2800>.</color> to represent \"any\" character.",
+		"",
+		"<color=#AB2800>.</color>  Matches any single character except a newline",
+		"<color=#AB2800>\\.</color>  Matches only a decimal point",
+		"",
+		"<color=#3c3cff>123.456</color>",
+		"For example, using <color=#AB2800>\\..</color> to match the above example:",
+		"    The first <color=#AB2800>\\.</color> is interpreted as \"match only a decimal point\"",
+		"    The second <color=#AB2800>.</color> is interpreted as \"any\" character",
+		"<color=#3c3cff>123.456</color> returns",
+		"<color=#666666>123</color><color=#3c3cff>.4</color><color=#666666>56</color>",
+		"",
+		"<color=#3c3cff>(x3x)</color>",
+		"For example, using <color=#AB2800>3..</color> to match the above example:",
+		"    The first <color=#AB2800>3</color> is interpreted as \"the digit 3\"",
+		"    The second and third <color=#AB2800>.</color> are interpreted as \"any\" characters",
+		"<color=#3c3cff>(x3x)</color> returns 3x",
+		"<color=#666666>(x</color><color=#3c3cff>3x)</color>",
+		"",
+		"Now, we want to match as many arbitrary characters as possible following the digit 1.",
+		"",
+		"In this test, the target string has the following characteristics:",
+		"<color=#3c3cff>1</color>    Contains at least one digit 1",
+		"<color=#3c3cff>.</color>     Followed by arbitrary characters of varying length",
+		"",
+		"",
+		"Please construct a regular expression that passes all tests on the right."
+	],
+	"m_SystemLanguage":"English"
+}

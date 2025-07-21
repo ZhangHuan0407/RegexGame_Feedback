@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"Podczas tworzenia gier zawsze chciałem dodawać obrazy lub memy, aby stworzyć bardziej relaksującą atmosferę.  ",
+		"",
+		"Obraz składa się z następujących elementów:  ",
+		"1. Ścieżka do zasobu  ",
+		"2. Szerokość obrazu  ",
+		"3. Wysokość obrazu  ",
+		"",
+		"Na przykład poniższa grafika:  ",
+		"<img src=Texture/emoji_1 width=213 height=131>  ",
+		"",
+		"Rzeczywisty tekst wprowadzany w edytorze to:  ",
+		"<color=#3c3cff><img src=</color><color=#ee3300>Texture/emoji_1</color> <color=#3c3cff>width=</color><color=#ee3300>213</color> <color=#3c3cff>height=</color><color=#ee3300>131</color><color=#3c3cff>></color>  ",
+		"",
+		"Konwencja:  ",
+		"- Nazwa grupy przechwytującej dla src: \"Src\"  ",
+		"- Nazwa grupy przechwytującej dla width: \"Width\"  ",
+		"- Nazwa grupy przechwytującej dla height: \"Height\"  ",
+		"",
+		"Dla wszystkich przypadków testowych obowiązują następujące zasady:  ",
+		"1. Kolejność występowania src, width, height nie jest stała  ",
+		"2. W przypadkach testowych src nigdy nie zawiera spacji  ",
+		"",
+		"Proszę skonstruować wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

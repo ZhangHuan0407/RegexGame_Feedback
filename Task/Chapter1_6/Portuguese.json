@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"Ao escrever uma expressão regular, frequentemente é necessário representar \"qualquer\" caractere. Por convenção, <color=#AB2800>.</color> é usado para representar o significado de \"qualquer\".",
+		"",
+		"<color=#AB2800>.</color>   Corresponde a qualquer caractere único, exceto quebra de linha.",
+		"<color=#AB2800>\\.</color> Corresponde apenas ao ponto decimal.",
+		"",
+		"<color=#3c3cff>123.456</color>",
+		"Por exemplo, usando <color=#AB2800>\\..</color> para corresponder ao exemplo acima:",
+		"    O primeiro <color=#AB2800>\\.</color> é interpretado como \"corresponde apenas ao ponto decimal\",",
+		"    O segundo <color=#AB2800>.</color> é interpretado como \"qualquer\" caractere.",
+		"<color=#3c3cff>123.456</color> retorna",
+		"<color=#666666>123</color><color=#3c3cff>.4</color><color=#666666>56</color>",
+		"",
+		"<color=#3c3cff>(x3x)</color>",
+		"Por exemplo, usando <color=#AB2800>3..</color> para corresponder ao exemplo acima:",
+		"    O primeiro <color=#AB2800>3</color> é interpretado como \"dígito 3\",",
+		"    O segundo e terceiro <color=#AB2800>.</color> são interpretados como \"qualquer\" caractere.",
+		"<color=#3c3cff>(x3x)</color> retorna 3x)",
+		"<color=#666666>(x</color><color=#3c3cff>3x)</color>",
+		"",
+		"",
+		"Agora, o objetivo é corresponder o dígito 1 seguido pelo máximo possível de caracteres quaisquer.",
+		"",
+		"Neste teste, a string a ser correspondida possui as seguintes características:",
+		"<color=#3c3cff>1</color>    Contém pelo menos um dígito 1.",
+		"<color=#3c3cff>.</color>     Seguido por uma sequência de caracteres quaisquer de comprimento variável.",
+		"",
+		"",
+		"Por favor, construa uma expressão regular que passe em todos os testes à direita."
+	],
+	"m_SystemLanguage":"Portuguese"
+}

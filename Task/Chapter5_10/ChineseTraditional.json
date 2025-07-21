@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"INI 文件中，每一個節 (section) 都包含若干個鍵值對 (key-value pairs)。",
+		"",
+		"<img src=Texture/Task/IniKeyValue width=339 height=102>",
+		"",
+		"如上圖所示，表述了若干個鍵值對：",
+		"鍵 (key) 為 <color=#3c3cff>a_2</color>, 值 (value) 為 <color=#3c3cff>\"'a_2' is key name\"</color>",
+		"鍵為 <color=#3c3cff>key</color>, 值為 <color=#3c3cff>value</color>",
+		"鍵為 <color=#3c3cff>c</color>, 值為 <color=#3c3cff>1</color>",
+		"",
+		"現在期望匹配節的內容，做出如下約定：",
+		"1.  每個測試用例 (test case) 為獨立的一行",
+		"2.  如果這一行是鍵值對的格式，則匹配完整的內容",
+		"3.  約定匹配鍵的捕獲組 (capture group) 名稱定為 `\"key\"`",
+		"4.  約定匹配值的捕獲組名稱定為 `\"value\"`",
+		"5.  鍵與\"=\"之間，`\"=\"`與值之間可能有空格，捕獲組 `\"key\"` 和捕獲組 `\"value\"` 中不要包含 `\"=\"` 兩側的空格",
+		"",
+		"",
+		"請構造一個正則表達式使之通過右側所有測試。"
+	],
+	"m_SystemLanguage":"ChineseTraditional"
+}

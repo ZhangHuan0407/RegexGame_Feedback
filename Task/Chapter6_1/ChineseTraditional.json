@@ -1,0 +1,24 @@
+{
+	"m_DescList":[
+		"軟體開發時往往需要讀取版本號。",
+		"",
+		"例如，一些初學者喜歡在軟體的腳本內直接寫死版本號：",
+		"",
+		"<color=#3c3cff>public const string</color> ResourceVersion = <color=#ee3300>\"1.2.3\"</color>;",
+		"",
+		"這不是最佳實踐，但卻是最簡單的實現。",
+		"終於有一天，輪到你來維護這屎山程式碼了！",
+		"",
+		"你期望以文字的形式讀入程式碼，然後使用正規表示式精準匹配版本號！",
+		"",
+		"約定匹配版本號的捕獲組名稱為\"version\"",
+		"",
+		"例如，<color=#3c3cff>public const string ResourceVersion = \"1.2.3\";</color> ",
+		"預期匹配結果的version捕獲組為 ",
+		"<color=#666666>public const string ResourceVersion = \"</color><color=#3c3cff>1.2.3</color><color=#666666>\";</color>",
+		"",
+		"",
+		"請構造一個正規表示式使之通過右側所有測試。"
+	],
+	"m_SystemLanguage":"ChineseTraditional"
+}

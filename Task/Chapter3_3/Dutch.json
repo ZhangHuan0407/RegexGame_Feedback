@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"In C#-code, als een regel \"//\" bevat, wordt de rest van die regel beschouwd als commentaar en niet gecompileerd.  ",
+		"",
+		"<color=#249622>// Dit is commentaar</color>  ",
+		"<color=#3c3cff>public int</color> UserID;  ",
+		"",
+		"<color=#60a3da>[SerializeField]</color> <color=#249622>// Opmerking 123</color>  ",
+		"<color=#3c3cff>private string</color> m_TextAssetPath;  ",
+		"",
+		"<color=#249622>// //-symbolen in commentaar blijven onderdeel van het commentaar</color>  ",
+		"<color=#3c3cff>public class</color> <color=#60a3da>A</color>  ",
+		"{  ",
+		"}  ",
+		"",
+		"In bovenstaande voorbeelden zijn de groene delen commentaar. Vanaf \"//\" geldt <b>al het groene</b> vervolg op die regel als commentaar.  ",
+		"",
+		"Ontwerp nu een reguliere expressie die dit compiler-gedrag voor enkelregelig commentaar nabootst.  ",
+		"",
+		"Voor 100% van de invoer gelden deze regels:  ",
+		"1. Er bestaat geen commentaar over meerdere regels, alleen enkelregelig commentaar  ",
+		"2. Invoer gebruikt \"",
+		"\" als regelafbreking; karakters zoals \"\\r\" of \"\\v\" komen niet voor  ",
+		"3. Een reeks van <b>twee of meer opeenvolgende '/'</b> geldt als enkelregelig commentaar (bijv. \"///\")  ",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle tests aan de rechterkant doorstaat. "
+	],
+	"m_SystemLanguage":"Dutch"
+}

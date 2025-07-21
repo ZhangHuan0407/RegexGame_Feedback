@@ -1,0 +1,18 @@
+{
+	"m_DescList":[
+		"Negative Zahlen werden mit dem Symbol <color=#AB2800>-</color> dargestellt.",
+		"",
+		"Zum Beispiel führt die Verwendung des regulären Ausdrucks <color=#AB2800>-</color> zur Übereinstimmung mit <color=#3c3cff>-1</color> zu folgendem Ergebnis:",
+		"<color=#3c3cff>-</color><color=#666666>1</color>",
+		"",
+		"Ziel ist nun, negative Zahlen zu finden.",
+		"",
+		"In diesem Test weisen die zu findenden Dezimalzahlen folgende Merkmale auf:",
+		"<color=#3c3cff>-</color>     Minuszeichen",
+		"<color=#3c3cff>\\d</color>   Eine oder mehrere arabische Ziffern",
+		"",
+		"",
+		"Bitte erstellen Sie einen regulären Ausdruck, der alle Tests auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

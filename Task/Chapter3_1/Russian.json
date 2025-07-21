@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"В регулярных выражениях добавление <color=#FF68DD>?</color> после выражения означает, что предшествующий шаблон может встречаться 0 или 1 раз.",
+		"",
+		"Пример:",
+		"Например, <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> означает: после последовательности цифр может быть один символ \"%\"",
+		"",
+		"Используем <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> для сопоставления с <color=#3c3cff>100%</color>,",
+		"результат:",
+		"<color=#3c3cff>100%</color>",
+		"",
+		"Используем <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> для сопоставления с <color=#3c3cff>0.99</color>",
+		"результат:",
+		"<color=#3c3cff>0</color><color=#666666>.99</color>",
+		"<color=#666666>0.</color><color=#3c3cff>99</color>",
+		"",
+		"Используем <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> для сопоставления с <color=#3c3cff>ALL%</color>",
+		"<color=#3c3cff>ALL%</color> не соответствует",
+		"",
+		"Теперь дано изображение в стиле \"ASCII\"-арт, необходимо найти все цифры 8, и если перед 8 стоит \".\", включить и её.",
+		"",
+		"Например, для <color=#3c3cff>11.88</color> ожидаемый результат: <color=#666666>11</color><color=#3c3cff>.88</color>",
+		"",
+		"",
+		"Пожалуйста, составьте регулярное выражение, проходящее все тесты справа."
+	],
+	"m_SystemLanguage":"Russian"
+}

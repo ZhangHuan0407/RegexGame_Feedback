@@ -1,0 +1,25 @@
+{
+	"m_DescList":[
+		"Bei der Softwareentwicklung muss häufig die Versionsnummer ausgelesen werden.",
+		"",
+		"Zum Beispiel hardcodieren manche Anfänger Versionsnummern direkt in Skripten:",
+		"",
+		"<color=#3c3cff>public const string</color> ResourceVersion = <color=#ee3300>\"1.2.3\"</color>;",
+		"",
+		"Dies ist keine optimale Praxis, aber die einfachste Implementierung. ",
+		"Eines Tages wird dieser Code-Sumpf zwangsläufig an dich zur Wartung übergehen!",
+		"",
+		"Dein Ziel ist es, den Code als Text zu lesen und Regex zur präzisen Erkennung von Versionsnummern zu nutzen!",
+		"",
+		"Konvention: Benenne die Erfassungsgruppe als \"version\"",
+		"",
+		"Beispiel:",
+		"<color=#3c3cff>public const string ResourceVersion = \"1.2.3\";</color>",
+		"Erwartetes Ergebnis:",
+		"<color=#666666>public const string ResourceVersion = \"</color><color=#3c3cff>1.2.3</color><color=#666666>\";</color>",
+		"",
+		"",
+		"Konstruiere einen Regex-Ausdruck, der alle Tests auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

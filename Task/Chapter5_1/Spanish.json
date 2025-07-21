@@ -1,0 +1,20 @@
+{
+	"m_DescList":[
+		"Markdown es un lenguaje de marcado ligero diseñado para que el texto sea fácil de leer y escribir.",
+		"",
+		"En Markdown, usar dobles tildes ~~ alrededor de un texto añade un efecto de tachado.",
+		"",
+		"Por ejemplo:",
+		"~~Markdown~~",
+		"<img src=Texture/Task/MarkdownDelete width=230 height=47>",
+		"",
+		"La tarea es crear una expresión regular que coincida con el contenido tachado, con las siguientes convenciones:",
+		"1. <b>Incluir</b> los dobles tildes a ambos lados",
+		"2. Todas las entradas son cadenas de una sola línea",
+		"3. Cinco o más tildes consecutivos no deben coincidir",
+		"",
+		"",
+		"Construya una expresión regular que pase todas las pruebas a la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

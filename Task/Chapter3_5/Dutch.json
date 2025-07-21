@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Datumnotatie verschilt per regio.  ",
+		"Sommige talen gebruiken <b>maand-dag-jaar</b> volgorde, andere gebruiken <b>jaar-maand-dag</b>.",
+		"",
+		"In dit geglobaliseerde tijdperk weerspiegelen datumformaten ingevoerd door gebruikers hun culturele achtergrond. Als bescheiden programma wil ik gewoon de actuele datum vaststellen!  ",
+		"",
+		"Bijvoorbeeld:  ",
+		"<color=#3c3cff>The current time is 1/18/2025</color> → Verwacht resultaat:  ",
+		"<color=#666666>The current time is </color><color=#3c3cff>1/18/2025</color>",
+		"",
+		"<color=#3c3cff>현재 시간은 2025-01-18입니다</color> → Verwacht resultaat: ",
+		"<color=#666666>현재 시간은 </color><color=#3c3cff>2025-01-18</color><color=#666666>입니다</color> ",
+		"",
+		"<color=#666666>Zet nu je verbazingwekkende observatievermogen in om richting het antwoord te programmeren (doorhalen)</color>  ",
+		"Probeer nu het datumgedeelte in een tekstfragment te matchen  ",
+		"",
+		"In deze test heeft de doeldata deze kenmerken:",
+		"<color=#3173FF>\\w \\s</color>  Mogelijke woordtekens of spaties  ",
+		"<color=#3173FF>\\d</color>      Cijfers  ",
+		"<color=#AB2800>\\. \\- /</color>  Scheidingstekens voor cijfers  ",
+		"<color=#3173FF>\\d</color>      Cijfers  ",
+		"<color=#AB2800>\\. \\- /</color>  Scheidingstekens voor cijfers  ",
+		"<color=#3173FF>\\d</color>      Cijfers  ",
+		"<color=#3173FF>\\w \\s</color>  Mogelijke woordtekens of spaties  ",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle tests aan de rechterkant doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

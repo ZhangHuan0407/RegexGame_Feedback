@@ -1,0 +1,21 @@
+{
+	"m_DescList":[
+		"Voici la traduction en français du document, en conservant les exemples d'expressions régulières en anglais et les balises de mise en forme originales :  ",
+		"",
+		"Le patron a utilisé votre \"Assistant de filtrage d'e-mails.exe\" du niveau précédent, et il en est <b>très mécontent</b> !  ",
+		"",
+		"Il vous a confié une nouvelle tâche : extraire les coordonnées postales des CV pour envoyer un courrier \"Vous n'avez pas réussi l'entretien\". Les informations d'adresse ne doivent pas contenir le texte supplémentaire \"Address:\".  ",
+		"",
+		"Vous avez entendu parler de la syntaxe d'assertion appelée :  ",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color>",
+		"",
+		"Par exemple, utiliser <color=#05C3BA>(?</color><color=#AB2800><= A </color><color=#05C3BA>)</color><color=#AB2800>BC</color> pour correspondre à <color=#3c3cff>ABC</color> donne :  ",
+		"<color=#666666>A</color><color=#3c3cff>BC</color>",
+		"",
+		"<color=#05C3BA>(?</color><color=#AB2800><= subexpression </color><color=#05C3BA>)</color> \"consomme\" magiquement la partie correspondant à <color=#AB2800>subexpression</color> !  ",
+		"",
+		"",
+		"Veuillez construire une expression régulière qui passe <img src=test_icon.png> tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

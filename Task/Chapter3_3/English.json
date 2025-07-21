@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"In C# code, if // appears on a line, everything following it on the same line is considered a comment and won't be compiled.",
+		"",
+		"<color=#249622>// This is a comment</color>",
+		"<color=#3c3cff>public int</color> UserID;",
+		"",
+		"<color=#60a3da>[SerializeField]</color> <color=#249622>// Comment123</color>",
+		"<color=#3c3cff>private string</color> m_TextAssetPath;",
+		"",
+		"<color=#249622>// A // symbol appearing within a comment is still part of the comment</color>",
+		"<color=#3c3cff>public class</color> <color=#60a3da>A</color>",
+		"{",
+		"}",
+		"",
+		"In the content above, the green parts are comments. Starting with //, all subsequent green content on that line is part of the comment.",
+		"",
+		"Now, the goal is to design a regular expression that mimics the compiler's behavior in matching single-line comments.",
+		"",
+		"For 100% of the input data, the following rules apply:",
+		"1. There are no multi-line comments, only single-line comments exist.",
+		"2. Input data uses the \"\\n\" character as the line break marker; strange characters like \"\\r\" or \"\\v\" will not appear.",
+		"3. Two or more consecutive / characters are all treated as the start of a single-line comment. For example, ///.",
+		"",
+		"",
+		"Please construct a regular expression that passes all the tests on the right side."
+	],
+	"m_SystemLanguage":"English"
+}

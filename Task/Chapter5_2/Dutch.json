@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"In Markdown worden koppen aangegeven met meerdere opeenvolgende #-symbolen.  ",
+		"Het aantal #-symbolen bepaalt het kopniveau.  ",
+		"",
+		"Bijvoorbeeld:  ",
+		"<img src=Texture/Task/MarkdownTitle width=267 height=89>  ",
+		"",
+		"Het doel is een reguliere expressie te maken die kopgedeelten herkent, met de volgende afspraken:  ",
+		"1. <b>Omvat</b> het voorvoegsel #, gevolgd door minstens één spatie  ",
+		"2. Alle invoer bestaat uitsluitend uit éénregelige tekenreeksen  ",
+		"3. De capture-groep voor kopinhoud krijgt de naam \"title\"  ",
+		"",
+		"Opmerking: Omdat de regex de modus RegexOptions.IgnorePatternWhitespace gebruikt, worden regels die beginnen met <color=#33aa55>#</color> als opmerkingen beschouwd.  ",
+		"",
+		"Gebruik \\# om het \"#\"-teken te matchen  ",
+		"",
+		"",
+		"Construeer een reguliere expressie die alle tests aan de rechterkant doorstaat."
+	],
+	"m_SystemLanguage":"Dutch"
+}

@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"Czasami nie jesteśmy pewni, czy ciąg znaków zawiera docelowe <b>podwyrażenie</b>.",
+		"",
+		"Możesz otoczyć potencjalną część zawartości znakami <color=#05C3BA>( )</color>, a następnie dodać <color=#FF68DD>?</color>, aby wskazać, że dany fragment może wystąpić zero lub jeden raz.",
+		"",
+		"Na przykład, użycie <color=#AB2800>a</color><color=#05C3BA>(</color><color=#AB2800>b</color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#AB2800>c</color> do dopasowania <color=#3c3cff>abcac</color> daje wynik:",
+		"<color=#3c3cff>abc</color><color=#666666>ac</color>",
+		"<color=#666666>abc</color><color=#3c3cff>ac</color>",
+		"",
+		"Na przykład, numer telefonu stacjonarnego może mieć prefiks numeru kierunkowego lub go nie mieć.",
+		"",
+		"<color=#3c3cff>010-12345678</color>",
+		"<color=#3c3cff>12345678</color>",
+		"W powyższym przykładzie 010 to prefiks numeru kierunkowego.",
+		"",
+		"Na przykład, użycie <color=#05C3BA>( </color><color=#AB2800>010- </color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#3173FF>\\d</color><color=#FF68DD>+</color> do dopasowania powyższych przykładów:",
+		"<color=#3c3cff>010-12345678</color> pasuje do <color=#3c3cff>010-12345678</color>",
+		"<color=#3c3cff>12345678</color> pasuje do <color=#3c3cff>12345678</color>",
+		"",
+		"Teraz chcemy przechwycić literę A w dowolnym miejscu i spróbować dodać po niej liczbę.",
+		"",
+		"W tym teście ciąg do dopasowania ma następujące cechy:",
+		"<color=#3c3cff>A</color>   Litera A",
+		"<color=#3c3cff>\\d</color>   0 lub 1 cyfra dziesiętna",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

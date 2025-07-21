@@ -1,0 +1,79 @@
+{
+	"m_CaseList":[
+		{
+			"m_Input":"// <img src=xx/yy width=100 height=100>",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"// <img src=xx/yy width=100 height=100>"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":0,
+					"length":39
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"unit test",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"[MenuItem(\"Tools/DoIt\", priority = 1000)]",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"    /// <summary>\n    /// Based on: https://discussions.unity.com/t/650579\n    /// </summary>",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"/// <summary>",
+				"/// Based on: https://discussions.unity.com/t/650579",
+				"/// </summary>"
+			],
+			"m_OutputMarkList":[
+				{
+					"start":4,
+					"length":13
+				},
+				{
+					"start":22,
+					"length":52
+				},
+				{
+					"start":79,
+					"length":14
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"        // Field that is being compared.\n        SerializedProperty comparedField;",
+			"m_MarkedInput":"",
+			"m_OutputList":[
+				"// Field that is being compared."
+			],
+			"m_OutputMarkList":[
+				{
+					"start":8,
+					"length":32
+				}
+			],
+			"m_CheckOrder":false
+		},
+		{
+			"m_Input":"1 / 1",
+			"m_MarkedInput":"",
+			"m_OutputList":[],
+			"m_OutputMarkList":[],
+			"m_CheckOrder":false
+		}
+	],
+	"m_Mode":"Match",
+	"m_Answer":"/{2,}[^\\n]*"
+}

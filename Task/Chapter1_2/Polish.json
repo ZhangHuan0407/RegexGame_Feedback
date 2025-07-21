@@ -1,0 +1,18 @@
+{
+	"m_DescList":[
+		"Liczby ujemne są reprezentowane za pomocą symbolu <color=#AB2800>-</color>.",
+		"",
+		"Na przykład, użycie wyrażenia regularnego <color=#AB2800>-</color> do dopasowania <color=#3c3cff>-1</color> daje wynik:",
+		"<color=#3c3cff>-</color><color=#666666>1</color>",
+		"",
+		"Teraz celem jest dopasowanie liczb ujemnych.",
+		"",
+		"W tym teście dopasowywane liczby dziesiętne mają następujące cechy:",
+		"<color=#3c3cff>-</color>     Znak ujemny",
+		"<color=#3c3cff>\\d</color>   Jedna lub więcej powtarzających się cyfr arabskich",
+		"",
+		"",
+		"Proszę skonstruować wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

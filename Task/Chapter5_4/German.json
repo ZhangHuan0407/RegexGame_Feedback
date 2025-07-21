@@ -1,0 +1,23 @@
+{
+	"m_DescList":[
+		"In Markdown werden dreifache Backticks ``` zur Kennzeichnung von Codeblöcken verwendet. Markdown rendert einen umrahmten Bereich für Codeblöcke.  ",
+		"",
+		"Beispiel:  ",
+		"```  ",
+		"public class Program  ",
+		"{  ",
+		"}  ",
+		"```  ",
+		"<img src=Texture/Task/MarkdownCode width=792 height=122>  ",
+		"",
+		"Entwerfen Sie nun einen regulären Ausdruck, um den Inhalt von <b>Codeblöcken</b> mit folgenden Spezifikationen abzugleichen:  ",
+		"1. Der vollständige Treffer <b>umfasst</b> die dreifachen Backtick-Symbole ```  ",
+		"2. Testfälle beinhalten mehrzeilige Eingaben  ",
+		"3. Benennen Sie die Capturing-Gruppe für Codeblöcke als \"code\". Diese Gruppe soll die dreifachen Backticks und Zeilenumbrüche ausschließen  ",
+		"4. Zur Vereinfachung wird angenommen, dass <b>keiner</b> der Testfälle dreifache Backticks innerhalb von Codeblöcken enthält  ",
+		"",
+		"",
+		"Konstruieren Sie einen regulären Ausdruck, der alle Testfälle auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

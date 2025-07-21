@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"During game development, I've always wanted to incorporate images or memes to create a more relaxed atmosphere.  ",
+		"",
+		"An image consists of the following components:  ",
+		"1. Resource path  ",
+		"2. Image width  ",
+		"3. Image height  ",
+		"",
+		"For example, the following graphic:  ",
+		"<img src=Texture/emoji_1 width=213 height=131>",
+		"",
+		"The actual input text in the editor is:  ",
+		"<color=#3c3cff><img src=</color><color=#ee3300>Texture/emoji_1</color> <color=#3c3cff>width=</color><color=#ee3300>213</color> <color=#3c3cff>height=</color><color=#ee3300>131</color><color=#3c3cff>></color>  ",
+		"",
+		"Convention:  ",
+		"- Capture group name for src: \"Src\"  ",
+		"- Capture group name for width: \"Width\"  ",
+		"- Capture group name for height: \"Height\"  ",
+		"",
+		"For all test cases, the following conventions apply:  ",
+		"1. The order of src, width, height is not fixed  ",
+		"2. In test cases, src will never contain spaces  ",
+		"",
+		"",
+		"Please construct a regular expression that passes all test cases on the right."
+	],
+	"m_SystemLanguage":"English"
+}

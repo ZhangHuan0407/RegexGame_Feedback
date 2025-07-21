@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"Tekst często zawiera spacje, dlatego używamy <color=#3173FF>\\s</color> do oznaczenia \"spacji\".",
+		"",
+		"<color=#3173FF>\\s</color> dopasowuje znak spacji",
+		"",
+		"<b>Na przykład:</b>",
+		"<color=#AB2800>1</color><color=#3173FF>\\s</color><color=#AB2800>2</color>  dopasowuje <color=#3c3cff>A1 2B</color> → <color=#666666>A</color><color=#3c3cff>1 2</color><color=#666666>B</color>",
+		"<color=#AB2800>o</color><color=#3173FF>\\s</color><color=#AB2800>W</color> dopasowuje <color=#3c3cff>Hello World</color> → <color=#666666>Hell</color><color=#3c3cff>o W</color><color=#666666>orld</color>",
+		"",
+		"Szef robi obchód! Każdy, kto nie siedzi na swoim stanowisku, będzie miał kłopoty!",
+		"o(*￣︶￣*)o",
+		"Zajęte stanowisko oznaczone jest \"X\", puste – spacją \" \".",
+		"",
+		"<b>Na przykład:</b>",
+		"| |X|X| oznacza, że pierwsze stanowisko jest puste, a drugie i trzecie zajęte.",
+		"",
+		"Teraz szef każe ci sprawdzić puste stanowiska i bezlitośnie potrącić premie.",
+		"",
+		"Dla 100% danych wejściowych obowiązują zasady:",
+		"1. Dopuszczalne są tylko 3 znaki: \" \" (\\u0020), \"|\", \"X\"",
+		"2. Pomiędzy dwoma sąsiadującymi znakami \"|\" musi znajdować się \" \" lub \"X\"",
+		"",
+		"<img src=Texture/Task/Level2_2WhiteChar width=524 height=160>  ",
+		"Po zaznaczeniu dopasowania, spacje w dopasowaniu będą przedstawiane jako <color=#e06600>□</color>.",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie.",
+		""
+	],
+	"m_SystemLanguage":"Polish"
+}

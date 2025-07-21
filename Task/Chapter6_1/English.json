@@ -1,0 +1,25 @@
+{
+	"m_DescList":[
+		"When developing software, it often becomes necessary to read version numbers.  ",
+		"",
+		"For example, some beginners prefer to hardcode version numbers directly in scripts:  ",
+		"",
+		"<color=#3c3cff>public const string</color> ResourceVersion = <color=#ee3300>\"1.2.3\"</color>;  ",
+		"",
+		"While not a best practice, this is the simplest implementation.  ",
+		"One day, you'll inevitably inherit this shit mountain of code!  ",
+		"",
+		"You aim to read the code as text and use regex to precisely match version numbers!  ",
+		"",
+		"Convention: Name the version capture group as \"version\"  ",
+		"",
+		"Example:  ",
+		"<color=#3c3cff>public const string ResourceVersion = \"1.2.3\";</color>  ",
+		"Expected match result:  ",
+		"<color=#666666>public const string ResourceVersion = \"</color><color=#3c3cff>1.2.3</color><color=#666666>\";</color>  ",
+		"",
+		"",
+		"Construct a regex pattern that passes all tests on the right.  "
+	],
+	"m_SystemLanguage":"English"
+}

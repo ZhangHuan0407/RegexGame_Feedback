@@ -1,0 +1,19 @@
+{
+	"m_DescList":[
+		"Niektóre liczby dziesiętne \"1.1\", liczby całkowite \"0\" i nieliczbowe ciągi znaków \"a.1\" zostały zmieszane. Należy teraz precyzyjnie dopasować wszystkie liczby dziesiętne.",
+		"",
+		"Separator dziesiętny jest reprezentowany przez <color=#AB2800>\\.</color>.",
+		"",
+		"Celem jest dopasowanie liczb dziesiętnych.  ",
+		"Jeśli przed lub po liczbie występują litery alfabetu angielskiego lub inne zbędne symbole, dopasowanie <b>nie powiedzie się</b>.",
+		"",
+		"W tym teście dopasowywane liczby dziesiętne mają następujące cechy:  ",
+		"<color=#3c3cff>-</color>     Znak ujemny może poprzedzać liczbę (opcjonalny)  ",
+		"<color=#3c3cff>\\d</color>   Kilka cyfr arabskich  ",
+		"<color=#3c3cff>\\.</color>     Separator dziesiętny  ",
+		"<color=#3c3cff>\\d</color>   Kilka cyfr arabskich  ",
+		"",
+		"Proszę skonstruować wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

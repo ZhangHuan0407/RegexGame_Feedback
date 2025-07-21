@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"正規表現において、以下の二つの記号は特別な意味を持ちます：  ",
+		"<color=#AB2800>.</color> 任意の1文字にマッチ  ",
+		"<color=#FF68DD>*</color> 直前の部分表現を0回以上繰り返しにマッチ  ",
+		"",
+		"例：  ",
+		"<color=#AB2800>1</color><color=#FF68DD>*</color> は <color=#3c3cff>A111A</color> 中の <color=#3c3cff>111</color> にマッチ  ",
+		"<color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> は <color=#3c3cff>BABAB</color> 中の <color=#3c3cff>BABAB</color> にマッチ  ",
+		"",
+		"今回のテストでは、マッチ対象は以下の特徴を持ちます：  ",
+		"<color=#3c3cff>Sna</color>   「Sna」で始まる文字列が存在  ",
+		"<color=#3c3cff>.</color>         間に任意の文字が複数存在  ",
+		"<color=#3c3cff>ke</color>      「ke」で終わる文字列が存在  ",
+		"",
+		"間違った蛇を掴むと噛まれますよ！  ",
+		"",
+		"<b>貪欲マッチング</b>  ",
+		"正規表現において<color=#FF68DD>*</color>は貪欲マッチングを有効化し、可能な限り多くの文字をマッチさせようとします。  ",
+		"例：<color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> は <color=#3c3cff>BABAB</color> の一部（BAB）ではなく<color=#3c3cff>BABAB</color>全体にマッチします。",
+		"<color=#FF68DD>*</color>は可能な限り多くの内容を捕捉するのです。  ",
+		"",
+		"ここで「Snake」という単語をマッチさせる必要があります。  ",
+		"「a」が多数存在する場合、可能な限り多くの「a」をマッチさせてください。  ",
+		"",
+		"右側の全てのテストを通過する正規表現を作成してください。"
+	],
+	"m_SystemLanguage":"Japanese"
+}

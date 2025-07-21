@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Wir haben zuvor besprochen, wie man eine Zahl mit der Länge 100 abgleicht, natürlich:",
+		"<color=#666666>\\d\\d\\d\\d\\d...</color> <color=#ff0000>X</color>",
+		"",
+		"Das Hinzufügen von <color=#FF68DD>{n}</color> hinter einem regulären Ausdruck bedeutet, dass der vorangehende Ausdruck n-mal wiederholt wird, wobei n eine natürliche Zahl ist.",
+		"",
+		"<b>Beispiel:</b> <color=#AB2800>1</color><color=#FF68DD>{3}</color> bedeutet, eine dreimal wiederholte 1 abzugleichen.",
+		"<color=#AB2800>1</color><color=#FF68DD>{3}</color> gleicht <color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color> in <color=#3c3cff>12111311</color> ab.",
+		"",
+		"Das Hinzufügen von <color=#FF68DD>{n,}</color> hinter einem regulären Ausdruck bedeutet, dass der vorangehende Ausdruck mindestens n-mal wiederholt wird, wobei n eine natürliche Zahl ist.",
+		"",
+		"<b>Beispiel:</b> <color=#AB2800>1</color><color=#FF68DD>{2,}</color> gleicht Folgendes in <color=#3c3cff>12111311</color> ab:",
+		"<color=#666666>12</color><color=#3c3cff>111</color><color=#666666>311</color>",
+		"<color=#666666>121113</color><color=#3c3cff>11</color>",
+		"",
+		"Das Hinzufügen von <color=#FF68DD>{n,m}</color> hinter einem regulären Ausdruck bedeutet, dass der vorangehende Ausdruck mindestens n-mal und höchstens m-mal wiederholt wird, wobei n und m natürliche Zahlen sind.",
+		"",
+		"<b>Beispiel:</b> <color=#AB2800>o</color><color=#FF68DD>{1,2}</color> gleicht Folgendes in <color=#3c3cff>Choose your right friends ooo</color> ab:",
+		"<color=#666666>Ch</color><color=#3c3cff>oo</color><color=#666666>se your right friends ooo</color>",
+		"<color=#666666>Choose y</color><color=#3c3cff>o</color><color=#666666>ur right friends ooo</color>",
+		"",
+		"Es ist eine Weile her, die Schlangen sind länger geworden!",
+		"Nun ist das Ziel, Schlangen herauszufiltern, bei denen die Länge der \"a\"s **größer als 3 und kleiner als 5** ist.",
+		"Nimm nicht die falsche Schlange, sie beißen!",
+		"",
+		"",
+		"Bitte konstruiere einen regulären Ausdruck, der alle Tests auf der rechten Seite besteht."
+	],
+	"m_SystemLanguage":"German"
+}

@@ -1,0 +1,22 @@
+{
+	"m_DescList":[
+		"In Markdown, headers are denoted using several consecutive # symbols.  ",
+		"The number of # symbols determines the header level.  ",
+		"",
+		"For example:  ",
+		"<img src=Texture/Task/MarkdownTitle width=267 height=89>  ",
+		"",
+		"The goal is to create a regular expression that matches header sections, with the following conventions:  ",
+		"1. <b>Includes</b> the prefix #, followed by at least one space  ",
+		"2. All input consists of single-line strings only  ",
+		"3. The capture group for header content should be named \"title\"  ",
+		"",
+		"Note: Since the regex uses RegexOptions.IgnorePatternWhitespace mode, lines starting with <color=#33aa55>#</color> will be treated as comments.  ",
+		"",
+		"Use \\# to match the \"#\" character  ",
+		"",
+		"",
+		"Construct a regular expression that passes all tests on the right.  "
+	],
+	"m_SystemLanguage":"English"
+}

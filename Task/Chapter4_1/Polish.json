@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Gdy wyrażenia regularne stają się coraz bardziej złożone, pojedyncze dopasowanie tekstu może przechwycić wiele grup.  ",
+		"Przypisujemy tym wyrażeniom unikalne nazwy, aby odróżnić, który przechwycony wynik grupy powinniśmy uzyskać.  ",
+		"",
+		"Na przykład: <color=#AB2800>A</color> dopasowuje <color=#3c3cff>A</color><color=#666666>BC</color> w tekście <color=#3c3cff>ABC</color>.",
+		"",
+		"Możemy nazwać oczekiwaną grupę przechwytującą dla <color=#AB2800>A</color> jako <color=#AB2800>test</color>, konstruując wyrażenie: <color=#05C3BA>(?</color><color=#AB2800><test>A</color><color=#05C3BA>)</color>",
+		"",
+		"Powyższe wyrażenie dopasowane do <color=#3c3cff>ABC</color> daje:  ",
+		"<color=#3c3cff>A</color>            Całkowity wynik dopasowania  ",
+		"<color=#3c3cff><test>A</color>  Wynik dopasowania grupy przechwytującej \"test\"  ",
+		"",
+		"Na przykład, aby dopasować liczbę całkowitą przed kropką dziesiętną w tekście i nazwać tę grupę przechwytującą \"int\", konstruujemy: <color=#05C3BA>(?</color><color=#AB2800><int></color><color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#05C3BA>)</color><color=#AB2800>\\.</color><color=#3173FF>\\d</color><color=#FF68DD>+</color>",
+		"",
+		"Powyższe wyrażenie dopasowane do <color=#3c3cff>Cena: 1.99</color> daje:  ",
+		"<color=#3c3cff>1.99</color>    Całkowity wynik dopasowania  ",
+		"<color=#3c3cff><int>1</color> Wynik dopasowania grupy przechwytującej \"int\"",
+		"",
+		"W firmowych wiadomościach e-mail wymagane jest dopasowanie nazw w treści. Dopasowywana treść ma następujące cechy:  ",
+		"1. Rozpoczyna się od <b>name</b> lub <b>Name</b>  ",
+		"2. Stosuje wzorce: name is xxx, name: xxx, name:xxx  ",
+		"3. Nazwy nie zawierają symboli \\n , . – dopasowanie zatrzymuje się po napotkaniu tych znaków  ",
+		"",
+		"Konwencja: Nazwij grupę przechwytującą \"Name\".",
+		"",
+		"",
+		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
+	],
+	"m_SystemLanguage":"Polish"
+}

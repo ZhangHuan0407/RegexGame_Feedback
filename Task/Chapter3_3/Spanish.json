@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"En código C#, si una línea contiene \"//\", el contenido posterior en la misma línea se considera comentario y no se compila.  ",
+		"",
+		"<color=#249622>// Este es un comentario</color>  ",
+		"<color=#3c3cff>public int</color> UserID;  ",
+		"",
+		"<color=#60a3da>[SerializeField]</color> <color=#249622>// Comentario 123</color>  ",
+		"<color=#3c3cff>private string</color> m_TextAssetPath;  ",
+		"",
+		"<color=#249622>// Los símbolos // dentro de comentarios siguen siendo parte del comentario</color>  ",
+		"<color=#3c3cff>public class</color> <color=#60a3da>A</color>  ",
+		"{  ",
+		"}  ",
+		"",
+		"En los ejemplos anteriores, las secciones verdes son comentarios. Comenzando con \"//\", todo el contenido verde posterior en esa línea forma parte del comentario.  ",
+		"",
+		"Ahora buscamos diseñar una expresión regular que imite el comportamiento del compilador al detectar comentarios de una sola línea.  ",
+		"",
+		"Para el 100% de los datos de entrada, se aplican las siguientes reglas:  ",
+		"1. No existen comentarios multilínea, solo comentarios de una sola línea  ",
+		"2. Los datos usan \"",
+		"\" como marcador de salto de línea; no aparecerán caracteres como \"\\r\" o \"\\v\"  ",
+		"3. Dos o más barras diagonales consecutivas (\"/\") se tratan como comentario de una sola línea (ej. \"///\")  ",
+		"",
+		"",
+		"Construya una expresión regular que pase todas las pruebas a la derecha. "
+	],
+	"m_SystemLanguage":"Spanish"
+}

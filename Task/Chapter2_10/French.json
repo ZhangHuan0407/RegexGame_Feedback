@@ -1,0 +1,13 @@
+{
+	"m_DescList":[
+		"\"L’Ode à la joie\" est un poème écrit par le poète allemand Schiller, pour lequel Beethoven a composé la musique.  ",
+		"",
+		"Je suis curieux de savoir combien de fois, dans les paroles, une lettre précédente se situe dans la plage de caractères a-i et une lettre suivante dans la plage j-z.  ",
+		"",
+		"Maintenant, nous souhaitons trouver toutes les occurrences de cette situation.  ",
+		"",
+		"",
+		"Veuillez construire une expression régulière qui passe tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

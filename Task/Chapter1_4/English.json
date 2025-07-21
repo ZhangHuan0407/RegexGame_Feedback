@@ -1,0 +1,31 @@
+{
+	"m_DescList":[
+		"Sometimes we aren't sure whether a string contains the target <b>subexpression</b>.",
+		"",
+		"We can wrap potentially existing content with <color=#05C3BA>( )</color> and add <color=#FF68DD>?</color> to indicate that the content may appear 0 or 1 times.",
+		"",
+		"For example, using <color=#AB2800>a</color><color=#05C3BA>(</color><color=#AB2800>b</color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#AB2800>c</color> to match <color=#3c3cff>abcac</color> yields:",
+		"<color=#3c3cff>abc</color><color=#666666>ac</color>",
+		"<color=#666666>abc</color><color=#3c3cff>ac</color>",
+		"",
+		"For instance, a landline number may or may not have an area code prefix.",
+		"",
+		"<color=#3c3cff>010-12345678</color>",
+		"<color=#3c3cff>12345678</color>",
+		"In these examples, 010 is the area code prefix.",
+		"",
+		"When using <color=#05C3BA>( </color><color=#AB2800>010- </color><color=#05C3BA>)</color><color=#FF68DD>?</color><color=#3173FF>\\d</color><color=#FF68DD>+</color> to match the above cases:",
+		"<color=#05C3BA>( </color><color=#AB2800>010- </color><color=#05C3BA>)</color><color=#FF68DD>?</color> means it doesn’t matter whether <color=#AB2800>010-</color> exists or not.",
+		"<color=#3c3cff>010-12345678</color> returns <color=#3c3cff>010-12345678</color>",
+		"<color=#3c3cff>12345678</color> returns <color=#3c3cff>12345678</color>",
+		"",
+		"Now, we want to intercept the letter A at any position and try to append the number after it.",
+		"",
+		"In this test, target strings have these characteristics:",
+		"<color=#3c3cff>A</color>   Letter A",
+		"<color=#3c3cff>\\d</color>   0 or 1 decimal digit",
+		"",
+		"Please construct a regular expression that passes all tests on the right."
+	],
+	"m_SystemLanguage":"English"
+}

@@ -1,0 +1,33 @@
+{
+	"m_DescList":[
+		"Lors de la rédaction d'une expression régulière, il est souvent nécessaire d'exprimer « n'importe quel » caractère. Par convention, <color=#AB2800>.</color> est utilisé pour représenter cette signification « n'importe quel ».",
+		"",
+		"<color=#AB2800>.</color>   Correspond à n'importe quel caractère unique, sauf un saut de ligne.",
+		"<color=#AB2800>\\.</color> Correspond uniquement au point décimal.",
+		"",
+		"<color=#3c3cff>123.456</color>",
+		"Par exemple, en utilisant <color=#AB2800>\\..</color> pour correspondre à l'exemple ci-dessus,",
+		"    Le premier <color=#AB2800>\\.</color> est interprété comme « correspond uniquement au point décimal »,",
+		"    Le second <color=#AB2800>.</color> est interprété comme « n'importe quel » caractère.",
+		"<color=#3c3cff>123.456</color> renvoie",
+		"<color=#666666>123</color><color=#3c3cff>.4</color><color=#666666>56</color>",
+		"",
+		"<color=#3c3cff>(x3x)</color>",
+		"Par exemple, en utilisant <color=#AB2800>3..</color> pour correspondre à l'exemple ci-dessus,",
+		"    Le premier <color=#AB2800>3</color> est interprété comme « le chiffre 3 »,",
+		"    Les deuxième et troisième <color=#e06600>.</color> sont interprétés comme « n'importe quel » caractère.",
+		"<color=#3c3cff>(x3x)</color> renvoie 3x)",
+		"<color=#666666>(x</color><color=#3c3cff>3x)</color>",
+		"",
+		"",
+		"Maintenant, l'objectif est de faire correspondre le chiffre 1 suivi d'autant de caractères quelconques que possible.",
+		"",
+		"Dans ce test, la chaîne à faire correspondre a les caractéristiques suivantes :",
+		"<color=#3c3cff>1</color>    Contient au moins un chiffre 1.",
+		"<color=#3c3cff>.</color>     Suivi par un certain nombre de caractères quelconques.",
+		"",
+		"",
+		"Veuillez construire une expression régulière qui réussisse tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

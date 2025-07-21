@@ -1,0 +1,28 @@
+{
+	"m_DescList":[
+		"Ajouter <color=#FF68DD>?</color> après une expression régulière indique que l'expression précédente peut apparaître 0 ou 1 fois.",
+		"",
+		"Exemple :",
+		"Par exemple, <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> signifie : une série de chiffres suivie éventuellement d'un \"%\".",
+		"",
+		"Utiliser <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> pour correspondre à <color=#3c3cff>100%</color>,",
+		"le résultat est :",
+		"<color=#3c3cff>100%</color>",
+		"",
+		"Utiliser <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> pour correspondre à <color=#3c3cff>0.99</color>",
+		"le résultat est :",
+		"<color=#3c3cff>0</color><color=#666666>.99</color>",
+		"<color=#666666>0.</color><color=#3c3cff>99</color>",
+		"",
+		"Utiliser <color=#3173FF>\\d</color><color=#FF68DD>+</color><color=#AB2800>%</color><color=#FF68DD>?</color> pour correspondre à <color=#3c3cff>ALL%</color>",
+		"<color=#3c3cff>ALL%</color> ne correspond pas.",
+		"",
+		"Maintenant vous avez un dessin \"ASCII\" et devez compter tous les chiffres 8. Si un \".\" précède immédiatement un 8, incluez également ce \".\".",
+		"",
+		"Par exemple, pour <color=#3c3cff>11.88</color> le résultat attendu est <color=#666666>11</color><color=#3c3cff>.88</color>",
+		"",
+		"",
+		"Veuillez construire une expression régulière qui réussit tous les tests à droite."
+	],
+	"m_SystemLanguage":"French"
+}

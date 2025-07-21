@@ -1,0 +1,32 @@
+{
+	"m_DescList":[
+		"Un texto normalmente tiene un principio y un final.",
+		"",
+		"Se utiliza <color=#FF68DD>\\A</color> o <color=#FF68DD>^</color> para representar el inicio de una cadena.",
+		"",
+		"Ejemplos:",
+		"<color=#3c3cff>011</color>",
+		"<color=#3c3cff>0</color>",
+		"<color=#3c3cff>_0</color>",
+		"Por ejemplo, al usar <color=#FF68DD>\\A</color><color=#AB2800>0</color> para buscar coincidencias en los ejemplos anteriores, es decir, \"buscar contenido que empiece con 0\",",
+		"<color=#3c3cff>011</color> devuelve 0",
+		"<color=#3c3cff>0</color> devuelve 0",
+		"<color=#3c3cff>_0</color> no coincide.",
+		"",
+		"Se utiliza <color=#FF68DD>\\Z</color> o <color=#FF68DD>$</color> para representar el final de una cadena.",
+		"",
+		"Ejemplos:",
+		"<color=#3c3cff>001</color>",
+		"<color=#3c3cff>1</color>",
+		"<color=#3c3cff>1_</color>",
+		"Por ejemplo, al usar <color=#AB2800>1</color><color=#FF68DD>\\Z</color> para buscar coincidencias en los ejemplos anteriores, es decir, \"buscar contenido que termine con 1\",",
+		"<color=#3c3cff>001</color> devuelve 1",
+		"<color=#3c3cff>1</color> devuelve 1",
+		"<color=#3c3cff>1_</color> no coincide.",
+		"",
+		"Ahora, necesitas hacer coincidir todas las cadenas que solo contengan el dígito 1.",
+		"",
+		"Por favor, construye una expresión regular que pase todas las pruebas de la derecha."
+	],
+	"m_SystemLanguage":"Spanish"
+}

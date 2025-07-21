@@ -1,0 +1,29 @@
+{
+	"m_DescList":[
+		"Durante el desarrollo del juego, siempre quise incorporar imágenes o memes para crear un ambiente más relajado.",
+		"",
+		"Una imagen consta de las siguientes partes:",
+		"1. Ruta del recurso",
+		"2. Ancho de la imagen",
+		"3. Alto de la imagen",
+		"",
+		"Por ejemplo, el siguiente gráfico:",
+		"<img src=Texture/emoji_1 width=213 height=131>",
+		"",
+		"El texto real ingresado en el editor es:",
+		"<color=#3c3cff><img src=</color><color=#ee3300>Texture/emoji_1</color> <color=#3c3cff>width=</color><color=#ee3300>213</color> <color=#3c3cff>height=</color><color=#ee3300>131</color><color=#3c3cff>></color>",
+		"",
+		"Convenciones:",
+		"1. Nombre del grupo de captura para src: \"Src\"",
+		"2. Nombre del grupo de captura para width: \"Width\"",
+		"3. Nombre del grupo de captura para height: \"Height\"",
+		"",
+		"Para todos los casos de prueba, se aplican las siguientes convenciones:",
+		"1. El orden de src, width, height no es fijo",
+		"2. En los casos de prueba, src nunca contendrá espacios",
+		"",
+		"",
+		"Por favor construye una expresión regular que pase todas las pruebas en el lado derecho."
+	],
+	"m_SystemLanguage":"Spanish"
+}

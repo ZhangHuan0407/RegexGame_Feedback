@@ -1,0 +1,30 @@
+{
+	"m_DescList":[
+		"In C# kodunda, bir satırda \"//\" varsa, aynı satırdaki sonraki içerik yorum olarak kabul edilir ve derlenmez.  ",
+		"",
+		"<color=#249622>// Bu bir yorumdur</color>  ",
+		"<color=#3c3cff>public int</color> UserID;  ",
+		"",
+		"<color=#60a3da>[SerializeField]</color> <color=#249622>// Yorum 123</color>  ",
+		"<color=#3c3cff>private string</color> m_TextAssetPath;  ",
+		"",
+		"<color=#249622>// Yorum içinde // sembolü görünse bile yorum parçasıdır</color>  ",
+		"<color=#3c3cff>public class</color> <color=#60a3da>A</color>  ",
+		"{  ",
+		"}  ",
+		"",
+		"Yukarıdaki örneklerde yeşil bölümler yorumdur. \"//\" ile başlayan satırın geri kalanındaki tüm yeşil içerik yorum kabul edilir.  ",
+		"",
+		"Şimdi, derleyicinin tek satırlık yorumları eşleme davranışını taklit eden bir düzenli ifade (regex) tasarlamanız bekleniyor.  ",
+		"",
+		"Girdi verilerinin %100'ü için şu kurallar geçerlidir:  ",
+		"1. Çok satırlı yorumlar yoktur, yalnızca tek satırlık yorumlar vardır  ",
+		"2. Girdi verileri satır sonu işareti olarak \"",
+		"\" karakterini kullanır; \"\\r\" veya \"\\v\" gibi karakterler bulunmaz  ",
+		"3. Ardışık en az iki \"/\" karakteri (ör. \"///\") tek satırlık yorum olarak kabul edilir  ",
+		"",
+		"",
+		"Lütfen sağdaki tüm testleri geçecek bir düzenli ifade oluşturun."
+	],
+	"m_SystemLanguage":"Turkish"
+}
