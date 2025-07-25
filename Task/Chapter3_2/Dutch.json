@@ -26,7 +26,7 @@
 		"",
 		"<color=#666666>\\u0020 vertegenwoordigt een Engelse halve spatie. Omdat spaties niet gemarkeerd kunnen worden, wordt \\u0020 hier gebruikt voor de duidelijkheid.</color>  ",
 		"",
-		"Nu is het doel om alle getallen te matchen die niet beginnen met een even cijfer (0, 2, 4, 6, 8).  ",
+		"Nu is het doel om alle tekenreeksen te matchen die niet beginnen met even getallen (0, 2, 4, 6, 8).",
 		"",
 		"Voor 100% van de invoergegevens gelden de volgende regels:  ",
 		"1. Invoergegevens zijn een cijfer of een niet-cijferteken.  ",

@@ -26,7 +26,7 @@
 		"",
 		"<color=#666666>\\u0020 reprezentuje angielską spację pół szerokości. Ponieważ spacji nie można podświetlić, użyto tu zapisu \\u0020 dla jasności.</color>  ",
 		"",
-		"Teraz celem jest dopasowanie wszystkich liczb, które nie zaczynają się cyfrą parzystą (0, 2, 4, 6, 8).  ",
+		"Teraz celem jest dopasowanie wszystkich ciągów, które nie zaczynają się od liczb parzystych (0, 2, 4, 6, 8).",
 		"",
 		"Dla 100% danych wejściowych obowiązują następujące zasady:  ",
 		"1. Dane wejściowe są cyfrą lub znakiem niebędącym cyfrą  ",

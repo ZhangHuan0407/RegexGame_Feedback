@@ -23,7 +23,7 @@
 		"<color=#FF68DD>*</color> capture le maximum de contenu possible.  ",
 		"",
 		"Maintenant, nous devons faire correspondre le mot \"Snake\".  ",
-		"S'il y a beaucoup de 'a', faites correspondre autant de 'a' que possible.  ",
+		"S’il y a d’autres caractères entre « Sn » et « ne », faites correspondre autant de caractères que possible.",
 		"",
 		"Construisez une expression régulière qui réussit tous les tests à droite.  "
 	],

@@ -21,7 +21,7 @@
 		"<color=#FF68DD>*</color> przechwytuje maksymalną możliwą treść.  ",
 		"",
 		"Teraz oczekujemy dopasowania słowa \"Snake\".  ",
-		"Jeśli występuje wiele liter 'a', dopasuj jak najwięcej 'a'.  ",
+		"Jeśli między \"Sn\" i \"ne\" znajdują się inne znaki, dopasuj jak najwięcej znaków.",
 		"",
 		"Skonstruuj wyrażenie regularne, które przejdzie wszystkie testy po prawej stronie."
 	],

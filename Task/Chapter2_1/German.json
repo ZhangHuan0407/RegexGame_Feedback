@@ -21,7 +21,7 @@
 		"<color=#FF68DD>*</color> erfasst maximal möglichen Inhalt.  ",
 		"",
 		"Ziel ist nun, das Wort \"Snake\" zu treffen.  ",
-		"Falls viele 'a' vorhanden sind, treffe so viele 'a' wie möglich.  ",
+		"Wenn zwischen \"Sn\" und \"ne\" weitere Zeichen vorhanden sind, stimmen Sie so viele Zeichen wie möglich überein.",
 		"",
 		"Konstruiere einen regulären Ausdruck, der alle Tests rechts besteht.  "
 	],

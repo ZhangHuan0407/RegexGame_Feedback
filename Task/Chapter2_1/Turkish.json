@@ -21,7 +21,7 @@
 		"<color=#FF68DD>*</color> mümkün olduğunca fazla içerik yakalar.  ",
 		"",
 		"Şimdi \"Snake\" kelimesini eşleştirmeyi hedefliyoruz.  ",
-		"Çok sayıda a varsa, mümkün olduğunca çok a'yı eşleştirin.  ",
+		"\"Sn\" ve \"ne\" arasında başka karakterler varsa, mümkün olduğunca çok karakteri eşleştirin. ",
 		"",
 		"Sağdaki tüm testleri geçen bir düzenli ifade oluşturun."
 	],

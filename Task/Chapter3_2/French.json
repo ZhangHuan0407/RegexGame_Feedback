@@ -26,7 +26,7 @@
 		"",
 		"<color=#666666>\\u0020 représente une espace demi-chasse anglaise. Comme les espaces ne peuvent être colorés, \\u0020 est utilisé ici pour plus de clarté.</color>  ",
 		"",
-		"Maintenant, l'objectif est de faire correspondre tous les nombres dont le premier chiffre n'est pas pair (0, 2, 4, 6, 8).  ",
+		"Maintenant, le but est de faire correspondre toutes les chaînes dont le premier chiffre n’est pas pair (0, 2, 4, 6, 8).",
 		"",
 		"Pour 100% des données d'entrée, les règles suivantes s'appliquent :  ",
 		"1. Les données d'entrée sont soit un chiffre, soit un caractère non numérique.  ",

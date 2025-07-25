@@ -21,7 +21,7 @@
 		"The <color=#FF68DD>*</color> captures as much content as possible.",
 		"",
 		"Now, we need to match the word \"Snake\".",
-		"When there are multiple 'a' characters, match as many a's as possible.",
+		"If there are other characters between \"Sn\" and \"ne\", match as many characters as possible.",
 		"",
 		"Please construct a regular expression that passes all tests on the right."
 	],
