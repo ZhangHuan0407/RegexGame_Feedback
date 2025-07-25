@@ -22,7 +22,7 @@
 		"",
 		"",
 		"Even niet gezien, en de slangen zijn langer geworden!",
-		"Nu is het de bedoeling om de slangen eruit te filteren waarbij de 'a's langer zijn dan 3 en korter dan 5.",
+		"Nu is het de bedoeling om de slangen eruit te filteren waarbij de 'a's langer groter dan of gelijk aan 3 en kleiner dan of gelijk aan 5.",
 		"Pak niet de verkeerde slang, ze bijten!",
 		"",
 		"Construeer een reguliere expressie die alle tests aan de rechterkant doorstaat."

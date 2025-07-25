@@ -26,7 +26,7 @@
 		"",
 		"<color=#666666>\\u0020 denotes a half-width space. Spaces cannot be colored, so \\u0020 is used here.</color>",
 		"",
-		"Now, match all numeric strings whose first digit is not even (0, 2, 4, 6, 8).",
+		"Now, match all strings where the first number is not an even number (0, 2, 4, 6, 8).",
 		"",
 		"Constraints for 100% of input:",
 		"1. Input is either a numeric string or non-numeric string",

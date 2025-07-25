@@ -26,7 +26,7 @@
 		"",
 		"<color=#666666>\\u0020 representa um carácter de espaço inglês (meia-largura). Como espaços não podem ser coloridos, usamos \\u0020 para representação.</color>  ",
 		"",
-		"Agora, o objetivo é corresponder a todos os números que não comecem com dígito par (0, 2, 4, 6, 8).  ",
+		"Agora, o objetivo é combinar todas as strings que não começam com números pares (0, 2, 4, 6, 8).",
 		"",
 		"Para 100% dos dados de entrada, aplicam-se as regras:  ",
 		"1. Os dados de entrada são dígitos ou não dígitos  ",

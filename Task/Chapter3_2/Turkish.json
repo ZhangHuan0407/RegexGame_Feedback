@@ -26,7 +26,7 @@
 		"",
 		"<color=#666666>\\u0020 İngilizce yarım boşluktur. Boşluklar renklendirilemediği için burada anlaşılır olması adına \\u0020 kullanılmıştır.</color>  ",
 		"",
-		"Şimdi, ilk basamağı çift sayı (0, 2, 4, 6, 8) olmayan tüm sayıları eşleştirmek istiyoruz.  ",
+		"Şimdi ilk basamağın çift olmadığı tüm dizeleri eşleştirmek istiyoruz (0, 2, 4, 6, 8).",
 		"",
 		"Girdi verilerinin %100'ü için aşağıdaki kurallar geçerlidir:  ",
 		"1. Girdi verisi <b>rakam</b> ya da <b>rakam olmayan karakter</b>dir  ",

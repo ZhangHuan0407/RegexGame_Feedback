@@ -26,7 +26,7 @@
 		"",
 		"<color=#666666>\\u0020 representa un espacio inglés de medio ancho. Como los espacios no se pueden resaltar, se usa \\u0020 aquí para mayor claridad.</color>  ",
 		"",
-		"Ahora, el objetivo es encontrar todos los números que no comiencen con un dígito par (0, 2, 4, 6, 8).  ",
+		"Ahora, el objetivo es encontrar todas las cadenas que no comienzan con números pares (0, 2, 4, 6, 8).",
 		"",
 		"Para el 100% de los datos de entrada, se aplican las siguientes reglas:  ",
 		"1. Los datos de entrada son dígitos o no dígitos.  ",

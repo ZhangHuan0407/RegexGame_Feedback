@@ -21,7 +21,7 @@
 		"<color=#666666>Choose y</color><color=#3c3cff>o</color><color=#666666>ur right friends ooo</color>",
 		"",
 		"Longtemps sans se voir, les serpents se sont allongés !",
-		"L'objectif est maintenant de filtrer les serpents où la longueur des \"a\" est supérieure à 3 et inférieure à 5.",
+		"L'objectif est maintenant de filtrer les serpents où la longueur des \"a\" \tsupérieur ou égal à 3 et inférieur ou égal à 5.",
 		"Ne prenez pas le mauvais serpent, il mord !",
 		"",
 		"",

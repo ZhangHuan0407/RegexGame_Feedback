@@ -21,7 +21,7 @@
 		"<color=#666666>Choose y</color><color=#3c3cff>o</color><color=#666666>ur right friends ooo</color>",
 		"",
 		"Long time no see, the snake has grown longer!",
-		"Now we need to filter snakes with \"a\" length greater than 3 and less than 5.",
+		"Now we need to filter snakes with \"a\" length greater than or equal to 3 and less than or equal to 5.",
 		"Don\"t pick wrong snakes - they bite!",
 		"",
 		"",

@@ -21,7 +21,7 @@
 		"<color=#FF68DD>*</color> captura o máximo de conteúdo possível.  ",
 		"",
 		"Agora, espera-se corresponder à palavra \"Snake\".  ",
-		"Se houver muitos 'a', corresponda ao máximo de 'a' possível.  ",
+		"Se houver outros caracteres entre \"Sn\" e \"ne\", corresponda ao maior número possível de caracteres.",
 		"",
 		"",
 		"Construa uma expressão regular que passe em todos os testes à direita."

@@ -22,7 +22,7 @@
 		"*(Nota: Se adaptó el ejemplo en español manteniendo la 'o' como carácter objetivo)*",
 		"",
 		"¡Cuánto tiempo sin vernos, las serpientes se han vuelto más largas!",
-		"Ahora, el objetivo es filtrar las serpientes donde la longitud de las \"a\" sea mayor que 3 y menor que 5.",
+		"Ahora, el objetivo es filtrar las serpientes con una longitud \"a\" de 3 o más y 5 o menos.",
 		"¡No cojas las equivocadas, muerden!",
 		"",
 		"",

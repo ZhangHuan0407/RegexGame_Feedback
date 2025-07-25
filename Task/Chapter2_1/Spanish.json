@@ -21,7 +21,7 @@
 		"<color=#FF68DD>*</color> captura tanto contenido como sea posible.  ",
 		"",
 		"Ahora, se espera coincidir con la palabra \"Snake\".  ",
-		"Si hay muchas 'a', coincide con tantas 'a' como sea posible.  ",
+		"Si hay otros caracteres entre \"Sn\" y \"ne\", coincida con tantos caracteres como sea posible. ",
 		"",
 		"Construye una expresión regular que pase todas las pruebas a la derecha."
 	],

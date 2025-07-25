@@ -21,7 +21,7 @@
 		"<color=#666666>Choose y</color><color=#3c3cff>o</color><color=#666666>ur right friends ooo</color>",
 		"",
 		"Es ist eine Weile her, die Schlangen sind länger geworden!",
-		"Nun ist das Ziel, Schlangen herauszufiltern, bei denen die Länge der \"a\"s **größer als 3 und kleiner als 5** ist.",
+		"Nun ist das Ziel, Schlangen herauszufiltern, bei denen die Länge der \"a\"s größer oder gleich 3 und kleiner oder gleich 5 ist.",
 		"Nimm nicht die falsche Schlange, sie beißen!",
 		"",
 		"",

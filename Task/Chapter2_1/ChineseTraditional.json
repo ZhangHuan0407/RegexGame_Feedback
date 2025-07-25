@@ -20,7 +20,7 @@
 		"例如，<color=#AB2800>BA.</color><color=#FF68DD>*</color><color=#AB2800>B</color> 匹配 <color=#3c3cff>BABAB</color> 中的 BABAB，而不是僅匹配一部分BAB。<color=#FF68DD>*</color> 會盡可能地捕獲更多內容。  ",
 		"",
 		"現在，期望匹配\"Snake\"單詞。  ",
-		"如果a很多，匹配盡可能多的a。  ",
+		"如果 「Sn」 與 「ne」 之間存在其它字元，匹配盡可能多的字元。 ",
 		"",
 		"",
 		"請構造一個正則表達式使之通過右側所有測試。  "

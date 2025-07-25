@@ -21,7 +21,7 @@
 		"<color=#FF68DD>*</color> probeert zoveel mogelijk inhoud vast te leggen.  ",
 		"",
 		"Nu willen we het woord \"Snaaaaake\" matchen.  ",
-		"Als er veel a's zijn, match dan zoveel mogelijk a's.  ",
+		"Als er andere tekens tussen \"Sn\" en \"ne\" staan, zoek dan zoveel mogelijk tekens naar voren.",
 		"",
 		"Construeer een reguliere expressie die alle tests aan de rechterkant doorstaat. "
 	],
