@@ -279,7 +279,7 @@
   "Game_RegexVSString.Title": "Регулярки против обычных строк",
   "WoodenFish.RatioIncrease": "Увеличение показателя успешности на {0}%",
   "WoodenFish.RatioSum": "+{0}%",
-  "RegexWordDialog.Score": "Оценка: {0}",
+  "RegexWordDialog.Score": "Счёт: {0}",
   "RegexWordDialog.RandomCount": "Чем больше счёт, тем быстрее будут появляться новые буквы",
   "RegexWordDialog.GameEnd": "Игра закончена",
   "NinjaDialog.GameSpeed": "Скорость игры.",
