@@ -103,7 +103,7 @@
   "RegexDialog.WaitingCalculate": "Ждем результатов теста...",
   "RegexDialog.CopyTip": "Скопированы",
   "RegexDialog.FullWidthCharacter": "Присутствуют символы длинной ширины: {0}",
-  "RegexDialog.HaveLearningMark": "Отметьте в памяти то, что вы узнали",
+  "RegexDialog.HaveLearningMark": "Отметить только то, что вы уже узнали",
   "RegexDialog.DisplayAllGuide": "Показать все",
   "RegexDialog.RegexHintDisable": "Закройте командную строку",
   "RegexDialog.RegexHint": "Включение подсказок",
